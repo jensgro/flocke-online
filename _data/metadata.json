@@ -1,15 +1,15 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://myurl.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "Flocke Online",
+  "url": "https://flocke-online.netlify.com",
+  "description": "Mein kleines Koch-Blog",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Essen im Netz - eine kleine Rezeptsammlung",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://myurl.com/"
+    "id": "https://flocke-online.netlify.com"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com"
+    "name": "Jens Grochtdreis",
+    "email": "jens@grochtdreis.de"
   }
 }
