@@ -5,10 +5,24 @@ eleventyNavigation:
   order: 1
 ---
 
-<h1>Latest 3 Posts</h1>
+<header class="contentheader">
+  <h1 class="contentheader__headline">Flocke Online - Essen im Netz</h1>
+  <p class="contentheader__subline">Meine kleine Rezeptsammlung</p>
+</header>
 
-{% set postslist = collections.posts | head(-3) %}
+<h2 class="content__headline">Alle Kategorien</h2>
+<ul class="taglist">
+{% for tag in collections.tagList %}
+  {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+  <li class="taglist__item">
+    <a class="taglist__link" href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+  </li>
+{% endfor %}
+</ul>
+
+<h2 class="content__headline">Die letzten 5 Rezepte</h2>
+{% set postslist = collections.posts | head(-5) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
 
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+<p class="hint">Alle Rezepte gibt es im <a href="{{ '/posts/' | url }}">Archiv</a>.</p>

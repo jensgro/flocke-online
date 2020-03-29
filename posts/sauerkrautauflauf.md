@@ -2,7 +2,9 @@
 title: Sauerkrautauflauf
 date: '2006-11-04'
 tags:
-  - 
+  - auflauf
+  - hackfleisch
+  - schwein
 ---
 
 Der Sauerkrautauflauf ist ein Gericht aus meiner Kindheit. Meine Mutter hat mich damit immer wieder erfreut. Und obwohl ich ihr Rezept genau befolge, schmeckt der Sauerkrautauflauf bei ihr noch ein entscheidendes Stück besser.

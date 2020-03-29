@@ -3,6 +3,9 @@ title: Spareribs
 date: '2006-11-04'
 tags:
   - fleisch
+  - schwein
+  - grillen
+  - ofen
 ---
 
 ## Zutaten

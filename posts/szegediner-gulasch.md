@@ -3,9 +3,10 @@ title: Szegediner Gulasch
 date: '2006-11-04'
 tags:
   - fleisch
+  - rind
 ---
 
-Ich habe lange Zeit bei Gulasch nur noch an diese Variante gedacht. Normales Gulasch reizte mich gar nicht mehr so sehr. 
+Ich habe lange Zeit bei Gulasch nur noch an diese Variante gedacht. Normales Gulasch reizte mich gar nicht mehr so sehr.
 
 Ich reduziere zunehmend die Fleischportion und erhöhe dafür den Sauerkrautanteil. Nochmal aufgewärmt schmeckt das Gulasch übrigens noch viel besser. Das Sauerkraut ist dann weicher und hat sich voll Geschmack gesogen.
 
