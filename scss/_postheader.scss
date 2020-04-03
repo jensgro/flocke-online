@@ -1,0 +1,19 @@
+// =========
+.post-header {
+  position: relative;
+  height: 200px;
+  background-size: cover;
+}
+.post-headline {
+  color: $post-headline-color;
+  background-color: $post-headline-bg;
+  padding: 15px 10px 10px 10px;
+  width: 100%;
+  position: absolute;
+  top: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  line-height: 1;
+}

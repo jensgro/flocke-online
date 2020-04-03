@@ -1,6 +1,7 @@
 ---
 title: Scharfe Gurken
 date: '2007-01-02'
+permalink: rezepte/scharfe-gurken.html
 tags:
   - salat
   - beilage

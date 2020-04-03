@@ -1,6 +1,7 @@
 ---
 title: Sauerkrautauflauf
 date: '2006-11-04'
+permalink: rezepte/sauerkrautauflauf.html
 tags:
   - auflauf
   - hackfleisch

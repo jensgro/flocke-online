@@ -1,6 +1,7 @@
 ---
 title: Zwiebelkuchen
 date: '2006-11-04'
+permalink: rezepte/zwiebelkuchen.html
 introText: 'Paßt traditionellerweise sehr gut zu Federweißem (für die Pfälzer: Neuer Wein), kann man aber auch sonst während des Jahres essen.'
 tags:
   - kuchen
@@ -16,7 +17,7 @@ tags:
 - 300 g Mehl
 - 1 TL Salz
 - 100 g Margarine
-    
+
 ### Belag
 
 - 1500 g Zwiebeln

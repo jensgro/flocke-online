@@ -1,6 +1,7 @@
 ---
 title: Rindfleisch-Curry (Rendang)
 date: '2006-11-04'
+permalink: rezepte/curry-rendang.html
 tags:
   - indien
   - curry

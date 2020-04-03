@@ -1,6 +1,7 @@
 ---
 title: Pink Panther
 date: '2006-11-04'
+permalink: rezepte/pink-panther.html
 introText: 'Als ich zu Weihnachten einen Shaker geschenkt bekam, habe ich diesen Drink entwickelt. Keine Ahnung, ob es ihn unter anderem Namen schon gab.'
 tags:
   - getraenke

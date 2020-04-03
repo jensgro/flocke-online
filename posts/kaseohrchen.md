@@ -1,6 +1,7 @@
 ---
 title: Käseöhrchen
 date: '2006-11-04'
+permalink: rezepte/kaeseoehrchen.html
 introText: 'Die Käseöhrchen lassen sich für eine Party gut am Tag zuvor vorbereiten.'
 tags:
   - beilage

@@ -1,6 +1,7 @@
 ---
 title: Lachs mit Kapern-Sahne-Sauce
 date: '2013-10-25'
+permalink: rezepte/lachs-mit-kapern-sahnesauce.html
 tags:
   - fisch
 ---

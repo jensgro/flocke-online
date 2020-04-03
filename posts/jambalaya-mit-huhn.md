@@ -1,6 +1,7 @@
 ---
 title: Jambalaya mit Huhn
 date: '2014-11-16'
+permalink: rezepte/jambalaya-mit-huhn.html
 tags:
   - fleisch
   - huhn

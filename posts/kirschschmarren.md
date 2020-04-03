@@ -1,6 +1,7 @@
 ---
 title: Kirschschmarren
 date: '2006-11-04'
+permalink: rezepte/kirschschmarren.html
 tags:
   - dessert
 ---

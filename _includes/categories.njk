@@ -1,0 +1,11 @@
+<section>
+  <h2 class="content__headline">Alle Kategorien</h2>
+  <ul class="taglist">
+  {% for tag in collections.tagList %}
+    {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+    <li class="taglist__item">
+      <a class="taglist__link" href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+</section>

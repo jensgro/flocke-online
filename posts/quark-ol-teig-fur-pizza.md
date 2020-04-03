@@ -1,6 +1,7 @@
 ---
 title: Quark-Öl-Teig für Pizza
 date: '2006-11-04'
+permalink: rezepte/pizzateig-quark-oel.html
 introText: ''
 tags:
   - pizza

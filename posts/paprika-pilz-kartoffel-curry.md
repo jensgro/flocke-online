@@ -1,6 +1,7 @@
 ---
 title: Paprika-Pilz-Kartoffel-Curry
 date: '2006-11-04'
+permalink: rezepte/paprika-pilz-kartoffel-curry.html
 tags:
   - asien
   - indisch

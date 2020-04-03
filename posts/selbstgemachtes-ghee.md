@@ -1,6 +1,7 @@
 ---
 title: Selbstgemachtes Ghee
 date: '2006-11-04'
+permalink: rezepte/ghee.html
 introText: 'In indischen Rezepten steht normalerweise Ghee zum Braten, kein Öl. Als Ersatz wird oft Butterschmalz enpfohlen, was eine gute Empfehlung ist. In Asia-Läden kann man oft auch Ghee kaufen, aber ich fand meist den Duft dieser Produkte nicht besonders angenehm. Deshalb war ich froh, in einem Ayurveda-Kochkurs die Herstellung eigenen Ghees kennengelernt zu haben. Man braucht nur ein wenig Zeit.'
 tags:
   - indisch

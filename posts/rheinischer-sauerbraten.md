@@ -1,6 +1,7 @@
 ---
 title: Rheinischer Sauerbraten
 date: '2007-03-26'
+permalink: rezepte/rheinischer-sauerbraten.html
 tags:
   - fleisch
   - rind

@@ -1,6 +1,7 @@
 ---
 title: Kartoffelsalat à la Kurt
 date: '2007-03-26'
+permalink: rezepte/kartoffelsalat-kurt.html
 tags:
   - salat
   - kartoffeln

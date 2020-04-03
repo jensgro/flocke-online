@@ -2,6 +2,7 @@
 title: Topfenpalatschinken
 date: '2017-01-11'
 introImage: 'topfenpalatschinken'
+permalink: rezepte/topfenpalatschinken.html
 tags:
   - dessert
   - quark
@@ -9,7 +10,7 @@ tags:
 
 Das hier angegebene Rezept ist eine wunderbare Hauptmahlzeit für zwei hungrige Mäuler. Man kann damit natürlich auch vier Personen als Nachspeise oder für nachmittags erfreuen. Ich rate allerdings davon ab, weil der Arbeitsaufwand doch wirklich enorm ist.
 
-## Zutaten 
+## Zutaten
 ### Pfannkuchen
 
 - 100 g Mehl

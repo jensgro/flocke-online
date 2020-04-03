@@ -1,6 +1,7 @@
 ---
 title: Pfirsich-Chutney
 date: '2006-11-04'
+permalink: rezepte/pfirsich-chutney.html
 introText: 'In einem Ayurveda-Kochkurs hatte ich ein Aprikosen-Chutney kennengelernt, das wir danach häufig selber gemacht haben. Doch die Wahl der Frucht ist generell variabel, so habe ich das Rezept diesmal mit Pfirsichen gemacht. Eine Freundin hatte uns mehrere Kilogramm frischer Pfirsiche geschenkt. Die mussten ja gebührend verarbeitet werden.'
 tags:
   - indisch

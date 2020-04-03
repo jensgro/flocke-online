@@ -1,6 +1,7 @@
 ---
 title: Tabouleh
 date: '2017-01-02'
+permalink: rezepte/tabouleh.html
 tags:
   - afrika
   - nord-afrika

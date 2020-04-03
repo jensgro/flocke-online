@@ -1,6 +1,7 @@
 ---
 title: Rippchen mit Rotkohl und Pflaumenmus
 date: '2017-01-06'
+permalink: rezepte/rippchen-rotkohl-pflaumenmus.html
 introImage: 'rippchen'
 tags:
   - fleisch

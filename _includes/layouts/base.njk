@@ -5,32 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ renderData.title or title or metadata.title }}</title>
     <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
-    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
   </head>
   <body>
-    <header>
-      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+  <div class="container">
+    <nav class="main-nav">
+        {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+        <ul class="nav wrapper">
+        {%- for entry in collections.all | eleventyNavigation %}
+          <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
+        {%- endfor %}
+        </ul>
+    </nav>
+    <!-- ====== Header -->
+      {% if templateClass == "tmpl-home" %}
+      <header class="home siteheader">
+        <h1 class="home-headline">{{ title }}</h1>
+        <p class="contentheader__subline">{{ subline }}</p>
+      </header>
+      {% endif %}
+      {% if templateClass == "tmpl-tags" %}
+      <header class="tags siteheader">
+        <h1 class="tags-headline">{{ title }}</h1>
+      </header>
+      {% endif %}
+      {% if templateClass == "tmpl-post" %}
+      <header class="post-header siteheader" style="background-image: url('../img/{{ introImage }}-l.jpg');">
+        <!--<img src="../img/{{ introImage }}-l.jpg" alt="">-->
+        <h1 class="post-headline">{{ title }}</h1>
+      </header>
+      {% endif %}
+    <!-- END ======= Header -->
+      <main>
+        {% if templateClass == "tmpl-post" %}
+          {% block sidecnt %}
+            <aside>
+              {{ sidecnt }}
+            </aside>
+          {% endblock %}
+        {% endif %}
+        {{ content | safe }}
 
-      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-      <ul class="nav">
-      {%- for entry in collections.all | eleventyNavigation %}
-        <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
-      {%- endfor %}
-      </ul>
-    </header>
+        {% if templateClass == "tmpl-home" %}
+        {% include "categories.njk" %}
+        {% endif %}
+      </main>
 
-    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-      {{ content | safe }}
-    </main>
-
-    <footer class="site__footer">
-      <p>
-        Diese Seite wurde von <a href="https://grochtdreis.de">Jens Grochtdreis</a> zusammengestoppelt.
-        <br>Sie basiert auf dem Statischen Seitengenerator <a href="https://11ty.dev">Eleventy (11ty)</a> und nutzt das Template  <a href="https://eleventy-base-blog.netlify.com/" rel="external">eleventy-base-blog</a>.
-      </p>
-    </footer>
+      <footer class="site__footer">
+        <div class="wrapper">
+          <p>
+            Diese Seite wurde von <a href="https://grochtdreis.de">Jens Grochtdreis</a> zusammengestoppelt.
+            <br>Sie basiert auf dem Statischen Seitengenerator <a href="https://11ty.dev">Eleventy (11ty)</a> und nutzt das Template  <a href="https://eleventy-base-blog.netlify.com/" rel="external">eleventy-base-blog</a>.
+          </p>
+        </div>
+      </footer>
 
     <!-- Current page: {{ page.url | url }} -->
+  </div>
   </body>
 </html>

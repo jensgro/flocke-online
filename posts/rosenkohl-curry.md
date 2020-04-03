@@ -1,6 +1,7 @@
 ---
 title: Rosenkohl-Curry
 date: '2006-11-04'
+permalink: rezepte/rosenkohl-curry.html
 tags:
   - asien
   - curry

@@ -1,6 +1,7 @@
 ---
 title: Schweinelendchen in Dillsoße
 date: '2006-11-04'
+permalink: rezepte/schweinelendchen-dillsosse.html
 tags:
   - fleisch
 ---

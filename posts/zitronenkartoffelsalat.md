@@ -1,6 +1,7 @@
 ---
 title: Spanischer Zitronen-Kartoffelsalat
 date: '2014-08-15'
+permalink: rezepte/zitronenkartoffelsalat.html
 tags:
   - spanien
   - kartoffeln

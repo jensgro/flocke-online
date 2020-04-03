@@ -11,11 +11,12 @@ pagination:
     - tagList
   addAllPagesToCollections: true
 layout: layouts/home.njk
+templateClass: tmpl-tags
 renderData:
   title: Tagged “{{ tag }}”
 permalink: /tags/{{ tag }}/
 ---
-<h1>Tagged “{{ tag }}”</h1>
+<h1>Alle Rezepte mit dem Stichwort "<mark class="headline__mark">{{ tag }}</mark>"</h1>
 
 {% set postslist = collections[ tag ] %}
 {% include "postslist.njk" %}

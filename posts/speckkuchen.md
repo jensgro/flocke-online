@@ -1,6 +1,7 @@
 ---
 title: Speckkuchen
 date: '2006-11-04'
+permalink: rezepte/speckkuchen.html
 tags:
   - backen
   - fleisch
@@ -29,4 +30,4 @@ Speckkuchen ist ein in Nordhessen sehr beliebtes Gericht, das man im Winter auch
 - Mit Pfeffer, Salz, Fondor und wenig Kümmel würzen.
 - Auf Hefeteig streichen, den Speck darüber verteilen.
 - 45 Minuten bei 220 Grad backen.
-  
+

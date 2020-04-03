@@ -2,6 +2,7 @@
 title: Schnelle Hühnersuppe
 introText: 'Ich habe einen eleganten, schnellen und leckeren Weg zu einer selbstgemachten Hühnersuppe gefunden.'
 introImage: 'huehnersuppe'
+permalink: rezepte/schnelle-huehnersuppe.html
 tags:
   - suppe
   - huhn

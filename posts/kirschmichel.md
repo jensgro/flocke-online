@@ -1,6 +1,7 @@
 ---
 title: Kirschmichel
 date: '2006-11-04'
+permalink: rezepte/kirschmichel.html
 introText: 'Kirschmichel (auch Kirschenmichel) ist ein in Nordhessen sehr beliebtes Essen für die Kaffeezeit. Man kann es auch prima mit altbackenen Brötchen herstellen. Dann sollte man sich natürlich das Anrösten sparen. Wenn man keine Kinder zu verköstigen hat, kann man die Brötchen auch mit ordentlich Alkohol einweichen, also diversen Schnäpsen oder Whisky. Aber ich präferiere die alkoholfreie Variante.'
 tags:
   - kuchen

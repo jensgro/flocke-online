@@ -1,0 +1,21 @@
+
+
+.indexlist {
+  @include nolist;
+}
+.indexlist .card {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  margin-bottom: 0;
+}
+.indexlist .card__header {
+  align-self: center;
+  width: 70%;
+  text-align: center;
+  padding: 10px;
+  transform: translateY(-20px);
+}
+.indexlist .postlist-link {
+  text-decoration: none;
+}

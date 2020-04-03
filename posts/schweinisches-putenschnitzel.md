@@ -1,6 +1,7 @@
 ---
 title: Schweinisches Putenschnitzel
 date: '2006-11-04'
+permalink: rezepte/schweinisches-putenschnitzel.html
 tags:
   - fleisch
   - hackfleisch

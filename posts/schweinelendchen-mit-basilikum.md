@@ -1,6 +1,7 @@
 ---
 title: Schweinelendchen mit Basilikum
 date: '2006-11-04'
+permalink: rezepte/schweinelendchen-basilikum.html
 tags:
   - fleisch
   - schwein

@@ -8,15 +8,19 @@ tags:
   - getraenk
 ---
 
-## Zutaten
+{% block sidecnt %}
 
-- 5 Eigelb
-- 1 Vanilleschote
-- 120g Puderzucker
-- 200g Sahne
-- 340ml Vollmilch
-- 50ml Weingeist (90%)
-- 75ml Weinbrand
+  ## Zutaten
+
+  - 5 Eigelb
+  - 1 Vanilleschote
+  - 120g Puderzucker
+  - 200g Sahne
+  - 340ml Vollmilch
+  - 50ml Weingeist (90%)
+  - 75ml Weinbrand
+
+{% endblock %}
 
 ## Zubereitung
 

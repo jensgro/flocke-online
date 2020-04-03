@@ -1,6 +1,7 @@
 ---
 title: Szegediner Gulasch
 date: '2006-11-04'
+permalink: rezepte/szegediner-gulasch.html
 tags:
   - fleisch
   - rind

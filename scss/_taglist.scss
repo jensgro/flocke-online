@@ -1,0 +1,25 @@
+
+.taglist {
+  @include nolist;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.taglist__item {
+  margin: 0 10px 10px 0;
+}
+.taglist__link {
+  display: inline-block;
+  padding: 6px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $taglist-link-color;
+  background-color: $taglist-link-bg;
+  border-radius: 4px;
+}
+.taglist__link:hover,
+.taglist__link:focus {
+  background-color: $taglist-link-hover-bg;
+}

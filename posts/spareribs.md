@@ -1,6 +1,7 @@
 ---
 title: Spareribs
 date: '2006-11-04'
+permalink: rezepte/spareribs.html
 tags:
   - fleisch
   - schwein
