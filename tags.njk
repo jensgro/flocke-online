@@ -13,12 +13,12 @@ pagination:
 layout: layouts/home.njk
 templateClass: tmpl-tags
 renderData:
-  title: Tagged “{{ tag }}”
+  title: Kategorie "{{ tag }}"
 permalink: /tags/{{ tag }}/
 ---
-<h1>Alle Rezepte mit dem Stichwort "<mark class="headline__mark">{{ tag }}</mark>"</h1>
+<h1>Alle Rezepte der Kategorie <mark class="headline__mark">{{ tag }}</mark></h1>
 
 {% set postslist = collections[ tag ] %}
 {% include "postslist.njk" %}
 
-<p>See <a href="{{ '/tags/' | url }}">all tags</a>.</p>
+<p>Alle <a href="{{ '/tags/' | url }}">Kategorien</a> sehen.</p>
