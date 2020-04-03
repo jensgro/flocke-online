@@ -5,20 +5,10 @@
   padding: 2em;
 }
 
-section {
+section, .content {
 @include section;
 }
 
-// .wrapper {
-//   margin: 0 auto;
-//   max-width: 1000px;
-// }
-// main {
-//   padding: 1rem;
-// }
-// main :first-child {
-//   margin-top: 0;
-// }
 
 .archive-grid {
   display: flex;
