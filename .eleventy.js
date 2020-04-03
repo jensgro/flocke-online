@@ -46,7 +46,7 @@ module.exports = function(eleventyConfig) {
     permalinkClass: "direct-link",
     permalinkSymbol: "#"
   });
-  eleventyConfig.setLibrary("md", markdownLibrary);
+  //eleventyConfig.setLibrary("md", markdownLibrary);
 
   // Browsersync Overrides
   eleventyConfig.setBrowserSyncConfig({
@@ -83,7 +83,7 @@ module.exports = function(eleventyConfig) {
     // You can also pass this in on the command line using `--pathprefix`
     // pathPrefix: "/",
 
-    markdownTemplateEngine: "liquid",
+    markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
 
