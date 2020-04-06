@@ -37,22 +37,8 @@
       </header>
       {% endif %}
     <!-- END ======= Header -->
-      <main>
-        {% if templateClass == "tmpl-post" %}
-          {% include "sidecnt.njk" %}
-        {% endif %}
 
-        {{ content | safe }}
-
-      </main>
-    {% if templateClass == "tmpl-post" %}
-      <div class="hint getback"><a class="getback__link" href="{{ '/' | url }}">← zurück zur Startseite</a></div>
-    {% endif %}
-    {% if templateClass == "tmpl-home" %}
-      <section>
-        {% include "categories.njk" %}
-      </section>
-    {% endif %}
+      {{ content | safe }}
 
       <footer class="site__footer">
         <div class="wrapper">
