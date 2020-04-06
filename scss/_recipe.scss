@@ -1,0 +1,41 @@
+ .recipe {
+    padding: 1.5em;
+
+//   &__ingredients {
+
+//   }
+
+//   &__content {
+
+//   }
+}
+
+@supports (display: grid) {
+  .recipe {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-areas:
+      "intro intro"
+      "ingredients content"
+    ;
+
+    &__intro {
+      grid-area: intro;
+
+    }
+    &__ingredients {
+      grid-area: ingredients;
+
+      ul {
+        padding-left: 10px;
+        margin-left: 10px;
+      }
+    }
+
+    &__content {
+      grid-area: content;
+
+
+    }
+  }
+}

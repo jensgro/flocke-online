@@ -10,3 +10,27 @@
   padding: 0;
   margin: 0;
 }
+
+@mixin mygrid($name) {
+  .#{$name} {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .#{$name} li {
+    flex: 1 0 auto;
+    min-width: 120px;
+    margin: 0 20px 20px 0;
+  }
+  @supports (display: grid) {
+    .#{$name} {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      grid-gap: 2rem;
+    }
+    .#{$name} li {
+      min-width: auto;
+      margin: 0;
+    }
+  }
+
+}

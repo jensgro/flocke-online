@@ -1,28 +1,19 @@
 
 /* Posts list */
 .postlist {
-  list-style: none;
-  padding: 0;
+  @include nolist;
 }
 .postlist-item {
 }
 
-.postlist-date,
-.postlist-item:before {
-  font-size: 0.8125em; /* 13px /16 */
-  color: $darkgray;
+.postlist__imagecnt {
 }
-.postlist-date {
-  word-spacing: -0.5px;
+.postlist__image {
+  border-radius: 6px;
+  border: 2px solid $lightgray;
 }
-.postlist-link {
-  display: inline-block;
-  padding: 0.25em 0.1875em; /* 4px 3px /16 */
+.postlist__footer {
+  display: flex;
 }
-.postlist-item-active .postlist-link {
-  font-weight: bold;
-}
-.tmpl-home .postlist-link {
-  font-size: 1.1875em; /* 19px /16 */
-  font-weight: 700;
-}
+
+@include mygrid("postlist");

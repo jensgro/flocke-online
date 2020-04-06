@@ -1,32 +1,12 @@
 .container {
   width: 100%;
   max-width: 1120px;
-  margin: 2em auto;
-  padding: 2em;
+  margin: 0 auto 2em auto;
+  padding: 0 2em 2em 2em;
 }
 
-section, .content {
+section, main {
 @include section;
 }
 
-
-.archive-grid {
-  display: flex;
-  flex-wrap: wrap;
-}
-.archive-grid li {
-  flex: 1 0 auto;
-  min-width: 120px;
-  margin: 0 20px 20px 0;
-}
-@supports (display: grid) {
-  .archive-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-		grid-gap: 2rem;
-  }
-  .archive-grid li {
-    min-width: auto;
-    margin: 0;
-  }
-}
+@include mygrid("archive-grid");
