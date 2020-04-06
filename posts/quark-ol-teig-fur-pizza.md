@@ -7,6 +7,8 @@ tags:
   - pizza
 ---
 
+<aside class="recipe__ingredients">
+
 ## Zutaten
 
 - 125 g Magerquark
@@ -16,11 +18,15 @@ tags:
 - 4 EL Öl
 - 350 g Mehl
 
+</aside>
+
+<div class="recipe__content">
+
 ## Zubereitung
 
 - Die Zutaten miteinander verkneten, aber nicht lange bearbeiten.
 - Sofort auf ein eingefettetes Blech legen und als Pizza belegen.
 - Bei 200 Grad etwa 30 Minuten backen.
 
-
+</div>
 

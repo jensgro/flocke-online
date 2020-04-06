@@ -8,9 +8,13 @@ tags:
   - gemüse
   - vegetarisch
 ---
+<div class="recipe__intro">
 
 Hier ist der Rosenkohl mal nicht nur Beilage. Eine etwas ungewöhnliche Zubereitungsart, aber sehr schmackhaft.
 
+</div>
+
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -23,6 +27,10 @@ Hier ist der Rosenkohl mal nicht nur Beilage. Eine etwas ungewöhnliche Zubereit
 - 1/2 TL Currypulver
 - 1/2 TL Kurkuma
 - 1/4 TL Cayennepfeffer
+
+</aside>
+
+<div class="recipe__content">
 
 ## Zubereitung
 
@@ -38,3 +46,6 @@ Hier ist der Rosenkohl mal nicht nur Beilage. Eine etwas ungewöhnliche Zubereit
 ## Tips
 
 Die Saure Sahne kann durch Schmand oder Joghurt ersetzt werden. Wenn keins von alledem dabei ist, ist es auch nicht schlimm.
+
+
+</div>

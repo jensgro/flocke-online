@@ -7,6 +7,8 @@ tags:
   - schwein
 ---
 
+<aside class="recipe__ingredients">
+
 ## Zutaten
 
 - 500 g mageres Schweinefleisch
@@ -19,6 +21,10 @@ tags:
 - 1/2 TL Sambal oelek
 - 2 EL Sojasauce
 - 5 TL Palmzucker
+
+</aside>
+
+<div class="recipe__content">
 
 ## Zubereitung
 
@@ -33,3 +39,5 @@ tags:
 ## Noch erwähnenswert
 
 Dieses Gericht habe ich bei meinen ersten Gehversuchen in der indischen und indonesischen Küche gekocht.
+
+</div>

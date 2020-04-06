@@ -9,6 +9,8 @@ tags:
 ---
 
 
+<aside class="recipe__ingredients">
+
 
 ## Zutaten
 
@@ -26,6 +28,10 @@ tags:
 - Thymian, Salbeiblätter
 - Salz, Pfeffer
 
+</aside>
+
+<div class="recipe__content">
+
 ## Zubereitung
 
 Hähnchenbrustfilet in mundgerechte Stücke schneiden, portionsweise scharf in einem Bräter anbraten, dabei salzen und pfeffern. Die Portionen herausnehmen und auf einem Küchetuch platzieren, damit Fett abgefangen werden kann.
@@ -39,3 +45,5 @@ Alles miteinander verrühren, den Deckel auf den Bräter und bei 180 Grad im Her
 ## Anmerkungen
 
 Thymian und Salbei reichen vollkommen in ihrer getrockneten Variante. Sie geben auch dann viel Aroma ab. Ansonsten: etwa 6 Zweige Thymian und 4 Salbeiblätter. Die getrockneten Kräuter ruhig freigiebig verwenden, das Gericht soll würzig werden. Die Menge Fleisch kann auch geringer werden. Das Fleisch muß nicht die Hauptrolle spielen. Anstatt Huhn kann auch Putenbrust genommen werden. Das Fleisch ist etwas fester und häufiger im Sonderangebot anzutreffen.
+
+</div>

@@ -6,9 +6,11 @@ introImage: 'kuerbisse'
 tags:
   - beilage
 ---
-
+<div class="recipe__intro">
 Ich liebe eingelegten Kürbis, esse ihn oft zu meinen Broten mittags. Übrigens sind alle Zutatenmengen ernst gemeint, auch die große Zuckermenge.
 Das Rezept ist von meiner Tante, die mich mit ihrem eingelegten Kürbis süchtig gemacht hat !
+</div>
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -18,6 +20,9 @@ Das Rezept ist von meiner Tante, die mich mit ihrem eingelegten Kürbis süchtig
 - 1,125 kg Zucker
 - 1 Zimtstange
 - frischer Ingwer
+</aside>
+
+<div class="recipe__content">
 
 ## Zubereitung
 
@@ -32,3 +37,4 @@ Das Rezept ist von meiner Tante, die mich mit ihrem eingelegten Kürbis süchtig
 - Das Rezept ergibt 6 – 8 Gläser.
 - Die Ingwermenge habe ich nie abgewogen, ich messe sie immer mit dem Messer ab. Da ich die ungefähre Menge der zu erwartenden Gläser kenne, schäle ich den Ingwer und schneide dann für jedes Glas ein etwa daumendickes Stück Ingwer ab. [Man kann dann noch zur Sicherheit zwei Stücke zusätzlich hinzugeben, mehr aber nicht.]
 
+</div>

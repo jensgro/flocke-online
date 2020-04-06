@@ -7,10 +7,15 @@ tags:
   - curry
   - indisch
 ---
+<div class="recipe__intro">
 
 Auch wenn das Rezept für sich genommen ein wenig seltsam ist, es schmeckt! Für mich und meine Frau bedeutete es die Entdeckung des Kreuizkümmels und der Weg in die indische und indonesische Küche.
 
 Danke, Jürgen v.d. Lippe und Alfred Biolek !!!
+
+</div>
+
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -29,6 +34,10 @@ Danke, Jürgen v.d. Lippe und Alfred Biolek !!!
 - Salz
 - Butterschmalz zum Braten
 
+</aside>
+
+<div class="recipe__content">
+
 ## Zubereitung
 
 - Den Reis mit der Milch aufsetzen (Vorsicht, kocht leicht über) und bei schwacher Hitze zugedeckt etwa 15 Minuten garen.
@@ -37,3 +46,6 @@ Danke, Jürgen v.d. Lippe und Alfred Biolek !!!
 - Den gekochten Reis untermischen.
 - Die Eier mit dem Ketchup vermischen und unterheben.
 - Den geriebenen Käse und die gehackte Petersilie zugeben, noch etwa 3 Minuten garen, bis der Käse geschmolzen ist. Mit Salz abschmecken.
+
+</div>
+

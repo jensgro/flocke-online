@@ -7,8 +7,13 @@ tags:
   - gemüse
   - vegetarisch
 ---
+<div class="recipe__intro">
 
 Dieses Rezept habe ich einem Gericht nachempfunden, welches ich mehrmals bei einem Lieferservice für die Mittagspause bestellt hatte (so einer mit indisch/deutsch/italienisch/mexikanisch/chinesischer Karte). Der Gag an dem Rezept ist der Bockshornklee. Er findet sich auch in vielen Currypulver-Mischungen wieder.
+</div>
+
+<aside class="recipe__ingredients">
+
 
 ## Zutaten
 
@@ -21,6 +26,10 @@ Dieses Rezept habe ich einem Gericht nachempfunden, welches ich mehrmals bei ein
 - 1-2 TL Garam Masala
 - Salz, Pfeffer
 
+</aside>
+
+<div class="recipe__content">
+
 ## Zubereitung
 
 - Huhn würfeln und anbraten, dann rausnehmen.
@@ -32,3 +41,5 @@ Dieses Rezept habe ich einem Gericht nachempfunden, welches ich mehrmals bei ein
 ## Tips
 
 Dazu paßt eigentlich nur Reis.
+
+</div>

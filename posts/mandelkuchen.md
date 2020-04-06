@@ -7,6 +7,7 @@ tags:
   - kuchen
 ---
 
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -14,6 +15,10 @@ tags:
 - 6 Eier
 - 200g Zucker
 - 1 Fläschchen Zitronenaroma
+
+</aside>
+
+<div class="recipe__content">
 
 ## Zubereitung
 
@@ -25,3 +30,7 @@ tags:
 ## Tipps
 
 Im Ofen auskühlen lassen. Dafür am besten mit einem Holzlöffel die Tür leicht aufsperren.
+
+</div>
+
+

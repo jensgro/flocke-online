@@ -5,8 +5,13 @@ permalink: rezepte/schweinelendchen-dillsosse.html
 tags:
   - fleisch
 ---
+<div class="recipe__intro">
 
 Wer wie ich das Zusammenspiel aus Dill und Gurke liebt, wird dieses Gericht schnell vergöttern.
+
+</div>
+
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -15,6 +20,10 @@ Wer wie ich das Zusammenspiel aus Dill und Gurke liebt, wird dieses Gericht schn
 - 1 Becher Schmand
 - 1/2 Salatgurke
 - 1 Zwiebel
+
+</aside>
+
+<div class="recipe__content">
 
 ## Zubereitung
 
@@ -26,4 +35,6 @@ Wer wie ich das Zusammenspiel aus Dill und Gurke liebt, wird dieses Gericht schn
 ## Tipps
 
 Am besten schmeckt Baguette dazu. Mir hat besonders gut ein Baguette mit Roggenanteil dazu geschmeckt.
+
+</div>
 

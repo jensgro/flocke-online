@@ -7,7 +7,13 @@ tags:
   - hackfleisch
   - pute
 ---
+<div class="recipe__intro">
+
 Meine Oma hat mich damit als Kind immer begeistert. Heute koche ich anders, aber als Kind und später als Student – als ich besser kochen lernte – war das ein gern gegessenes Gericht. Und es geht schnell.
+
+</div>
+
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -16,6 +22,10 @@ Meine Oma hat mich damit als Kind immer begeistert. Heute koche ich anders, aber
 - Käse
 - Senf
 - 1 Becher Sahne
+
+</aside>
+
+<div class="recipe__content">
 
 ## Zubereitung
 
@@ -30,3 +40,4 @@ Meine Oma hat mich damit als Kind immer begeistert. Heute koche ich anders, aber
 - Statt Putenschnitzel kann auch Hühnerbrust benutzt werden.
 - Unter den Käse können auch Mandarinenscheiben oder Ananasstücke gelegt werden.
 
+</div>

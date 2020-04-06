@@ -6,8 +6,13 @@ tags:
   - fleisch
   - rind
 ---
+<div class="recipe__intro">
+
 Das Rezept stammt von meiner Schwiegermutter, einer Aachenerin. Es ist in seiner Urform allerdings ein wenig undeutlicher und unkrokreter, als diese Variante. Das ist halt so, wenn man Rezepte im wesentlichen aus dem Gefühl heraus kochen kann. Leider erschwert das die Weitergabe.
 
+</div>
+
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -29,6 +34,10 @@ Das Rezept stammt von meiner Schwiegermutter, einer Aachenerin. Es ist in seiner
 - 1 – 2 Printen
 - 2 EL Zucker
 
+</aside>
+
+<div class="recipe__content">
+
 ## Zubereitung
 
 - Die Zutaten für die Marinade zusammen aufkochen und abkühlen lassen. Dann über das Fleisch gießen. Das Fleisch muß gut bedeckt sein.
@@ -45,5 +54,4 @@ Das Rezept stammt von meiner Schwiegermutter, einer Aachenerin. Es ist in seiner
 
 Die Rosinen sind kein Muß, wohl aber die Printen (natürlich ohne Schokolade!).
 
-
-
+</div>

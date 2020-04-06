@@ -6,10 +6,15 @@ tags:
   - fleisch
   - rind
 ---
+<div class="recipe__intro">
 
 Ich habe lange Zeit bei Gulasch nur noch an diese Variante gedacht. Normales Gulasch reizte mich gar nicht mehr so sehr.
 
 Ich reduziere zunehmend die Fleischportion und erhöhe dafür den Sauerkrautanteil. Nochmal aufgewärmt schmeckt das Gulasch übrigens noch viel besser. Das Sauerkraut ist dann weicher und hat sich voll Geschmack gesogen.
+
+</div>
+
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -22,6 +27,10 @@ Ich reduziere zunehmend die Fleischportion und erhöhe dafür den Sauerkrautante
 - 100g Dörrfleisch
 - Fleischbrühe, Tomatenmark, Paprikapulver (scharfes und süßes), Thymian, Cayennepfeffer
 - eventuell Schmand zum Anrichten
+
+</aside>
+
+<div class="recipe__content">
 
 ## Zubereitung
 
@@ -40,3 +49,6 @@ Ich reduziere zunehmend die Fleischportion und erhöhe dafür den Sauerkrautante
 - Das Tomatenmark macht das Gericht schön fruchtig. Eine Dose Tomaten würde hingegen zu sehr vorschmecken.
 - Die Mengen Zwiebeln und Sauerkraut sind durchaus variabel. Beide können in diesem Gericht ohne Probleme erhöht werden. Das obige Rezept verträgt durchaus größere Mengen Zwiebeln und Sauerkraut. Das drängt das Fleisch ein wenig mehr in den Hintergrund.
 - Das Fleisch entweder während des Anbratens oder vorher mit Salz und Pfeffer würzen. Das Fleisch nur kurz von allen Seiten abraten. Es wird zu Ende geschmort.
+
+</div>
+

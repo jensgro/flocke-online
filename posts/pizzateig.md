@@ -6,6 +6,7 @@ introText: 'Früher habe ich Pizza im wesentlichen mit Quark-Öl-Teig gemacht. A
 tags:
   - pizza
 ---
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -17,6 +18,10 @@ tags:
 - 2 EL Olivenöl
 - Weizen- oder Maisgrieß
 
+</aside>
+
+<div class="recipe__content">
+
 ## Zubereitung:
 
 - Hefe, Salz, Zucker und Wasser mischen, mit einer Folie abdecken und an einen warmen Ort stellen, bis die Masse Blasen wirft.
@@ -26,6 +31,4 @@ tags:
 - Wenn der Teig nicht zu dick mit Tomatensauce und vor allem nicht zu dick mit Belag belegt wird, dann hat er eher die Chance, knusprig zu werden.
 - Wichtiger Tip: Wer einen luftigen und etwas dickeren Teig haben möchte, der läßt den Teig eine halbe Stunde mindestens gehen (natürlich an einem warmen Ort). Wenn der Teig allerdings sofort nach der Herstellung verarbeitet wird, wird er wahrscheinlich knusprig !
 
-
-
-
+</div>

@@ -9,6 +9,7 @@ tags:
   - salat
 ---
 
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -22,9 +23,13 @@ tags:
 - Olivenöl
 - Salz
 
+</aside>
+
+<div class="recipe__content">
 
 ## Zubereitung
 
 Den Spargel schälen, in mundgerechte Stücke schneiden und kochen. Währenddessen die Erdbeeren waschen und in Stücke schneiden. Die reife Avocado schälen, entsteinen und in Stücke schneiden. Den Salat waschen, trockenschleudern und in Stücke zupfen. Die Erdbeeren und die Avocado mit dem Essig, Öl, Salz und dem Grünen Pfeffer kurz marinieren, dann den Spargel, den Parmesan und den Salat hinzugeben und durchmengen.
 
+</div>
 

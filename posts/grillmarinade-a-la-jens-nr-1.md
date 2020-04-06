@@ -7,6 +7,7 @@ tags:
   - beilage
   - grillen
 ---
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -20,6 +21,10 @@ tags:
 - 3 EL mittelscharfer Senf
 - 6 EL Ketchup
     Tabasco, Salz
+
+</aside>
+
+<div class="recipe__content">
 
 ## Zubereitung
 
@@ -35,3 +40,4 @@ Ich habe diese Marinade nie mit frischen Kräutern getestet, kann aber vermelden
 
 Paßt gut zu Bauchfleisch.
 
+</div>

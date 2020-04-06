@@ -6,7 +6,7 @@ introText: 'Das Rezept ist einfach super, um alte Brötchen zu verarbeiten. Man 
 tags:
   - dessert
 ---
-
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -16,6 +16,10 @@ tags:
 - 1 EL Zucker
 - 1-2 Päckchen Vanillezucker
 - Semmelbrösel
+
+</aside>
+
+<div class="recipe__content">
 
 ## Zubereitung
 
@@ -27,6 +31,5 @@ tags:
 
 Dazu paßt am Besten Zucker und Zimt.
 
-
-
+</div>
 

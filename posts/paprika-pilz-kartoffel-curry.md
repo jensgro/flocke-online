@@ -10,8 +10,13 @@ tags:
   - gemüse
 ---
 
+<div class="recipe__intro">
 
 Dieses Rezept habe ich aus einem Kochkurs über indische Küche.
+
+</div>
+
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -30,6 +35,10 @@ Dieses Rezept habe ich aus einem Kochkurs über indische Küche.
 - 10 Champignons
 - Korianderblätter
 
+</aside>
+
+<div class="recipe__content">
+
 ## Zubereitung
 
 - Zwiebeln, Knoblauch, Paprika, Champignons und Kartoffeln würfeln.
@@ -44,4 +53,7 @@ Dieses Rezept habe ich aus einem Kochkurs über indische Küche.
 - Es kann ruhig auch ein wenig mehr Knoblauch sein.
 - Nicht zu ungeduldig sein. Im ersten Moment erscheint die Masse recht trocken, aber nach kurzer Zeit zieht das Gemüse Wasser.
 - Nachwürzen ist natürlich auch bei diesem Gericht erlaubt.
+
+</div>
+
 

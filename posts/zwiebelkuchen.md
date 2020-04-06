@@ -8,6 +8,8 @@ tags:
   - pizza
 ---
 
+<aside class="recipe__ingredients">
+
 ## Zutaten
 
 ### Teig
@@ -28,6 +30,10 @@ tags:
 - Paprika
 - wenig Kümmel
 
+</aside>
+
+<div class="recipe__content">
+
 ## Zubereitung
 
 - Hefe mit Wasser glattrühren, dann mit Mehl und Salz verkneten. Nach und nach die Margarine unterrühren.
@@ -37,6 +43,5 @@ tags:
 - Eier, Saure Sahne und Gewürze verrühren und über den belegten Teig schütten.
 - Bei 200 Grad etwa eine Stunde backen.
 
-
-
+</div>
 

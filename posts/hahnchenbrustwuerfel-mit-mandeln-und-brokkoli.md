@@ -7,6 +7,7 @@ tags:
   - gemüse
   - asien
 ---
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -25,6 +26,10 @@ tags:
 - 2 EL Hühnerbrühe
 - Salz, Pfeffer
 
+</aside>
+
+<div class="recipe__content">
+
 ## Zubereitung
 
 - Fleischwürfel in Stärkepulver wenden. 1 Tl Sesamöl über das Fleisch träufeln.
@@ -38,5 +43,8 @@ tags:
 ## Noch erwähnenswert
 
 Ich habe als Beilage sowohl Nudeln, als auch Reis getestet. Beides paßt nicht. Dies ist also ein beilagenfreies Gericht.
+
+</div>
+
 
 

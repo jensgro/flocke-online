@@ -8,6 +8,8 @@ tags:
   - indien
 ---
 
+<aside class="recipe__ingredients">
+
 ## Zutaten
 
 - 2 große Fleischtomaten
@@ -15,6 +17,10 @@ tags:
 - 2 frische rote Chilischoten
 - 1 Messerspitze Garnelenpaste
 - Salz
+
+</aside>
+
+<div class="recipe__content">
 
 ## Zubereitung
 
@@ -25,3 +31,5 @@ tags:
 ## Noch erwähnenswert
 
 Das ist man als Beilage zu indischem Essen. gehörte zu unserer Indischen Reistafel.
+
+</div>

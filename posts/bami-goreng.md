@@ -8,8 +8,12 @@ tags:
   - indonesien
 ---
 
+<div class="recipe__intro">
+
 Schon als Kind habe ich beim Chinesen oder in Holland Bami Goreng und Nasi Goreng geliebt. Als ich es dann selber kochen wollte, stellte ich fest, daß es unendliche Variationen gibt (von den Gewürzmischungen wollen wir jetzt gar nicht reden). Also bastelte ich mir meine eigene Version zusammen. Deren Kern ist die Würzsauce. Damit steht und fällt der gesamte Geschmack. M.E. sollten auch weder die Eier, noch dei Banane fehlen. Wer es lieber als Nasi Goreng essen will, macht sich statt Mi-Nudeln einfach Reis dazu. Ich finde Mi-Nudeln am praktischtsen, weil man sie einfach nur mit heißem Wasser übergießt und ein wenig ziehen läßt. Schneller kanns gar nicht gehen.
 
+</div>
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -22,6 +26,10 @@ Schon als Kind habe ich beim Chinesen oder in Holland Bami Goreng und Nasi Goren
 - mindestens 2 Spiegeleier
 - Boullion, Soja-Sauce
 - Garam-Masala, Chili-Pulver, Kreuzkümmel
+
+</aside>
+
+<div class="recipe__content">
 
 ## Zubereitung
 
@@ -40,3 +48,5 @@ Schon als Kind habe ich beim Chinesen oder in Holland Bami Goreng und Nasi Goren
 - Die Boullion etwas stärker als üblich mischen. Vorschlag für die Würzsauce: 150ml Boullion, 3 EL Soja-Sauce, 1 gehäufter TL Garam Masala, 1 gestrichener TL Kreuzkümmel, etwas Chili-Pulver.
 - Ich habe in einem Asia-Laden eine sehr gute Paste entdeckt, die ich statt Pfeffer und Salz zum Würzen des Fleischs nutze. Es ist ein französisches Produkt namens „Carry Vinday“. Es enthält Kreuzkümmel, 5-Gewürz-Pulver, Senf, Knoblauch, Essig und anderes. Man muß es mit einem bischen Öl geschmeidiger machen und dann damit das Fleisch einreiben. Da diese Paste eine gewisse Grundschärfe besitzt, sollte vor dem Würzen mit Chili-Pulver abgeschmeckt werden.
 - Natürlich kann man die Würzsauce mit anderen als den oben angegebenen Gewürzen versehen.
+
+</div>

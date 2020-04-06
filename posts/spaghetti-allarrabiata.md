@@ -6,6 +6,7 @@ introText: 'Mit der Zeit hat sich mein Geschmack bei diesem Rezept gewandelt: Ic
 tags:
   - nudeln
 ---
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -15,6 +16,10 @@ tags:
 - 1 Knoblauchzehe
 - 1 kleine Dose Tomaten
 - Tomatenmark
+
+</aside>
+
+<div class="recipe__content">
 
 ## Zubereitung
 
@@ -30,4 +35,6 @@ tags:
 - Um die Sauce fruchtiger zu machen, kann man noch ein wenig Paprika gewürfelt beigeben (höchstens eine halbe Paprika).
 - Das Tomatenmark läßt die Sauce schneller eindicken.
 - Die Dose Tomaten sollte vorher entweder im Mixer püriert oder mit einem Kartoffelstampfer zerdrückt werden. Fertig pürierte Tomaten aus dem Tetra-Pak schmecken mir nicht. Zudem sind sie nicht fruchtig genug.
+
+</div>
 

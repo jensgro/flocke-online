@@ -10,6 +10,7 @@ tags:
   - indonesien
   - beilage
 ---
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -22,6 +23,10 @@ tags:
 - 350 ml Wasser
 - Salz
 
+</aside>
+
+<div class="recipe__content">
+
 ## Zubereitung
 
 - Die Kokosmilch, das Wasser und die Gewürze mischen, leicht salzen.
@@ -33,3 +38,5 @@ tags:
 - Variante 1: Anstatt der Kokosmilch/Wasser-Kombination nur einen halben Liter Wasser nehmen.
 - Variante 2: Anstatt der Kokosmilch/Wasser-Kombination einen halben Liter Kokosmilch nehmen. Dann hat der Reis einen leichten Kokosgeschmack, der nicht aufdringlich wird und sehr gut zu den Gewürzen paßt.
 
+
+</div>

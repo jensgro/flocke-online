@@ -8,8 +8,13 @@ tags:
   - huhn
   - asien
 ---
+<div class="recipe__intro">
 
 Dies ist ein Rezept, bei dem man es mit den Mengen nicht so ganz genau nehmen sollte, schließlich ist eine schöne Soße nur in ausreichender Menge zu würdigen.
+
+</div>
+
+<aside class="recipe__ingredients">
 
 
 ## Zutaten
@@ -20,6 +25,10 @@ Dies ist ein Rezept, bei dem man es mit den Mengen nicht so ganz genau nehmen so
 - Mango-Chutney
 - Currypulver
 - Kreuzkümmel
+-
+</aside>
+
+<div class="recipe__content">
 
 ## Zubereitung
 
@@ -33,3 +42,6 @@ Dies ist ein Rezept, bei dem man es mit den Mengen nicht so ganz genau nehmen so
 - Dazu paßt nur Reis ! Am besten Basmati-Reis.
 - Man kann das Gericht durch die Zugabe von ein wenig Essig (höchstens 2 EL) ein bischen säuerlicher machen. Dafür reicht der billige Weinesssig, den man sonst im wesentlichen zum Entkalken nehmen kann.
 - An Stelle eines gekauften Chutneys kann man sich natürlich auch eines selber machen.
+
+</div>
+

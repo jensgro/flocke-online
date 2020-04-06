@@ -6,8 +6,13 @@ tags:
   - backen
   - fleisch
 ---
+<div class="recipe__intro">
 
 Speckkuchen ist ein in Nordhessen sehr beliebtes Gericht, das man im Winter auch bei manchen Bäckern kaufen kann. Aber auch hier gilt wieder: selbstgemacht ist besser !
+
+</div>
+
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -20,6 +25,10 @@ Speckkuchen ist ein in Nordhessen sehr beliebtes Gericht, das man im Winter auch
 - Fondor, Kümmel
 - Pfeffer, Salz
 
+</aside>
+
+<div class="recipe__content">
+
 ## Zubereitung
 
 - Den Lauch schneiden und mit kochendem Wasser überbrühen. 5 Minuten ziehen lassen.
@@ -31,3 +40,4 @@ Speckkuchen ist ein in Nordhessen sehr beliebtes Gericht, das man im Winter auch
 - Auf Hefeteig streichen, den Speck darüber verteilen.
 - 45 Minuten bei 220 Grad backen.
 
+</div>

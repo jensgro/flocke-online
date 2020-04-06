@@ -8,6 +8,8 @@ tags:
   - beilage
 ---
 
+<aside class="recipe__ingredients">
+
 ## Zutaten
 
 - 1kg Pfirsiche (oder Aprikosen)
@@ -20,6 +22,10 @@ tags:
 - 2 TL Kurkuma
 - 4 EL Vollrohrzucker
 
+</aside>
+
+<div class="recipe__content">
+
 ## Zubereitung
 
 Die Pfirsiche waschen, schälen und in kleine Stücke schneiden. Die Haut der Pfirsiche sollten sich leicht abziehen lassen, dann sind sie reif. Wenn sie schon vorher verarbeitet werden sollen – wovon ich abrate -, dann kann man die Pfirsiche kurz in kochendes Wasser legen und dann abziehen.
@@ -30,5 +36,7 @@ Nach kurzem Anbraten der Gewürze (auf keinen Fall länger als eine halbe Minute
 Aufbewahrung und Genuss
 
 Das Chutney kann man wie Marmelade in saubere, heiss ausgespülte Gläser abfüllen oder einfrieren. Bei Raumtemperatur als Beilage geniessen. Wir essen es eigentlich immer zu einem leckeren Dal.
+
+</div>
 
 

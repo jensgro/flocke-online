@@ -8,6 +8,8 @@ tags:
   - dessert
 ---
 
+<aside class="recipe__ingredients">
+
 ## Zutaten
 
 - 5 Brötchen
@@ -21,6 +23,11 @@ tags:
 - 1 kg entkernte Sauerkirschen (auch aus dem Glas)
 - 100 g feingehackte Mandeln
 
+</aside>
+
+<div class="recipe__content">
+
+
 ## Zubereitung
 
 Die Brötchen in dünne Scheiben schneiden und in 30 g Butter anrösten, mit der Milch übergiessen und durchziehen lassen.
@@ -28,5 +35,7 @@ Die Brötchen in dünne Scheiben schneiden und in 30 g Butter anrösten, mit der
 Die restliche Butter mit Zucker, Eigelb, etwas Zimt und der geriebenen Zitronenschale schaumig rühren und die Brötchenmasse nach und nach untermischen. Eiweiß zu Eischnee schlagen, mit den Sauerkirschen vermengen und vorsichtig unter den Teig heben.
 
 In eine gefettete, mit Mandeln ausgestreute Auflaufform füllen und bei 180 Grad im Backofen etwa 50 Minuten backen.
+
+</div>
 
 

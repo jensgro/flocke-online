@@ -7,9 +7,13 @@ tags:
   - hackfleisch
   - schwein
 ---
+<div class="recipe__intro">
 
 Der Sauerkrautauflauf ist ein Gericht aus meiner Kindheit. Meine Mutter hat mich damit immer wieder erfreut. Und obwohl ich ihr Rezept genau befolge, schmeckt der Sauerkrautauflauf bei ihr noch ein entscheidendes Stück besser.
 
+</div>
+
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -26,6 +30,10 @@ Der Sauerkrautauflauf ist ein Gericht aus meiner Kindheit. Meine Mutter hat mich
 - Salz, Öl, Pfeffer
 - Margarine oder Butter
 
+</aside>
+
+<div class="recipe__content">
+
 ## Zubereitung
 
 - Pürree mit 1/2 l Wasser, Milch und 1 TL Salz nach Anweisung zubreiten.
@@ -37,3 +45,5 @@ Der Sauerkrautauflauf ist ein Gericht aus meiner Kindheit. Meine Mutter hat mich
 - Sauerkraut und Soße darauf verteilen.
 - Mit Pürree bedecken.
 - Mit Semmelbrösel und Margarineflöckchen (oder Butterflöckchen) bestreut 40 Minuten im Ofen bei 175 Grad backen.
+
+</div>

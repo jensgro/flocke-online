@@ -9,7 +9,10 @@ tags:
 ---
 
 
+<aside class="recipe__ingredients">
+
 ## Zutaten
+
 ### Kräutermischung
 
 In die Grüne Soße gehören traditionellerweise sieben Kräuter:
@@ -35,7 +38,11 @@ Diese Mengen habe ich mir irgendwann einmal notiert. Sie sind abhängig von der 
 - etwas Zitronensaft
 - Salz, Pfeffer
 
-Zubereitung
+</aside>
+
+<div class="recipe__content">
+
+## Zubereitung
 
 - Die Kräuter fein hacken, in eine Schüssel geben und mit der Masse vermengen. Mit Senf, Salz und Pfeffer abschmecken.
 - Die Soße ein bis zwei Stunden vor dem Verzehr zubereiten, damit die Kräuter ihr Aroma ausreichend abgeben können.
@@ -49,4 +56,5 @@ Zubereitung
 - Es gibt auch Grüne Soße in der Tiefkühltruhe zu kaufen. Ich habe mal einen „Selbstversuch“ gemacht und nach ein paar wenigen Gabeln die Masse weggekippt. Der Geschmack war eklig. Keine Ahnung, was die da dran gemacht haben, aber die korrekte Kräutermischung war es nicht.
 
 
+</div>
 

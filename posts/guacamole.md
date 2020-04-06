@@ -8,6 +8,8 @@ tags:
   - mexiko
 ---
 
+<aside class="recipe__ingredients">
+
 ## Zutaten
 
 - 1 Avocado (möglichst reif)
@@ -15,11 +17,17 @@ tags:
 - 1 Knoblauchzehe
 - 1/2 Zitrone
 - Salz, Pfeffer
+-
+</aside>
+
+<div class="recipe__content">
 
 ## Zubereitung
 
 - Avocado schälen und den Kern entfernen. In den Mixer geben.
 - Die Knoblauchzehe in den Mixer ausdrücken, den Schmand dazugeben.
 - Alles gut durchmixen, bis kein Brocken mehr übrig ist und mit Salz, Pfeffer und dem Saft der halben Zitrone abschmecken.
+
+</div>
 
 

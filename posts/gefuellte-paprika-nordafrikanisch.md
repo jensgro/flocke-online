@@ -6,8 +6,12 @@ tags:
   - afrika
   - gemüse
 ---
+<div class="recipe__intro">
 
 In einer Folge von Tim Mälzers Kochesendung  machte er gefüllte Paprika. Sein Ansatz gefiel mir und so machte ich mich ans Nachkochen. Am Ende veränderte ich etwa das halbe Rezept, aber die Grundidee blieb die von Tim Mälzer.
+
+</div>
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -38,3 +42,5 @@ Anmerkungen
 Im Originalrezept würzt Tim Mälzer mit Zimt. Da ich Ras el-Hanout durch diverse Couscous-Gerichte schätzen gelernt habe, fand ich diese Gewürzmischung interessanter. Sie enthält auch Zimt. Kreuzkümmel könnte auch noch passen. Allerdings diktieren die getrockneten Pflaumen (Datteln waren es bei Mälzer) eine etwas süssere Würzung. Deshalb kann man zwar noch mehr modifizieren, sollte dann aber die einzelnen Bestandteile genau überdenken.
 
 Die Portion reicht für vier Personen. Da wir nur zu Zweit sind, habe ich mit einem Kochvorgang gleich für ein nächstes Mal vorgekocht. Die Soße reicht in meinen Augen eher für einmal. Aber da ist jeder anders veranlagt.
+
+</div>

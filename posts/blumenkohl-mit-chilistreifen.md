@@ -9,6 +9,7 @@ tags:
   - vegetarisch
   - gemüse
 ---
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -22,6 +23,10 @@ tags:
 - 1 EL Sojasauce
 - 2 EL süße Sojasauce (kecap manis)
 
+</aside>
+
+<div class="recipe__content">
+
 ## Zubereitung
 
 - Blumenkohl vom Strunkende befreien, waschen und in mundgerechte Röschen zerteilen. Chilischoten waschen, der Länge nach halbieren, Kerne und Stiele herauslösen. Die Hälften in kleine, feine Streifen schneiden.
@@ -30,5 +35,5 @@ tags:
 - Öl im Wok oder einem Topf erhitzen. Chilistreifen, Knoblauch, Ingwer und Frühlingszwiebeln unter ständigem Rühren in etwa 3 Minuten glasig dünsten. Garnelenpaste hinzufügen. Mit den Sojasaucen und 100 ml Wasser ablöschen und die Sauce etwas eindicken lassen.
 - Den fertig gegarten Blumenkohl untermischen und alles etwa drei Minuten ziehen lassen.
 - Mit Reis und Sambal Oelek servieren.
-- 
 
+</div>

@@ -7,7 +7,13 @@ tags:
   - schwein
 ---
 
+<div class="recipe__intro">
+
 Dieses Gericht ist schnell gemacht und doch etwas Besonderes.
+
+</div>
+
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -18,9 +24,14 @@ Dieses Gericht ist schnell gemacht und doch etwas Besonderes.
 - 125 ml Brühe
 - Basilikum
 
+</aside>
+
+<div class="recipe__content">
+
 ## Zubereitung
 
 - Schweinelendchen in Stücke schneiden, einschneiden und mit Frischkäse und Basilikum füllen, dann anbraten.
 - Zwiebeln würfeln und anbraten, mit Wein und Brühe abgießen.
 
+</div>
 

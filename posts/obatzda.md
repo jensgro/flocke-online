@@ -7,6 +7,7 @@ tags:
   - beilage
   - vegetarisch
 ---
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -16,6 +17,10 @@ tags:
 - 2 Zwiebeln
 - Bier oder Wein
 - Salz, Pfeffer, edelsüßer Paprika
+
+</aside>
+
+<div class="recipe__content">
 
 ## Zubereitung
 
@@ -29,3 +34,6 @@ tags:
 - Als Beilage passen Brezeln, Salzstangen oder kleine Salzbrezeln.
 - Es wird zwar auch Brot dazu gegessen, ich persönlich finde diese Variante aber nicht besonders gut.
 - Ob man die Käsemasse mit Wein oder Bier glattrührt, sollte man davon abhängig machen, was man dazu trinkt. Wein gibt einen feineren Geschmack.
+
+</div>
+

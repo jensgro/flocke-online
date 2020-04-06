@@ -7,8 +7,13 @@ tags:
   - huhn
   - geflügel
 ---
+<div class="recipe__intro">
 
 Eine Tagine ist ein Schmorgefäß aus der nordafrikansichen Küche. Auch die darin gekochten Gerichte nennt man Tagine. In Ermangelung eines solchen Gefäßes kann man auch prima einen normalen Bräter nutzen.
+
+</div>
+
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -25,6 +30,11 @@ Eine Tagine ist ein Schmorgefäß aus der nordafrikansichen Küche. Auch die dar
 - 250g Couscous (vorgekocht)
 - 2 Msp Chilipulver
 - Salz, Pfeffer
+-
+</aside>
+
+<div class="recipe__content">
+
 
 ## Zubereitung
 
@@ -47,3 +57,4 @@ Den aufgefangenen Bratensaft nutzen, um den Couscous zu garen. Für 250g Couscou
 - In der Soße kann man ein oder zwei getrocknete Chilischoten mitkochen.
 - Auf den Couscous passen auch ein paar geröstete Nüsse.
 
+</div>

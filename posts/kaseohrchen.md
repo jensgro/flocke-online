@@ -6,6 +6,7 @@ introText: 'Die Käseöhrchen lassen sich für eine Party gut am Tag zuvor vorbe
 tags:
   - beilage
 ---
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -16,6 +17,10 @@ tags:
 - 6 Scheiben gekochten Schinken
 - 1 Bund Petersilie
 - Muskat, Cayennepfeffer, Pfeffer
+
+</aside>
+
+<div class="recipe__content">
 
 ## Zubereitung
 
@@ -30,3 +35,5 @@ tags:
 
 Theoretisch lassen sich die Käseöhrchen ein paar Tage in einer Keksdose aufbewahren. Man kann also nicht nur die Partygäste, sondern vielleicht auch die Kollegen damit begeistern.
 
+
+</div>

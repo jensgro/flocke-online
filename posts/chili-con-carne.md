@@ -8,15 +8,17 @@ tags:
   - hackfleisch
   - fleisch
 ---
-
+<dic class="recipe__intro">
 Dieses Gericht eignet sich hervorragend zum Experimentieren. Deshalb schmeckt es bei mir jedesmal anders und das hier wiedergegebene Rezept nist nur ein Beispiel, von dem man ausgehen kann, um die eigene perfekte Variante zu kreieren.
 
 Ich gebe mittlerweile immer Bitter-Schokolade oder gleich mexikanische Mole (gibt es fertig als Pulver) hinzu. Es passt aber auch Zimt oder chinesisches Fünf-Gewürz-Pulver. Mit weiteren Beigaben ausser den Bohnen wäre ich vorsichtig. Mais stelle ich einfach kalt aus der Dose immer dazu, aber ich füge keine Pilze oder gar Ananas dem Chili hinzu.
 
-Auch die Beigabe von geriebenem Käse würde ich maximal auf den Esstisch begrenzen, aber nicht während des Kochens machen. 
+Auch die Beigabe von geriebenem Käse würde ich maximal auf den Esstisch begrenzen, aber nicht während des Kochens machen.
 
 Chili eignet sich hervorragend zum Einfrieren, deshalb einfach immer die doppelte oder dreifache Portion kochen.
 
+</div>
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -28,7 +30,11 @@ Chili eignet sich hervorragend zum Einfrieren, deshalb einfach immer die doppelt
 - Chili-Pulver
 - Paprika-Pulver (süß)
 
-Zubereitung
+</aside>
+
+<div class="recipe__content">
+
+## Zubereitung
 
 - Zwiebeln würfeln und anbraten.
 - Nach einiger Zeit das gewürzte Rinderhack hinzugeben. Während des Anbratens rühren, damit das Hack zerfällt und krümelig wird.
@@ -42,3 +48,4 @@ Zubereitung
 - Sollte die Mischung zu fleischig sein, einfach noch eine Dose Tomaten dazu, auch ein bißchen Tomatenmark kann nicht schaden. Es ist natürlich auch nicht schlecht, ein wenig Knoblauch hinzuzugeben. Ich finde, Chili con carne ist wunderbar zum Experimentieren!
 - Übrigens schmeckt nicht nur Baguette wunderbar dazu, sondern auch Taco-Chips! Das ist mein derzeitiger Favorit.
 
+</div>

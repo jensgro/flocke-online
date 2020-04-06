@@ -11,7 +11,7 @@ tags:
   - türkisch
 ---
 
-
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -27,6 +27,9 @@ tags:
 - ein wenig getrocknete Minzblätter
 - Salz, Pfeffer
 
+</aside>
+
+<div class="recipe__content">
 
 ## Zubereitung
 
@@ -36,3 +39,5 @@ Das Püree in ein Sieb geben und gut abtropfen lassen. Das kann 10 bis 15 Minute
 
 Das abgetopfte Püree in einer Schüssel mit der fein gehackten Petersilie, dem Saft der Zitrone, dem Paprikamark sowie Salz und Pfeffer vermischen.
 Dann das Ganze wieder in eine Schüssel geben und die restlichen Zutaten beimischen. Fertig!
+
+</div>

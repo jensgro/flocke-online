@@ -10,6 +10,7 @@ tags:
   - rind
 ---
 
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -25,6 +26,10 @@ tags:
 - 2 TL Palmzucker
 - 400 ml Kokosmilch
 - Salz, Pfeffer
+
+</aside>
+
+<div class="recipe__content">
 
 ## Zubereitung
 
@@ -47,4 +52,5 @@ tags:
 
 Tamarindenmark ist die Hülsenfrucht eines Tropenbaums mit süß-säuerlichem, braunem Fruchtmus, das in der indonesischen Küche statt Zitrone oder Essig benutzt wird. Getrocknet ist es in Blockform erhältlich und lange im Kühlschrank haltbar. Es muss in heißem Wasser etwa 10 Minuten eigenweicht und verrührt werden.
 
+</div>
 

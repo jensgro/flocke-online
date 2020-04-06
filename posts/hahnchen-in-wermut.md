@@ -8,6 +8,8 @@ tags:
   - huhn
 ---
 
+<aside class="recipe__ingredients">
+
 ## Zutaten
 
 - 6 – 8 Hähnchenschenkel
@@ -17,6 +19,10 @@ tags:
 - 2 Zitronen
 - 2 Zweige Thymian
 - 1 EL Wacholderbeeren
+-
+</aside>
+
+<div class="recipe__content">
 
 ## Zubereitung
 
@@ -31,4 +37,7 @@ tags:
 Es versteht sich von selbst, daß die Mengenangaben für Wermut und Trauben nach Geschmack variiert werden können.
 
 Dazu paßt am besten Baguette.
+
+
+</div>
 

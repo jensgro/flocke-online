@@ -6,8 +6,11 @@ introImage: 'chop-suey'
 tags:
   - asien
 ---
+<div class="recipe__intro">
 
 Das ist ein altes Rezept aus meiner Kindheit.
+</div>
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -28,9 +31,14 @@ Das ist ein altes Rezept aus meiner Kindheit.
 - 4 EL Essig
 - 2 EL Ketchup
 
+</aside>
+
+<div class="recipe__content">
+
 ## Zubereitung
 
 - Das Geschnetzelte in der Marinade etwa eine Stunde liegen lassen. Dann das Fleisch in etwas Öl anbraten.
 - Die Zwiebel und die Knoblauchzehe kleinhacken, mit der Ananas, den Champignons und den Sojabohnenkeimlingen dazugeben.
 - Mit Ananassaft, Essig, Ketchup und Zucker abschmecken.
 - Alles etwa 15 Minuten schmoren.
+</div>

@@ -4,8 +4,10 @@ date: '2006-11-04'
 permalink: rezepte/pink-panther.html
 introText: 'Als ich zu Weihnachten einen Shaker geschenkt bekam, habe ich diesen Drink entwickelt. Keine Ahnung, ob es ihn unter anderem Namen schon gab.'
 tags:
-  - getraenke
+  - getraenk
 ---
+
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -16,6 +18,10 @@ tags:
 - Eiswürfel
 - Mineralwasser zum Auffüllen
 
+</aside>
+
+<div class="recipe__content">
+
 ## Zubereitung
 
 - Apfelsine und Limette auspressen.
@@ -23,4 +29,5 @@ tags:
 - 10 bis 15 Sekunden shaken, damit die Eiswürfel genügend Kälte abgeben.
 - Zwei Gläseer jeweils halbvoll der Mixtur geben und den Rest mit Mineralwasser auffüllen
 
+</div>
 

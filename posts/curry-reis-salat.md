@@ -8,6 +8,7 @@ tags:
   - reis
   - salat
 ---
+<aside class="recipe__ingredients">
 
 ## Zutaten
 
@@ -18,6 +19,9 @@ tags:
 - 1 Becher Schmand oder Saure Sahne
 - 2 EL Mayonnaise
 - Curry, Salz, Pfeffer, Zitronensaft
+</aside>
+
+<div class="recipe__content">
 
 ## Zubereitung
 
@@ -34,5 +38,5 @@ tags:
 - Der Curry entwickelt seinen ganzen Geschmack und seine Schärfe erst nach einiger Zeit. Deshalb schmeckt der Salat erst nach frühestens einer Stunde gut. Die Sauce schmeckt deshalb bei der Herstellung anders, als nachdem der Salat durchgezogen hat.
 - In den Salat passt auch wunderbar das Fleisch eines gekochten Hühnerschenkels.
 
-
+</div>
 
