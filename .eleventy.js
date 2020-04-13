@@ -48,6 +48,9 @@ module.exports = function(eleventyConfig) {
   });
   //eleventyConfig.setLibrary("md", markdownLibrary);
 
+  eleventyConfig.addPairedNunjucksShortcode("ingredients", function(innercontent){
+    return `<div class="aclass">${innercontent}<div>`
+  });
   // Browsersync Overrides
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {

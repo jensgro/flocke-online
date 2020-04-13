@@ -7,7 +7,9 @@ tags:
   - fleisch
   - schwein
 ---
+
 <aside class="recipe__ingredients">
+{% ingredients %}
 
 ## Zutaten
 
@@ -22,6 +24,9 @@ tags:
 - Pfeffer
 - Cayennepfeffer
 - Salz
+
+
+{% end ingredients %}
 
 </aside>
 
