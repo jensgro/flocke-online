@@ -5,20 +5,26 @@
   border-radius: 6px;
   overflow: hidden;
   margin-bottom: 40px;
-}
-.card__header {
-  background-color: $card-header-bg;
-  padding: 10px 25px;
-}
-.card__headline {
-  margin-top: 0;
-  color: $card-headline-color;
-}
-.card__headline a {
-  color: inherit;
-}
 
-.card__body {
-  padding: 10px 10px 20px 25px;
-}
+  &__header {
+    background-color: $card-header-bg;
+    padding: 10px 25px;
+  }
 
+  &__headline {
+    margin-top: 0;
+    color: $card-headline-color;
+
+    a {
+      color: inherit;
+    }
+  }
+
+  &__body {
+    padding: 10px 10px 20px 25px;
+  }
+
+  &__image {
+    display: block;
+  }
+}

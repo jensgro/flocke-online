@@ -8,14 +8,16 @@
   flex-direction: column;
   background-color: transparent;
   margin-bottom: 0;
+  box-shadow: 3px 3px 5px rgba(#333, 0.5);
 }
 .indexlist .card__header {
-  align-self: center;
-  width: 70%;
+  // align-self: center;
   text-align: center;
   padding: 10px;
-  transform: translateY(-20px);
+  // width: 70%;
+  // transform: translateY(-20px);
 }
 .indexlist .postlist-link {
   text-decoration: none;
+  display: block;
 }
