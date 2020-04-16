@@ -7,6 +7,7 @@ const markdownItAnchor = require("markdown-it-anchor");
 
 const Ingredients = require("./_11ty/ingredients");
 const Recipe = require("./_11ty/recipe-content");
+const Intro = require("./_11ty/recipe-intro");
 
 
 module.exports = function(eleventyConfig) {
@@ -59,6 +60,7 @@ module.exports = function(eleventyConfig) {
    // Paired shortcodes
    eleventyConfig.addPairedShortcode('Ingredients', Ingredients);
    eleventyConfig.addPairedShortcode('Recipe', Recipe);
+   eleventyConfig.addPairedShortcode('Intro', Intro);
   // Browsersync Overrides
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
