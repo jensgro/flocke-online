@@ -5,6 +5,10 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 
+const Ingredients = require("./_11ty/ingredients");
+const Recipe = require("./_11ty/recipe-content");
+
+
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginNavigation);
@@ -48,9 +52,13 @@ module.exports = function(eleventyConfig) {
   });
   //eleventyConfig.setLibrary("md", markdownLibrary);
 
-  eleventyConfig.addPairedNunjucksShortcode("ingredients", function(innercontent){
-    return `<div class="aclass">${innercontent}<div>`
-  });
+  // eleventyConfig.addPairedNunjucksShortcode("ingredients", function(innercontent){
+  //   return `<aside class="aclass">${innercontent}</aside>`
+  // });
+
+   // Paired shortcodes
+   eleventyConfig.addPairedShortcode('Ingredients', Ingredients);
+   eleventyConfig.addPairedShortcode('Recipe', Recipe);
   // Browsersync Overrides
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
