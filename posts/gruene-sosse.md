@@ -9,7 +9,7 @@ tags:
 ---
 
 
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -38,9 +38,9 @@ Diese Mengen habe ich mir irgendwann einmal notiert. Sie sind abhängig von der 
 - etwas Zitronensaft
 - Salz, Pfeffer
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -52,9 +52,9 @@ Diese Mengen habe ich mir irgendwann einmal notiert. Sie sind abhängig von der 
 
 - Die Kräutermischung gibt es meist fertig zu kaufen. (Ansonsten: Von jedem eine handvoll.)
 - Diese Variante der Grünen Soße darf man auf keinen Fall mit der „Frankfurter Grünen Soße“ verwechseln. Bei der Frankfurter Variante werden die Kräuter fein püriert. Zudem wird sie oft als Beilage zu Schnitzel oder Rindfleisch gegessen. Die nordhessische Variante steht für sich allein.
-- Im Schwalm-Eder-Kreis (Nordhessen) ißt man zudem auch noch ausgelassenen mageren Speck (woanders heißt das Dörrfleisch) dazu. Mich stört dieser hier aber, denn m.E. sind die Kräuter die Haupdarsteller dieses Rezeptes und sollten durch nichts in den Hintergrund gedrängt werden.
-- Es gibt auch Grüne Soße in der Tiefkühltruhe zu kaufen. Ich habe mal einen „Selbstversuch“ gemacht und nach ein paar wenigen Gabeln die Masse weggekippt. Der Geschmack war eklig. Keine Ahnung, was die da dran gemacht haben, aber die korrekte Kräutermischung war es nicht.
+- Im Schwalm-Eder-Kreis (Nordhessen) isst man zudem auch noch ausgelassenen mageren Speck (woanders heißt das Dörrfleisch) dazu. Mich stört dieser hier aber, denn m.E. sind die Kräuter die Hauptdarsteller dieses Rezeptes und sollten durch nichts in den Hintergrund gedrängt werden.
+- Es gibt auch Grüne Soße in der Tiefkühltruhe zu kaufen. Ich habe mal einen Selbstversuch gemacht und nach ein paar wenigen Gabeln die Masse weggekippt. Der Geschmack war eklig. Keine Ahnung, was die da dran gemacht haben, aber die korrekte Kräutermischung war es nicht.
 
+{% endRecipe %}
 
-</div>
 

@@ -9,7 +9,8 @@ tags:
   - vegetarisch
   - gemüse
 ---
-<aside class="recipe__ingredients">
+
+{% Ingredients %}
 
 ## Zutaten
 
@@ -23,9 +24,9 @@ tags:
 - 1 EL Sojasauce
 - 2 EL süße Sojasauce (kecap manis)
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -36,4 +37,4 @@ tags:
 - Den fertig gegarten Blumenkohl untermischen und alles etwa drei Minuten ziehen lassen.
 - Mit Reis und Sambal Oelek servieren.
 
-</div>
+{% endRecipe %}

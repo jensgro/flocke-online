@@ -7,7 +7,15 @@ tags:
   - indisch
 ---
 
-<div class="recipe__content">
+{% Ingredients %}
+
+## Zutaten
+
+- 500g Butter
+
+{% endIngredients %}
+
+{% Recipe %}
 
 500g Butter in einem Topf schmelzen. Die Butter bei mittlerer Hitze zum Schmelzen bringen. Den sich bildenden Butterschaum abschöpfen. Die Butter auf kleiner Flamme weiter köcheln lassen und weiter den Schaum abschöpfen. Das Fett wird klar, der Topfboden wird sichtbar.
 
@@ -15,5 +23,5 @@ Das Ghee ist fertig, wenn die Flüssigkeit nussig bzw. nach Mais duftet. Das Ghe
 
 500g Butter ergeben etwa 400g Ghee. Die Kochzeit beträgt etwa 25 Minuten.
 
-</div>
+{% endRecipe %}
 

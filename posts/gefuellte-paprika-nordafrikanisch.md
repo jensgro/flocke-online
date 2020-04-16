@@ -1,17 +1,14 @@
 ---
 title: Gefüllte Paprika – nordafrikanisch
 permalink: rezepte/gefuellte-paprika-nordafrikanisch.html
+introText: "In einer Folge von Tim Mälzers Kochesendung  machte er gefüllte Paprika. Sein Ansatz gefiel mir und so machte ich mich ans Nachkochen. Am Ende veränderte ich etwa das halbe Rezept, aber die Grundidee blieb die von Tim Mälzer."
 date: '2013-10-31'
 tags:
   - afrika
   - gemüse
 ---
-<div class="recipe__intro">
 
-In einer Folge von Tim Mälzers Kochesendung  machte er gefüllte Paprika. Sein Ansatz gefiel mir und so machte ich mich ans Nachkochen. Am Ende veränderte ich etwa das halbe Rezept, aber die Grundidee blieb die von Tim Mälzer.
-
-</div>
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -28,6 +25,10 @@ In einer Folge von Tim Mälzers Kochesendung  machte er gefüllte Paprika. Sein 
 - 2 Dosen gehackte Tomaten
 - Salz und Pfeffer
 
+{% endIngredients %}
+
+{% Recipe %}
+
 ## Zubereitung
 
 Brötchen mit der Milch oder Wasser einweichen. Zwiebel und Pflaumen in kleine Würfel schneiden. Die Brötchen gut ausdrücken, die Mandeln in der Hand zerbröseln und alles in einer großen Schüssel mit dem gemischten Hack, den rohen Zwiebeln, den aufgeschlagenen Eiern, den Chiliflocken und 2 TL Ras el-Hanout vermengen. Mit Pfeffer und Salz abschmecken.
@@ -43,4 +44,4 @@ Im Originalrezept würzt Tim Mälzer mit Zimt. Da ich Ras el-Hanout durch divers
 
 Die Portion reicht für vier Personen. Da wir nur zu Zweit sind, habe ich mit einem Kochvorgang gleich für ein nächstes Mal vorgekocht. Die Soße reicht in meinen Augen eher für einmal. Aber da ist jeder anders veranlagt.
 
-</div>
+{% endRecipe %}

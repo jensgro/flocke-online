@@ -8,7 +8,8 @@ tags:
   - salat
   - beilage
 ---
-<aside class="recipe__ingredients">
+
+{% Ingredients %}
 
 ## Zutaten
 
@@ -23,9 +24,9 @@ tags:
 - 6 EL Parmesan
 - 4 Toast
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -33,4 +34,4 @@ tags:
 - Die zweite Knoblauchzehe schälen, die Brotscheiben im Toaster oder in einer Pfanne von beiden Seiten rösten und mit der Knoblauchzehe kräftig einreiben. Das Brot salzen und pfeffern und in Stücke schneiden.
 - Den Salat waschen, trockenschleudern und mit der Sauce vermischen. Die Brotstücke darüberstreuen.
 
-</div>
+{% endRecipe %}

@@ -2,18 +2,14 @@
 title: Topfenpalatschinken
 date: '2017-01-11'
 introImage: 'topfenpalatschinken'
+introText: "Das hier angegebene Rezept ist eine wunderbare Hauptmahlzeit für zwei hungrige Mäuler. Man kann damit natürlich auch vier Personen als Nachspeise oder für nachmittags erfreuen. Ich rate allerdings davon ab, weil der Arbeitsaufwand doch wirklich enorm ist."
 permalink: rezepte/topfenpalatschinken.html
 tags:
   - dessert
   - quark
 ---
-<div class="recipe__intro">
 
-Das hier angegebene Rezept ist eine wunderbare Hauptmahlzeit für zwei hungrige Mäuler. Man kann damit natürlich auch vier Personen als Nachspeise oder für nachmittags erfreuen. Ich rate allerdings davon ab, weil der Arbeitsaufwand doch wirklich enorm ist.
-
-</div>
-
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -44,9 +40,9 @@ Das hier angegebene Rezept ist eine wunderbare Hauptmahlzeit für zwei hungrige 
 - 60 ml Sahne
 - 1 EL Zucker
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -64,4 +60,4 @@ Die Zutaten der Royale verquirlen und darübergießen. Butterflöckchen daraufse
 
 Anstatt eine Zitronenschale abzureiben (nicht immer bekommt man eine ungehandelte Zitrone) kann man auch  einfach eine Ampulle Zitronenaroma hinzugeben.
 
-</div>
+{% endRecipe %}

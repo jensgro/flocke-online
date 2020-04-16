@@ -8,7 +8,7 @@ tags:
   - mexiko
 ---
 
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -17,10 +17,10 @@ tags:
 - 1 Knoblauchzehe
 - 1/2 Zitrone
 - Salz, Pfeffer
--
-</aside>
 
-<div class="recipe__content">
+{% endIngredients %}
+
+{% Recipe %}
 
 ## Zubereitung
 
@@ -28,6 +28,6 @@ tags:
 - Die Knoblauchzehe in den Mixer ausdrücken, den Schmand dazugeben.
 - Alles gut durchmixen, bis kein Brocken mehr übrig ist und mit Salz, Pfeffer und dem Saft der halben Zitrone abschmecken.
 
-</div>
+{% endRecipe %}
 
 

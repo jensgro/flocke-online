@@ -7,7 +7,8 @@ tags:
   - beilage
   - grillen
 ---
-<aside class="recipe__ingredients">
+
+{% Ingredients %}
 
 ## Zutaten
 
@@ -21,9 +22,9 @@ tags:
 - 2 kleine rote Zwiebeln
 - etwas Thymian
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 # Zubereitung
 
@@ -33,5 +34,5 @@ Die Zwiebeln in Ringe schneiden und mit dem Rest vermengen.
 
 Paßt gut zu Nackensteak.
 
-</div>
+{% endRecipe %}
 

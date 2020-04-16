@@ -8,7 +8,8 @@ tags:
   - grillen
   - ofen
 ---
-<aside class="recipe__ingredients">
+
+{% Ingredients %}
 
 ## Zutaten
 
@@ -23,9 +24,9 @@ tags:
 - Pfeffer
 - Tabasco
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -44,4 +45,4 @@ Dazu passen am besten Backofen-Kartoffeln mit Schmand und Schnittlauch
 
 Man kann diese Spareribs natürlich auch grillen. Übrigens kann es regional sehr schwer sein, an die passenden Rippchen zu kommen. Sie dürfen nämlich auch nicht zu fleischig sein. Bei uns in Mainz bekommt man solche Rippchen, wenn man sich den Verkäuferinnen denn hat verständlich machen können, allerhöchstens im Sommer. Dann muß man zudem noch Glück haben, daß sie nicht schon fertig eingelegt sind.
 
-</div>
+{% endRecipe %}

@@ -7,9 +7,7 @@ tags:
   - fleisch
   - schwein
 ---
-
-<aside class="recipe__ingredients">
-{% ingredients %}
+{% Ingredients %}
 
 ## Zutaten
 
@@ -25,12 +23,9 @@ tags:
 - Cayennepfeffer
 - Salz
 
+{% endIngredients %}
 
-{% end ingredients %}
-
-</aside>
-
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -38,5 +33,5 @@ Ingwer schälen und fein reiben. Pflaumenmus mit Zitronensaft, Cayennepfeffer, S
 
 Ca. 1,5 Stunden auf mittlerer Hitze schmoren.
 
-</div>
+{% endRecipe %}
 

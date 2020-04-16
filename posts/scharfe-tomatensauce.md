@@ -8,7 +8,7 @@ tags:
   - indien
 ---
 
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -18,18 +18,18 @@ tags:
 - 1 Messerspitze Garnelenpaste
 - Salz
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
-- Tomaten überbrühen, enthäuten, die Stielansätze entfernen, ebenso die Kerne. das Fruchtfleisch in kleine Würfel schneiden.
+- Tomaten überbrühen, enthäuten, die Stielansätze entfernen, ebenso die Kerne. das Fruchtfleisch in kleine Würfel schneiden. (Eventuell einfach gestückelte Tomaten aus der Dose nehmen, das ist wesentlich einfacher.)
 - Knoblauch schälen und zerdrücken. Chilischoten waschen, halbieren, Stielansätze und Kerne entfernen, dananch in kleine Streifen schneiden.
 - Alle Zutaten vermengen. Die Garnelenpaste zwischen den Fingern weich reiben und unter die Masse mit der Hand heben.
 
 ## Noch erwähnenswert
 
-Das ist man als Beilage zu indischem Essen. gehörte zu unserer Indischen Reistafel.
+Das isst man als Beilage zu indischem Essen. gehörte zu unserer Indischen Reistafel.
 
-</div>
+{% endRecipe %}

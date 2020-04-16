@@ -3,14 +3,13 @@ title: Chop Suey
 date: '2006-11-04'
 permalink: rezepte/chop-suey.html
 introImage: 'chop-suey'
+introtext: "Das ist ein altes Rezept aus meiner Kindheit."
 tags:
   - asien
 ---
-<div class="recipe__intro">
 
-Das ist ein altes Rezept aus meiner Kindheit.
-</div>
-<aside class="recipe__ingredients">
+
+{% Ingredients %}
 
 ## Zutaten
 
@@ -30,10 +29,10 @@ Das ist ein altes Rezept aus meiner Kindheit.
 - 4 EL Ananassaft
 - 4 EL Essig
 - 2 EL Ketchup
+-
+{% endIngredients %}
 
-</aside>
-
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -41,4 +40,6 @@ Das ist ein altes Rezept aus meiner Kindheit.
 - Die Zwiebel und die Knoblauchzehe kleinhacken, mit der Ananas, den Champignons und den Sojabohnenkeimlingen dazugeben.
 - Mit Ananassaft, Essig, Ketchup und Zucker abschmecken.
 - Alles etwa 15 Minuten schmoren.
-</div>
+-
+{% endRecipe %}
+

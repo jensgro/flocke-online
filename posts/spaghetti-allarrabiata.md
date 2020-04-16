@@ -6,20 +6,21 @@ introText: 'Mit der Zeit hat sich mein Geschmack bei diesem Rezept gewandelt: Ic
 tags:
   - nudeln
 ---
-<aside class="recipe__ingredients">
+
+{% Ingredients %}
 
 ## Zutaten
 
-- 75 – 100g magerer Speck (in manchen Gegenden heißt das Dörrfleisch)
+- 75 – 100g Dörrfleisch (in meiner Heimatstadt Kassel heisst das magerer Speck)
 - 2 – 3 rote Chilis
 - 1 große Zwiebel
 - 1 Knoblauchzehe
 - 1 kleine Dose Tomaten
 - Tomatenmark
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -36,5 +37,4 @@ tags:
 - Das Tomatenmark läßt die Sauce schneller eindicken.
 - Die Dose Tomaten sollte vorher entweder im Mixer püriert oder mit einem Kartoffelstampfer zerdrückt werden. Fertig pürierte Tomaten aus dem Tetra-Pak schmecken mir nicht. Zudem sind sie nicht fruchtig genug.
 
-</div>
-
+{% endRecipe %}

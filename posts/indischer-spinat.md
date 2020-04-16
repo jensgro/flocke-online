@@ -2,18 +2,14 @@
 title: Indischer Spinat
 date: '2006-11-04'
 permalink: rezepte/indischer-spinat.html
+introText: "Dieses Rezept habe ich einem Gericht nachempfunden, welches ich mehrmals bei einem Lieferservice für die Mittagspause bestellt hatte (so einer mit indisch/deutsch/italienisch/mexikanisch/chinesischer Karte). Der Gag an dem Rezept ist der Bockshornklee. Er findet sich auch in vielen Currypulver-Mischungen wieder."
 tags:
   - indisch
   - gemüse
   - vegetarisch
 ---
-<div class="recipe__intro">
 
-Dieses Rezept habe ich einem Gericht nachempfunden, welches ich mehrmals bei einem Lieferservice für die Mittagspause bestellt hatte (so einer mit indisch/deutsch/italienisch/mexikanisch/chinesischer Karte). Der Gag an dem Rezept ist der Bockshornklee. Er findet sich auch in vielen Currypulver-Mischungen wieder.
-</div>
-
-<aside class="recipe__ingredients">
-
+{% Ingredients %}
 
 ## Zutaten
 
@@ -26,9 +22,9 @@ Dieses Rezept habe ich einem Gericht nachempfunden, welches ich mehrmals bei ein
 - 1-2 TL Garam Masala
 - Salz, Pfeffer
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -42,4 +38,4 @@ Dieses Rezept habe ich einem Gericht nachempfunden, welches ich mehrmals bei ein
 
 Dazu paßt eigentlich nur Reis.
 
-</div>
+{% endRecipe %}

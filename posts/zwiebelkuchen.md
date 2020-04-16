@@ -8,7 +8,7 @@ tags:
   - pizza
 ---
 
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -30,9 +30,9 @@ tags:
 - Paprika
 - wenig Kümmel
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -43,5 +43,4 @@ tags:
 - Eier, Saure Sahne und Gewürze verrühren und über den belegten Teig schütten.
 - Bei 200 Grad etwa eine Stunde backen.
 
-</div>
-
+{% endRecipe %}

@@ -8,7 +8,7 @@ tags:
   - dessert
 ---
 
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -23,10 +23,9 @@ tags:
 - 1 kg entkernte Sauerkirschen (auch aus dem Glas)
 - 100 g feingehackte Mandeln
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
-
+{% Recipe %}
 
 ## Zubereitung
 
@@ -36,6 +35,4 @@ Die restliche Butter mit Zucker, Eigelb, etwas Zimt und der geriebenen Zitronens
 
 In eine gefettete, mit Mandeln ausgestreute Auflaufform füllen und bei 180 Grad im Backofen etwa 50 Minuten backen.
 
-</div>
-
-
+{% endRecipe %}

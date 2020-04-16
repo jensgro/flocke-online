@@ -2,18 +2,14 @@
 title: Schweinisches Putenschnitzel
 date: '2006-11-04'
 permalink: rezepte/schweinisches-putenschnitzel.html
+introText: "Meine Oma hat mich damit als Kind immer begeistert. Heute koche ich anders, aber als Kind und später als Student – als ich besser kochen lernte – war das ein gern gegessenes Gericht. Und es geht schnell."
 tags:
   - fleisch
   - hackfleisch
   - pute
 ---
-<div class="recipe__intro">
 
-Meine Oma hat mich damit als Kind immer begeistert. Heute koche ich anders, aber als Kind und später als Student – als ich besser kochen lernte – war das ein gern gegessenes Gericht. Und es geht schnell.
-
-</div>
-
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -23,9 +19,9 @@ Meine Oma hat mich damit als Kind immer begeistert. Heute koche ich anders, aber
 - Senf
 - 1 Becher Sahne
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -40,4 +36,4 @@ Meine Oma hat mich damit als Kind immer begeistert. Heute koche ich anders, aber
 - Statt Putenschnitzel kann auch Hühnerbrust benutzt werden.
 - Unter den Käse können auch Mandarinenscheiben oder Ananasstücke gelegt werden.
 
-</div>
+{% endRecipe %}

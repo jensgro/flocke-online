@@ -2,6 +2,7 @@
 title: Spanischer Zitronen-Kartoffelsalat
 date: '2014-08-15'
 permalink: rezepte/zitronenkartoffelsalat.html
+introText: "Seit Jahren bringe ich jedes Jahr einen bestimmten Kartoffelsalat zu einer Party mit: einen spanischen Kartoffelsalat mit einer Menge Zitronen und Knoblauch. Genau das richtige Essen für einen Freitag oder Samstag, wenn man am nächsten Tag nicht arbeiten muss."
 tags:
   - spanien
   - kartoffeln
@@ -9,13 +10,8 @@ tags:
   - beilage
   - party
 ---
-<div class="recipe__intro">
 
-Seit Jahren bringe ich jedes Jahr einen bestimmten Kartoffelsalat zu einer Party mit: einen spanischen Kartoffelsalat mit einer Menge Zitronen und Knoblauch. Genau das richtige Essen für einen Freitag oder Samstag, wenn man am nächsten Tag nicht arbeiten muss.
-
-</div>
-
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -29,9 +25,9 @@ Seit Jahren bringe ich jedes Jahr einen bestimmten Kartoffelsalat zu einer Party
 - Pfeffer
 - Oregano
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -42,4 +38,4 @@ Für die Marinade Essig, Öl. Zitronenstreifen und 4 Eßl. Zitronensaft verrühr
 Die Kartoffeln abgießen, längs halbieren (es sollen mundgerechte Happchen sein), auf einer tieferen Platte die noch heißen Kartoffen mit der Marinade übergießen und vollständig abkühlen lassen. (ist auch schon am Vortag möglich).
 Evtl. etwas nachwürzen mit Salz und Pfeffer und mit frischem Oregano oder Thymian bestreuen. In einer Schüssel dekorativ anrichten mit den Zitronenscheiben.
 
-</div>
+{% endRecipe %}

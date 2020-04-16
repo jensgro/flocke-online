@@ -7,7 +7,9 @@ tags:
   - beilage
   - vegetarisch
 ---
-<aside class="recipe__ingredients">
+
+
+{% Ingredients %}
 
 ## Zutaten
 
@@ -18,9 +20,9 @@ tags:
 - Bier oder Wein
 - Salz, Pfeffer, edelsüßer Paprika
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -35,5 +37,4 @@ tags:
 - Es wird zwar auch Brot dazu gegessen, ich persönlich finde diese Variante aber nicht besonders gut.
 - Ob man die Käsemasse mit Wein oder Bier glattrührt, sollte man davon abhängig machen, was man dazu trinkt. Wein gibt einen feineren Geschmack.
 
-</div>
-
+{% endRecipe %}

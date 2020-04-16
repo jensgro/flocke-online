@@ -8,7 +8,7 @@ tags:
   - huhn
 ---
 
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -19,10 +19,10 @@ tags:
 - 2 Zitronen
 - 2 Zweige Thymian
 - 1 EL Wacholderbeeren
--
-</aside>
 
-<div class="recipe__content">
+{% endIngredients %}
+
+{% Recipe %}
 
 ## Zubereitung
 
@@ -38,6 +38,4 @@ Es versteht sich von selbst, daß die Mengenangaben für Wermut und Trauben nach
 
 Dazu paßt am besten Baguette.
 
-
-</div>
-
+{% endRecipe %}

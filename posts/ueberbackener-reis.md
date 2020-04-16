@@ -7,7 +7,7 @@ tags:
   - reis
 ---
 
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -19,9 +19,9 @@ tags:
 - 2 EL Parmesan
 - etwas Schnittlauch
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -39,5 +39,4 @@ tags:
 - Eine schöne Variante ist die Beigabe einer kleingehackten, gebratenen Zwiebel und etwas ausgelassenem Speck. Dafür kann man dann etwas Schinken weglassen.
 - Die Auswahl des Käse ist eine interessante Variation, genau wie die leichte Variation der Menge. Es ist wie immer beim Kochen: der Geschmack bestimmt die Menge. Sehr passend zum Gericht ist ein junger Gouda, aber auch Gruyère und Raclette-Käse bieten sich an.
 
-</div>
-
+{% endRecipe %}

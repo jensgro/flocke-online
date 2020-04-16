@@ -2,6 +2,7 @@
 title: Tabouleh
 date: '2017-01-02'
 permalink: rezepte/tabouleh.html
+introText: "Kennengelernt habe ich Tabouleh als vom Couscous dominiertes Gericht mit Paprika und Tomaten. Diese Version ist mir allerdings viel lieber. Man könnte es auch Petersiliensalat nennen."
 tags:
   - afrika
   - nord-afrika
@@ -9,7 +10,7 @@ tags:
   - salat
 ---
 
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -21,9 +22,9 @@ tags:
 - 50 ml Olivenöl
 - Salz und Pfeffer
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -36,4 +37,4 @@ Alles miteinander vermengen und mindestens eine Stunde ziehen lassen.
 - Die Petersilie kaufe ich immer bei einem türkischen Supermarkt. Die bieten sehr große Petersilie an, weshalb ich immer nur zwei Bünde (eher Büsche) kaufe.
 - Optional können zwei Frühlingszwiebeln hinzugegeben werden.
 
-</div>
+{% endRecipe %}

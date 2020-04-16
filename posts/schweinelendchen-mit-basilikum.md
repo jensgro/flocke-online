@@ -2,18 +2,13 @@
 title: Schweinelendchen mit Basilikum
 date: '2006-11-04'
 permalink: rezepte/schweinelendchen-basilikum.html
+introText: "Dieses Gericht ist schnell gemacht und doch etwas Besonderes."
 tags:
   - fleisch
   - schwein
 ---
 
-<div class="recipe__intro">
-
-Dieses Gericht ist schnell gemacht und doch etwas Besonderes.
-
-</div>
-
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -24,14 +19,29 @@ Dieses Gericht ist schnell gemacht und doch etwas Besonderes.
 - 125 ml Brühe
 - Basilikum
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
 - Schweinelendchen in Stücke schneiden, einschneiden und mit Frischkäse und Basilikum füllen, dann anbraten.
 - Zwiebeln würfeln und anbraten, mit Wein und Brühe abgießen.
+
+{% endRecipe %}
+
+<div class="recipe__intro">
+
+
+
+</div>
+
+<aside class="recipe__ingredients">
+
+
+</aside>
+
+<div class="recipe__content">
 
 </div>
 

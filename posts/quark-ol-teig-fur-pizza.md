@@ -7,7 +7,7 @@ tags:
   - pizza
 ---
 
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -18,9 +18,9 @@ tags:
 - 4 EL Öl
 - 350 g Mehl
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -28,5 +28,4 @@ tags:
 - Sofort auf ein eingefettetes Blech legen und als Pizza belegen.
 - Bei 200 Grad etwa 30 Minuten backen.
 
-</div>
-
+{% endRecipe %}

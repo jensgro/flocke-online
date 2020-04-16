@@ -3,19 +3,14 @@ title: Auberginenmus
 date: '2013-03-03'
 permalink: rezepte/auberginenmus.html
 introImage: 'auberginenmus'
+introText: "Durch diese Art der Zubereitung wird aus einer Aubergine eine tolle Beilage zu einem indischen Menü. So kann sich die Aubergine nicht mit Fett vollsaugen. Auf diese Art schmeckt sie sehr aromatisch. Eine gute Möglichkeit, dieses Gemüse neu kennenzulernen."
 tags:
   - beilagen
   - gemüse
   - vegetarisch
 ---
 
-<div class="recipe__intro">
-
-Durch diese Art der Zubereitung wird aus einer Aubergine eine tolle Beilage zu einem indischen Menü. So kann sich die Aubergine nicht mit Fett vollsaugen. Auf diese Art schmeckt sie sehr aromatisch. Eine gute Möglichkeit, dieses Gemüse neu kennenzulernen.
-
-</div>
-
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten für 4 Personen
 
@@ -27,10 +22,9 @@ Durch diese Art der Zubereitung wird aus einer Aubergine eine tolle Beilage zu e
 - 1,5 TL Salz
 - optional: 1 Pepperoni
 
+{% endIngredients %}
 
-</aside>
-
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -38,4 +32,4 @@ Die Auberginen eine Stunde bei grosser Hitze im Backofen garen. Bevor sie in den
 
 Zwiebeln kleinschneiden und in einem Topf mit Öl glasig dünsten. Ingwer kleinhacken und zu der Zwiebel geben. Gewürfelte Tomaten und Auberginbenfruchtfleisch zugeben. Wenn gewünscht jetzt eine kleingeschnittenen Pepperoni hinzugeben. Alles zusammen auf kleiner Flamme ca. 30 Minuten köcheln lassen. Salzen und mit Garam Masala abschmecken.
 
-</div>
+{% endRecipe %}

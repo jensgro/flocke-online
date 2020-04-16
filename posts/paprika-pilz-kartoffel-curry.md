@@ -2,6 +2,7 @@
 title: Paprika-Pilz-Kartoffel-Curry
 date: '2006-11-04'
 permalink: rezepte/paprika-pilz-kartoffel-curry.html
+introText: "Dieses Rezept habe ich aus einem Kochkurs über indische Küche."
 tags:
   - asien
   - indisch
@@ -10,13 +11,7 @@ tags:
   - gemüse
 ---
 
-<div class="recipe__intro">
-
-Dieses Rezept habe ich aus einem Kochkurs über indische Küche.
-
-</div>
-
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -35,9 +30,9 @@ Dieses Rezept habe ich aus einem Kochkurs über indische Küche.
 - 10 Champignons
 - Korianderblätter
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -54,6 +49,4 @@ Dieses Rezept habe ich aus einem Kochkurs über indische Küche.
 - Nicht zu ungeduldig sein. Im ersten Moment erscheint die Masse recht trocken, aber nach kurzer Zeit zieht das Gemüse Wasser.
 - Nachwürzen ist natürlich auch bei diesem Gericht erlaubt.
 
-</div>
-
-
+{% endRecipe %}

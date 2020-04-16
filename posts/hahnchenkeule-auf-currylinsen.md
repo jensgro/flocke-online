@@ -7,7 +7,7 @@ tags:
   - huhn
 ---
 
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -18,9 +18,9 @@ tags:
 - viel Curry, 1 Prise Zucker
 - 4 Hähnchenschenkel
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -37,5 +37,4 @@ tags:
 - Die Currylinsen dürfen nicht trocken werden. Um die Masse feuchter zu machen – ist für das längere Dünsten hilfreich – kann man Apfelsaft zugeben.
 - Für dieses Rezept sollte man mindestens 4 EL Curry untermischen, eher mehr. das Gericht soll stark nach Curry schmecken.
 
-</div>
-
+{% endRecipe %}

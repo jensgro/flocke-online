@@ -7,7 +7,8 @@ tags:
   - gemüse
   - asien
 ---
-<aside class="recipe__ingredients">
+
+{% Ingredients %}
 
 ## Zutaten
 
@@ -26,9 +27,9 @@ tags:
 - 2 EL Hühnerbrühe
 - Salz, Pfeffer
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -44,7 +45,4 @@ tags:
 
 Ich habe als Beilage sowohl Nudeln, als auch Reis getestet. Beides paßt nicht. Dies ist also ein beilagenfreies Gericht.
 
-</div>
-
-
-
+{% endRecipe %}

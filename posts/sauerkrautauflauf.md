@@ -2,18 +2,14 @@
 title: Sauerkrautauflauf
 date: '2006-11-04'
 permalink: rezepte/sauerkrautauflauf.html
+introText: "Der Sauerkrautauflauf ist ein Gericht aus meiner Kindheit. Meine Mutter hat mich damit immer wieder erfreut. Und obwohl ich ihr Rezept genau befolge, schmeckt der Sauerkrautauflauf bei ihr noch ein entscheidendes Stück besser."
 tags:
   - auflauf
   - hackfleisch
   - schwein
 ---
-<div class="recipe__intro">
 
-Der Sauerkrautauflauf ist ein Gericht aus meiner Kindheit. Meine Mutter hat mich damit immer wieder erfreut. Und obwohl ich ihr Rezept genau befolge, schmeckt der Sauerkrautauflauf bei ihr noch ein entscheidendes Stück besser.
-
-</div>
-
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -30,9 +26,9 @@ Der Sauerkrautauflauf ist ein Gericht aus meiner Kindheit. Meine Mutter hat mich
 - Salz, Öl, Pfeffer
 - Margarine oder Butter
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -46,4 +42,4 @@ Der Sauerkrautauflauf ist ein Gericht aus meiner Kindheit. Meine Mutter hat mich
 - Mit Pürree bedecken.
 - Mit Semmelbrösel und Margarineflöckchen (oder Butterflöckchen) bestreut 40 Minuten im Ofen bei 175 Grad backen.
 
-</div>
+{% endRecipe %}

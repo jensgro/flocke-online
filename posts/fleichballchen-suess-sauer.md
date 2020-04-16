@@ -8,7 +8,7 @@ tags:
   - hackfleisch
 ---
 
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -19,9 +19,9 @@ tags:
 - Ananaswürfel
 - Speisestärke oder Mehl, um die Fleischbällchen darin zu wenden
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -31,4 +31,4 @@ tags:
 - 1 TL Soja-Sauce mit 2 EL Essig, 1 EL Zucker und 1 TL Speisestärke oder Mehl verrühren. Damit die Ananaswürfel binden. Die Gehacktesbällchen dazugeben.
 - Als Beilage empfiehlt sich Reis.
 
-</div>
+{% endRecipe %}

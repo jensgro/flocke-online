@@ -7,7 +7,8 @@ introImage: 'eierlikoer'
 tags:
   - getraenk
 ---
-<aside class="recipe__ingredients">
+
+{% Ingredients %}
 
   ## Zutaten
 
@@ -19,9 +20,9 @@ tags:
   - 50ml Weingeist (90%)
   - 75ml Weinbrand
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -40,4 +41,5 @@ tags:
 Es ist schnell gemacht und schmeckt tausendmal besser, als die Industriepampe, die man sonst so bekommt. Auch die Eierliköre von Eierbauern haben mich bislang nicht überzeugen können.
 
 Da bei diesem Rezept ganz viel Eiweiß übrigbleibt, kann man mit diesem ein paar Kokosmakronen herstellen.
-</div>
+
+{% endRecipe %}

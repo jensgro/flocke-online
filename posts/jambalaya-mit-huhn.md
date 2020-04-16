@@ -8,9 +8,7 @@ tags:
   - reis
 ---
 
-
-<aside class="recipe__ingredients">
-
+{% Ingredients %}
 
 ## Zutaten
 
@@ -28,9 +26,9 @@ tags:
 - Thymian, Salbeiblätter
 - Salz, Pfeffer
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -46,4 +44,4 @@ Alles miteinander verrühren, den Deckel auf den Bräter und bei 180 Grad im Her
 
 Thymian und Salbei reichen vollkommen in ihrer getrockneten Variante. Sie geben auch dann viel Aroma ab. Ansonsten: etwa 6 Zweige Thymian und 4 Salbeiblätter. Die getrockneten Kräuter ruhig freigiebig verwenden, das Gericht soll würzig werden. Die Menge Fleisch kann auch geringer werden. Das Fleisch muß nicht die Hauptrolle spielen. Anstatt Huhn kann auch Putenbrust genommen werden. Das Fleisch ist etwas fester und häufiger im Sonderangebot anzutreffen.
 
-</div>
+{% endRecipe %}

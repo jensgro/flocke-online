@@ -5,7 +5,8 @@ permalink: rezepte/lachs-mit-kapern-sahnesauce.html
 tags:
   - fisch
 ---
-<aside class="recipe__ingredients">
+
+{% Ingredients %}
 
 ## Zutaten
 
@@ -15,9 +16,9 @@ tags:
 - 2-3 TL Senf
 - Salz, Pfeffer
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -30,5 +31,5 @@ Die Soße gewinnt an Körper und Geschmack, wenn man ein wenig Worcester-Sauce u
 
 Dazu passt wunderbar ein frisches Ciabatta.
 
-</div>
+{% endRecipe %}
 

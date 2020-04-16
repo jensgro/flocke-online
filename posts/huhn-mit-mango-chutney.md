@@ -2,20 +2,15 @@
 title: Huhn mit Mango-Chutney
 date: '2006-11-04'
 permalink: rezepte/huhn-mit-mango-chutney.html
+introText: "Dies ist ein Rezept, bei dem man es mit den Mengen nicht so ganz genau nehmen sollte, schließlich ist eine schöne Soße nur in ausreichender Menge zu würdigen."
 tags:
   - indisch
   - curry
   - huhn
   - asien
 ---
-<div class="recipe__intro">
 
-Dies ist ein Rezept, bei dem man es mit den Mengen nicht so ganz genau nehmen sollte, schließlich ist eine schöne Soße nur in ausreichender Menge zu würdigen.
-
-</div>
-
-<aside class="recipe__ingredients">
-
+{% Ingredients %}
 
 ## Zutaten
 
@@ -25,10 +20,10 @@ Dies ist ein Rezept, bei dem man es mit den Mengen nicht so ganz genau nehmen so
 - Mango-Chutney
 - Currypulver
 - Kreuzkümmel
--
-</aside>
 
-<div class="recipe__content">
+{% endIngredients %}
+
+{% Recipe %}
 
 ## Zubereitung
 
@@ -43,5 +38,5 @@ Dies ist ein Rezept, bei dem man es mit den Mengen nicht so ganz genau nehmen so
 - Man kann das Gericht durch die Zugabe von ein wenig Essig (höchstens 2 EL) ein bischen säuerlicher machen. Dafür reicht der billige Weinesssig, den man sonst im wesentlichen zum Entkalken nehmen kann.
 - An Stelle eines gekauften Chutneys kann man sich natürlich auch eines selber machen.
 
-</div>
+{% endRecipe %}
 

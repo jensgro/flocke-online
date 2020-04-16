@@ -2,20 +2,15 @@
 title: Kartoffelsalat à la Kurt
 date: '2007-03-26'
 permalink: rezepte/kartoffelsalat-kurt.html
+introText: "Dieser geniale Salat stammt von Kurt Bohn und wurde am 10.01.1993 in die Newsgroup „zer.t-netz.essen“ gepostet. Da ich weder einen Zugang zu dieser Gruppe habe noch den Eindruck habe, daß die E-Mail-Adresse von Kurt gleich geblieben ist, danke ich in die Anonymität hinein. Das Rezept habe ich in der [Rezeptsammlung der Uni Kaiserslautern](http://kochbuch.unix-ag.uni-kl.de/) gefunden."
 tags:
   - salat
   - kartoffeln
   - beilage
   - vegetarisch
 ---
-<div class="recipe__intro">
 
-Dieser geniale Salat stammt von Kurt Bohn und wurde am 10.01.1993 in die Newsgroup „zer.t-netz.essen“ gepostet. Da ich weder einen Zugang zu dieser Gruppe habe noch den Eindruck habe, daß die E-Mail-Adresse von Kurt gleich geblieben ist, danke ich in die Anonymität hinein. Das Rezept habe ich in der [Rezeptsammlung der Uni Kaiserslautern](http://kochbuch.unix-ag.uni-kl.de/) gefunden.
-
-</div>
-
-<aside class="recipe__ingredients">
-
+{% Ingredients %}
 
 ## Zutaten
 
@@ -26,10 +21,10 @@ Dieser geniale Salat stammt von Kurt Bohn und wurde am 10.01.1993 in die Newsgro
 - 3 mittelgroße Gewürzgurken
 - 200 g mageren Speck (Dörrfleisch)
 - 1 Tasse Brühe
--
-</aside>
 
-<div class="recipe__content">
+{% endIngredients %}
+
+{% Recipe %}
 
 ## Zubereitung
 
@@ -38,6 +33,4 @@ Dieser geniale Salat stammt von Kurt Bohn und wurde am 10.01.1993 in die Newsgro
 - Am Tag des Verzehrs die Gurken in kleine Würfel schneiden, den Speck würfeln und kross anbraten. Beides mit der heißen Brühe über die Kartoffeln geben und ziehen lassen.
 - Zum Würzen nur Pfeffer, Salz und Essig nehmen, keine Brühe mehr nachfüllen.
 
-</div>
-
-
+{% endRecipe %}

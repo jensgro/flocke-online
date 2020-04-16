@@ -7,7 +7,7 @@ tags:
   - schwein
 ---
 
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -22,9 +22,9 @@ tags:
 - 2 EL Sojasauce
 - 5 TL Palmzucker
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -40,4 +40,4 @@ tags:
 
 Dieses Gericht habe ich bei meinen ersten Gehversuchen in der indischen und indonesischen Küche gekocht.
 
-</div>
+{% endRecipe %}

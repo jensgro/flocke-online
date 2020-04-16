@@ -2,14 +2,13 @@
 title: Griesbrei
 date: '2007-01-03'
 permalink: rezepte/griesbrei.html
+introText: "Das ist für mich der schnelle Ersatz für Milchreis. Man muß keine halbe Stunde rühren, damit nichts anbrennt."
 tags:
   - dessert
 ---
-<div class="recipe__intro">
 
-Das ist für mich der schnelle Ersatz für Milchreis. Man muß keine halbe Stunde rühren, damit nichts anbrennt.
-</div>
-<aside class="recipe__ingredients">
+
+{% Ingredients %}
 
 ## Zutaten
 
@@ -19,10 +18,10 @@ Das ist für mich der schnelle Ersatz für Milchreis. Man muß keine halbe Stund
 - 1-2 EL Zucker
 - 1 Eigelb
 - Salz, Butter
+-
+{% endIngredients %}
 
-</aside>
-
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -38,4 +37,5 @@ Das ist für mich der schnelle Ersatz für Milchreis. Man muß keine halbe Stund
 - Mit Zimt und Zucker servieren.
 - Auch Kirschen aus dem Glas, Mandarinen oder Himbeeren aus der Dose passen dazu.
 
-</div>
+{% endRecipe %}
+

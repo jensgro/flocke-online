@@ -7,7 +7,7 @@ tags:
   - getraenk
 ---
 
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -18,9 +18,9 @@ tags:
 - Eiswürfel
 - Mineralwasser zum Auffüllen
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -29,5 +29,4 @@ tags:
 - 10 bis 15 Sekunden shaken, damit die Eiswürfel genügend Kälte abgeben.
 - Zwei Gläseer jeweils halbvoll der Mixtur geben und den Rest mit Mineralwasser auffüllen
 
-</div>
-
+{% endRecipe %}

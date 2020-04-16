@@ -6,7 +6,9 @@ introText: 'Die Käseöhrchen lassen sich für eine Party gut am Tag zuvor vorbe
 tags:
   - beilage
 ---
-<aside class="recipe__ingredients">
+
+
+{% Ingredients %}
 
 ## Zutaten
 
@@ -18,10 +20,9 @@ tags:
 - 1 Bund Petersilie
 - Muskat, Cayennepfeffer, Pfeffer
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
-
+{% Recipe %}
 ## Zubereitung
 
 - Platten auf 38×25 cm Rechteck auswellen
@@ -35,5 +36,5 @@ tags:
 
 Theoretisch lassen sich die Käseöhrchen ein paar Tage in einer Keksdose aufbewahren. Man kann also nicht nur die Partygäste, sondern vielleicht auch die Kollegen damit begeistern.
 
+{% endRecipe %}
 
-</div>

@@ -2,16 +2,12 @@
 title: Schweinelendchen in Dillsoße
 date: '2006-11-04'
 permalink: rezepte/schweinelendchen-dillsosse.html
+introText: "Wer wie ich das Zusammenspiel aus Dill und Gurke liebt, wird dieses Gericht schnell vergöttern."
 tags:
   - fleisch
 ---
-<div class="recipe__intro">
 
-Wer wie ich das Zusammenspiel aus Dill und Gurke liebt, wird dieses Gericht schnell vergöttern.
-
-</div>
-
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -21,9 +17,9 @@ Wer wie ich das Zusammenspiel aus Dill und Gurke liebt, wird dieses Gericht schn
 - 1/2 Salatgurke
 - 1 Zwiebel
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -36,5 +32,4 @@ Wer wie ich das Zusammenspiel aus Dill und Gurke liebt, wird dieses Gericht schn
 
 Am besten schmeckt Baguette dazu. Mir hat besonders gut ein Baguette mit Roggenanteil dazu geschmeckt.
 
-</div>
-
+{% endRecipe %}

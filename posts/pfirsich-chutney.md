@@ -8,7 +8,7 @@ tags:
   - beilage
 ---
 
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -22,9 +22,9 @@ tags:
 - 2 TL Kurkuma
 - 4 EL Vollrohrzucker
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -37,6 +37,4 @@ Aufbewahrung und Genuss
 
 Das Chutney kann man wie Marmelade in saubere, heiss ausgespülte Gläser abfüllen oder einfrieren. Bei Raumtemperatur als Beilage geniessen. Wir essen es eigentlich immer zu einem leckeren Dal.
 
-</div>
-
-
+{% endRecipe %}

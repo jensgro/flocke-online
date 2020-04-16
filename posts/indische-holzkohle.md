@@ -2,20 +2,13 @@
 title: Indische Holzkohle
 date: '2006-11-04'
 permalink: rezepte/indische-holzkohle.html
-introText: 'Der Rezepttitel ist ein wenig seltsam, ist aber dem Entdeckungszusammenhang geschuldet: Jürgen v.d. Lippe hatte dieses Gericht in der Anfangszeit von Bioleks Alfredissimo gekocht. Als es ihm fast anbrannte, nannte er es "indische Holzkohle".'
+introText: 'Der Rezepttitel ist ein wenig seltsam, ist aber dem Entdeckungszusammenhang geschuldet: Jürgen v.d. Lippe hatte dieses Gericht in der Anfangszeit von Bioleks Alfredissimo gekocht. Als es ihm fast anbrannte, nannte er es "indische Holzkohle". Für mich und meine Frau bedeutete es die Entdeckung des Kreuizkümmels und der Weg in die indische und indonesische Küche.'
 tags:
   - curry
   - indisch
 ---
-<div class="recipe__intro">
 
-Auch wenn das Rezept für sich genommen ein wenig seltsam ist, es schmeckt! Für mich und meine Frau bedeutete es die Entdeckung des Kreuizkümmels und der Weg in die indische und indonesische Küche.
-
-Danke, Jürgen v.d. Lippe und Alfred Biolek !!!
-
-</div>
-
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -34,9 +27,9 @@ Danke, Jürgen v.d. Lippe und Alfred Biolek !!!
 - Salz
 - Butterschmalz zum Braten
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -47,5 +40,4 @@ Danke, Jürgen v.d. Lippe und Alfred Biolek !!!
 - Die Eier mit dem Ketchup vermischen und unterheben.
 - Den geriebenen Käse und die gehackte Petersilie zugeben, noch etwa 3 Minuten garen, bis der Käse geschmolzen ist. Mit Salz abschmecken.
 
-</div>
-
+{% endRecipe %}

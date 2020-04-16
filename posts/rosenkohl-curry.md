@@ -2,19 +2,15 @@
 title: Rosenkohl-Curry
 date: '2006-11-04'
 permalink: rezepte/rosenkohl-curry.html
+introText: "Hier ist der Rosenkohl mal nicht nur Beilage. Eine etwas ungewöhnliche Zubereitungsart, aber sehr schmackhaft."
 tags:
   - asien
   - curry
   - gemüse
   - vegetarisch
 ---
-<div class="recipe__intro">
 
-Hier ist der Rosenkohl mal nicht nur Beilage. Eine etwas ungewöhnliche Zubereitungsart, aber sehr schmackhaft.
-
-</div>
-
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -28,9 +24,9 @@ Hier ist der Rosenkohl mal nicht nur Beilage. Eine etwas ungewöhnliche Zubereit
 - 1/2 TL Kurkuma
 - 1/4 TL Cayennepfeffer
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -47,5 +43,4 @@ Hier ist der Rosenkohl mal nicht nur Beilage. Eine etwas ungewöhnliche Zubereit
 
 Die Saure Sahne kann durch Schmand oder Joghurt ersetzt werden. Wenn keins von alledem dabei ist, ist es auch nicht schlimm.
 
-
-</div>
+{% endRecipe %}

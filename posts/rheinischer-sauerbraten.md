@@ -2,17 +2,14 @@
 title: Rheinischer Sauerbraten
 date: '2007-03-26'
 permalink: rezepte/rheinischer-sauerbraten.html
+introText: "Das Rezept stammt von meiner Schwiegermutter, einer Aachenerin. Es ist in seiner Urform allerdings ein wenig undeutlicher und unkrokreter, als diese Variante. Das ist halt so, wenn man Rezepte im Wesentlichen aus dem Gefühl heraus kochen kann. Leider erschwert das die Weitergabe."
 tags:
   - fleisch
   - rind
 ---
-<div class="recipe__intro">
 
-Das Rezept stammt von meiner Schwiegermutter, einer Aachenerin. Es ist in seiner Urform allerdings ein wenig undeutlicher und unkrokreter, als diese Variante. Das ist halt so, wenn man Rezepte im wesentlichen aus dem Gefühl heraus kochen kann. Leider erschwert das die Weitergabe.
 
-</div>
-
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -34,9 +31,9 @@ Das Rezept stammt von meiner Schwiegermutter, einer Aachenerin. Es ist in seiner
 - 1 – 2 Printen
 - 2 EL Zucker
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -54,4 +51,4 @@ Das Rezept stammt von meiner Schwiegermutter, einer Aachenerin. Es ist in seiner
 
 Die Rosinen sind kein Muß, wohl aber die Printen (natürlich ohne Schokolade!).
 
-</div>
+{% endRecipe %}

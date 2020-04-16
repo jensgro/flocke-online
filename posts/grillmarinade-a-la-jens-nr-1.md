@@ -7,7 +7,8 @@ tags:
   - beilage
   - grillen
 ---
-<aside class="recipe__ingredients">
+
+{% Ingredients %}
 
 ## Zutaten
 
@@ -22,9 +23,9 @@ tags:
 - 6 EL Ketchup
     Tabasco, Salz
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -40,4 +41,4 @@ Ich habe diese Marinade nie mit frischen Kräutern getestet, kann aber vermelden
 
 Paßt gut zu Bauchfleisch.
 
-</div>
+{% endRecipe %}

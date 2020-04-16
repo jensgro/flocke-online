@@ -2,19 +2,13 @@
 title: Szegediner Gulasch
 date: '2006-11-04'
 permalink: rezepte/szegediner-gulasch.html
+introText: "Ich habe lange Zeit bei Gulasch nur noch an diese Variante gedacht. Normales Gulasch reizte mich gar nicht mehr so sehr."
 tags:
   - fleisch
   - rind
 ---
-<div class="recipe__intro">
 
-Ich habe lange Zeit bei Gulasch nur noch an diese Variante gedacht. Normales Gulasch reizte mich gar nicht mehr so sehr.
-
-Ich reduziere zunehmend die Fleischportion und erhöhe dafür den Sauerkrautanteil. Nochmal aufgewärmt schmeckt das Gulasch übrigens noch viel besser. Das Sauerkraut ist dann weicher und hat sich voll Geschmack gesogen.
-
-</div>
-
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -28,9 +22,9 @@ Ich reduziere zunehmend die Fleischportion und erhöhe dafür den Sauerkrautante
 - Fleischbrühe, Tomatenmark, Paprikapulver (scharfes und süßes), Thymian, Cayennepfeffer
 - eventuell Schmand zum Anrichten
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -47,8 +41,9 @@ Ich reduziere zunehmend die Fleischportion und erhöhe dafür den Sauerkrautante
 
 - Die Anbratorgie kann durchaus in einer Pfanne stattfinden. Das Gericht wird allerdings im Kochtopf zu Ende gekocht.
 - Das Tomatenmark macht das Gericht schön fruchtig. Eine Dose Tomaten würde hingegen zu sehr vorschmecken.
-- Die Mengen Zwiebeln und Sauerkraut sind durchaus variabel. Beide können in diesem Gericht ohne Probleme erhöht werden. Das obige Rezept verträgt durchaus größere Mengen Zwiebeln und Sauerkraut. Das drängt das Fleisch ein wenig mehr in den Hintergrund.
+- Die Mengen Zwiebeln und Sauerkraut sind durchaus variabel. Beide können in diesem Gericht ohne Probleme erhöht werden. Das obige Rezept verträgt durchaus größere Mengen Zwiebeln und Sauerkraut. Das drängt das Fleisch ein wenig mehr in den Hintergrund. Ich reduziere zunehmend die Fleischportion und erhöhe dafür den Sauerkrautanteil.
 - Das Fleisch entweder während des Anbratens oder vorher mit Salz und Pfeffer würzen. Das Fleisch nur kurz von allen Seiten abraten. Es wird zu Ende geschmort.
+- Nochmal aufgewärmt schmeckt das Gulasch übrigens noch viel besser. Das Sauerkraut ist dann weicher und hat sich voll Geschmack gesogen.
 
-</div>
+{% endRecipe %}
 

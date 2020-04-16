@@ -2,16 +2,12 @@
 title: Kirschschmarren
 date: '2006-11-04'
 permalink: rezepte/kirschschmarren.html
+introText: 'Durch die Kirschen ist diese Variante in meinen Augen viel schmackhafter und "leichter" als der ursprüngliche Kaiserschmarrn.'
 tags:
   - dessert
 ---
-<div class="recipe__intro">
 
-Durch die Kirschen ist diese Variante in meinen Augen viel schmackhafter und „leichter“ als der ursprüngliche Kaiserschmarrn.
-
-</div>
-
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -23,9 +19,9 @@ Durch die Kirschen ist diese Variante in meinen Augen viel schmackhafter und „
 - 1/4 TL Salz
 - Puderzucker
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -41,7 +37,5 @@ Durch die Kirschen ist diese Variante in meinen Augen viel schmackhafter und „
 - Statt 250 g Mehl 100 g Haferflocken und 200 g Mehl nehmen. Das ergibt einen kräftigeren Geschmack.
 - Statt Puderzucker nehme ich mittlerweile nur noch „Zucker und Zimt“. Das bringt zusätzlich noch einen guten Geschmack. Zudem: Man streut ziemlich lange Puderzucker, bis der Eierkuchen richtig süß ist.
 
-</div>
-
-
+{% endRecipe %}
 

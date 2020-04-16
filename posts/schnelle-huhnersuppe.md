@@ -8,7 +8,8 @@ tags:
   - huhn
   - fleisch
 ---
-<aside class="recipe__ingredients">
+
+{% Ingredients %}
 
 ## Zutaten
 
@@ -22,10 +23,9 @@ tags:
 - optional 1 kleine Zimtstange
 - Salz, Pfeffer
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
-
+{% Recipe %}
 ## Zubereitung
 
 Die Zwiebel schälen und halbieren oder vierteln, dann anbraten. Nach ein bis zwei Minuten – die Zwiebeln nicht braun werden lassen – das tiefgekühlte Gemüse und die Hähnchenschenkel drauf geben, pfeffern und reichlich salzen. Dann alles mit kochend heissem Wasser übergiessen, bis alles mit Wasser bedeckt ist und die Gewürze hinzugeben.
@@ -38,4 +38,5 @@ Ich benutze für mein Rezept bewußt Suppengemüse aus der Tiefkühlruhe. Ersten
 
 Die verwendeten Hähnchenschenkel sind weitaus leckerer, als das normale Suppenhuhn, das man zudem meist auch nur auf Vorbestellung frisch bekommt und so meist auf Tiefkühlware ausweichen muss. Meine Version hingegen eigenet sich prima für ein spontanes Essen, da man meist keine Probleme haben wird, frische Hähnchenschenkel und TK-Suppengüse zu bekommen.
 
-</div>
+{% endRecipe %}
+

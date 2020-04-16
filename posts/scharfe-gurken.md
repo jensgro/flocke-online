@@ -10,7 +10,7 @@ tags:
 ---
 
 
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -22,9 +22,9 @@ tags:
 - Weinessig
 - Zucker
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -32,6 +32,4 @@ Die Salatgurken schälen und fein hobeln. Mit Salz bestreuen und 2 Stunden Wasse
 
 Ist angeblich bis zu einem Jahr haltbar! Die Menge der Chiliflocken ist natürlich individuell modifizierbar.
 
-</div>
-
-
+{% endRecipe %}

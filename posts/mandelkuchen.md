@@ -7,7 +7,7 @@ tags:
   - kuchen
 ---
 
-<aside class="recipe__ingredients">
+{% Ingredients %}
 
 ## Zutaten
 
@@ -16,9 +16,9 @@ tags:
 - 200g Zucker
 - 1 Fläschchen Zitronenaroma
 
-</aside>
+{% endIngredients %}
 
-<div class="recipe__content">
+{% Recipe %}
 
 ## Zubereitung
 
@@ -31,6 +31,6 @@ tags:
 
 Im Ofen auskühlen lassen. Dafür am besten mit einem Holzlöffel die Tür leicht aufsperren.
 
-</div>
+{% endRecipe %}
 
 
