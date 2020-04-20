@@ -2,7 +2,7 @@
 /* ==== CARD === */
 .card {
   background-color: $card-bg;
-  border-radius: 6px;
+  border-radius: 3px;
   overflow: hidden;
   margin-bottom: 40px;
 
@@ -26,5 +26,8 @@
 
   &__image {
     display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
   }
 }

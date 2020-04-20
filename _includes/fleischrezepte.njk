@@ -1,0 +1,4 @@
+  <h2 class="content__headline">Fleischrezepte</h2>
+  {% set postslist = collections.fleischrezepte | head(-3) %}
+  {% set postslistCounter = collections.fleischrezepte | length %}
+  {% include "indexlist.njk" %}

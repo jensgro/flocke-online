@@ -4,9 +4,15 @@
   "description": "Meine kleine Rezeptsammlung",
   "scripts": {
     "build": "eleventy",
+    "eleventy:default": "npx eleventy",
+    "eleventy:watch": "npx eleventy --watch",
+    "clean": "rm -rf _site",
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
-    "debug": "DEBUG=* eleventy"
+    "debug": "DEBUG=* eleventy",
+    "styles:dev": "node-sass scss/ --output _site/css/",
+    "devdeventy": "npm-run-all clean styles:dev eleventy:default --parallel eleventy:watch serve --print-label",
+    "dev": "npm-run-all clean styles:dev build --parallel watch serve"
   },
   "repository": {
     "type": "git",
@@ -27,6 +33,7 @@
     "luxon": "^1.21.3",
     "markdown-it": "^8.4.2",
     "markdown-it-anchor": "^5.2.5",
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.13.1",
+    "npm-run-all": "^4.1.5"
   }
 }

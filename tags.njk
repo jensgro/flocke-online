@@ -19,6 +19,6 @@ permalink: /tags/{{ tag }}/
 <h1>Alle Rezepte der Kategorie <mark class="headline__mark">{{ tag }}</mark></h1>
 
 {% set postslist = collections[ tag ] %}
-{% include "postslist.njk" %}
+{% include "tagslist.njk" %}
 
 <p>Alle <a href="{{ '/tags/' | url }}">Kategorien</a> sehen.</p>

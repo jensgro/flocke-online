@@ -38,6 +38,16 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
   eleventyConfig.addCollection("randomList", require("./_11ty/getRandomList"));
+  eleventyConfig.addCollection('posts', collection => {
+    return [...collection.getFilteredByGlob('./posts/*.md')]
+      .reverse();
+  });
+  eleventyConfig.addCollection('fleischrezepte', collection => {
+    return collection.getFilteredByTag('fleisch');
+});
+eleventyConfig.addCollection('veggierezepte', collection => {
+    return collection.getFilteredByTag('vegetarisch');
+});
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
 
