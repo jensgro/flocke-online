@@ -1,6 +1,6 @@
   <section>
     <h2 class="content__headline">Vegetarische Rezepte</h2>
-    {% set postslist = collections.veggierezepte | head(-3) %}
+    {% set postslist = collections.veggierezepte | head %}
     {% set postslistCounter = collections.veggierezepte | length %}
-    {% include "indexlist.njk" %}
+    {% include "itemlist.njk" %}
   </section>

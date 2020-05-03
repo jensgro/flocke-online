@@ -31,3 +31,40 @@
     height: auto;
   }
 }
+
+.card--selected {
+
+  a {
+    position: relative;
+    display: block;
+
+    &:hover, &:focus {
+
+      .card__image-title {
+        background-color: rgba(0,0,0,0.5);
+        top: 0;
+        color: $white;
+        padding: 20px;
+      }
+    }
+  }
+  .card__image {
+    position: relative;
+    z-index: 1;
+  }
+ .card__image-title {
+   position: absolute;
+   top: auto;
+   left: 0;
+   right: 0;
+   bottom: 0;
+
+   padding: 20px;
+   font-size: 1.25rem;
+  //  width: 100%;
+   z-index: 10;
+   background-color: $white;
+   transition: all linear 0.5s;
+
+ }
+}

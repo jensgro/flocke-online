@@ -1,11 +1,14 @@
 <ol class="indexlist archive-grid">
-
   {% for post in postslist %}
   <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
     <div class="card">
       <div class="card__image-cnt">
         <a href="{{ post.url | url }}">
-          <img class="card__image" src="../../img/{{ post.data.introImage }}-xs.jpg" alt="">
+        {%- if post.data.introImage -%}
+            <img class="card__image" src="/img/{{ post.data.introImage }}-xs.jpg" alt="">
+          {%- else -%}
+            <img class="card__image" src="http://dummyimage.com/250x100" alt="">
+          {%- endif -%}
         </a>
       </div>
       <div class="card__header">
@@ -15,7 +18,6 @@
         </h3>
       </div>
     </div>
-
   </li>
   {% endfor %}
 

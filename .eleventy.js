@@ -48,6 +48,9 @@ module.exports = function(eleventyConfig) {
 eleventyConfig.addCollection('veggierezepte', collection => {
     return collection.getFilteredByTag('vegetarisch');
 });
+eleventyConfig.addCollection('beilagen', collection => {
+    return collection.getFilteredByTag('beilage');
+});
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
 

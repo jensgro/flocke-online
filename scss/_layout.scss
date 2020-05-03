@@ -1,12 +1,22 @@
 .container {
   width: 100%;
   max-width: 1120px;
-  margin: 0 auto 2em auto;
-  padding: 0 2em 2em 2em;
+  // margin: 0 auto 2em auto;
+  // padding: 0 2em 2em 2em;
+  padding: 0;
 }
 
-section, main {
+section, main, .site__footer {
 @include section;
 }
-
+.site__footer {
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+}
+section, .siteheader, .sectionlike, .site__footer, .main-nav {
+  @include sectionColors;
+}
+// main {
+//   margin: 0 2em 2em 2em;
+// }
 @include mygrid("archive-grid");

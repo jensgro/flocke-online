@@ -1,0 +1,6 @@
+  <section>
+    <h2 class="content__headline">Rezepte für Beilagen</h2>
+    {% set postslist = collections.beilagen | head %}
+    {% set postslistCounter = collections.beilagen | length %}
+    {% include "itemlist.njk" %}
+  </section>
