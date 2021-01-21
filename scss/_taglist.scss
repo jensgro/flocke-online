@@ -18,8 +18,11 @@
   color: $taglist-link-color;
   background-color: $taglist-link-bg;
   border-radius: 4px;
+
+  &:hover,
+  &:focus {
+    background-color: $taglist-link-hover-bg;
+    color: $taglist-link-hover-color;
+  }
 }
-.taglist__link:hover,
-.taglist__link:focus {
-  background-color: $taglist-link-hover-bg;
-}
+

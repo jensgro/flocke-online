@@ -9,6 +9,10 @@
   &__header {
     background-color: $card-header-bg;
     padding: 10px 25px;
+
+    &:hover, &:focus {
+      background: $blue2;
+    }
   }
 
   &__headline {

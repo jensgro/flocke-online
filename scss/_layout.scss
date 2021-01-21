@@ -7,10 +7,12 @@
 // section, main, .site__footer {
 //  @include section;
 // }
-// .site__footer {
-//   margin-left: 2.5em;
-//   margin-right: 2.5em;
-// }
+.site__footer {
+  .container {
+    border-top: 2px solid $blue2;
+    padding-bottom: 2em;
+  }
+}
 // section, .siteheader, .sectionlike, .site__footer, .main-nav {
 //   @include sectionColors;
 // }
