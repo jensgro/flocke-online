@@ -28,14 +28,14 @@
         </header>
       </div>
     {% endif %}
-      {% if templateClass == "tmpl-tags" %}
+    {% if templateClass == "tmpl-tags" %}
       <div class="container">
         <header class="tags siteheader">
           <h1 class="tags-headline">{{ title }}</h1>
         </header>
       </div>
     {% endif %}
-      {% if templateClass == "tmpl-post" %}
+    {% if templateClass == "tmpl-post" %}
       <div class="container">
         <header class="post-header siteheader">
           <img
@@ -52,14 +52,13 @@
 
       {{ content | safe }}
 
+      {% if templateClass != "tmpl-home" %}
       <div class="container">
         <footer class="site__footer">
-          <p>
-            Diese Seite wurde von <a href="https://grochtdreis.de">Jens Grochtdreis</a> zusammengestoppelt.
-            <br>Sie basiert auf dem Statischen Seitengenerator <a href="https://11ty.dev">Eleventy (11ty)</a> und nutzt das Template  <a href="https://eleventy-base-blog.netlify.com/" rel="external">eleventy-base-blog</a>.
-          </p>
+
         </footer>
     </div>
+    {% endif %}
 
     <!-- Current page: {{ page.url | url }} -->
   </body>
