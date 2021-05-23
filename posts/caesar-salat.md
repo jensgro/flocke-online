@@ -13,8 +13,10 @@ tags:
 
 ## Zutaten
 
-- 2 Köpfe Römischer Salat
-- dazu folgende Salatsauce:
+2 Köpfe Römischer Salat
+
+dazu folgende Salatsauce:
+
 - 2 Knoblauchzehen
 - 2 EL Gemüsebrühe
 - 2 EL Aceto balsamico
