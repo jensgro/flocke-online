@@ -2,12 +2,12 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<main class="recipe">
-  <div class="container">
-      {% Intro %}
-    {{ introText}}
-  {% endIntro %}
-  {{ content | safe }}
-  </div>
-</main>
+<div class="container">
+  <main class="recipe">
+    {% Intro %}
+      {{ introText}}
+    {% endIntro %}
+    {{ content | safe }}
+  </main>
+</div>
 <div class="hint getback"><a class="getback__link" href="{{ '/' | url }}">← zurück zur Startseite</a></div>
