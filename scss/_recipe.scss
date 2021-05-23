@@ -10,7 +10,7 @@
 //   }
 }
 
-@supports (display: grid) {
+@media (min-width: 768px) {
   .recipe {
     display: grid;
     grid-gap: 2em;
@@ -34,8 +34,6 @@
 
     &__content {
       grid-area: content;
-
-
     }
   }
 }
