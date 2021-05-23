@@ -8,7 +8,7 @@
 
   &__header {
     background-color: $card-header-bg;
-    padding: 10px 25px;
+    padding: 10px 20px;
 
     &:hover, &:focus {
       background: $blue2;
@@ -33,6 +33,15 @@
     width: 100%;
     max-width: 100%;
     height: auto;
+  }
+
+  &__footer {
+    background-color: #cecece;
+    padding: 10px;
+  }
+
+  .tag:not(:last-child) {
+    margin-right: 10px;
   }
 }
 

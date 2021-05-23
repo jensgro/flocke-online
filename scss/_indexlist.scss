@@ -1,23 +1,38 @@
-
-
 .indexlist {
   @include nolist;
-}
-.indexlist .card {
-  display: flex;
-  flex-direction: column;
-  background-color: transparent;
-  margin-bottom: 0;
-  box-shadow: 3px 3px 5px rgba(#333, 0.5);
-}
-.indexlist .card__header {
-  // align-self: center;
-  text-align: center;
-  padding: 10px;
-  // width: 70%;
-  // transform: translateY(-20px);
-}
-.indexlist .postlist-link {
-  text-decoration: none;
-  display: block;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    margin-bottom: 0;
+    border: 1px solid #cecece;
+  }
+
+  .card__header {
+    text-align: center;
+    padding: 10px;
+    background-color: #fd8700;
+
+    &:hover, &:focus {
+      background-color: lighten(#fd8700, 20);
+    }
+  }
+
+  .card__image-cnt {
+    &:hover, &:focus {
+      opacity: 0.75;
+    }
+  }
+
+  .card__headline {
+    padding: 0;
+    font-weight: 400;
+    color: #000;
+  }
+
+  .postlist-link {
+    text-decoration: none;
+    display: block;
+  }
 }

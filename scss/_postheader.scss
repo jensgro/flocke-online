@@ -1,8 +1,12 @@
 // =========
 .post-header {
   position: relative;
-  height: 200px;
+  height: 320px;
   background-size: cover;
+
+  .container {
+    background-color: transparent;
+  }
 }
 .post-headline {
   color: $post-headline-color;
