@@ -4,6 +4,7 @@
   {% for tag in collections.tagList %}
     {% set tagUrl %}/tags/{{ tag }}/{% endset %}
     <li class="taglist__item">
+      <span class="taglist__count">{{ tag | length }}</span>
       <a class="taglist__link" href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
     </li>
   {% endfor %}
