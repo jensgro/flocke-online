@@ -7,6 +7,10 @@
   justify-content: flex-start;
 }
 
+.taglist--index {
+
+}
+
 .taglist__count {
   background-color: #fd8700;
   padding: 6px 10px;
@@ -28,6 +32,13 @@
   &:focus {
     background-color: $taglist-link-hover-bg;
     color: $taglist-link-hover-color;
+  }
+}
+
+.taglist--footer {
+
+  .taglist__link {
+
   }
 }
 

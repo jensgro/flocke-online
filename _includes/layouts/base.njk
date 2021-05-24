@@ -55,7 +55,15 @@
       {% if templateClass != "tmpl-home" %}
       <div class="container">
         <footer class="site__footer">
-
+          <h2>Alle Kategorien</h2>
+          <ul class="taglist taglist--footer">
+            {% for tag in collections.tagList %}
+              {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+              <li class="taglist__item">
+                <a class="taglist__link" href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+              </li>
+            {% endfor %}
+            </ul>
         </footer>
     </div>
     {% endif %}

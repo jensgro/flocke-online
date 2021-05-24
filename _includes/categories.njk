@@ -1,6 +1,6 @@
 <section>
   <h2 class="content__headline">Alle Kategorien</h2>
-  <ul class="taglist">
+  <ul class="taglist taglist--index">
   {% for tag in collections.tagList %}
     {% set tagUrl %}/tags/{{ tag }}/{% endset %}
     {% set tagCount = collections[tag].length %}
