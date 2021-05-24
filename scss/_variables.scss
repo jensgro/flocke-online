@@ -2,6 +2,8 @@ $black: #000;
 
 $brown: brown;
 
+$orange: #fd8700;
+
 $red: #C5004A;
 $myred: #a20000;
 $darkred: #7F0036;
@@ -28,13 +30,13 @@ $link-color-hover: $black;
 
 $page-bg: $lightergrey;
 
-$card-bg: $nearlywhite;
-$card-header-bg: $mediumblue;
-$card-headline-color: $white;
-
 $post-headline-color: $white;
 $post-headline-bg:  rgba(0,0,0,0.5);
+$card-headline-hover-color: #fff;
 
+$card-bg: $nearlywhite;
+$card-header-bg: $orange;
+$card-headline-color: $white;
 
 $tag-bg: $red;
 $tag-color: $white;
