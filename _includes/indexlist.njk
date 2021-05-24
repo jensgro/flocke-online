@@ -8,10 +8,8 @@
             <img class="card__image" src="../img/{{ post.data.introImage }}-xs.jpg" alt="">
           </a>
         </div>
-        <div class="card__header">
-          <div class="card__headline">
-              <a href="{{ post.url | url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-          </div>
+        <div class="card__title">
+            <a href="{{ post.url | url }}" class="card__link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
         </div>
       </div>
     </li>

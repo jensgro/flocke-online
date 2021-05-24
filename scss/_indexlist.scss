@@ -12,11 +12,11 @@
   .card__header {
     text-align: center;
     padding: 10px;
-    background-color: #fd8700;
+    // background-color: #fd8700;
 
-    &:hover, &:focus {
-      background-color: lighten(#fd8700, 20);
-    }
+    // &:hover, &:focus {
+    //   background-color: lighten(#fd8700, 20);
+    // }
   }
 
   .card__image-cnt {
@@ -28,11 +28,11 @@
   .card__headline {
     padding: 0;
     font-weight: 400;
-    color: #000;
   }
 
   .postlist-link {
     text-decoration: none;
     display: block;
+    color: inherit;
   }
 }

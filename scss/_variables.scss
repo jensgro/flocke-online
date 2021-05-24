@@ -32,11 +32,13 @@ $page-bg: $lightergrey;
 
 $post-headline-color: $white;
 $post-headline-bg:  rgba(0,0,0,0.5);
-$card-headline-hover-color: #fff;
 
 $card-bg: $nearlywhite;
-$card-header-bg: $orange;
-$card-headline-color: $white;
+$card-link-bg: $orange;
+$card-link-color: $black;
+$card-link-hover-bg: $blue2;
+$card-link-hover-color: $white;
+$card-headline-link-hover-color: #000;
 
 $tag-bg: $red;
 $tag-color: $white;

@@ -6,27 +6,27 @@
   overflow: hidden;
   margin-bottom: 40px;
 
-  &__header {
-    background-color: $card-header-bg;
+  &__link {
+    color: $card-link-color;
+    background-color: $card-link-bg;
     padding: 10px 20px;
+    display: block;
+    text-decoration: none;
 
     &:hover, &:focus {
-      background: $blue2;
+      color: $card-link-hover-color;
+      background: $card-link-hover-bg;
+      text-decoration: underline;
     }
   }
 
-  &__headline {
-    margin-top: 0;
-    color: $card-headline-color;
+  // &__headline {
+  //   margin-top: 0;
+  // }
 
-    a {
-      color: inherit;
-    }
-  }
-
-  &__body {
-    padding: 10px 10px 20px 25px;
-  }
+  // &__body {
+  //   padding: 10px 10px 20px 25px;
+  // }
 
   &__image {
     display: block;
