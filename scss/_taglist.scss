@@ -20,7 +20,7 @@
 .taglist__link {
   padding: 6px 10px;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: $taglist-link-color;
   background-color: $taglist-link-bg;
 
