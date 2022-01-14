@@ -42,6 +42,7 @@ module.exports = function(eleventyConfig) {
     return [...collection.getFilteredByGlob('./posts/*.md')]
       .reverse();
   });
+/*
   eleventyConfig.addCollection('fleischrezepte', collection => {
     return collection.getFilteredByTag('fleisch');
 });
@@ -51,6 +52,7 @@ eleventyConfig.addCollection('veggierezepte', collection => {
 eleventyConfig.addCollection('beilagen', collection => {
     return collection.getFilteredByTag('beilage');
 });
+*/
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
 
