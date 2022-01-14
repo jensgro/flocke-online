@@ -4,8 +4,10 @@ date: '2006-11-04'
 permalink: rezepte/schweinelendchen-basilikum.html
 introText: "Dieses Gericht ist schnell gemacht und doch etwas Besonderes."
 tags:
-  - fleisch
   - schwein
+
+categories:
+  - hauptgericht
 ---
 
 {% Ingredients %}

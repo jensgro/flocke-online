@@ -7,6 +7,9 @@ introText: "Schon als Kind habe ich beim Chinesen oder in Holland Bami Goreng un
 tags:
   - asien
   - indonesien
+
+categories:
+  - hauptgericht
 ---
 
 {% Ingredients %}

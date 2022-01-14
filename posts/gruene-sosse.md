@@ -6,6 +6,9 @@ introText: 'Grüne Sosse ist eine meiner Leibspeisen. Immer an Gründonnerstag s
 introImage: 'gruene-sosse-1'
 tags:
   - vegetarisch
+
+categories:
+  - hauptgericht
 ---
 
 

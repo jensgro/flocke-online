@@ -7,6 +7,10 @@ tags:
   - beilage
   - vegetarisch
   - gemüse
+
+categories:
+  - beilage
+
 ---
 
 

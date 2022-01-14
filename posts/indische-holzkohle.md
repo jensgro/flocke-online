@@ -5,7 +5,10 @@ permalink: rezepte/indische-holzkohle.html
 introText: 'Der Rezepttitel ist ein wenig seltsam, ist aber dem Entdeckungszusammenhang geschuldet: Jürgen v.d. Lippe hatte dieses Gericht in der Anfangszeit von Bioleks Alfredissimo gekocht. Als es ihm fast anbrannte, nannte er es "indische Holzkohle". Für mich und meine Frau bedeutete es die Entdeckung des Kreuizkümmels und der Weg in die indische und indonesische Küche.'
 tags:
   - curry
-  - indisch
+  - indien
+
+categories:
+  - hauptgericht
 ---
 
 {% Ingredients %}

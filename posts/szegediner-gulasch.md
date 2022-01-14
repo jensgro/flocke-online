@@ -4,8 +4,11 @@ date: '2006-11-04'
 permalink: rezepte/szegediner-gulasch.html
 introText: "Ich habe lange Zeit bei Gulasch nur noch an diese Variante gedacht. Normales Gulasch reizte mich gar nicht mehr so sehr."
 tags:
-  - fleisch
   - rind
+
+categories:
+  - hauptgericht
+
 ---
 
 {% Ingredients %}

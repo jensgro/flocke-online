@@ -8,6 +8,10 @@ tags:
   - curry
   - gemüse
   - vegetarisch
+
+categories:
+  - hauptgericht
+
 ---
 
 {% Ingredients %}

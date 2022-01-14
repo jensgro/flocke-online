@@ -4,8 +4,12 @@ date: '2006-11-04'
 permalink: rezepte/obatzda.html
 introText: 'Dieser Obatzda hat sich einmal als eine suoer Grundlage für eine ausgedehnte Feuerzangenbowle erwiesen. Auch wenn man auf den ersten Blick nicht glaubt, daß das paßt.'
 tags:
-  - beilage
   - vegetarisch
+  - beilage
+
+categories:
+  - beilage
+
 ---
 
 

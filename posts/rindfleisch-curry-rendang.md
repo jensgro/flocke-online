@@ -6,8 +6,11 @@ tags:
   - indien
   - curry
   - asien
-  - fleisch
   - rind
+
+categories:
+  - hauptgericht
+
 ---
 
 {% Ingredients %}

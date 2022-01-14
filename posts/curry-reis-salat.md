@@ -7,6 +7,11 @@ introImage: 'curry-reis-salat'
 tags:
   - reis
   - salat
+  - party
+
+categories:
+  - hauptgericht
+  - sonstiges
 ---
 
 {% Ingredients %}

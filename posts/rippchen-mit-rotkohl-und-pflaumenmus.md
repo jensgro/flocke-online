@@ -4,8 +4,12 @@ date: '2017-01-06'
 permalink: rezepte/rippchen-rotkohl-pflaumenmus.html
 introImage: 'rippchen'
 tags:
-  - fleisch
   - schwein
+  - ofen
+
+categories:
+  - hauptgericht
+
 ---
 {% Ingredients %}
 

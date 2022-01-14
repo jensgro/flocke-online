@@ -6,6 +6,7 @@ introText: 'Einfach ein schönes Geschenk. Aber auch zum sleber trinken verdammt
 introImage: 'eierlikoer'
 tags:
   - getraenk
+  - party
 ---
 
 {% Ingredients %}

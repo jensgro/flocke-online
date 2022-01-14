@@ -6,8 +6,10 @@ introText: "Dieser geniale Salat stammt von Kurt Bohn und wurde am 10.01.1993 in
 tags:
   - salat
   - kartoffeln
-  - beilage
   - vegetarisch
+
+categories:
+  - beilage
 ---
 
 {% Ingredients %}

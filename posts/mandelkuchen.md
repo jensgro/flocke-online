@@ -5,6 +5,10 @@ permalink: rezepte/mandelkuchen.html
 introText: 'Ein Kuchen ohne Mehl! Er ist sehr locker und fluffig.'
 tags:
   - kuchen
+  - ofen
+
+categories:
+  - sonstiges
 ---
 
 {% Ingredients %}

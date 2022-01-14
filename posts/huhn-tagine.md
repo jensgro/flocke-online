@@ -6,7 +6,9 @@ introText: "Eine Tagine ist ein Schmorgefäß aus der nordafrikansichen Küche. 
 tags:
   - nordafrika
   - huhn
-  - geflügel
+
+categories:
+  - hauptgericht
 ---
 
 {% Ingredients %}

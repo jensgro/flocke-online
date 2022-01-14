@@ -6,6 +6,10 @@ tags:
   - asien
   - beilage
   - indien
+
+categories:
+  - beilage
+
 ---
 
 {% Ingredients %}

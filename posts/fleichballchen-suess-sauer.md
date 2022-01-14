@@ -6,6 +6,9 @@ introImage: 'fleischbaellchen'
 tags:
   - asien
   - hackfleisch
+
+categories:
+  - hauptgericht
 ---
 
 {% Ingredients %}

@@ -5,10 +5,14 @@ permalink: rezepte/paprika-pilz-kartoffel-curry.html
 introText: "Dieses Rezept habe ich aus einem Kochkurs über indische Küche."
 tags:
   - asien
-  - indisch
+  - indien
   - curry
   - vegetarisch
   - gemüse
+
+categories:
+  - hauptgericht
+
 ---
 
 {% Ingredients %}

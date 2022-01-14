@@ -4,6 +4,11 @@ date: '2013-10-25'
 permalink: rezepte/lachs-mit-kapern-sahnesauce.html
 tags:
   - fisch
+  - ofen
+
+categories:
+  - hauptgericht
+
 ---
 
 {% Ingredients %}

@@ -7,6 +7,10 @@ introImage: 'spargel'
 tags:
   - spargel
   - salat
+
+categories:
+  - hauptgericht
+
 ---
 
 {% Ingredients %}

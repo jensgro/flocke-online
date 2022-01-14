@@ -6,6 +6,11 @@ introImage: 'kuerbisse'
 introText: "Ich liebe eingelegten Kürbis, esse ihn oft zu meinen Broten mittags. Übrigens sind alle Zutatenmengen ernst gemeint, auch die große Zuckermenge.
 Das Rezept ist von meiner Tante, die mich mit ihrem eingelegten Kürbis süchtig gemacht hat !"
 tags:
+  - gemüse
+  - beilage
+
+
+categories:
   - beilage
 ---
 

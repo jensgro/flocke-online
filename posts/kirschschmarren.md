@@ -4,7 +4,10 @@ date: '2006-11-04'
 permalink: rezepte/kirschschmarren.html
 introText: 'Durch die Kirschen ist diese Variante in meinen Augen viel schmackhafter und "leichter" als der ursprüngliche Kaiserschmarrn.'
 tags:
-  - dessert
+  - süß
+
+categories:
+  - hauptgericht
 ---
 
 {% Ingredients %}

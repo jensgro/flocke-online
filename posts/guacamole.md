@@ -4,8 +4,11 @@ date: '2006-11-04'
 permalink: rezepte/guacamole.html
 introText: 'Eine gute Freundin hat mir dieses Rezept mal beigebracht. Es kommt ohne die sonst typischen Tomaten daher, stattdessen ist Schmand (wir sind beide aus Nordhessen!) drin.  Man kann diese tomatenfreie Guacamole sowohl mit Nachos als auch mit Brezeln essen. Frische Brezeln passen super dazu!'
 tags:
-  - beilage
   - mexiko
+  - party
+
+categories:
+  - beilage
 ---
 
 {% Ingredients %}

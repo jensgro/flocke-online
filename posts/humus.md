@@ -5,9 +5,11 @@ permalink: rezepte/humus.html
 introImage: 'humus'
 introText: "Hummus oder auch Humus (es gibt noch andere Schreibweisen) ist ein Püree aus Kichererbsen und Sesampaste. Es wird gerne einem Falafel-Sandwich beigegeben und ist Teil der von mir so abgöttisch geliebten Mezze. Ich liebe es aber einfach nur so, mit einem dünnen Fladenbrot oder, wenn das gerade nicht zur Hand ist, ein paar kleinen Salzbrezelchen. Zur Herstellung solltet ihr nur einen Stabmixer nehmen. Eine Küchenmaschine bringt nicht das gewünschte Ergebnis."
 tags:
-  - afrika
-  - syrien
-  - libanon
+  - nordafrika
+  - levante
+  - party
+
+categories:
   - beilage
 ---
 

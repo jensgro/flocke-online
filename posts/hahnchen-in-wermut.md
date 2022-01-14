@@ -4,8 +4,11 @@ date: '2006-11-04'
 permalink: rezepte/haehnchen-in-wermut.html
 introText: 'Ein geniales Gericht, wenn Gäste kommen. Die Vorbereitung geht schnell und während es im Ofen gart, kann man sich den Gästen widmen.'
 tags:
-  - fleisch
   - huhn
+  - ofen
+
+categories:
+  - hauptgericht
 ---
 
 {% Ingredients %}

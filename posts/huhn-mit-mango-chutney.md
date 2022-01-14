@@ -4,10 +4,13 @@ date: '2006-11-04'
 permalink: rezepte/huhn-mit-mango-chutney.html
 introText: "Dies ist ein Rezept, bei dem man es mit den Mengen nicht so ganz genau nehmen sollte, schließlich ist eine schöne Soße nur in ausreichender Menge zu würdigen."
 tags:
-  - indisch
+  - indien
   - curry
   - huhn
   - asien
+
+categories:
+  - hauptgericht
 ---
 
 {% Ingredients %}

@@ -6,6 +6,9 @@ introImage: 'chop-suey'
 introtext: "Das ist ein altes Rezept aus meiner Kindheit."
 tags:
   - asien
+
+categories:
+  - hauptgericht
 ---
 
 

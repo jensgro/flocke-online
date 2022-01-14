@@ -4,8 +4,11 @@ date: '2006-11-04'
 permalink: rezepte/grillmarinade-2.html
 tags:
   - marinade
-  - beilage
   - grillen
+
+categories:
+  - sonstiges
+
 ---
 
 {% Ingredients %}

@@ -5,6 +5,10 @@ permalink: rezepte/schweinefleisch-suess-sauer.html
 tags:
   - asien
   - schwein
+
+categories:
+  - hauptgericht
+
 ---
 
 {% Ingredients %}

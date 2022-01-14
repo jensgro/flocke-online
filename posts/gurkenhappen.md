@@ -4,9 +4,11 @@ date: '2006-11-04'
 permalink: rezepte/gurkenhappen.html
 introText: "Eine schöne indonesische Beilage. War bei unserer indonesischen Reistafel dabei."
 tags:
-  - beilage
   - vegetarisch
   - asien
+
+categories:
+  - beilage
 ---
 
 {% Ingredients %}

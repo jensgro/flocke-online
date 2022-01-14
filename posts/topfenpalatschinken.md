@@ -6,7 +6,12 @@ introText: "Das hier angegebene Rezept ist eine wunderbare Hauptmahlzeit für zw
 permalink: rezepte/topfenpalatschinken.html
 tags:
   - dessert
-  - quark
+  - vegetarisch
+  - süß
+
+categories:
+  - hauptgericht
+
 ---
 
 {% Ingredients %}

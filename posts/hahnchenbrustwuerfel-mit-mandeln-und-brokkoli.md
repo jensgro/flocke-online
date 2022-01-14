@@ -6,6 +6,9 @@ tags:
   - huhn
   - gemüse
   - asien
+
+categories:
+  - hauptgericht
 ---
 
 {% Ingredients %}

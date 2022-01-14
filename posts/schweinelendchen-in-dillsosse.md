@@ -4,7 +4,11 @@ date: '2006-11-04'
 permalink: rezepte/schweinelendchen-dillsosse.html
 introText: "Wer wie ich das Zusammenspiel aus Dill und Gurke liebt, wird dieses Gericht schnell vergöttern."
 tags:
-  - fleisch
+  - schwein
+
+categories:
+  - hauptgericht
+
 ---
 
 {% Ingredients %}

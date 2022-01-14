@@ -5,6 +5,11 @@ permalink: rezepte/kaeseoehrchen.html
 introText: 'Die Käseöhrchen lassen sich für eine Party gut am Tag zuvor vorbereiten.'
 tags:
   - beilage
+  - ofen
+
+categories:
+  - beilage
+
 ---
 
 

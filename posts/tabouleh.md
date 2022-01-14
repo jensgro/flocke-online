@@ -4,10 +4,14 @@ date: '2017-01-02'
 permalink: rezepte/tabouleh.html
 introText: "Kennengelernt habe ich Tabouleh als vom Couscous dominiertes Gericht mit Paprika und Tomaten. Diese Version ist mir allerdings viel lieber. Man könnte es auch Petersiliensalat nennen."
 tags:
-  - afrika
   - nordafrika
+  - levante
   - beilage
   - salat
+
+categories:
+  - beilage
+
 ---
 
 {% Ingredients %}

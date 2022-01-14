@@ -6,7 +6,10 @@ permalink: rezepte/schnelle-huehnersuppe.html
 tags:
   - suppe
   - huhn
-  - fleisch
+
+categories:
+  - hauptgericht
+
 ---
 
 {% Ingredients %}

@@ -7,7 +7,10 @@ introText: "Dieses Gericht eignet sich hervorragend zum Experimentieren. Deshalb
 tags:
   - eintopf
   - hackfleisch
-  - fleisch
+  - mexiko
+
+categories:
+  - hauptgericht
 ---
 
 {% Ingredients %}

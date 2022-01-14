@@ -5,6 +5,11 @@ date: '2007-01-01'
 introImage: 'apfelwaffeln'
 tags:
   - kuchen
+
+
+categories:
+  - sonstiges
+
 ---
 
 {% Ingredients %}

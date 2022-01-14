@@ -6,6 +6,9 @@ introText: 'Diesen Salat sollte man machen, wenn man am nächsten Tag nicht allz
 introImage: 'caesar-salat'
 tags:
   - salat
+  - vegetarisch
+
+categories:
   - beilage
 ---
 

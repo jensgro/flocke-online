@@ -4,9 +4,12 @@ date: '2006-11-04'
 permalink: rezepte/schweinisches-putenschnitzel.html
 introText: "Meine Oma hat mich damit als Kind immer begeistert. Heute koche ich anders, aber als Kind und später als Student – als ich besser kochen lernte – war das ein gern gegessenes Gericht. Und es geht schnell."
 tags:
-  - fleisch
   - hackfleisch
   - pute
+  - ofen
+
+categories:
+  - hauptgericht
 ---
 
 {% Ingredients %}

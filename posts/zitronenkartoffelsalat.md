@@ -9,6 +9,11 @@ tags:
   - zitronen
   - beilage
   - party
+
+categories:
+  - beilage
+
+
 ---
 
 {% Ingredients %}

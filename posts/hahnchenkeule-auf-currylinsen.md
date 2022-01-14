@@ -5,6 +5,9 @@ permalink: rezepte/haehnchen-auf-currylinsen.html
 introText: 'Einen Schöhnheitspreis bekommt das Gericht nicht, aber es schmeckt gut. Es ist eines der wenigen Gerichte, in denen ich noch Currypulver nutze.'
 tags:
   - huhn
+
+categories:
+  - hauptgericht
 ---
 
 {% Ingredients %}

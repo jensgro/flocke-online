@@ -5,6 +5,11 @@ permalink: rezepte/pizzateig-quark-oel.html
 introText: ''
 tags:
   - pizza
+  - ofen
+
+categories:
+  - hauptgericht
+
 ---
 
 {% Ingredients %}

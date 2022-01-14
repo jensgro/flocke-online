@@ -6,6 +6,10 @@ introText: 'Kirschmichel (auch Kirschenmichel) ist ein in Nordhessen sehr belieb
 tags:
   - kuchen
   - dessert
+  - ofen
+
+categories:
+  - sonstiges
 ---
 
 {% Ingredients %}

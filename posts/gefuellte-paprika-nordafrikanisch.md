@@ -4,8 +4,12 @@ permalink: rezepte/gefuellte-paprika-nordafrikanisch.html
 introText: "In einer Folge von Tim Mälzers Kochesendung  machte er gefüllte Paprika. Sein Ansatz gefiel mir und so machte ich mich ans Nachkochen. Am Ende veränderte ich etwa das halbe Rezept, aber die Grundidee blieb die von Tim Mälzer."
 date: '2013-10-31'
 tags:
-  - afrika
+  - nordafrika
   - gemüse
+  - ofen
+
+categories:
+  - hauptgericht
 ---
 
 {% Ingredients %}
