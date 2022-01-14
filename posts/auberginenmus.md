@@ -5,7 +5,7 @@ permalink: rezepte/auberginenmus.html
 introImage: 'auberginenmus'
 introText: "Durch diese Art der Zubereitung wird aus einer Aubergine eine tolle Beilage zu einem indischen Menü. So kann sich die Aubergine nicht mit Fett vollsaugen. Auf diese Art schmeckt sie sehr aromatisch. Eine gute Möglichkeit, dieses Gemüse neu kennenzulernen."
 tags:
-  - beilagen
+  - beilage
   - gemüse
   - vegetarisch
 ---

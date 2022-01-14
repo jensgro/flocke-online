@@ -8,7 +8,7 @@ tags:
   - afrika
   - syrien
   - libanon
-  - beilagen
+  - beilage
 ---
 
 {% Ingredients %}

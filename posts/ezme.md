@@ -5,7 +5,7 @@ permalink: rezepte/ezme.html
 introText: 'Ezme ist ein leckeres Paprikamus, das man als Vorspeise mit ein wenig Brot essen kann. Ich bevorzuge es allerdings als Grundlage für meine Wraps. Ezme und/oder Humus kommen als Grundlage in die Wraps, dann weiteres Gemüse als eigentliche Füllung. Ezme ist dabei eine wichtige würzende Beigabe.'
 introImage: 'ezme'
 tags:
-  - beilagen
+  -
   - gemüse
   - vegetarisch
   - türkisch
