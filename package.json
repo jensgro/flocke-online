@@ -1,7 +1,7 @@
 {
-  "name": "Flocke-Online",
-  "version": "1.0.0",
-  "description": "Meine kleine Rezeptsammlung",
+  "name": "flockeonline",
+  "version": "1.2.0",
+  "description": "Flocke Online - Meine kleine Rezeptsammlung",
   "scripts": {
     "build": "eleventy",
     "eleventy:default": "npx eleventy",
@@ -25,15 +25,15 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
-    "@11ty/eleventy-navigation": "^0.2.0",
-    "@11ty/eleventy-plugin-rss": "^1.1.1",
+    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy-navigation": "^0.3.2",
+    "@11ty/eleventy-plugin-rss": "^1.1.2",
     "gulp": "^4.0.2",
-    "gulp-sass": "^4.1.0",
-    "luxon": "^1.27.0",
-    "markdown-it": "^12.0.6",
-    "markdown-it-anchor": "^7.1.0",
-    "node-sass": "^6.0.0",
+    "gulp-sass": "^5.1.0",
+    "luxon": "^2.3.0",
+    "markdown-it": "^12.3.2",
+    "markdown-it-anchor": "^8.4.1",
+    "node-sass": "^7.0.1",
     "npm-run-all": "^4.1.5"
   }
 }
