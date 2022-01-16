@@ -7,8 +7,7 @@ tags:
   - nordafrika
   - huhn
 
-categories:
-  - hauptgericht
+category: hauptgericht
 ---
 
 {% Ingredients %}

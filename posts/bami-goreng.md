@@ -8,8 +8,7 @@ tags:
   - asien
   - indonesien
 
-categories:
-  - hauptgericht
+category: hauptgericht
 ---
 
 {% Ingredients %}

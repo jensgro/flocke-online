@@ -7,8 +7,7 @@ tags:
   - gemüse
   - asien
 
-categories:
-  - hauptgericht
+category: hauptgericht
 ---
 
 {% Ingredients %}

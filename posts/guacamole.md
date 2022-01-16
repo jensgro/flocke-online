@@ -7,8 +7,7 @@ tags:
   - mexiko
   - party
 
-categories:
-  - beilage
+category: beilage
 ---
 
 {% Ingredients %}

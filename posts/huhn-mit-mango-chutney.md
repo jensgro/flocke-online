@@ -9,8 +9,7 @@ tags:
   - huhn
   - asien
 
-categories:
-  - hauptgericht
+category: hauptgericht
 ---
 
 {% Ingredients %}

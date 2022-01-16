@@ -6,8 +6,7 @@ introText: 'Als ich zu Weihnachten einen Shaker geschenkt bekam, habe ich diesen
 tags:
   - getraenk
 
-categories:
-  - sonstiges
+category: sonstiges
 ---
 
 {% Ingredients %}

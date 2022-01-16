@@ -7,9 +7,7 @@ tags:
   - rind
   - ofen
 
-categories:
-  - hauptgericht
-
+category: hauptgericht
 ---
 
 

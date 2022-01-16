@@ -7,8 +7,7 @@ tags:
   - vegetarisch
   - beilage
 
-categories:
-  - beilage
+category: sonstiges
 
 ---
 

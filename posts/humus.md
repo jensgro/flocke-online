@@ -9,8 +9,7 @@ tags:
   - levante
   - party
 
-categories:
-  - beilage
+category: beilage
 ---
 
 {% Ingredients %}

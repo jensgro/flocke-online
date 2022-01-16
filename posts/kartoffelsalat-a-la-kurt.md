@@ -8,8 +8,7 @@ tags:
   - kartoffeln
   - vegetarisch
 
-categories:
-  - beilage
+category: beilage
 ---
 
 {% Ingredients %}

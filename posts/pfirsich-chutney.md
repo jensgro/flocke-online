@@ -7,8 +7,7 @@ tags:
   - indien
   - beilage
 
-categories:
-  - beilage
+category: beilage
 
 ---
 

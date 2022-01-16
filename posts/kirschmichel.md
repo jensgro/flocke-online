@@ -8,8 +8,7 @@ tags:
   - dessert
   - ofen
 
-categories:
-  - sonstiges
+category: sonstiges
 ---
 
 {% Ingredients %}

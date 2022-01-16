@@ -9,8 +9,7 @@ tags:
   - vegetarisch
   - linsen
 
-categories:
-  - hauptgericht
+category: hauptgericht
 ---
 
 

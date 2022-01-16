@@ -7,9 +7,7 @@ tags:
   - beilage
   - indien
 
-categories:
-  - beilage
-
+category: beilage
 ---
 
 {% Ingredients %}

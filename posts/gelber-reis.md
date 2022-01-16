@@ -9,8 +9,7 @@ tags:
   - indien
   - indonesien
 
-categories:
-  - beilage
+category: beilage
 ---
 
 

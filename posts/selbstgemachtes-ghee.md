@@ -6,9 +6,7 @@ introText: 'In indischen Rezepten steht normalerweise Ghee zum Braten, kein Öl.
 tags:
   - indien
 
-categories:
-  - sonstiges
-
+category: sonstiges
 ---
 
 {% Ingredients %}

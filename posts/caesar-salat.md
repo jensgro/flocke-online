@@ -8,8 +8,7 @@ tags:
   - salat
   - vegetarisch
 
-categories:
-  - beilage
+category: beilage
 ---
 
 {% Ingredients %}

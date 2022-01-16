@@ -9,9 +9,7 @@ tags:
   - beilage
   - salat
 
-categories:
-  - beilage
-
+category: beilage
 ---
 
 {% Ingredients %}

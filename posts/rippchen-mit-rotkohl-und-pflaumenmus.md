@@ -7,9 +7,7 @@ tags:
   - schwein
   - ofen
 
-categories:
-  - hauptgericht
-
+category: hauptgericht
 ---
 {% Ingredients %}
 

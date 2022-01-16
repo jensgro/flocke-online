@@ -8,8 +8,7 @@ tags:
   - gemüse
   - vegetarisch
 
-categories:
-  - hauptgericht
+category: hauptgericht
 ---
 
 {% Ingredients %}

@@ -7,8 +7,7 @@ tags:
   - curry
   - indien
 
-categories:
-  - hauptgericht
+category: hauptgericht
 ---
 
 {% Ingredients %}

@@ -8,8 +8,7 @@ tags:
   - pute
   - ofen
 
-categories:
-  - hauptgericht
+category: hauptgericht
 ---
 
 {% Ingredients %}

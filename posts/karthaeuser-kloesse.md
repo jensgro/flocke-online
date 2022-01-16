@@ -6,9 +6,7 @@ introText: 'Das Rezept ist einfach super, um alte Brötchen zu verarbeiten. Man 
 tags:
   - süß
 
-categories:
-  - hauptgericht
-
+category: hauptgericht
 ---
 
 {% Ingredients %}

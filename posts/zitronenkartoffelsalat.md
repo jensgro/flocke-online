@@ -10,10 +10,7 @@ tags:
   - beilage
   - party
 
-categories:
-  - beilage
-
-
+category: beilage
 ---
 
 {% Ingredients %}

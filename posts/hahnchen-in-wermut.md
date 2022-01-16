@@ -7,8 +7,7 @@ tags:
   - huhn
   - ofen
 
-categories:
-  - hauptgericht
+category: hauptgericht
 ---
 
 {% Ingredients %}

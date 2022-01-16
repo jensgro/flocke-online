@@ -8,9 +8,7 @@ tags:
   - hackfleisch
   - schwein
 
-categories:
-  - hauptgericht
-
+category: hauptgericht
 ---
 
 {% Ingredients %}

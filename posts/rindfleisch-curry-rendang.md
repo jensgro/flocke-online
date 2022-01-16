@@ -8,9 +8,7 @@ tags:
   - asien
   - rind
 
-categories:
-  - hauptgericht
-
+category: hauptgericht
 ---
 
 {% Ingredients %}

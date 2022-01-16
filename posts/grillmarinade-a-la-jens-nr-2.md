@@ -6,9 +6,7 @@ tags:
   - marinade
   - grillen
 
-categories:
-  - sonstiges
-
+category: sonstiges
 ---
 
 {% Ingredients %}

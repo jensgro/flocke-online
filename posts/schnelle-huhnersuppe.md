@@ -7,9 +7,7 @@ tags:
   - suppe
   - huhn
 
-categories:
-  - hauptgericht
-
+category: hauptgericht
 ---
 
 {% Ingredients %}

@@ -7,8 +7,7 @@ tags:
   - vegetarisch
   - asien
 
-categories:
-  - beilage
+category: beilage
 ---
 
 {% Ingredients %}

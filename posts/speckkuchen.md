@@ -6,9 +6,7 @@ introText: "Speckkuchen ist ein in Nordhessen sehr beliebtes Gericht, das man im
 tags:
   - ofen
 
-categories:
-  - hauptgericht
-
+category: hauptgericht
 ---
 
 {% Ingredients %}

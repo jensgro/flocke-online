@@ -7,8 +7,7 @@ tags:
   - kuchen
   - ofen
 
-categories:
-  - sonstiges
+category: sonstiges
 ---
 
 {% Ingredients %}

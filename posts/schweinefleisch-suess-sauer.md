@@ -6,9 +6,7 @@ tags:
   - asien
   - schwein
 
-categories:
-  - hauptgericht
-
+category: hauptgericht
 ---
 
 {% Ingredients %}

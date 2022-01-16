@@ -8,9 +8,7 @@ tags:
   - vegetarisch
   - gemüse
 
-categories:
-  - beilage
-
+category: beilage
 ---
 
 

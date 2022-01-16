@@ -8,9 +8,7 @@ tags:
   - spargel
   - salat
 
-categories:
-  - hauptgericht
-
+category: hauptgericht
 ---
 
 {% Ingredients %}

@@ -6,8 +6,7 @@ introText: 'Durch die Kirschen ist diese Variante in meinen Augen viel schmackha
 tags:
   - süß
 
-categories:
-  - hauptgericht
+category: hauptgericht
 ---
 
 {% Ingredients %}

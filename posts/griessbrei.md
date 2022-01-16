@@ -6,8 +6,7 @@ introText: "Das ist für mich der schnelle Ersatz für Milchreis. Man muß keine
 tags:
   - dessert
 
-categories:
-  - hauptgericht
+category: hauptgericht
 ---
 
 

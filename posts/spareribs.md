@@ -7,9 +7,7 @@ tags:
   - grillen
   - ofen
 
-categories:
-  - hauptgericht
-
+category: hauptgericht
 ---
 
 {% Ingredients %}

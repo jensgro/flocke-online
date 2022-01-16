@@ -6,9 +6,7 @@ introText: "Wer wie ich das Zusammenspiel aus Dill und Gurke liebt, wird dieses 
 tags:
   - schwein
 
-categories:
-  - hauptgericht
-
+category: hauptgericht
 ---
 
 {% Ingredients %}

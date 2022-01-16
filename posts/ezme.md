@@ -9,8 +9,7 @@ tags:
   - vegetarisch
   - türkei
 
-categories:
-  - beilage
+category: beilage
 ---
 
 {% Ingredients %}

@@ -7,8 +7,7 @@ tags:
   - reis
   - ofen
 
-categories:
-  - hauptgericht
+category: hauptgericht
 ---
 
 {% Ingredients %}

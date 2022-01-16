@@ -7,8 +7,7 @@ tags:
   - pizza
   - ofen
 
-categories:
-  - hauptgericht
+category: hauptgericht
 ---
 
 {% Ingredients %}

@@ -9,9 +9,7 @@ tags:
   - salat
   - party
 
-categories:
-  - hauptgericht
-  - sonstiges
+category: hauptgericht
 ---
 
 {% Ingredients %}

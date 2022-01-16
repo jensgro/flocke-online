@@ -6,9 +6,7 @@ introText: 'Mit der Zeit hat sich mein Geschmack bei diesem Rezept gewandelt: Ic
 tags:
   - nudeln
 
-categories:
-  - hauptgericht
-
+category: hauptgericht
 ---
 
 {% Ingredients %}

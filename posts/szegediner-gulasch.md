@@ -6,9 +6,7 @@ introText: "Ich habe lange Zeit bei Gulasch nur noch an diese Variante gedacht. 
 tags:
   - rind
 
-categories:
-  - hauptgericht
-
+category: hauptgericht
 ---
 
 {% Ingredients %}

@@ -10,8 +10,7 @@ tags:
   - vegetarisch
   - gemüse
 
-categories:
-  - hauptgericht
+category: hauptgericht
 
 ---
 

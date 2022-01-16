@@ -6,10 +6,7 @@ introImage: 'apfelwaffeln'
 tags:
   - kuchen
 
-
-categories:
-  - sonstiges
-
+category: sonstiges
 ---
 
 {% Ingredients %}

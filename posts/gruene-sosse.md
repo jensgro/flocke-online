@@ -7,8 +7,7 @@ introImage: 'gruene-sosse-1'
 tags:
   - vegetarisch
 
-categories:
-  - hauptgericht
+category: hauptgericht
 ---
 
 

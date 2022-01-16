@@ -9,8 +9,7 @@ tags:
   - hackfleisch
   - mexiko
 
-categories:
-  - hauptgericht
+category: hauptgericht
 ---
 
 {% Ingredients %}

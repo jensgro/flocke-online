@@ -6,8 +6,7 @@ tags:
   - fisch
   - ofen
 
-categories:
-  - hauptgericht
+category: hauptgericht
 
 ---
 

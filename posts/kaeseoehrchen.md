@@ -7,9 +7,7 @@ tags:
   - beilage
   - ofen
 
-categories:
-  - beilage
-
+category: sonstiges
 ---
 
 

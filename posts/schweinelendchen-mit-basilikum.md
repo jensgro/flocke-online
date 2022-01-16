@@ -6,8 +6,7 @@ introText: "Dieses Gericht ist schnell gemacht und doch etwas Besonderes."
 tags:
   - schwein
 
-categories:
-  - hauptgericht
+category: hauptgericht
 ---
 
 {% Ingredients %}

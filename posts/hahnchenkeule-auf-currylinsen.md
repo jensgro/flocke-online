@@ -6,8 +6,7 @@ introText: 'Einen Schöhnheitspreis bekommt das Gericht nicht, aber es schmeckt 
 tags:
   - huhn
 
-categories:
-  - hauptgericht
+category: hauptgericht
 ---
 
 {% Ingredients %}

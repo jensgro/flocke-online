@@ -10,8 +10,7 @@ tags:
   - beilage
 
 
-categories:
-  - beilage
+category: beilage
 ---
 
 {% Ingredients %}

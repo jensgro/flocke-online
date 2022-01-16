@@ -7,8 +7,7 @@ tags:
   - asien
   - hackfleisch
 
-categories:
-  - hauptgericht
+category: hauptgericht
 ---
 
 {% Ingredients %}

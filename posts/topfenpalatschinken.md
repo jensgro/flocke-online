@@ -9,9 +9,7 @@ tags:
   - vegetarisch
   - süß
 
-categories:
-  - hauptgericht
-
+category: hauptgericht
 ---
 
 {% Ingredients %}

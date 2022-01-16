@@ -8,8 +8,7 @@ tags:
   - gemüse
   - ofen
 
-categories:
-  - hauptgericht
+category: hauptgericht
 ---
 
 {% Ingredients %}

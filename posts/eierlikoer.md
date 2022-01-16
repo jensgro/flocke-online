@@ -7,6 +7,8 @@ introImage: 'eierlikoer'
 tags:
   - getraenk
   - party
+
+category: sonstiges
 ---
 
 {% Ingredients %}
