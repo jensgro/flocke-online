@@ -1,6 +1,6 @@
   <section>
     <h2 class="content__headline">Die letzten 4 Rezepte</h2>
-    {% set postslist = collections.posts | head(-4) %}
-    {% set postslistCounter = collections.posts | length %}
+    {% set postslist = collections.rezept | head(-4) %}
+    {% set postslistCounter = collections.rezept | length %}
     {% include "indexlist.njk" %}
   </section>

@@ -11,3 +11,33 @@
   {% endfor %}
   </ul>
 </section>
+<section>
+  <h2>Die Hauptgerichte</h2>
+  <ul>
+    {%- for post in collections.recipe -%}
+      {% if post.data.category == "hauptgericht" %}
+      <li>{{ post.data.title }}</li>
+      {% endif %}
+    {%- endfor -%}
+    </ul>
+
+    <h2>Die Beilagen</h2>
+    <ul>
+      {%- for post in collections.recipe -%}
+        {% if post.data.category == "beilage" %}
+        <li>{{ post.data.title }}</li>
+        {% endif %}
+      {%- endfor -%}
+      </ul>
+
+
+    <h2>Sonstiges</h2>
+    <ul>
+      {%- for post in collections.recipe -%}
+        {% if post.data.category == "sonstiges" %}
+        <li>{{ post.data.title }}</li>
+        {% endif %}
+      {%- endfor -%}
+      </ul>
+
+</section>
