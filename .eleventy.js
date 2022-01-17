@@ -16,7 +16,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.setDataDeepMerge(true);
 
-  eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
+  eleventyConfig.addLayoutAlias("recipe", "layouts/recipe.njk");
 
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
@@ -36,13 +36,26 @@ module.exports = function(eleventyConfig) {
     return array.slice(0, n);
   });
 
-  eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
+  // eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
   eleventyConfig.addCollection("randomList", require("./_11ty/getRandomList"));
-  eleventyConfig.addCollection('posts', collection => {
-    return [...collection.getFilteredByGlob('./posts/*.md')]
+  eleventyConfig.addCollection('recipe', collection => {
+    return [...collection.getFilteredByGlob('./recipe/*.md')]
       .reverse();
   });
-/*
+
+  eleventyConfig.addCollection('tagList', (collectionApi) => {
+    const tagsSet = new Set()
+    collectionApi.getAll().forEach((item) => {
+      if (!item.data.tags) return
+      item.data.tags
+        // Das ist zum Aussortieren gedacht.
+        //.filter((tag) => !['foo', 'bar'].includes(tag))
+        .forEach((tag) => tagsSet.add(tag))
+    })
+    return [...tagsSet].sort((a, b) => a.localeCompare(b))
+  })
+
+  /*
   eleventyConfig.addCollection('fleischrezepte', collection => {
     return collection.getFilteredByTag('fleisch');
 });
