@@ -6,7 +6,7 @@ introText: "Seit Jahren bringe ich jedes Jahr einen bestimmten Kartoffelsalat zu
 tags:
   - spanien
   - kartoffeln
-  - zitronen
+  - salat
   - beilage
   - party
 
