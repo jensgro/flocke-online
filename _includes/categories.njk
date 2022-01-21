@@ -1,43 +1,19 @@
 <section>
   <h2 class="content__headline">Alle Kategorien</h2>
-  <ul class="taglist taglist--index">
-  {% for tag in collections.tagList %}
-    {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-    {% set tagCount = collections[tag].length %}
-    <li class="taglist__item">
-      <span class="taglist__count">{{ tagCount }} x </span>
-      <a class="taglist__link" href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
-    </li>
-  {% endfor %}
-  </ul>
-</section>
-<section>
-  <h2>Die Hauptgerichte</h2>
-  <ul>
-    {%- for post in collections.recipe -%}
-      {% if post.data.category == "hauptgericht" %}
-      <li>{{ post.data.title }}</li>
-      {% endif %}
-    {%- endfor -%}
-    </ul>
-
-    <h2>Die Beilagen</h2>
-    <ul>
-      {%- for post in collections.recipe -%}
-        {% if post.data.category == "beilage" %}
-        <li>{{ post.data.title }}</li>
-        {% endif %}
-      {%- endfor -%}
-      </ul>
-
-
-    <h2>Sonstiges</h2>
-    <ul>
-      {%- for post in collections.recipe -%}
-        {% if post.data.category == "sonstiges" %}
-        <li>{{ post.data.title }}</li>
-        {% endif %}
-      {%- endfor -%}
-      </ul>
-
+  <ol class="indexlist archive-grid">
+    {% for item in categories %}
+      <li class="indexlist-item">
+        <div class="card">
+          <div class="card__image-cnt">
+            <a href="{{ item.url | url }}">
+              <img class="card__image" src="https://placeimg.com/498/280/any" alt="">
+            </a>
+          </div>
+          <div class="card__title">
+              <a href="{{ item.url | url }}" class="card__link">{{ item.title }}</a>
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+    </ol>
 </section>

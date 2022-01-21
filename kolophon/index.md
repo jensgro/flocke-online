@@ -2,9 +2,6 @@
 layout: layouts/post.njk
 title: Kolophon
 templateClass: tmpl-post
-eleventyNavigation:
-  key: Kolophon
-  order: 4
 ---
 
 Diese Seite wurde von [Jens Grochtdreis](https://grochtdreis.de) zusammengestoppelt.

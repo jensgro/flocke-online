@@ -1,0 +1,15 @@
+---
+layout: layouts/post.njk
+title: "Die Beilagen"
+eleventyNavigation:
+  key: Beilagen
+  order: 1
+---
+
+<ul class="collection-overview">
+  {%- for post in collections.recipe -%}
+    {% if post.data.category == "beilage" %}
+    <li><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
+    {% endif %}
+  {%- endfor -%}
+  </ul>

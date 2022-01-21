@@ -1,0 +1,18 @@
+.collection-overview {
+  column-count: 3;
+  column-gap: 12px;
+
+  li {
+    margin-bottom: 12px;
+  }
+
+  a {
+    display: block;
+  }
+
+  a:hover,
+  a:focus {
+    color: #a20000;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,15 @@
+---
+layout: layouts/post.njk
+title: "Die Hauptgerichte"
+eleventyNavigation:
+  key: Hauptgerichte
+  order: 1
+---
+
+<ul class="collection-overview">
+  {%- for post in collections.recipe -%}
+    {% if post.data.category == "hauptgericht" %}
+    <li><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
+    {% endif %}
+  {%- endfor -%}
+  </ul>

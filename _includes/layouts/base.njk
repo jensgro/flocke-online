@@ -56,11 +56,39 @@
        </header>
       </div>
     {% endif %}
+
+    {% if templateClass == "tmpl-post" %}
+    <div class="container">
+      <header class="post-header siteheader">
+        <!-- 7:2 -->
+        <img src="https://placeimg.com/900/257/any" alt="">
+        <!-- <img
+        src="../img/{{ introImage }}-l.jpg"
+        srcset="../img/{{ introImage }}-s.jpg 320w,
+        ../img/{{ introImage }}-md.jpg 480w,
+          ../img/{{ introImage }}-l.jpg 768w
+        alt=""> -->
+        <div class="headline-cnt">
+          <h1 class="post-headline">{{ title }}</h1>
+        </div>
+     </header>
+    </div>
+  {% endif %}
     <!-- END ======= Header -->
 
       {{ content | safe }}
 
-      {% if templateClass != "tmpl-home" %}
+      {% if templateClass == "tmpl-home" %}
+
+      <div class="container">
+        <ul>
+          <li><a href="/impressum/">Impressum</a></li>
+          <li><a href="/kolophon/">Kolophon</a></li>
+        </ul>
+      </div>
+
+      {% else %}
+
       <div class="container">
         <footer class="site__footer">
           <h2>Alle Kategorien</h2>
@@ -74,7 +102,14 @@
             </ul>
         </footer>
     </div>
-    {% endif %}
+    <div class="container">
+      <div class="hint getback"><a class="getback__link" href="{{ '/' | url }}">zurück zur Startseite</a></div>
+      <ul>
+        <li><a href="/impressum/">Impressum</a></li>
+        <li><a href="/kolophon/">Kolophon</a></li>
+      </ul>
+    </div>
+  {% endif %}
 
     <!-- Current page: {{ page.url | url }} -->
   </body>

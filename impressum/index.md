@@ -2,9 +2,7 @@
 layout: layouts/post.njk
 title: Impressum
 templateClass: tmpl-post
-eleventyNavigation:
-  key: Impressum
-  order: 3
+
 ---
 
 
