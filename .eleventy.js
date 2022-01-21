@@ -49,7 +49,7 @@ module.exports = function(eleventyConfig) {
       if (!item.data.tags) return
       item.data.tags
         // Das ist zum Aussortieren gedacht.
-        //.filter((tag) => !['foo', 'bar'].includes(tag))
+        .filter((tag) => !['rezept'].includes(tag))
         .forEach((tag) => tagsSet.add(tag))
     })
     return [...tagsSet].sort((a, b) => a.localeCompare(b))
