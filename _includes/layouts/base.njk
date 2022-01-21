@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
   </head>
+  {% if templateClass == "tmpl-home" %}
+  <body class="home">
+  {% else %}
   <body>
+  {% endif %}
     <div class="container">
       <nav class="main-nav">
         {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
@@ -81,16 +85,18 @@
       {% if templateClass == "tmpl-home" %}
 
       <div class="container">
-        <ul>
-          <li><a href="/impressum/">Impressum</a></li>
-          <li><a href="/kolophon/">Kolophon</a></li>
-        </ul>
+        <footer class="site__footer">
+          <ul>
+            <li><a href="/impressum/">Impressum</a></li>
+            <li><a href="/kolophon/">Kolophon</a></li>
+          </ul>
+        </footer>
       </div>
 
       {% else %}
 
       <div class="container">
-        <footer class="site__footer">
+        <div>
           <h2>Alle Kategorien</h2>
           <ul class="taglist taglist--footer">
             {% for tag in collections.tagList %}
@@ -100,14 +106,16 @@
               </li>
             {% endfor %}
             </ul>
-        </footer>
+        </div>
     </div>
     <div class="container">
-      <div class="hint getback"><a class="getback__link" href="{{ '/' | url }}">zurück zur Startseite</a></div>
-      <ul>
-        <li><a href="/impressum/">Impressum</a></li>
-        <li><a href="/kolophon/">Kolophon</a></li>
-      </ul>
+      <footer class="site__footer">
+        <ul>
+          <li class="getback__link"><a href="{{ '/' | url }}">zurück zur Startseite</a></li>
+          <li><a href="/impressum/">Impressum</a></li>
+          <li><a href="/kolophon/">Kolophon</a></li>
+        </ul>
+      </footer>
     </div>
   {% endif %}
 
