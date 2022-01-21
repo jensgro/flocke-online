@@ -86,7 +86,7 @@
 
       <div class="container">
         <footer class="site__footer">
-          <ul>
+          <ul class="nav">
             <li><a href="/impressum/">Impressum</a></li>
             <li><a href="/kolophon/">Kolophon</a></li>
           </ul>
@@ -95,22 +95,25 @@
 
       {% else %}
 
-      <div class="container">
-        <div>
+    <div class="container">
+      <div>
           <h2>Alle Kategorien</h2>
           <ul class="taglist taglist--footer">
             {% for tag in collections.tagList %}
               {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+              {% set tagCount = collections[tag].length %}
               <li class="taglist__item">
+                <span class="taglist__count">{{ tagCount }} x </span>
                 <a class="taglist__link" href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
               </li>
             {% endfor %}
             </ul>
-        </div>
+      </div>
     </div>
+
     <div class="container">
       <footer class="site__footer">
-        <ul>
+        <ul class="nav">
           <li class="getback__link"><a href="{{ '/' | url }}">zurück zur Startseite</a></li>
           <li><a href="/impressum/">Impressum</a></li>
           <li><a href="/kolophon/">Kolophon</a></li>
