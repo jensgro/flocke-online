@@ -23,8 +23,12 @@
       {% if templateClass == "tmpl-home" %}
       <div class="container">
         <header class="home siteheader">
-          <h1 class="home-headline">{{ title }}</h1>
-          <p class="contentheader__subline">{{ subline }}</p>
+          <!-- 7:2 -->
+          <img src="https://placeimg.com/900/257/any" alt="">
+         <div class="headline-cnt">
+            <h1 class="home-headline">{{ title }}</h1>
+            <p class="home-subline">{{ subline }}</p>
+         </div>
         </header>
       </div>
     {% endif %}
@@ -35,16 +39,20 @@
         </header>
       </div>
     {% endif %}
-    {% if templateClass == "tmpl-post" %}
+    {% if templateClass == "tmpl-recipe" %}
       <div class="container">
-        <header class="post-header siteheader">
-          <img
+        <header class="recipe-header siteheader">
+          <!-- 7:2 -->
+          <img src="https://placeimg.com/900/257/any" alt="">
+          <!-- <img
           src="../img/{{ introImage }}-l.jpg"
           srcset="../img/{{ introImage }}-s.jpg 320w,
           ../img/{{ introImage }}-md.jpg 480w,
             ../img/{{ introImage }}-l.jpg 768w
-          alt="">
-          <h1 class="post-headline">{{ title }}</h1>
+          alt=""> -->
+          <div class="headline-cnt">
+            <h1 class="recipe-headline">{{ title }}</h1>
+          </div>
        </header>
       </div>
     {% endif %}
