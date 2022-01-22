@@ -1,7 +1,7 @@
 
-  <ol class="indexlist archive-grid">
+  <ol class="nolist mygrid">
   {% for post in postslist %}
-    <li class="indexlist-item{% if post.url == url %} indexlist-item-active{% endif %}">
+    <li>
       <div class="card">
         <div class="card__image-cnt">
           <a href="{{ post.url | url }}">

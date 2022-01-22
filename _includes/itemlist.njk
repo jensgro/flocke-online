@@ -1,7 +1,7 @@
 
-  <ol class="indexlist archive-grid">
+  <ol class="nolist mygrid">
   {% for post in postslist %}
-    <li class="indexlist-item{% if post.url == url %} indexlist-item-active{% endif %}">
+    <li>
         <a href="{{ post.url | url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
     </li>
   {% endfor %}

@@ -1,11 +1,27 @@
 
 /* ==== CARD === */
 .card {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  margin-bottom: 0;
+  border: 1px solid #cecece;
+
   background-color: $card-bg;
   border-radius: 3px;
   overflow: hidden;
   margin-bottom: 40px;
 
+  &__header {
+    text-align: center;
+    padding: 10px;
+  }
+
+  &__headline {
+    padding: 0;
+    font-weight: 400;
+  }
+  &__title,
   &__link {
     color: $card-link-color;
     background-color: $card-link-bg;
@@ -19,14 +35,23 @@
       text-decoration: underline;
     }
   }
+  &__image-cnt {
+    position: relative;
 
-  // &__headline {
-  //   margin-top: 0;
-  // }
+    &:hover, &:focus {
+      opacity: 0.75;
 
-  // &__body {
-  //   padding: 10px 10px 20px 25px;
-  // }
+      &__title {
+        opacity: 1;
+      }
+    }
+
+    &__title {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
 
   &__image {
     display: block;

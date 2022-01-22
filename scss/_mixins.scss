@@ -14,26 +14,14 @@
   margin: 0;
 }
 
-@mixin mygrid($name) {
+@mixin mygrid($name, $min:"320px") {
   .#{$name} {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($min, 1fr));
+    grid-gap: 0.75em;
   }
   .#{$name} li {
-    flex: 1 0 auto;
-    min-width: 120px;
-    margin: 0 20px 20px 0;
+    min-width: auto;
+    margin: 0;
   }
-  @supports (display: grid) {
-    .#{$name} {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      grid-gap: 0.75em;
-    }
-    .#{$name} li {
-      min-width: auto;
-      margin: 0;
-    }
-  }
-
 }
