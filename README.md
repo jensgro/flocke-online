@@ -74,4 +74,3 @@ DEBUG=* npx eleventy
   * `_includes/layouts/base.njk`: the top level HTML structure
   * `_includes/layouts/home.njk`: the home page template (wrapped into `base.njk`)
   * `_includes/layouts/recipe.njk`: the blog post template (wrapped into `base.njk`)
-* `_includes/postlist.njk` is a Nunjucks include and is a reusable component used to display a list of all the posts. `index.njk` has an example of how to use it.

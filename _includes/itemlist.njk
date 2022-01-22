@@ -2,7 +2,7 @@
   <ol class="nolist mygrid">
   {% for post in postslist %}
     <li>
-        <a href="{{ post.url | url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+        <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
     </li>
   {% endfor %}
   </ol>
