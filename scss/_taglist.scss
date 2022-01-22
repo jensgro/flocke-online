@@ -1,50 +1,39 @@
-
 .taglist {
   @include nolist;
 
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-}
 
-.taglist__count {
-  background-color: #a20000;
-  color: #fff;
-  padding: 8px;
-}
+  &__count {
+    background-color: #a20000;
+    color: #fff;
+    padding: 8px;
+    margin-right: 6px;
+    display: inline-block;
+  }
 
-.taglist__item {
-  margin: 0 30px 30px 0;
-  display: flex;
-  justify-content: flex-start;
+  &__item {
+    margin: 0 30px 30px 0;
+    display: flex;
+    justify-content: flex-start;
+  }
 
-  &:hover,
-  &:focus {
+  &__link {
+    padding: 0 10px 0 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    // color: $taglist-link-color;
+    // background-color: $taglist-link-bg;
 
-    .taglist__count {
+    &:hover,
+    &:focus {
       background-color: silver;
-      color: #000;
-    }
 
-    .taglist__link {
-      text-decoration: underline;
+      .taglist__count {
+        background-color: #000;
+        color: #fff;
+      }
     }
   }
-
 }
-
-.taglist__link {
-  padding: 6px 10px;
-  text-decoration: none;
-  text-transform: capitalize;
-  // color: $taglist-link-color;
-  // background-color: $taglist-link-bg;
-}
-
-.taglist--footer {
-
-  .taglist__link {
-
-  }
-}
-
