@@ -3,31 +3,3 @@
   @include section;
   background-color: $white;
 }
-
-.site__footer {
-  border-top: 2px solid $blue2;
-  padding-bottom: 2em;
-
-  ul {
-    list-style: none;
-    padding-left: 0;
-    margin-left: 0;
-    width: 100%;
-
-    .getback__link {
-      margin-left: 0;
-      margin-right: auto;
-    }
-    li {
-      margin-left: 24px;
-    }
-  }
-
-  .home & {
-    li:first-child {
-      margin-left: 0;
-    }
-  }
-}
-
-@include mygrid("archive-grid");
