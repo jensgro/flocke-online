@@ -1,7 +1,7 @@
 .mygrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 0.75em;
+  grid-gap: 2em;
 
   > * {
     min-width: auto;
@@ -15,4 +15,10 @@
 
 .mygrid--medium {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.mygrid--categories {
+  .card__title {
+    font-size: 2rem;
+  }
 }

@@ -21,13 +21,16 @@
     padding: 0;
     font-weight: 400;
   }
-  &__title,
-  &__link {
+   &__title {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-decoration: none;
     color: $card-link-color;
     background-color: $card-link-bg;
-    padding: 10px 20px;
-    display: block;
-    text-decoration: none;
 
     &:hover, &:focus {
       color: $card-link-hover-color;
@@ -44,12 +47,6 @@
       &__title {
         opacity: 1;
       }
-    }
-
-    &__title {
-      position: absolute;
-      bottom: 0;
-      left: 0;
     }
   }
 
