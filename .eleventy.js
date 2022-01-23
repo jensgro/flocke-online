@@ -55,19 +55,9 @@ module.exports = function(eleventyConfig) {
     return [...tagsSet].sort((a, b) => a.localeCompare(b))
   })
 
-  /*
-  eleventyConfig.addCollection('fleischrezepte', collection => {
-    return collection.getFilteredByTag('fleisch');
-});
-eleventyConfig.addCollection('veggierezepte', collection => {
-    return collection.getFilteredByTag('vegetarisch');
-});
-eleventyConfig.addCollection('beilagen', collection => {
-    return collection.getFilteredByTag('beilage');
-});
-*/
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy({"scss/fonts": "css/fonts"});
 
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({
@@ -79,11 +69,7 @@ eleventyConfig.addCollection('beilagen', collection => {
     permalinkClass: "direct-link",
     permalinkSymbol: "#"
   });
-  //eleventyConfig.setLibrary("md", markdownLibrary);
 
-  // eleventyConfig.addPairedNunjucksShortcode("ingredients", function(innercontent){
-  //   return `<aside class="aclass">${innercontent}</aside>`
-  // });
 
    // Paired shortcodes
    eleventyConfig.addPairedShortcode('Ingredients', Ingredients);
