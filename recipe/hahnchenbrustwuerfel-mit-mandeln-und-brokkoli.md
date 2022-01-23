@@ -1,5 +1,5 @@
 ---
-title: Hähnchenbrustwuerfel mit Mandeln und Brokkoli
+title: Hähnchenbrustwürfel mit Mandeln und Brokkoli
 permalink: rezepte/haehnchenbrustwuerfel.html
 date: '2006-11-04'
 tags:
