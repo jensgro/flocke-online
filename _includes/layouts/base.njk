@@ -20,7 +20,7 @@
         {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
         <ul class="nav wrapper">
         {%- for entry in collections.all | eleventyNavigation %}
-          <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
+          <li class="nav-item"><a class="nav-link{% if entry.url == page.url %} nav-link-active{% endif %}" href="{{ entry.url | url }}">{{ entry.title }}</a></li>
         {%- endfor %}
         </ul>
       </nav>
@@ -88,7 +88,7 @@
 
       <div class="container">
         <footer class="site__footer">
-          <ul class="nav">
+          <ul>
             <li><a href="/impressum/">Impressum</a></li>
             <li><a href="/kolophon/">Kolophon</a></li>
           </ul>
@@ -117,7 +117,7 @@
 
     <div class="container">
       <footer class="site__footer">
-        <ul class="nav">
+        <ul>
           <li class="getback__link"><a href="{{ '/' | url }}">zurück zur Startseite</a></li>
           <li><a href="/impressum/">Impressum</a></li>
           <li><a href="/kolophon/">Kolophon</a></li>
