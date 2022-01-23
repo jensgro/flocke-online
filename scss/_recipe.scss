@@ -1,13 +1,9 @@
- .recipe {
-    // padding: 1.5em;
+.recipe {
+  font-size: 1.125rem;
 
-//   &__ingredients {
-
-//   }
-
-//   &__content {
-
-//   }
+  h2, h3, h4 {
+    margin-bottom: 20px;
+  }
 }
 
 @media (min-width: 768px) {

@@ -16,9 +16,3 @@
 .mygrid--medium {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
-
-.mygrid--categories {
-  .card__title {
-    font-size: 2rem;
-  }
-}

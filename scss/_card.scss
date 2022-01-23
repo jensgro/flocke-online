@@ -25,6 +25,7 @@
     display: block;
     width: 100%;
     padding: 10px 20px;
+    font-size: 1.25rem;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -37,6 +38,12 @@
       background: $card-link-hover-bg;
       text-decoration: underline;
     }
+
+    .mygrid--categories & {
+        font-size: 2rem;
+        padding: 0 20px;
+    }
+
   }
   &__image-cnt {
     position: relative;
