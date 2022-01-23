@@ -30,3 +30,11 @@
   margin: 0 0 12px 0;
   padding: 0;
 }
+
+.tag-headline {
+  mark {
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 2px 6px;
+  }
+}
