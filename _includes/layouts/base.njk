@@ -15,7 +15,7 @@
   {% else %}
   <body>
   {% endif %}
-    <header class="site-header">
+    <header class="main-nav-wrapper">
       <nav class="container main-nav">
         {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
         <ul class="main-nav__nav">
@@ -32,44 +32,59 @@
     </header>
   <!-- ====== Header -->
       {% if templateClass == "tmpl-home" %}
-      <div class="container">
-        <header class="home siteheader">
-          <!-- 7:2 -->
-          <img src="https://placeimg.com/900/257/any" alt="">
-         <div class="headline-cnt">
-            <h1 class="home-headline">{{ title }}</h1>
-            <p class="home-subline">{{ subline }}</p>
-         </div>
-        </header>
+      <div class="bg-wrapper">
+
+        <div class="container pb-0">
+          <header class="home siteheader">
+            <!-- 7:2 -->
+            <img src="https://placeimg.com/900/257/any" alt="">
+           <div class="headline-cnt">
+              <h1 class="home-headline">{{ title }}</h1>
+              <p class="home-subline">{{ subline }}</p>
+           </div>
+          </header>
+        </div>
+
       </div>
+      <!-- /.bg-wrapper -->
     {% endif %}
+
     {% if templateClass == "tmpl-tags" %}
+    <div class="bg-wrapper">
+
       <div class="container">
         <header class="tags siteheader">
           <h1 class="tags-headline">{{ title }}</h1>
         </header>
       </div>
+
+    </div>
+    <!-- /.bg-wrapper -->
     {% endif %}
+
     {% if templateClass == "tmpl-recipe" %}
-      <div class="container">
-        <header class="recipe-header siteheader">
-          <!-- 7:2 -->
-          <img src="https://placeimg.com/900/257/any" alt="">
-          <!-- <img
-          src="../img/{{ introImage }}-l.jpg"
-          srcset="../img/{{ introImage }}-s.jpg 320w,
-          ../img/{{ introImage }}-md.jpg 480w,
-            ../img/{{ introImage }}-l.jpg 768w
-          alt=""> -->
-          <div class="headline-cnt">
-            <h1 class="recipe-headline">{{ title }}</h1>
-          </div>
-       </header>
-      </div>
+      <div class="bg-wrapper">
+        <div class="container pb-0">
+          <header class="recipe-header siteheader">
+            <!-- 7:2 -->
+            <img src="https://placeimg.com/900/257/any" alt="">
+            <!-- <img
+            src="../img/{{ introImage }}-l.jpg"
+            srcset="../img/{{ introImage }}-s.jpg 320w,
+            ../img/{{ introImage }}-md.jpg 480w,
+              ../img/{{ introImage }}-l.jpg 768w
+            alt=""> -->
+            <div class="headline-cnt">
+              <h1 class="recipe-headline">{{ title }}</h1>
+            </div>
+         </header>
+        </div>
+      </div> <!-- / .bg-wrapper -->
+
     {% endif %}
 
     {% if templateClass == "tmpl-post" %}
-    <div class="container">
+    <div class="container pb-0">
       <header class="post-header siteheader">
         <!-- 7:2 -->
         <img src="https://placeimg.com/900/257/any" alt="">
