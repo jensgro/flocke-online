@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ renderData.title or title or metadata.title }}</title>
     <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
-    <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/flocke.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
   </head>
   {% if templateClass == "tmpl-home" %}
@@ -16,14 +16,14 @@
   <body>
   {% endif %}
 
-    {% include "./partials/navigation.njk" %}
+    {% include "partials/navigation.njk" %}
 
-    {% include "./partials/siteheader.njk" %}
+    {% include "partials/siteheader.njk" %}
 
 
     {{ content | safe }}
 
 
-    {% include "./partials/footer.njk" %}
+    {% include "partials/footer.njk" %}
   </body>
 </html>
