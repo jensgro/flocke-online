@@ -1,11 +1,11 @@
 {% if templateClass == "tmpl-home" %}
   <div class="container">
-    <header class="home siteheader">
+    <header class="home-header card border-0">
       <!-- 7:2 -->
-      <img src="https://placeimg.com/900/257/any" alt="">
-      <div class="headline-cnt">
-        <h1 class="home-headline">{{ title }}</h1>
-        <p class="home-subline">{{ subline }}</p>
+      <img class="card-img-top" src="https://placeimg.com/900/257/any" alt="">
+      <div class="card-body">
+        <h1 class="card-title">{{ title }}</h1>
+        <p class="card-text">{{ subline }}</p>
       </div>
     </header>
   </div>
@@ -13,25 +13,27 @@
 
 {% if templateClass == "tmpl-tags" %}
   <div class="container">
-    <header class="tags siteheader">
-      <h1 class="tags-headline">{{ title }}</h1>
+    <header class="tags-header card border-0">
+      <div class="card-body">
+        <h1 class="card-title">{{ title }}</h1>
+      </div>
     </header>
   </div>
 {% endif %}
 
 {% if templateClass == "tmpl-recipe" %}
   <div class="container">
-    <header class="recipe-header siteheader">
+    <header class="recipe-header card border-0">
       <!-- 7:2 -->
-      <img src="https://placeimg.com/900/257/any" alt="">
+      <img class="card-img-top" src="https://placeimg.com/900/257/any" alt="">
       <!-- <img
       src="../img/{{ introImage }}-l.jpg"
       srcset="../img/{{ introImage }}-s.jpg 320w,
       ../img/{{ introImage }}-md.jpg 480w,
         ../img/{{ introImage }}-l.jpg 768w
       alt=""> -->
-      <div class="headline-cnt">
-        <h1 class="recipe-headline">{{ title }}</h1>
+      <div class="card-body">
+        <h1 class="card-title">{{ title }}</h1>
       </div>
     </header>
   </div>
@@ -39,17 +41,17 @@
 
 {% if templateClass == "tmpl-post" %}
   <div class="container">
-    <header class="post-header siteheader">
+    <header class="post-header card border-0">
       <!-- 7:2 -->
-      <img src="https://placeimg.com/900/257/any" alt="">
+      <img class="card-img-top" src="https://placeimg.com/900/257/any" alt="">
       <!-- <img
     src="../img/{{ introImage }}-l.jpg"
     srcset="../img/{{ introImage }}-s.jpg 320w,
     ../img/{{ introImage }}-md.jpg 480w,
       ../img/{{ introImage }}-l.jpg 768w
     alt=""> -->
-      <div class="headline-cnt">
-        <h1 class="post-headline">{{ title }}</h1>
+      <div class="card-body">
+        <h1 class="card-title">{{ title }}</h1>
       </div>
     </header>
   </div>

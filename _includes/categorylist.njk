@@ -1,17 +1,15 @@
 
-  <ol class="nolist mygrid">
+  <ol class="nolist row">
   {% for post in postslist %}
-    <li>
+    <li class="col">
       <div class="card">
-        <div class="card__image-cnt">
-          <a href="{{ post.url | url }}">
-            <img class="card__image" src="https://placeimg.com/498/280/any" alt="">
-            <!-- <img class="card__image" src="https://placeimg.com/640/360/any" alt=""> -->
-            <!-- <img class="card__image" src="../img/{{ post.data.introImage }}-xs.jpg" alt=""> -->
-          </a>
-        </div>
-        <div class="card__title">
-            <a href="{{ post.url | url }}" class="card__link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+        <a href="{{ post.url | url }}">
+          <img class="card-img-top" src="https://placeimg.com/498/280/any" alt="">
+          <!-- <img class="card__image" src="https://placeimg.com/640/360/any" alt=""> -->
+          <!-- <img class="card__image" src="../img/{{ post.data.introImage }}-xs.jpg" alt=""> -->
+        </a>
+        <div class="card-body">
+          <a href="{{ post.url | url }}" class="card-title d-2">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
         </div>
       </div>
     </li>

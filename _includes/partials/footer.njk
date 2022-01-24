@@ -1,10 +1,10 @@
 {% if templateClass == "tmpl-home" %}
 
-  <div class="container">
-    <footer class="site__footer">
-      <ul>
-        <li><a href="/impressum/">Impressum</a></li>
-        <li><a href="/kolophon/">Kolophon</a></li>
+  <div class="container sitefooter">
+    <footer class="row">
+      <ul class="nav hstack gap-4">
+        <li class="nav-item"><a class="nav-link" href="/impressum/">Impressum</a></li>
+        <li class="nav-item"><a class="nav-link" href="/kolophon/">Kolophon</a></li>
       </ul>
     </footer>
   </div>
@@ -12,14 +12,14 @@
 {% else %}
 
   <div class="container section--categories">
-    <div>
+    <div class="row">
       <h2>Alle Kategorien</h2>
-      <ul class="taglist taglist--footer">
+      <ul class="nav hstack gap-3">
         {% for tag in collections.tagList %}
         {% set tagUrl %}/tags/{{ tag }}/{% endset %}
         {% set tagCount = collections[tag].length %}
-        <li class="taglist__item">
-          <a class="taglist__link" href="{{ tagUrl | url }}" class="tag">
+        <li class="nav-item">
+          <a class="nav-link" href="{{ tagUrl | url }}">
             <span class="taglist__count">{{ tagCount }} x </span>
             {{ tag }}
           </a>
@@ -29,12 +29,12 @@
     </div>
   </div>
 
-  <div class="container">
-    <footer class="site__footer">
-      <ul>
-        <li class="getback__link"><a href="{{ '/' | url }}">zurück zur Startseite</a></li>
-        <li><a href="/impressum/">Impressum</a></li>
-        <li><a href="/kolophon/">Kolophon</a></li>
+  <div class="container sitefooter">
+    <footer class="row">
+      <ul class="nav hstack gap-4">
+        <li class="nav-item"><a class="nav-link" href="{{ '/' | url }}">zurück zur Startseite</a></li>
+        <li class="nav-item"><a class="nav-link" href="/impressum/">Impressum</a></li>
+        <li class="nav-item"><a class="nav-link" href="/kolophon/">Kolophon</a></li>
       </ul>
     </footer>
   </div>
