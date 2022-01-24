@@ -1,15 +1,17 @@
-<header class="site-header">
-  <nav class="container main-nav">
-    {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-    <ul class="main-nav__nav">
-    {%- for entry in collections.all | eleventyNavigation %}
-      <li class="main-nav__item">
-        <a  class="main-nav__link{% if entry.url == page.url %} main-nav__link--active{% endif %}"
-            href="{{ entry.url | url }}">
-            {{ entry.title }}
-        </a>
-      </li>
-    {%- endfor %}
-    </ul>
-  </nav>
+<header class="site-header bg-dark mb-4">
+  <div class="container">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+      <ul class="navbar-nav">
+      {%- for entry in collections.all | eleventyNavigation %}
+        <li class="nav-item">
+          <a  class="nav-link{% if entry.url == page.url %} active{% endif %}"
+              href="{{ entry.url | url }}">
+              {{ entry.title }}
+          </a>
+        </li>
+      {%- endfor %}
+      </ul>
+    </nav>
+  </div>
 </header>
