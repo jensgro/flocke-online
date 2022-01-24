@@ -1,6 +1,6 @@
 {% if templateClass == "tmpl-home" %}
 
-  <div class="container sitefooter">
+  <div class="container mt-5">
     <footer class="row">
       <ul class="nav hstack gap-4">
         <li class="nav-item"><a class="nav-link" href="/impressum/">Impressum</a></li>
@@ -11,22 +11,20 @@
 
 {% else %}
 
-  <div class="container section--categories">
-    <div class="row">
-      <h2>Alle Kategorien</h2>
-      <ul class="nav hstack gap-3">
-        {% for tag in collections.tagList %}
-        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-        {% set tagCount = collections[tag].length %}
-        <li class="nav-item">
-          <a class="nav-link" href="{{ tagUrl | url }}">
-            <span class="taglist__count">{{ tagCount }} x </span>
-            {{ tag }}
-          </a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
+  <div class="container mt-5">
+    <h2>Alle Kategorien</h2>
+    <ul class="taglist taglist--footer">
+      {% for tag in collections.tagList %}
+      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+      {% set tagCount = collections[tag].length %}
+      <li class="taglist__item">
+        <a class="taglist__link" href="{{ tagUrl | url }}">
+          <span class="taglist__count">{{ tagCount }} x </span>
+          {{ tag }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
 
   <div class="container sitefooter">

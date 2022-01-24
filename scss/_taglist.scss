@@ -1,16 +1,20 @@
 .taglist {
-  @include nolist;
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+  margin-top: 2rem;
 
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
 
   &__count {
-    background-color: #a20000;
-    color: #fff;
+    color: #a20000;
+    background-color: whitesmoke;
     padding: 8px;
     margin-right: 6px;
     display: inline-block;
+    transition: all linear 0.5s;
   }
 
   &__item {
@@ -23,12 +27,13 @@
     padding: 0 10px 0 0;
     text-decoration: none;
     text-transform: capitalize;
-    // color: $taglist-link-color;
-    // background-color: $taglist-link-bg;
+    color: #000;
+    transition: all linear 0.5s;
 
     &:hover,
     &:focus {
-      background-color: silver;
+      background-color: lightgrey;
+      color: #000;
 
       .taglist__count {
         background-color: #000;
