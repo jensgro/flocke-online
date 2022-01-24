@@ -15,122 +15,15 @@
   {% else %}
   <body>
   {% endif %}
-    <header class="site-header">
-      <nav class="container main-nav">
-        {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-        <ul class="main-nav__nav">
-        {%- for entry in collections.all | eleventyNavigation %}
-          <li class="main-nav__item">
-            <a  class="main-nav__link{% if entry.url == page.url %} main-nav__link--active{% endif %}"
-                href="{{ entry.url | url }}">
-                {{ entry.title }}
-            </a>
-          </li>
-        {%- endfor %}
-        </ul>
-      </nav>
-    </header>
-  <!-- ====== Header -->
-      {% if templateClass == "tmpl-home" %}
-      <div class="container">
-        <header class="home siteheader">
-          <!-- 7:2 -->
-          <img src="https://placeimg.com/900/257/any" alt="">
-         <div class="headline-cnt">
-            <h1 class="home-headline">{{ title }}</h1>
-            <p class="home-subline">{{ subline }}</p>
-         </div>
-        </header>
-      </div>
-    {% endif %}
-    {% if templateClass == "tmpl-tags" %}
-      <div class="container">
-        <header class="tags siteheader">
-          <h1 class="tags-headline">{{ title }}</h1>
-        </header>
-      </div>
-    {% endif %}
-    {% if templateClass == "tmpl-recipe" %}
-      <div class="container">
-        <header class="recipe-header siteheader">
-          <!-- 7:2 -->
-          <img src="https://placeimg.com/900/257/any" alt="">
-          <!-- <img
-          src="../img/{{ introImage }}-l.jpg"
-          srcset="../img/{{ introImage }}-s.jpg 320w,
-          ../img/{{ introImage }}-md.jpg 480w,
-            ../img/{{ introImage }}-l.jpg 768w
-          alt=""> -->
-          <div class="headline-cnt">
-            <h1 class="recipe-headline">{{ title }}</h1>
-          </div>
-       </header>
-      </div>
-    {% endif %}
 
-    {% if templateClass == "tmpl-post" %}
-    <div class="container">
-      <header class="post-header siteheader">
-        <!-- 7:2 -->
-        <img src="https://placeimg.com/900/257/any" alt="">
-        <!-- <img
-        src="../img/{{ introImage }}-l.jpg"
-        srcset="../img/{{ introImage }}-s.jpg 320w,
-        ../img/{{ introImage }}-md.jpg 480w,
-          ../img/{{ introImage }}-l.jpg 768w
-        alt=""> -->
-        <div class="headline-cnt">
-          <h1 class="post-headline">{{ title }}</h1>
-        </div>
-     </header>
-    </div>
-  {% endif %}
-    <!-- END ======= Header -->
+    {% include "./partials/navigation.njk" %}
 
-      {{ content | safe }}
+    {% include "./partials/siteheader.njk" %}
 
-      {% if templateClass == "tmpl-home" %}
 
-      <div class="container">
-        <footer class="site__footer">
-          <ul>
-            <li><a href="/impressum/">Impressum</a></li>
-            <li><a href="/kolophon/">Kolophon</a></li>
-          </ul>
-        </footer>
-      </div>
+    {{ content | safe }}
 
-      {% else %}
 
-    <div class="container section--categories">
-      <div>
-          <h2>Alle Kategorien</h2>
-          <ul class="taglist taglist--footer">
-            {% for tag in collections.tagList %}
-              {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-              {% set tagCount = collections[tag].length %}
-              <li class="taglist__item">
-                <a class="taglist__link" href="{{ tagUrl | url }}" class="tag">
-                  <span class="taglist__count">{{ tagCount }} x </span>
-                  {{ tag }}
-                </a>
-              </li>
-            {% endfor %}
-            </ul>
-      </div>
-    </div>
-
-    <div class="container">
-      <footer class="site__footer">
-        <ul>
-          <li class="getback__link"><a href="{{ '/' | url }}">zurück zur Startseite</a></li>
-          <li><a href="/impressum/">Impressum</a></li>
-          <li><a href="/kolophon/">Kolophon</a></li>
-        </ul>
-      </footer>
-    </div>
-  {% endif %}
-
-    <!-- Current page: {{ page.url | url }} -->
+    {% include "./partials/footer.njk" %}
   </body>
 </html>
