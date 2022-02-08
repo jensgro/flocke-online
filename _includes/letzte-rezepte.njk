@@ -2,5 +2,19 @@
     <h2 class="content__headline">Die letzten 4 Rezepte</h2>
     {% set postslist = collections.rezept | head(-4) %}
     {% set postslistCounter = collections.rezept | length %}
-    {% include "indexlist.njk" %}
+      <ol class="nolist mygrid mygrid--medium">
+      {% for post in postslist %}
+        <li>
+          <div class="card">
+            <div class="card__image-cnt">
+              <a href="{{ post.url | url }}">
+                <img class="card__image" src="https://placeimg.com/220/220/any" alt="">
+
+                <span class="card__title">{{ post.data.title }}</span>
+              </a>
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+      </ol>
   </section>
