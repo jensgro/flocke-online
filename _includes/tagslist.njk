@@ -1,4 +1,4 @@
-<ol class="mygrid mygrid--small">
+<ol class="mygrid mygrid--3times">
   {% for post in postslist %}
   <li>
     <div class="card">
@@ -9,12 +9,8 @@
           {%- else -%}
             <img class="card__image" src="http://dummyimage.com/250x100" alt="">
         {%- endif -%}
+        <span class="card__title">{{ post.data.title }}</span>
         </a>
-      </div>
-      <div class="card__header">
-        <h2 class="card__headline">
-          <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-        </h2>
       </div>
     </div>
   </li>
