@@ -5,11 +5,11 @@ eleventyNavigation:
   key: Hauptgerichte
   order: 1
 ---
-<!-- list-group list-group-flush list-group-column -->
+
 <ul class="collection-overview">
   {%- for post in collections.recipe -%}
-  {% if post.data.category == "hauptgericht" %}
-  <li><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
-  {% endif %}
-{%- endfor -%}
-</ul>
+    {% if post.data.category == "hauptgericht" %}
+    <li><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
+    {% endif %}
+  {%- endfor -%}
+  </ul>

@@ -2,7 +2,7 @@
 // https://github.com/philhawksworth/hawksworx.com/blob/master/gulpfile.js
 
 const gulp    = require("gulp");
-const sass    = require("gulp-sass")(require("sass"));
+const sass    = require("gulp-sass");
 
 /* ==== generate the css with sass */
 gulp.task('css', function() {

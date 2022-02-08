@@ -1,13 +1,13 @@
 <section>
   <h2 class="content__headline">Alle Kategorien</h2>
-  <ol class="nolist row">
+  <ol class="nolist mygrid mygrid--categories">
     {% for item in categories %}
-      <li class="col">
+      <li>
         <div class="card">
-          <img class="card-img-top" src="https://placeimg.com/498/280/any" alt="">
-          <div class="card-body">
-            <a class="card-title" href="{{ item.url | url }}">
-              {{ item.title }}
+          <div class="card__image-cnt">
+            <a href="{{ item.url | url }}">
+              <img class="card__image" src="https://placeimg.com/498/280/any" alt="">
+              <span class="card__title">{{ item.title }}</span>
             </a>
           </div>
         </div>

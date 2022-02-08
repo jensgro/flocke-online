@@ -1,12 +1,13 @@
 
-  <ol class="nolist row">
+  <ol class="nolist mygrid mygrid--medium">
   {% for post in postslist %}
-    <li class="col">
+    <li>
       <div class="card">
-        <img class="card-img-top" src="https://placeimg.com/220/220/any" alt="">
-        <div class="card-body">
+        <div class="card__image-cnt">
           <a href="{{ post.url | url }}">
-            <span class="card-title">{{ post.data.title }}</span>
+            <img class="card__image" src="https://placeimg.com/220/220/any" alt="">
+
+            <span class="card__title">{{ post.data.title }}</span>
           </a>
           <!-- <div class="card__title">
             <a href="{{ post.url | url }}" class="card__link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
