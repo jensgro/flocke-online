@@ -16,3 +16,10 @@
 .mygrid--medium {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
+
+.mygrid--3times {
+  grid-template-columns: repeat(3, 1fr);
+}
+.mygrid--4times {
+  grid-template-columns: repeat(4, 1fr);
+}
