@@ -1,33 +1,21 @@
 .collection-overview {
-
-  @media (min-width: 540px) {
-    column-count: 2;
-    column-gap: 60px;
-  }
-  @media (min-width: 800px) {
-    column-count: 3;
-  }
-
-  list-style-type: none;
-  margin: 0;
+  column-count: 3;
+  column-gap: 12px;
   padding: 0;
+  margin: 0 0 40px 0;
 
   a {
     display: block;
-    padding: 1em;
-    padding-left: 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-    color: #000;
-    background-color: white;
+    padding: 0.5em 1em 0.5em 0;
+    border-bottom: 1px solid $lightgray;
     transition: all linear 0.5s;
   }
 
   a:hover,
   a:focus {
     color: #a20000;
-    border-bottom-color: #a20000;
-    background-color: lightgrey;
+    background-color: $lightergrey;
     text-decoration: none;
-    padding-left: 1em;
+    padding: 0.5em 1em;
   }
 }

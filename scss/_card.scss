@@ -3,13 +3,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  background-color: transparent;
-  margin-bottom: 0;
-  border: 1px solid #cecece;
-
-  background-color: $card-bg;
-  border-radius: 3px;
-  overflow: hidden;
+  border-radius: 8px;
   margin-bottom: 40px;
 
   &__header {
@@ -30,18 +24,19 @@
     bottom: 0;
     left: 0;
     text-decoration: none;
-    color: $card-link-color;
-    background-color: $card-link-bg;
+    color: $black;
+    background: $orange2;
 
     &:hover, &:focus {
-      color: $card-link-hover-color;
-      background: $card-link-hover-bg;
-      text-decoration: underline;
+      color: $white;
+      background: $myred;
+      // text-decoration: underline;
     }
 
     .mygrid--categories & {
         font-size: 2rem;
-        padding: 0 20px;
+        position: static;
+        text-decoration: none;
     }
 
   }
@@ -78,39 +73,3 @@
   }
 }
 
-.card--selected {
-
-  a {
-    position: relative;
-    display: block;
-
-    &:hover, &:focus {
-
-      .card__image-title {
-        background-color: rgba(0,0,0,0.5);
-        top: 0;
-        color: $white;
-        padding: 20px;
-      }
-    }
-  }
-  .card__image {
-    position: relative;
-    z-index: 1;
-  }
- .card__image-title {
-   position: absolute;
-   top: auto;
-   left: 0;
-   right: 0;
-   bottom: 0;
-
-   padding: 20px;
-   font-size: 1.25rem;
-  //  width: 100%;
-   z-index: 10;
-   background-color: $white;
-   transition: all linear 0.5s;
-
- }
-}

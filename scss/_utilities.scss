@@ -5,3 +5,22 @@
 .section--categories {
   border-top: 5px solid sandybrown;
 }
+
+// https://piccalil.li/tutorial/creating-a-full-bleed-css-utility/
+.full-bleed {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+
+.bg-wrapper {
+  // background-color: lighten($mediumblue, 50);
+  background-color: $orange2;
+}
+
+.pb-0 {
+  padding-bottom: 0;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}

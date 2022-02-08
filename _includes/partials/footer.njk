@@ -1,39 +1,14 @@
-{% if templateClass == "tmpl-home" %}
-
-  <div class="container mt-5">
-    <footer class="row">
-      <ul class="nav hstack gap-4">
-        <li class="nav-item"><a class="nav-link" href="/impressum/">Impressum</a></li>
-        <li class="nav-item"><a class="nav-link" href="/kolophon/">Kolophon</a></li>
-      </ul>
-    </footer>
-  </div>
-
-{% else %}
-
-  <div class="container mt-5">
-    <h2>Alle Kategorien</h2>
-    <ul class="taglist taglist--footer">
-      {% for tag in collections.tagList %}
-      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-      {% set tagCount = collections[tag].length %}
-      <li class="taglist__item">
-        <a class="taglist__link" href="{{ tagUrl | url }}">
-          <span class="taglist__count">{{ tagCount }} x </span>
-          {{ tag }}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-
-  <div class="container sitefooter">
-    <footer class="row">
-      <ul class="nav hstack gap-4">
-        <li class="nav-item"><a class="nav-link" href="{{ '/' | url }}">zurück zur Startseite</a></li>
-        <li class="nav-item"><a class="nav-link" href="/impressum/">Impressum</a></li>
-        <li class="nav-item"><a class="nav-link" href="/kolophon/">Kolophon</a></li>
-      </ul>
-    </footer>
-  </div>
+{% if templateClass != "tmpl-home" %}
+{% include "partials/taglist-simple.njk" %}
 {% endif %}
+<div class="container">
+<footer class="site__footer">
+  <ul>
+    {% if templateClass != "tmpl-home" %}
+    <li class="getback__link"><a href="{{ '/' | url }}">zurück zur Startseite</a></li>
+    {% endif %}
+    <li><a href="/impressum/">Impressum</a></li>
+    <li><a href="/kolophon/">Kolophon</a></li>
+  </ul>
+</footer>
+</div>

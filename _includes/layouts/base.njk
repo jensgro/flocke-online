@@ -15,14 +15,27 @@
   {% else %}
   <body>
   {% endif %}
+    <header class="main-nav-wrapper">
+      <nav class="container main-nav">
+        {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+        <ul class="main-nav__nav">
+        {%- for entry in collections.all | eleventyNavigation %}
+          <li class="main-nav__item">
+            <a  class="main-nav__link{% if entry.url == page.url %} main-nav__link--active{% endif %}"
+                href="{{ entry.url | url }}">
+                {{ entry.title }}
+            </a>
+          </li>
+        {%- endfor %}
+        </ul>
+      </nav>
+    </header>
 
-    {% include "partials/navigation.njk" %}
+      {% include "partials/site-header.njk" %}
 
-    {% include "partials/pageheader.njk" %}
+      {{ content | safe }}
 
-
-    {{ content | safe }}
-
+      {% include "partials/footer.njk" %}
 
     {% include "partials/footer.njk" %}
   </body>

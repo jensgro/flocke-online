@@ -1,13 +1,17 @@
 // Der Wrapper um die .main-nav
 // Eigentlich sollte eine Datei mit der nach ihr benannten Klasse beginnen.
 // Immer diese Ausnahmen ... :-)
-.site-header {
-  background-color: $mediumblue;
+.main-nav-wrapper {
+  background-color: $orange2;
 }
 
 .main-nav {
-  background-color: $mediumblue;
-  padding: 12px;
+  background-color: $orange2;
+  padding: 12px 32px;
+
+  @media (min-width: 1120px) {
+    padding: 12px 0;
+  }
 
   &__nav {
     display: flex;
@@ -32,7 +36,8 @@
     &:hover,
     &:focus,
     &--active {
-      background-color: $lightblue;
+      background-color: $brown;
+      color: #fff;
     }
 
     &--active {
