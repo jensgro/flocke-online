@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 templateClass: tmpl-recipe
 ---
-<div class="container">
+<div class="container mb-4">
   <main class="recipe">
     {% Intro %}
       {{ introText}}
@@ -10,3 +10,21 @@ templateClass: tmpl-recipe
     {{ content | safe }}
   </main>
 </div>
+{% if rec %}
+<section class="container mb-4">
+    <div class="card card--rec">
+      <div class="card__header">
+        <h2 class="card__headline">Rezeptlinks</h2>
+      </div>
+      <div class="card__body">
+        <ul class="listing">
+          {%- for page in rec -%}
+          <li>
+            <a href="{{ page.url }}">{{ page.title }}</a>{% if page.note %} <span class="listing__note">- {{page.note}}</span>{% endif %}
+          </li>
+      {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+</section>
+{% endif %}
