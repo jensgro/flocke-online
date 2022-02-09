@@ -1,14 +1,14 @@
 {% if templateClass != "tmpl-home" %}
 {% include "partials/taglist-simple.njk" %}
 {% endif %}
-<div class="container">
-<footer class="site__footer">
-  <ul>
-    {% if templateClass != "tmpl-home" %}
-    <li class="getback__link"><a href="{{ '/' | url }}">zurück zur Startseite</a></li>
-    {% endif %}
-    <li><a href="/impressum/">Impressum</a></li>
-    <li><a href="/kolophon/">Kolophon</a></li>
-  </ul>
-</footer>
+<div class="container no-print">
+  <footer class="site__footer">
+    <ul>
+      {% if templateClass != "tmpl-home" %}
+      <li class="getback__link"><a href="{{ '/' | url }}">zurück zur Startseite</a></li>
+      {% endif %}
+      <li><a href="/impressum/">Impressum</a></li>
+      <li><a href="/kolophon/">Kolophon</a></li>
+    </ul>
+  </footer>
 </div>
