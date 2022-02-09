@@ -7,9 +7,9 @@
     left: 0;
     z-index: 10;
 
-    background-color: rgba($color: #000000, $alpha: 0.5);
-    color: #fafafa;
-    padding: 10px;
+    background-color: $siteheader-headline-cnt-bg;
+    color: $siteheader-headline-cnt-color;
+    padding: $p2;
     width: 100%;
 
     .home & {
@@ -27,7 +27,7 @@
 
 .home-headline ,
 .home-subline {
-  margin: 0 0 12px 0;
+  margin: 0 0 $m2 0;
   padding: 0;
 }
 
@@ -35,6 +35,6 @@
   mark {
     text-transform: capitalize;
     display: inline-block;
-    padding: 2px 6px;
+    padding: 2px $p1;
   }
 }

@@ -2,11 +2,11 @@
 // Eigentlich sollte eine Datei mit der nach ihr benannten Klasse beginnen.
 // Immer diese Ausnahmen ... :-)
 .main-nav-wrapper {
-  background-color: $orange2;
+  background-color: $main-nav-wrapper-bg;
 }
 
 .main-nav {
-  background-color: $orange2;
+  background-color: $main-nav-bg;
   padding: 12px 32px;
 
   @media (min-width: 1120px) {

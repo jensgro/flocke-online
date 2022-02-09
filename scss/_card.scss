@@ -4,11 +4,11 @@
   display: flex;
   flex-direction: column;
   border-radius: 8px;
-  margin-bottom: 40px;
+  margin-bottom: $m4;
 
   &__header {
     text-align: center;
-    padding: 10px;
+    padding: $p2;
   }
 
   &__headline {
@@ -18,18 +18,18 @@
    &__title {
     display: block;
     width: 100%;
-    padding: 10px 20px;
+    padding: $p2 $p3;
     font-size: 1.25rem;
     position: absolute;
     bottom: 0;
     left: 0;
     text-decoration: none;
     color: $black;
-    background: $orange2;
+    background: $card-title-bg;
 
     &:hover, &:focus {
-      color: $white;
-      background: $myred;
+      color: $card-title-hover-color;
+      background: $card-title-hover-bg;
       // text-decoration: underline;
     }
 
@@ -65,11 +65,11 @@
 
   &__footer {
     background-color: #cecece;
-    padding: 10px;
+    padding: $p2;
   }
 
   .tag:not(:last-child) {
-    margin-right: 10px;
+    margin-right: $m2;
   }
 }
 
