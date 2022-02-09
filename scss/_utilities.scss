@@ -3,7 +3,7 @@
 }
 
 .section--categories {
-  border-top: 5px solid sandybrown;
+  border-top: 5px solid $separator-color;
 }
 
 // https://piccalil.li/tutorial/creating-a-full-bleed-css-utility/
@@ -23,4 +23,14 @@
 
 .mb-0 {
   margin-bottom: 0;
+}
+
+.mb-4 {
+  margin-bottom: $m4;
+}
+
+@media print {
+  .no-print {
+    display: none;
+  }
 }

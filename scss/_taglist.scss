@@ -20,11 +20,12 @@
   }
 
   &__link {
-    padding: 0 10px 0 0;
+    padding: $p1 $p2;
     text-decoration: none;
     text-transform: capitalize;
-    // color: $taglist-link-color;
-    // background-color: $taglist-link-bg;
+    color: $taglist-link-color;
+    background-color: $taglist-link-bg;
+    border-radius: $p1;
 
     &:hover,
     &:focus {

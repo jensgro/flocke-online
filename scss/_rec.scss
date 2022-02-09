@@ -1,0 +1,40 @@
+// recommendations
+/* ==== CARD === */
+.rec {
+  background-color: $rec-bg;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.rec__header {
+  background-color: $rec-header-bg;
+  padding: $p2 $p4;
+}
+.rec__headline {
+  margin-top: 0;
+  color: #fff;
+}
+.rec__body {
+  padding: $p2 $p2 $p3 $p4;
+}
+
+/* ==== Listing === */
+
+.listing {
+  margin: $m2 0;
+  color: #0277BD;
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: #0277BD;
+    border-bottom-color: #0277BD;
+  }
+
+  a:hover,
+  a:focus {
+    border-bottom-color: transparent;
+  }
+}

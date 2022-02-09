@@ -23,9 +23,12 @@ $blue: #082840;
 $blue2: #0b4396;
 
 $lightyellow: #ffc;
+$brown1: sandybrown;
 
 $nearlywhite: #fafafa;
 $white: #fff;
+
+$maincolor: $mediumblue; // $orange2
 
 // ==================================
 $link-color: $blue;
@@ -33,10 +36,12 @@ $link-color-hover: $black;
 
 $page-bg: $white;
 
-$bg-wrapper-bg: $orange2;
+$bg-wrapper-bg: $maincolor;
 
-$main-nav-wrapper-bg: $orange2;
-$main-nav-bg: $orange2;
+$main-nav-wrapper-bg: $maincolor;
+$main-nav-bg: $maincolor;
+
+$separator-color: $maincolor;
 
 $siteheader-headline-cnt-bg: rgba(0,0,0,0.5);
 $siteheader-headline-cnt-color: #fafafa;
@@ -54,15 +59,23 @@ $card-title-bg: $orange2;
 $card-title-hover-bg: $myred;
 $card-title-hover-color: $white;
 
+$card-rec-bg: $lightgray;
+$card-rec-header-bg: $mediumblue;
+$card-rec-headline-color: $white;
+
+$card-tags-bg: $lightgray;
+$card-tags-header-bg: $brown1;
+$card-tags-headline-color: $black;
+
 $tag-bg: $red;
 $tag-color: $white;
 $tag-visited-color: $white;
 
 $warning-color: $lightyellow;
 
-$taglist-link-color: $white;
-$taglist-link-bg: $myred;
-$taglist-link-hover-bg: $blue;
+$taglist-link-color: $black;
+$taglist-link-bg: $brown1;
+$taglist-link-hover-bg: $mediumblue;
 $taglist-link-hover-color: $white;
 
 // ============= Abstände

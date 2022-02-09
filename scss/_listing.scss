@@ -1,0 +1,20 @@
+/* ==== Listing === */
+
+.listing {
+  margin: $m2 0;
+  color: #0277BD;
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: #0277BD;
+    border-bottom-color: #0277BD;
+  }
+
+  a:hover,
+  a:focus {
+    border-bottom-color: transparent;
+  }
+}

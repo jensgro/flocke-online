@@ -15,6 +15,7 @@
     padding: 0;
     font-weight: 400;
   }
+
    &__title {
     display: block;
     width: 100%;
@@ -40,6 +41,7 @@
     }
 
   }
+
   &__image-cnt {
     position: relative;
 
@@ -63,6 +65,10 @@
     }
   }
 
+  .card__body {
+    padding: $p2 $p2 $p3 $p4;
+  }
+
   &__footer {
     background-color: #cecece;
     padding: $p2;
@@ -73,3 +79,33 @@
   }
 }
 
+// =====
+// recommendations
+/* ==== CARD === */
+.card--rec {
+  background-color: $card-rec-bg;
+
+  .card__header {
+    background-color: $card-rec-header-bg;
+    padding: $p2 $p4;
+  }
+
+  .card__headline {
+    margin-top: 0;
+    color: $card-rec-headline-color;
+  }
+}
+
+.card--tags {
+  background-color: $card-tags-bg;
+
+  .card__header {
+    background-color: $card-tags-header-bg;
+    padding: $p2 $p4;
+  }
+
+  .card__headline {
+    margin-top: 0;
+    color: $card-tags-headline-color;
+  }
+}
