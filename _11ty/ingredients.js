@@ -1,5 +1,5 @@
-module.exports = (cont = '') => (`
-  <aside class="recipe__ingredients">
-    ${ cont }
-  </aside>
+module.exports = (ingredients = '') => (`
+  <div class="recipe__ingredients">
+    ${ ingredients }
+  </div>
 `);

@@ -1,5 +1,5 @@
-module.exports = (cont = '') => (`
+module.exports = (intro = '') => (`
   <div class="recipe__intro">
-    <p>${ cont }</p>
+    <p>${ intro }</p>
   </div>
 `);
