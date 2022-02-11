@@ -39,8 +39,7 @@ module.exports = function(eleventyConfig) {
   // eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
   eleventyConfig.addCollection("randomList", require("./_11ty/getRandomList"));
   eleventyConfig.addCollection('recipe', collection => {
-    return [...collection.getFilteredByGlob('./recipe/*.md')]
-      .reverse();
+    return [...collection.getFilteredByGlob('./recipe/*.md')];
   });
 
   eleventyConfig.addCollection('tagList', (collectionApi) => {
@@ -54,6 +53,18 @@ module.exports = function(eleventyConfig) {
     })
     return [...tagsSet].sort((a, b) => a.localeCompare(b))
   })
+
+  // Die Rezepte werden aufsteigend nach Titel sortiert.
+  // Standard ist das Datum.
+  // Leider gibt es keine einfache API-Methode.
+  // https://github.com/11ty/eleventy/issues/411
+  eleventyConfig.addCollection("recipesDescending", (collection) =>
+    collection.getFilteredByGlob("./recipe/*.md").sort((a, b) => {
+      if (a.data.title < b.data.title) return -1;
+      else if (a.data.title > b.data.title) return 1;
+      else return 0;
+    })
+  );
 
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
