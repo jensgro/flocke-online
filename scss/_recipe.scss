@@ -1,5 +1,6 @@
 .recipe {
   font-size: 1.125rem;
+  padding-top: $p6;
 
   h2, h3, h4 {
     margin-bottom: 20px;
@@ -13,6 +14,7 @@
     grid-template-areas:
       "intro intro"
       "ingredients content"
+      "tipps tipps"
     ;
 
     &__intro {
@@ -30,6 +32,9 @@
 
     &__content {
       grid-area: content;
+    }
+    &__tipps {
+      grid-area: tipps;
     }
   }
 }
