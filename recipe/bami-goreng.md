@@ -3,7 +3,7 @@ title: Bami Goreng
 date: '2006-11-04'
 permalink: rezepte/bami-goreng.html
 introImage: 'bami-goreng'
-introText: "Schon als Kind habe ich beim Chinesen oder in Holland Bami Goreng und Nasi Goreng geliebt. Als ich es dann selber kochen wollte, stellte ich fest, daß es unendliche Variationen gibt (von den Gewürzmischungen wollen wir jetzt gar nicht reden). Also bastelte ich mir meine eigene Version zusammen. Deren Kern ist die Würzsauce. Damit steht und fällt der gesamte Geschmack. M.E. sollten auch weder die Eier, noch dei Banane fehlen. Wer es lieber als Nasi Goreng essen will, macht sich statt Mi-Nudeln einfach Reis dazu. Ich finde Mi-Nudeln am praktischtsen, weil man sie einfach nur mit heißem Wasser übergießt und ein wenig ziehen läßt. Schneller kanns gar nicht gehen."
+introText: "Schon als Kind habe ich beim Chinesen oder in Holland Bami Goreng und Nasi Goreng geliebt. Als ich es dann selber kochen wollte, stellte ich fest, daß es unendliche Variationen gibt (von den Gewürzmischungen wollen wir jetzt gar nicht reden). Also bastelte ich mir meine eigene Version zusammen. Deren Kern ist die Würzsauce. Damit steht und fällt der gesamte Geschmack. M.E. sollten auch weder die Eier, noch die Banane fehlen. Wer es lieber als Nasi Goreng essen will, macht sich statt Mi-Nudeln einfach Reis dazu. Ich finde Mi-Nudeln am praktischtsen, weil man sie einfach nur mit heißem Wasser übergießt und ein wenig ziehen läßt. Schneller kanns gar nicht gehen."
 tags:
   - asien
   - indonesien
@@ -38,7 +38,9 @@ category: hauptgericht
 - Boullion, Soja-Sauce, Garam-Masala, Chili-Pulver, Kreuzkümmel verrühren (Mengen nach Belieben) und unter das Gemisch mengen. Die Nudeln müssen dunkel geworden sein. Unbedingt abschmecken.
 - Die Bananen auf das Gemisch legen und mitdünsten. Deckel auf den Wok oder die Pfanne.
 - Die Spiegeleier zu dem Bami Goreng essen.
+{% endRecipe %}
 
+{% Tipps %}
 ## Tipps
 
 - Für die Zubereitung empfiehlt sich natürlich die Verwendung eines Wok !
@@ -47,4 +49,4 @@ category: hauptgericht
 - Ich habe in einem Asia-Laden eine sehr gute Paste entdeckt, die ich statt Pfeffer und Salz zum Würzen des Fleischs nutze. Es ist ein französisches Produkt namens „Carry Vinday“. Es enthält Kreuzkümmel, 5-Gewürz-Pulver, Senf, Knoblauch, Essig und anderes. Man muß es mit einem bischen Öl geschmeidiger machen und dann damit das Fleisch einreiben. Da diese Paste eine gewisse Grundschärfe besitzt, sollte vor dem Würzen mit Chili-Pulver abgeschmeckt werden.
 - Natürlich kann man die Würzsauce mit anderen als den oben angegebenen Gewürzen versehen.
 
-{% endRecipe %}
+{% endTipps %}
