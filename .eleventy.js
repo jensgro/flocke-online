@@ -8,6 +8,8 @@ const markdownItAnchor = require("markdown-it-anchor");
 const Ingredients = require("./_11ty/ingredients");
 const Recipe = require("./_11ty/recipe-content");
 const Intro = require("./_11ty/recipe-intro");
+const Recommendations = require("./_11ty/recommendations");
+const Tipps = require("./_11ty/recipe-tipps");
 
 
 module.exports = function(eleventyConfig) {
@@ -32,7 +34,6 @@ module.exports = function(eleventyConfig) {
     if( n < 0 ) {
       return array.slice(n);
     }
-
     return array.slice(0, n);
   });
 
@@ -86,7 +87,10 @@ module.exports = function(eleventyConfig) {
    eleventyConfig.addPairedShortcode('Ingredients', Ingredients);
    eleventyConfig.addPairedShortcode('Recipe', Recipe);
    eleventyConfig.addPairedShortcode('Intro', Intro);
-  // Browsersync Overrides
+   eleventyConfig.addPairedShortcode('Tipps', Tipps);
+   eleventyConfig.addPairedShortcode('Recommendations', Recommendations);
+
+   // Browsersync Overrides
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
       ready: function(err, browserSync) {
