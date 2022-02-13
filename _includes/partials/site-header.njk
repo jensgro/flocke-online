@@ -3,12 +3,12 @@
 <div class="bg-wrapper">
 
   <div class="container pb-0">
-    <header class="home siteheader">
+    <header class="siteheader siteheader--home">
       <!-- 7:2 -->
-      <img class="no-print" src="https://placeimg.com/900/257/any" alt="">
-     <div class="headline-cnt">
-        <h1 class="home-headline">{{ title }}</h1>
-        <p class="home-subline">{{ subline }}</p>
+      <img class="no-print" src="https://dummyimage.com/7:2x250" alt="">
+     <div class="siteheader__headline-cnt siteheader__headline-cnt--home">
+        <h1 class="siteheader__headline siteheader__headline--home">{{ title }}</h1>
+        <p class="siteheader__subline siteheader__subline--home">{{ subline }}</p>
      </div>
     </header>
   </div>
@@ -20,9 +20,9 @@
 {% if templateClass == "tmpl-tags" %}
 <div class="bg-wrapper">
 
-  <div class="container">
-    <header class="tags siteheader">
-      <h1 class="tags-headline">{{ title }}</h1>
+  <div class="container pb-0">
+    <header class="siteheader siteheader--tag">
+      <h1 class="siteheader__headline--tag">Alle Rezepte der Kategorie <mark>{{ tag }}</mark></h1>
     </header>
   </div>
 
@@ -33,17 +33,17 @@
 {% if templateClass == "tmpl-recipe" %}
 <div class="bg-wrapper">
   <div class="container pb-0">
-    <header class="recipe-header siteheader">
+    <header class="siteheader siteheader--recipe">
       <!-- 7:2 -->
-      <img src="https://placeimg.com/900/257/any" alt="">
+      <img src="https://dummyimage.com/7:2x250" alt="">
       <!-- <img
       src="../img/{{ introImage }}-l.jpg"
       srcset="../img/{{ introImage }}-s.jpg 320w,
       ../img/{{ introImage }}-md.jpg 480w,
         ../img/{{ introImage }}-l.jpg 768w
       alt=""> -->
-      <div class="headline-cnt">
-        <h1 class="recipe-headline">{{ title }}</h1>
+      <div class="siteheader__headline-cnt">
+        <h1 class="siteheader__headline siteheader__headline--recipe">{{ title }}</h1>
       </div>
    </header>
   </div>
@@ -53,17 +53,17 @@
 
 {% if templateClass == "tmpl-post" %}
 <div class="container pb-0">
-<header class="post-header siteheader">
+<header class="siteheader siteheader--post">
   <!-- 7:2 -->
-  <img src="https://placeimg.com/900/257/any" alt="">
+  <img src="https://dummyimage.com/7:2x250" alt="">
   <!-- <img
   src="../img/{{ introImage }}-l.jpg"
   srcset="../img/{{ introImage }}-s.jpg 320w,
   ../img/{{ introImage }}-md.jpg 480w,
     ../img/{{ introImage }}-l.jpg 768w
   alt=""> -->
-  <div class="headline-cnt">
-    <h1 class="post-headline">{{ title }}</h1>
+  <div class="siteheader__headline-cnt">
+    <h1 class="siteheader__headline siteheader__headline--post">{{ title }}</h1>
   </div>
 </header>
 </div>
