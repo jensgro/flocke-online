@@ -6,7 +6,7 @@
     <div class="card__body">
       <ul class="taglist taglist--footer taglist--simple">
         {% for tag in collections.tagList %}
-          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+          {% set tagUrl %}/{{ tag }}/{% endset %}
           {% set tagCount = collections[tag].length %}
           <li class="taglist__item">
             <a class="taglist__link" href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>

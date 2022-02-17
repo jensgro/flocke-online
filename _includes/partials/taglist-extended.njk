@@ -3,7 +3,7 @@
       <h2>Alle Stichworte</h2>
       <ul class="taglist taglist--footer taglist--extended">
         {% for tag in collections.tagList %}
-          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+          {% set tagUrl %}/{{ tag }}/{% endset %}
           {% set tagCount = collections[tag].length %}
           <li class="taglist__item">
             <a class="taglist__link" href="{{ tagUrl | url }}" class="tag">
