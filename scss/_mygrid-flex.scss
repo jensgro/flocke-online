@@ -11,19 +11,19 @@
 @media (min-width: $lg) {
   .mygrid--2 {
     >* {
-      flex: 1 1 calc(50% - $gap2);
+      flex: 0 1 calc(50% - $gap2);
     }
   }
 
   .mygrid--3 {
     >* {
-      flex: 1 1 calc(33.33333% - $gap2);
+      flex: 0 1 calc(33.33333% - $gap2);
     }
   }
 
   .mygrid--4 {
     >* {
-      flex: 1 1 calc(25% - $gap2);
+      flex: 0 1 calc(25% - $gap2);
     }
   }
 }
@@ -31,7 +31,7 @@
 .mygrid--categories {
 
   li {
-    flex: 1 1 100%;
+    flex: 0 0 100%;
   }
 
   @media (min-width: $md) {
