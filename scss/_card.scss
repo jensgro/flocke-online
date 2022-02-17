@@ -109,3 +109,9 @@
     color: $card-tags-headline-color;
   }
 }
+
+.mygrid--tag {
+  .card__title {
+    position: static;
+  }
+}
