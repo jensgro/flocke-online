@@ -1,5 +1,5 @@
 ---
-  title: Wraps mit unterschiedlicher F체llung
+  title: Wraps - unterschiedliche F체llungen
   tags:
     - fleisch
     - vegetarisch
@@ -12,7 +12,7 @@ Wraps sollten in keinem Haushalt fehlen. Sie bieten immer eine gute Halterung f�
 
 ## Gem체sef체llungen
 
-Als Basis nehme ich gerne [Humus](http://grochtdreis.de/flocke/2017/01/03/humus/), das schnell selber gemacht ist. Dazu passen gebratene Pilze mit Zwiebeln oder gebratene Paprika. Zur Erg채nzung kann man noch schnell einen [Tabouleh](http://grochtdreis.de/flocke/2017/01/02/tabouleh/) machen und als Salatgarnitur dazu geben.
+Als Basis nehme ich gerne [Humus](/rezepte/humus.html), das schnell selber gemacht ist. Dazu passen gebratene Pilze mit Zwiebeln oder gebratene Paprika. Zur Erg채nzung kann man noch schnell einen [Tabouleh](/rezepte/tabouleh.html) machen und als Salatgarnitur dazu geben.
 
 ## Mit einer Thunfisch-Schmand-Mais-Masse
 

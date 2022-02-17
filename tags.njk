@@ -16,9 +16,7 @@ renderData:
   title: Kategorie "{{ tag }}"
 permalink: /{{ tag }}/
 ---
-<div class="headline-cnt">
-  <h1 class="tag-headline">Alle Rezepte der Kategorie <mark>{{ tag }}</mark></h1>
-</div>
+
 
 {% set postslist = collections[ tag ] %}
 {% include "tagslist.njk" %}

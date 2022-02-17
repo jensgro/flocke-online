@@ -1,21 +1,29 @@
 .siteheader {
   position: relative;
 
-  .headline-cnt {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 10;
+  &:not(.siteheader--tag) {
+    aspect-ratio: 7 / 2;
+  }
 
+  &__headline-cnt {
     background-color: $siteheader-headline-cnt-bg;
     color: $siteheader-headline-cnt-color;
-    padding: $p2;
+    padding: 0 $p2;
     width: 100%;
 
-    .home & {
+    @media (min-width: $lg) {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: 10;
+      padding: $p2;
+    }
+
+    &--home {
       border-left: 20px solid $orange2;
     }
   }
+
   img {
     position: relative;
     z-index: 1;
@@ -23,18 +31,21 @@
     max-width: 100%;
     height: auto;
   }
-}
 
-.home-headline ,
-.home-subline {
-  margin: 0 0 $m2 0;
-  padding: 0;
-}
+  &__headline--home ,
+  &__subline--home {
+    margin: 0 0 $m2 0;
+    padding: 0;
+  }
 
-.tag-headline {
-  mark {
-    text-transform: capitalize;
-    display: inline-block;
-    padding: 2px $p1;
+  &__headline--tag {
+
+    mark {
+      text-transform: capitalize;
+      display: inline-block;
+      padding: 2px $p1;
+    }
   }
 }
+
+

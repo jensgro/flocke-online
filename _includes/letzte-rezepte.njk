@@ -2,13 +2,13 @@
     <h2 class="content__headline">Die letzten 4 Rezepte</h2>
     {% set postslist = collections.rezept | head(-4) %}
     {% set postslistCounter = collections.rezept | length %}
-      <ol class="nolist mygrid mygrid--medium">
+      <ol class="nolist mygrid mygrid--4">
       {% for post in postslist %}
         <li>
           <div class="card">
             <div class="card__image-cnt">
               <a href="{{ post.url | url }}">
-                <img class="card__image" src="https://placeimg.com/220/220/any" alt="">
+                <img class="card__image" src="https://dummyimage.com/220x220" alt="">
 
                 <span class="card__title">{{ post.data.title }}</span>
               </a>
