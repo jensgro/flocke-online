@@ -1,6 +1,5 @@
 ---
 title: Hähnchenkeule auf Currylinsen
-date: '2006-11-04'
 permalink: rezepte/haehnchen-auf-currylinsen.html
 introText: 'Einen Schöhnheitspreis bekommt das Gericht nicht, aber es schmeckt gut. Es ist eines der wenigen Gerichte, in denen ich noch Currypulver nutze.'
 tags:

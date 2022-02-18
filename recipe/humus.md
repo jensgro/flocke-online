@@ -1,6 +1,5 @@
 ---
 title: Humus
-date: '2017-01-03'
 permalink: rezepte/humus.html
 introImage: 'humus'
 headerImage: humus

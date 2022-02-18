@@ -1,6 +1,5 @@
 ---
 title: Speckkuchen
-date: '2006-11-04'
 permalink: rezepte/speckkuchen.html
 introText: "Speckkuchen ist ein in Nordhessen sehr beliebtes Gericht, das man im Winter auch bei manchen Bäckern kaufen kann. Aber auch hier gilt wieder: selbstgemacht ist besser !"
 tags:

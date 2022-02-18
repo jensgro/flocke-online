@@ -1,6 +1,5 @@
 ---
 title: Curry-Reis-Salat
-date: '2006-11-04'
 permalink: rezepte/curry-reis-salat.html
 introText: 'Kommt auf Partys immer gut.'
 introImage: 'curry-reis-salat'

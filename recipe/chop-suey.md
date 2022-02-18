@@ -1,6 +1,5 @@
 ---
 title: Chop Suey
-date: '2006-11-04'
 permalink: rezepte/chop-suey.html
 introImage: 'chop-suey'
 headerImage: chop-suey

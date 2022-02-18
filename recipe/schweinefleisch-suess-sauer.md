@@ -1,6 +1,5 @@
 ---
 title: Schweinefleisch süß-sauer
-date: '2006-11-04'
 permalink: rezepte/schweinefleisch-suess-sauer.html
 tags:
   - asien

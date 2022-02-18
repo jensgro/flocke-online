@@ -1,6 +1,5 @@
 ---
 title: Pizzateig mit Hefe
-date: '2006-11-04'
 permalink: rezepte/pizzateig-hefe.html
 introText: 'Früher habe ich Pizza im wesentlichen mit Quark-Öl-Teig gemacht. Aber nicht mehr, seitdem ich diesen Teig kenne.'
 tags:

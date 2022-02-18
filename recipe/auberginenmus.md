@@ -1,6 +1,5 @@
 ---
 title: Auberginenmus
-date: '2013-03-03'
 permalink: rezepte/auberginenmus.html
 introImage: 'baba-ganoush'
 headerImage: baba-ganoush

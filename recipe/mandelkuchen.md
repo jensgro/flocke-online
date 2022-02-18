@@ -1,6 +1,5 @@
 ---
 title: Mandelkuchen
-date: '2006-11-04'
 permalink: rezepte/mandelkuchen.html
 introText: 'Ein Kuchen ohne Mehl! Er ist sehr locker und fluffig.'
 tags:

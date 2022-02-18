@@ -1,6 +1,5 @@
 ---
 title: Bami Goreng
-date: '2006-11-04'
 permalink: rezepte/bami-goreng.html
 introImage: 'bami-goreng'
 headerImage: bami

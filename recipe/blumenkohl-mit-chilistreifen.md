@@ -1,6 +1,5 @@
 ---
 title: Blumenkohl mit Chilistreifen
-date: '2006-11-04'
 permalink: rezepte/blumenkohl-mit-chilistreifen.html
 introText: 'Eine der schmackhaftesten Varianten, Blumenkohl zu essen. Fleisch würde hier übrigens nur stören.'
 introImage: 'blumenkohl'

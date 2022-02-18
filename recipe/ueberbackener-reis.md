@@ -1,6 +1,5 @@
 ---
 title: Überbackener Reis
-date: '2006-11-04'
 permalink: rezepte/ueberbackener-reis.html
 introText: 'Super zum Restekochen. Außerdem kann man den Reis schon am Vortag mitkochen, wenn man sowieso schon Reis als Beilage kocht. Das ist ein uraltes Rezept aus meiner Studentenzeit.'
 tags:

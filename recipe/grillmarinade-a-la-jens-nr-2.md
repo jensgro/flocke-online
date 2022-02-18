@@ -1,6 +1,5 @@
 ---
 title: Grillmarinade à la Jens Nr. 2
-date: '2006-11-04'
 permalink: rezepte/grillmarinade-2.html
 tags:
   - marinade

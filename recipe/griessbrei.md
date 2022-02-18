@@ -1,6 +1,5 @@
 ---
 title: Grießbrei
-date: '2007-01-03'
 permalink: rezepte/griessbrei.html
 introText: "Das ist für mich der schnelle Ersatz für Milchreis. Man muß keine halbe Stunde rühren, damit nichts anbrennt. Ich esse Grießbrei sehr gerne als Hauptgericht. Diese Portion reicht allerdings auch für vier bis sechs Portionen als Nachtisch."
 tags:

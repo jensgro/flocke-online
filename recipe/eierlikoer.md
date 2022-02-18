@@ -1,6 +1,5 @@
 ---
 title: Eierlikör
-date: '2006-11-04'
 permalink: rezepte/eierlikoer.html
 introText: 'Einfach ein schönes Geschenk. Aber auch zum sleber trinken verdammt lecker.'
 introImage: 'eierlikoer'

@@ -1,6 +1,5 @@
 ---
 title: Gelber Reis
-date: '2006-11-04'
 permalink: rezepte/gelber-reis.html
 introText: 'Eine super Beilage zu vielen imndischen und indonesischen Gerichten.'
 introImage: 'gelber-reis'

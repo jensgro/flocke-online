@@ -1,6 +1,5 @@
 ---
 title: Topfenpalatschinken
-date: '2017-01-11'
 introImage: 'topfenpalatschinken'
 headerImage: topfenpalatschinken
 headerImageLink: https://pixabay.com/de/photos/palatschinken-cr%C3%AApe-eierkuchen-2020870/

@@ -1,7 +1,6 @@
 ---
 title: Fleichbällchen süß-sauer
 permalink: rezepte/fleischbaellchen-suess-sauer.html
-date: '2006-11-04'
 introImage: 'fleischbaellchen'
 headerImage: fleischbaellchen
 headerImageLink: https://pixabay.com/de/photos/meatball-frikadellen-3166043/

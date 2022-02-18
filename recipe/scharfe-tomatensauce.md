@@ -1,6 +1,5 @@
 ---
 title: Scharfe Tomatensauce
-date: '2006-11-04'
 permalink: rezepte/scharfe-tomatensauce.html
 tags:
   - asien

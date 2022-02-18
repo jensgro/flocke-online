@@ -1,6 +1,5 @@
 ---
 title: Chili con carne
-date: '2006-11-04'
 permalink: rezepte/chili-con-carne.html
 introImage: 'chili-con-carne'
 headerImage: chili-con-carne
