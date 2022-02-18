@@ -4,6 +4,10 @@ date: '2006-11-04'
 permalink: rezepte/gruene-sosse.html
 introText: 'Grüne Sosse ist eine meiner Leibspeisen. Immer an Gründonnerstag stelle ich sie frisch für Freunde her. Die Zubereitung unterscheidet sich grundlegend zwischen Nord- und Südhessen. Meine Version ist die nordhessische, schliesslich komme ich aus Kassel.'
 introImage: 'gruene-sosse-1'
+headerImage: gruene-sosse
+headerImageLink: https://pixabay.com/de/photos/frankfurter-gr%C3%BCne-so%C3%9Fe-eier-4163486/
+headerImageAttribution: "Bild von <a href='https://pixabay.com/de/users/Boomie-3840563/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4163486'>Boomie</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4163486'>Pixabay</a>"
+
 tags:
   - vegetarisch
 

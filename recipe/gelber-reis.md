@@ -4,6 +4,10 @@ date: '2006-11-04'
 permalink: rezepte/gelber-reis.html
 introText: 'Eine super Beilage zu vielen imndischen und indonesischen Gerichten.'
 introImage: 'gelber-reis'
+headerImage: gelber-reis
+headerImageLink: https://pixabay.com/de/photos/reisgericht-reis-risotto-kochl%C3%B6ffel-1740301/
+headerImageAttribution: "Bild von <a href='https://pixabay.com/de/users/congerdesign-509903/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1740301'>congerdesign</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1740301'>Pixabay</a>"
+
 tags:
   - reis
   - indien

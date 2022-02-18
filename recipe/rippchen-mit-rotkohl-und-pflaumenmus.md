@@ -3,6 +3,10 @@ title: Rippchen mit Rotkohl und Pflaumenmus
 date: '2017-01-06'
 permalink: rezepte/rippchen-rotkohl-pflaumenmus.html
 introImage: 'rippchen'
+headerImage: rippchen
+headerImageLink: https://unsplash.com/photos/BqK3fmNTv_g
+headerImageAttribution: "Photo by <a href='https://unsplash.com/@ahmadr1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Ahmad</a> on <a href='https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>"
+
 tags:
   - schwein
   - ofen
