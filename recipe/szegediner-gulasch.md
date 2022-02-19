@@ -2,6 +2,9 @@
 title: Szegediner Gulasch
 permalink: rezepte/szegediner-gulasch.html
 introText: "Ich habe lange Zeit bei Gulasch nur noch an diese Variante gedacht. Normales Gulasch reizte mich gar nicht mehr so sehr."
+headerImage: placeholder1
+headerImageLink: https://www.pexels.com/de-de/foto/kunst-kreativ-malerei-abstrakt-1959387/
+headerImageAttribution: Foto von Steve Johnson von Pexels
 tags:
   - rind
 

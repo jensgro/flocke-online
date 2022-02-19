@@ -2,6 +2,9 @@
 title: Rippchen mit Rotkohl und Pflaumenmus
 permalink: rezepte/rippchen-rotkohl-pflaumenmus.html
 introImage: 'rippchen'
+headerImage: placeholder2
+headerImageLink: https://www.pexels.com/de-de/foto/kunst-textur-pinsel-abstrakt-7325760/
+headerImageAttribution: Foto von Steve Johnson von Pexels
 
 tags:
   - schwein

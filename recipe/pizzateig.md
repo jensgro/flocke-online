@@ -2,6 +2,10 @@
 title: Pizzateig mit Hefe
 permalink: rezepte/pizzateig-hefe.html
 introText: 'Früher habe ich Pizza im wesentlichen mit Quark-Öl-Teig gemacht. Aber nicht mehr, seitdem ich diesen Teig kenne.'
+headerImage: placeholder6
+headerImageLink: https://www.pexels.com/de-de/foto/kunst-graffiti-dreckig-textur-7486894/
+headerImageAttribution: Foto von Steve Johnson von Pexels
+
 tags:
   - pizza
   - ofen

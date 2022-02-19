@@ -2,6 +2,9 @@
 title: Tabouleh
 permalink: rezepte/tabouleh.html
 introText: "Kennengelernt habe ich Tabouleh als vom Couscous dominiertes Gericht mit Paprika und Tomaten. Diese Version ist mir allerdings viel lieber. Man könnte es auch Petersiliensalat nennen."
+headerImage: placeholder2
+headerImageLink: https://www.pexels.com/de-de/foto/kunst-textur-pinsel-abstrakt-7325760/
+headerImageAttribution: Foto von Steve Johnson von Pexels
 tags:
   - nordafrika
   - levante

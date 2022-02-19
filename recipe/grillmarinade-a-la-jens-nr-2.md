@@ -1,6 +1,9 @@
 ---
 title: Grillmarinade à la Jens Nr. 2
 permalink: rezepte/grillmarinade-2.html
+headerImage: placeholder2
+headerImageLink: https://www.pexels.com/de-de/foto/kunst-textur-pinsel-abstrakt-7325760/
+headerImageAttribution: Foto von Steve Johnson von Pexels
 tags:
   - marinade
   - grillen

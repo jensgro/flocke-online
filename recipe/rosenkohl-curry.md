@@ -2,6 +2,10 @@
 title: Rosenkohl-Curry
 permalink: rezepte/rosenkohl-curry.html
 introText: "Hier ist der Rosenkohl mal nicht nur Beilage. Eine etwas ungewöhnliche Zubereitungsart, aber sehr schmackhaft."
+headerImage: placeholder3
+headerImageLink: https://www.pexels.com/de-de/foto/orange-und-blaue-abstrakte-malerei-2378621/
+headerImageAttribution: Foto von Steve Johnson von Pexels
+
 tags:
   - asien
   - curry

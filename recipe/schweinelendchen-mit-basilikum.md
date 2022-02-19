@@ -2,6 +2,9 @@
 title: Schweinelendchen mit Basilikum
 permalink: rezepte/schweinelendchen-basilikum.html
 introText: "Dieses Gericht ist schnell gemacht und doch etwas Besonderes."
+headerImage: placeholder1
+headerImageLink: https://www.pexels.com/de-de/foto/kunst-kreativ-malerei-abstrakt-1959387/
+headerImageAttribution: Foto von Steve Johnson von Pexels
 tags:
   - schwein
 

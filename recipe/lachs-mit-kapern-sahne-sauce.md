@@ -1,6 +1,10 @@
 ---
 title: Lachs mit Kapern-Sahne-Sauce
 permalink: rezepte/lachs-mit-kapern-sahnesauce.html
+headerImage: placeholder8
+headerImageLink: https://www.pexels.com/de-de/foto/grune-und-gelbe-abstrakte-malerei-4943165/
+headerImageAttribution: Foto von Steve Johnson von Pexels
+
 tags:
   - fisch
   - ofen

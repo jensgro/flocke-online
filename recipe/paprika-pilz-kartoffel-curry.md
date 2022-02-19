@@ -2,6 +2,10 @@
 title: Paprika-Pilz-Kartoffel-Curry
 permalink: rezepte/paprika-pilz-kartoffel-curry.html
 introText: "Dieses Rezept habe ich aus einem Kochkurs über indische Küche."
+headerImage: placeholder3
+headerImageLink: https://www.pexels.com/de-de/foto/orange-und-blaue-abstrakte-malerei-2378621/
+headerImageAttribution: Foto von Steve Johnson von Pexels
+
 tags:
   - asien
   - indien

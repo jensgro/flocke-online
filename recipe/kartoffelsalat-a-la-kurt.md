@@ -2,6 +2,10 @@
 title: Kartoffelsalat à la Kurt
 permalink: rezepte/kartoffelsalat-kurt.html
 introText: "Dieser geniale Salat stammt von Kurt Bohn und wurde am 10.01.1993 in die Newsgroup „zer.t-netz.essen“ gepostet. Da ich weder einen Zugang zu dieser Gruppe habe noch den Eindruck habe, daß die E-Mail-Adresse von Kurt gleich geblieben ist, danke ich in die Anonymität hinein. Das Rezept habe ich in der [Rezeptsammlung der Uni Kaiserslautern](http://kochbuch.unix-ag.uni-kl.de/) gefunden."
+headerImage: placeholder5
+headerImageLink: https://www.pexels.com/de-de/foto/foto-der-blauen-und-roten-abstrakten-malerei-3699270/
+headerImageAttribution: Foto von Steve Johnson von Pexels
+
 tags:
   - salat
   - kartoffeln

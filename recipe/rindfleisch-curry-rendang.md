@@ -1,6 +1,10 @@
 ---
 title: Rindfleisch-Curry (Rendang)
 permalink: rezepte/curry-rendang.html
+headerImage: placeholder1
+headerImageLink: https://www.pexels.com/de-de/foto/kunst-kreativ-malerei-abstrakt-1959387/
+headerImageAttribution: Foto von Steve Johnson von Pexels
+
 tags:
   - indien
   - curry

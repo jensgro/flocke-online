@@ -2,6 +2,9 @@
 title: Spaghetti all’Arrabiata
 permalink: rezepte/allarrabiata.html
 introText: 'Mit der Zeit hat sich mein Geschmack bei diesem Rezept gewandelt: Ich nehme keinen Speck mehr und verwende hauptsächlich getrocknete scharfe Chilischoten, die ich dann mit der Schere direkt in den Topf schneide. Wichtig ist m.E. bei diesem Rezept aber vor allem die Kombination aus Schärfe und fruchtigen Paprika.'
+headerImage: placeholder4
+headerImageLink: https://www.pexels.com/de-de/foto/rote-grune-gelbe-und-blaue-abstrakte-malerei-1283208/
+headerImageAttribution: Foto von Steve Johnson von Pexels
 tags:
   - nudeln
 

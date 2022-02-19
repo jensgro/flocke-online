@@ -2,6 +2,10 @@
 title: Käseöhrchen
 permalink: rezepte/kaeseoehrchen.html
 introText: 'Die Käseöhrchen lassen sich für eine Party gut am Tag zuvor vorbereiten.'
+headerImage: placeholder3
+headerImageLink: https://www.pexels.com/de-de/foto/orange-und-blaue-abstrakte-malerei-2378621/
+headerImageAttribution: Foto von Steve Johnson von Pexels
+
 tags:
   - beilage
   - ofen

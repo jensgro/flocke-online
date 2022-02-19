@@ -2,6 +2,9 @@
 title: Überbackener Reis
 permalink: rezepte/ueberbackener-reis.html
 introText: 'Super zum Restekochen. Außerdem kann man den Reis schon am Vortag mitkochen, wenn man sowieso schon Reis als Beilage kocht. Das ist ein uraltes Rezept aus meiner Studentenzeit.'
+headerImage: placeholder3
+headerImageLink: https://www.pexels.com/de-de/foto/orange-und-blaue-abstrakte-malerei-2378621/
+headerImageAttribution: Foto von Steve Johnson von Pexels
 tags:
   - reis
   - ofen

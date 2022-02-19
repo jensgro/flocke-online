@@ -2,6 +2,9 @@
 title: Schweinisches Putenschnitzel
 permalink: rezepte/schweinisches-putenschnitzel.html
 introText: "Meine Oma hat mich damit als Kind immer begeistert. Heute koche ich anders, aber als Kind und später als Student – als ich besser kochen lernte – war das ein gern gegessenes Gericht. Und es geht schnell."
+headerImage: placeholder2
+headerImageLink: https://www.pexels.com/de-de/foto/kunst-textur-pinsel-abstrakt-7325760/
+headerImageAttribution: Foto von Steve Johnson von Pexels
 tags:
   - hackfleisch
   - pute
