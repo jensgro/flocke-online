@@ -34,7 +34,7 @@
 <div class="bg-wrapper">
   <div class="container pb-0">
     <header class="siteheader siteheader--recipe">
-      {%- if post.data.headerImage -%}
+      {%- if headerImage -%}
       <img class="no-print" src="../img/{{headerImage}}_875x250.jpg" alt="">
       {%- else -%}
       <img src="https://dummyimage.com/7:2x250" alt="">
@@ -51,7 +51,7 @@
 {% if templateClass == "tmpl-post" %}
 <div class="container pb-0">
 <header class="siteheader siteheader--post">
-  {%- if post.data.headerImage -%}
+  {%- if headerImage -%}
   <img class="no-print" src="../img/{{headerImage}}_875x250.jpg" alt="">
   {%- else -%}
   <img src="https://dummyimage.com/7:2x250" alt="">

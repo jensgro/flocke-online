@@ -1,5 +1,5 @@
 [
-  { "title": "Hauptgerichte", "url": "hauptgerichte" },
-  { "title": "Beilagen", "url": "beilagen"},
-  { "title": "Sonstiges", "url": "sonstiges"}
+  { "title": "Hauptgerichte", "url": "hauptgerichte", "headerImage": "placeholder6" },
+  { "title": "Beilagen", "url": "beilagen", "headerImage": "placeholder7"},
+  { "title": "Sonstiges", "url": "sonstiges", "headerImage": "placeholder8"}
 ]
