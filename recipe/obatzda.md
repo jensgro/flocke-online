@@ -2,10 +2,10 @@
 title: Obatzda
 permalink: rezepte/obatzda.html
 introText: 'Dieser Obatzda hat sich einmal als eine suoer Grundlage für eine ausgedehnte Feuerzangenbowle erwiesen. Auch wenn man auf den ersten Blick nicht glaubt, daß das paßt.'
-headerImage: placeholder2
-headerImageLink: https://www.pexels.com/de-de/foto/kunst-textur-pinsel-abstrakt-7325760/
-headerImageAttribution: Foto von Steve Johnson von Pexels
-
+headerImage: obatzda
+headerImageLink: https://upload.wikimedia.org/wikipedia/commons/4/43/Obatzter-1.jpg
+# headerImageLink: https://commons.wikimedia.org/w/index.php?curid=3702347
+headerImageAttribution:  "Das Bild von Rainer Zenz ... steht unterder Lizenz <a href='https://creativecommons.org/licenses/by/2.0/?ref=openverse&atype=rich'>CC BY 2.0</a>."
 tags:
   - vegetarisch
   - beilage

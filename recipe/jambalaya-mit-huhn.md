@@ -1,9 +1,10 @@
 ---
 title: Jambalaya mit Huhn
 permalink: rezepte/jambalaya-mit-huhn.html
-headerImage: placeholder2
-headerImageLink: https://www.pexels.com/de-de/foto/kunst-textur-pinsel-abstrakt-7325760/
-headerImageAttribution: Foto von Steve Johnson von Pexels
+headerImage: jambalaya
+#headerImageLink: https://search.openverse.engineering/image/196772dc-0f16-4c0e-b853-3e432e9d5a6c
+headerImageLink: https://www.flickr.com/photos/20119750@N00/2799144481
+headerImageAttribution:  "'Jambalaya (New Orleans, Louisiana)' by ~MVI~ (warped) is licensed under CC BY 2.0. To view a copy of this license, visit <a href='https://creativecommons.org/licenses/by/2.0/?ref=openverse&atype=rich'>https://creativecommons.org/licenses/by/2.0/?ref=openverse&atype=rich</a>"
 
 tags:
   - huhn
