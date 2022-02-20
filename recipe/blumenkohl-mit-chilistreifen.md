@@ -5,7 +5,7 @@ introText: 'Eine der schmackhaftesten Varianten, Blumenkohl zu essen. Fleisch w�
 introImage: 'blumenkohl'
 headerImage: blumenkohl
 headerImageLink: https://pixabay.com/de/photos/kohl-blumenkohl-kochan-gabeln-976496/
-headerImageAttribution: "Bild von <a href='https://pixabay.com/de/users/evstiforova-953129/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=976496'>Анастасия Евстифорова</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=976496'>Pixabay</a>"
+headerImageAttribution: Bild von <a href='https://pixabay.com/de/users/evstiforova-953129/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=976496'>Анастасия Евстифорова</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=976496'>Pixabay</a>
 
 tags:
   - indien

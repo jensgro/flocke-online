@@ -5,7 +5,7 @@ introText: 'Diesen Salat sollte man machen, wenn man am nächsten Tag nicht allz
 introImage: 'caesar-salat'
 headerImage: caesar-salat
 headerImageLink: https://pixabay.com/de/photos/salat-frisch-gem%C3%BCse-gesund-di%C3%A4t-791891/
-headerImageAttribution: "Bild von <a href='https://pixabay.com/de/users/JillWellington-334088/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=791891'>Jill Wellington</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=791891'>Pixabay</a>"
+headerImageAttribution: Bild von <a href='https://pixabay.com/de/users/JillWellington-334088/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=791891'>Jill Wellington</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=791891'>Pixabay</a>
 
 tags:
   - salat

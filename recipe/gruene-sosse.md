@@ -5,7 +5,7 @@ introText: 'Grüne Sosse ist eine meiner Leibspeisen. Immer an Gründonnerstag s
 introImage: 'gruene-sosse-1'
 headerImage: gruene-sosse
 headerImageLink: https://pixabay.com/de/photos/frankfurter-gr%C3%BCne-so%C3%9Fe-eier-4163486/
-headerImageAttribution: "Bild von <a href='https://pixabay.com/de/users/Boomie-3840563/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4163486'>Boomie</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4163486'>Pixabay</a>"
+headerImageAttribution: Bild von <a href='https://pixabay.com/de/users/Boomie-3840563/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4163486'>Boomie</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4163486'>Pixabay</a>
 
 tags:
   - vegetarisch

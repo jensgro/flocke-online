@@ -4,7 +4,7 @@ permalink: rezepte/fleischbaellchen-suess-sauer.html
 introImage: 'fleischbaellchen'
 headerImage: fleischbaellchen
 headerImageLink: https://pixabay.com/de/photos/meatball-frikadellen-3166043/
-headerImageAttribution: "Bild von <a href='https://pixabay.com/de/users/Iituliitu-6331387/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3166043'>Maarit Ignatius-Kuittinen</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3166043'>Pixabay</a>"
+headerImageAttribution: Bild von <a href='https://pixabay.com/de/users/Iituliitu-6331387/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3166043'>Maarit Ignatius-Kuittinen</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3166043'>Pixabay</a>
 
 tags:
   - asien

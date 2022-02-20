@@ -5,7 +5,7 @@ introText: 'In der indischen Küche gibt es viele sehr leckere vegetarische oder
 introImage: 'dal'
 headerImage: dal
 headerImageLink: https://pixabay.com/de/photos/rote-linsen-nahrungsmittel-289126/
-headerImageAttribution: "Bild von <a href='https://pixabay.com/de/users/martaposemuckel-17386/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=289126'>martaposemuckel</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=289126'>Pixabay</a>"
+headerImageAttribution: Bild von <a href='https://pixabay.com/de/users/martaposemuckel-17386/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=289126'>martaposemuckel</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=289126'>Pixabay</a>
 
 tags:
   - indien

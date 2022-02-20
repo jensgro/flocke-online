@@ -5,7 +5,7 @@ introText: 'Ezme ist ein leckeres Paprikamus, das man als Vorspeise mit ein weni
 introImage: 'ezme'
 headerImage: ezme
 headerImageLink: https://pixabay.com/de/photos/zerkleinerung-w%C3%BCrzig-tomaten-812673/
-headerImageAttribution: "Bild von <a href='https://pixabay.com/de/users/tohma-263912/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=812673'>Sinan COŞKUN</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=812673'>Pixabay</a>"
+headerImageAttribution: Bild von <a href='https://pixabay.com/de/users/tohma-263912/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=812673'>Sinan COŞKUN</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=812673'>Pixabay</a>
 
 tags:
   - gemüse

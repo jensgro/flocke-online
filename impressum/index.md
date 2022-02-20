@@ -1,8 +1,9 @@
 ---
 layout: layouts/post.njk
 title: Impressum
-templateClass: tmpl-post
-
+headerImage: placeholder8
+headerImageLink: https://www.pexels.com/de-de/foto/grune-und-gelbe-abstrakte-malerei-4943165/
+headerImageAttribution: Foto von Steve Johnson von Pexels
 ---
 
 

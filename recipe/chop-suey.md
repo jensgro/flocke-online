@@ -4,7 +4,7 @@ permalink: rezepte/chop-suey.html
 introImage: 'chop-suey'
 headerImage: chop-suey
 headerImageLink: https://pixabay.com/de/photos/chop-suey-asiatische-k%C3%BCche-gem%C3%BCse-876506/
-headerImageAttribution: "Bild von <a href='https://pixabay.com/de/users/pjwpjw140-1263235/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=876506'>pjwpjw140</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=876506'>Pixabay</a>"
+headerImageAttribution: Bild von <a href='https://pixabay.com/de/users/pjwpjw140-1263235/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=876506'>pjwpjw140</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=876506'>Pixabay</a>
 
 introtext: "Das ist ein altes Rezept aus meiner Kindheit."
 tags:
