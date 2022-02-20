@@ -7,8 +7,12 @@
     {%- for post in collections.all -%}
       <div class="imagerights_cnt">
         <dd class="imagerights_page"><a href="{{ post.url }}">{{ post.data.title }}</a></dd>
-        <dd class="imagerights_img-url">Originalbild: <a href="{{ post.data.headerImageLink }}">{{ post.data.headerImageLink }}</a></dd>
+        {%- if post.data.headerImageLink -%}
+        <dd class="imagerights_img-url"><a href="{{ post.data.headerImageLink }}">Originalbild</a></dd>
+        {%- endif -%}
+        {%- if post.data.headerImageAttribution -%}
         <dd class="imagerights_img-right">{{ post.data.headerImageAttribution|safe }}</dd>
+        {%- endif -%}
       </div>
     {%- endfor -%}
     </dl>
