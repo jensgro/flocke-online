@@ -1,9 +1,9 @@
 ---
 title: Rindfleisch-Curry (Rendang)
 permalink: rezepte/curry-rendang.html
-headerImage: placeholder1
-headerImageLink: https://www.pexels.com/de-de/foto/kunst-kreativ-malerei-abstrakt-1959387/
-headerImageAttribution: Foto von Steve Johnson von Pexels
+headerImage: rendang
+headerImageLink: https://unsplash.com/photos/GkDeED--y0Y
+headerImageAttribution: Bild von <a href="https://unsplash.com/@bawahreserve?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bawah Reserve</a> auf <a href="https://unsplash.com/s/photos/rendang?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 tags:
   - indien
