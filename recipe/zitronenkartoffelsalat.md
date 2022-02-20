@@ -2,9 +2,10 @@
 title: Spanischer Zitronen-Kartoffelsalat
 permalink: rezepte/zitronenkartoffelsalat.html
 introText: "Seit Jahren bringe ich jedes Jahr einen bestimmten Kartoffelsalat zu einer Party mit: einen spanischen Kartoffelsalat mit einer Menge Zitronen und Knoblauch. Genau das richtige Essen für einen Freitag oder Samstag, wenn man am nächsten Tag nicht arbeiten muss."
-headerImage: placeholder5
-headerImageLink: https://www.pexels.com/de-de/foto/foto-der-blauen-und-roten-abstrakten-malerei-3699270/
-headerImageAttribution: Foto von Steve Johnson von Pexels
+headerImage: kartoffelsalat-3
+headerImageLink: https://pixabay.com/de/photos/kartoffelsalat-petersilie-ern%c3%a4hrung-6893496/
+headerImageAttribution: Bild von <a href="https://pixabay.com/de/users/planet_fox-4691618/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6893496">Alex Fox</a> auf <a href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6893496">Pixabay</a>
+
 tags:
   - spanien
   - kartoffeln
