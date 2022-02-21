@@ -8,13 +8,26 @@
     <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
   </head>
-  {% if templateClass == "tmpl-home" %}
-  <body class="home">
-    {% elif templateClass == "tmpl-recipe" %}
-  <body class="recipepage">
+  {% if  bodyClass == "index" %}
+    {% set class = "home" %}
+  {% elif bodyClass == "hauptgericht" %}
+    {% set class = "recipepage hauptgericht" %}
+  {% elif category == "hauptgericht" %}
+    {% set class = "recipepage hauptgericht" %}
+  {% elif bodyClass == "beilagen" %}
+    {% set class = "recipepage beilagen" %}
+  {% elif category == "beilage" %}
+    {% set class = "recipepage beilagen" %}
+  {% elif category == "sonstiges" %}
+    {% set class = "recipepage sonstiges" %}
+  {% elif bodyClass == "wissenswertes" %}
+      {% set class = "recipepage wissenswertes" %}
+  {% elif category == "wissenswertes" %}
+      {% set class = "recipepage wissenswertes" %}
   {% else %}
-  <body>
+    {% set class = "" %}
   {% endif %}
+  <body class="{{ class }}">
     <header class="main-nav-wrapper no-print">
       <nav class="container main-nav">
         {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}

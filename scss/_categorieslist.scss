@@ -1,0 +1,29 @@
+.categories-list {
+  li {
+    margin-bottom: $m2;
+  }
+
+  a {
+    display: block;
+    font-size: 1.75rem;
+    padding: $p1;
+    text-decoration: none;
+    border-left: $p2 solid $brown1;
+
+    &.hauptgerichte {
+      border-left-color: $color-hauptgerichte;
+    }
+    &.beilagen {
+      border-left-color: $color-beilagen;
+    }
+    &.sonstiges {
+      border-left-color: $color-sonstiges;
+    }
+    &.wissenswertes {
+      border-left-color: $color-wissenswertes;
+    }
+  }
+
+
+
+}

@@ -18,7 +18,7 @@ figure,
 blockquote,
 dl,
 dd {
-  margin: 0;
+  margin: 0 0 $m2 0;
 }
 
 /* Set core root defaults */
@@ -42,12 +42,10 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  // padding: 1em 0;
   padding: 0;
 }
 
 h1, h2 {
-  // font-family: "Noto Regular";
   font-family: "Ubuntu Medium", $systemfonts2;
 }
 
@@ -60,7 +58,7 @@ h2 {
 }
 
 p + h2, ul + h2, ol + h2 {
-  margin-top: 20px;
+  margin-top: $m3;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */

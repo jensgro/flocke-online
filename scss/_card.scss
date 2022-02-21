@@ -122,6 +122,26 @@
   border-left: $card-imageright-border;
   padding-left: 10px;
 
+  body.index & {
+    border-left-color: $color-index;
+  }
+
+  body.hauptgerichte & {
+    border-left-color: $color-hauptgerichte;
+  }
+
+  body.beilagen & {
+    border-left-color: $color-beilagen;
+  }
+
+  body.sonstiges & {
+    border-left-color: $color-sonstiges;
+  }
+
+  body.wissenswertes & {
+    border-left-color: $color-wissenswertes;
+  }
+
   .card__header,
   .card__body {
     padding: 0;

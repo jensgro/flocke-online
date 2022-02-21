@@ -2,6 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  padding: 0;
+  margin: 0;
 
   > * {
     flex: 1 1 100%;
@@ -11,19 +13,19 @@
 @media (min-width: $lg) {
   .mygrid--2 {
     >* {
-      flex: 0 1 calc(50% - $gap2);
+      flex: 1 1 calc(50% - $gap2);
     }
   }
 
   .mygrid--3 {
     >* {
-      flex: 0 1 calc(33.33333% - $gap2);
+      flex: 1 1 calc(33.33333% - $gap2);
     }
   }
 
   .mygrid--4 {
     >* {
-      flex: 0 1 calc(25% - $gap2);
+      flex: 1 1 calc(25% - $gap2);
     }
   }
 }
@@ -37,7 +39,8 @@
   @media (min-width: $md) {
 
     li:nth-of-type(2),
-    li:nth-of-type(3) {
+    li:nth-of-type(3),
+    li:nth-of-type(4) {
       flex: 1 1 calc(50% - $gap2);
     }
   }
@@ -46,8 +49,23 @@
 
     li:nth-of-type(1),
     li:nth-of-type(2),
-    li:nth-of-type(3) {
-      flex: 1 1 calc(33.333333333333% - $gap2);
+    li:nth-of-type(3),
+    li:nth-of-type(4) {
+      flex: 1 1 calc(25% - $gap2);
     }
   }
+}
+
+$index-gap: 40px;
+
+.mygrid--index {
+  gap: $index-gap;
+}
+
+.categories-cnt {
+  flex: 1 1 calc(25% - $index-gap);
+}
+
+.last-content-cnt {
+  flex: 1 1 calc(75% - $index-gap);
 }

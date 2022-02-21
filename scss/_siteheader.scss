@@ -10,6 +10,7 @@
     color: $siteheader-headline-cnt-color;
     padding: 0 $p2;
     width: 100%;
+    border-left: 20px solid $brown1;
 
     @media (min-width: $lg) {
       position: absolute;
@@ -19,8 +20,24 @@
       padding: $p2;
     }
 
-    &--home {
-      border-left: 20px solid $orange2;
+    body.index & {
+      border-left-color: $color-index;
+    }
+
+    body.hauptgerichte & {
+      border-left-color: $color-hauptgerichte;
+    }
+
+    body.beilagen & {
+      border-left-color: $color-beilagen;
+    }
+
+    body.sonstiges & {
+      border-left-color: $color-sonstiges;
+    }
+
+    body.wissenswertes & {
+      border-left-color: $color-wissenswertes;
     }
   }
 
