@@ -105,10 +105,127 @@
   }
 
   .card__headline {
-    margin-top: 0;
+    margin: 0;
     color: $card-tags-headline-color;
   }
+
+  .card__body {
+    padding: $p4 $p2 0 $p4;
+  }
 }
+
+body.hauptgerichte {
+  .card--tags {
+    background-color: $color-hauptgerichte;
+
+    .card__header {
+      background-color: $color-hauptgerichte;
+    }
+
+    .card__headline {
+      color: $lightblue2;
+    }
+
+    .card__body {
+      background-color: $lightblue2;
+    }
+
+    .taglist__link {
+      background-color: $color-hauptgerichte;
+      color: $white;
+
+      &:hover, &:focus {
+        background-color: lighten($color-hauptgerichte, 15);
+      }
+    }
+  }
+
+}
+
+body.beilagen {
+  .card--tags {
+    background-color: $color-beilagen;
+
+    .card__header {
+      background-color: $color-beilagen;
+    }
+
+    .card__headline {
+      color: $brown1;
+    }
+
+    .card__body {
+      background-color: $brown1;
+    }
+
+    .taglist__link {
+      background-color: $color-beilagen;
+      color: $white;
+
+      &:hover, &:focus {
+        background-color: lighten($color-beilagen, 15);
+      }
+    }
+  }
+}
+
+body.sonstiges {
+  .card--tags {
+    background-color: $color-sonstiges;
+
+    .card__header {
+      background-color: $color-sonstiges;
+    }
+
+    .card__headline {
+      color: $blue2;
+    }
+
+    .card__body {
+      background-color: $blue2;
+    }
+
+    .taglist__link {
+      background-color: $color-sonstiges;
+      color: $black;
+
+      &:hover, &:focus {
+        background-color: darken($color-sonstiges, 15);
+      }
+    }
+  }
+
+}
+
+body.wissenswertes {
+  .card--tags {
+    background-color: $color-wissenswertes;
+
+    .card__header {
+      background-color: $color-wissenswertes;
+    }
+
+    .card__headline {
+      color: $lightblue2;
+    }
+
+    .card__body {
+      background-color: $lightblue2;
+    }
+
+    .taglist__link {
+      background-color: $color-wissenswertes;
+      color: $white;
+
+      &:hover, &:focus {
+        background-color: lighten($color-wissenswertes, 15);
+      }
+    }
+  }
+
+}
+
+
 
 .mygrid--tag {
   .card__title {
@@ -146,10 +263,12 @@
   .card__body {
     padding: 0;
   }
+
   .card__headline {
     font-size: 1rem;
     text-align: left;
   }
+
   .card__body {
     a {
       display: inline-block;
