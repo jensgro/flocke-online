@@ -66,6 +66,13 @@ module.exports = function(eleventyConfig) {
       else return 0;
     })
   );
+  eleventyConfig.addCollection("infosDescending", (collection) =>
+    collection.getFilteredByGlob("./wissenswertes/*.md").sort((a, b) => {
+      if (a.data.title < b.data.title) return -1;
+      else if (a.data.title > b.data.title) return 1;
+      else return 0;
+    })
+  );
 
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");

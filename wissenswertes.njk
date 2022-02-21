@@ -1,0 +1,17 @@
+---
+layout: layouts/post.njk
+permalink: wissenswertes/wissenswertes.html
+title: "Wissenswertes"
+headerImage: placeholder5
+headerImageLink: https://www.pexels.com/de-de/foto/foto-der-blauen-und-roten-abstrakten-malerei-3699270/
+headerImageAttribution: Foto von Steve Johnson von Pexels
+eleventyNavigation:
+  key: Wissenswertes
+  order: 5
+---
+
+<ul class="collection-overview">
+  {%- for post in collections.infosDescending -%}
+    <li><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
+  {%- endfor -%}
+  </ul>
