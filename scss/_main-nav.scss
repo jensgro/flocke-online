@@ -46,6 +46,27 @@
   }
 }
 
+.main-nav-wrapper,
+.main-nav {
+  body.home & {
+    background-color: $color-index;
+  }
 
+  body.hauptgerichte & {
+    background-color: $color-hauptgerichte;
+  }
+
+  body.beilagen & {
+    background-color: $color-beilagen;
+  }
+
+  body.sonstiges & {
+    background-color: $color-sonstiges;
+  }
+
+  body.wissenswertes & {
+    background-color: $color-wissenswertes;
+  }
+}
 
 
