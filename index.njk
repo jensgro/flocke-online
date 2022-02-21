@@ -29,12 +29,12 @@ eleventyNavigation:
         <h2>Die letzten Einträge</h2>
         {% set postslist = collections.rezept | head(-4) %}
         {% set postslistCounter = collections.rezept | length %}
-        <ol class="nolist mygrid mygrid--2">
+        <ol class="nolist mygrid mygrid--2 mygrid--last-content">
           {% for post in postslist %}
             <li>
                 <a href="{{ post.url | url }}">
                   <img src="../img/{{post.data.headerImage}}_250x100.jpg" alt="" width="250" height="100">
-                  <div>{{ post.data.title }}</div>
+                  <span>{{ post.data.title }}</span>
                 </a>
             </li>
           {% endfor %}
