@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="mygrid mygrid--index">
+    <div class="categories-cnt">
+      <h2 class="visuallyhidden">Die Kategorien</h2>
+      <ol class="nolist categories-list">
+        {% for item in categories %}
+          <li>
+            <a class="{{ item.url }}" href="{{ item.url | url }}">
+              {{ item.title }}
+            </a>
+          </li>
+        {% endfor %}
+        </ol>
+    </div>
+    <div class="last-content-cnt">
+      <h2>Die letzten Einträge</h2>
+      {% set postslist = collections.rezept | head(-4) %}
+      {% set postslistCounter = collections.rezept | length %}
+      <ol class="nolist mygrid mygrid--2 mygrid--last-content">
+        {% for post in postslist %}
+          <li>
+              <a href="{{ post.url | url }}">
+                <img src="../img/{{post.data.headerImage}}_250x100.jpg" alt="" width="250" height="100">
+                <span>{{ post.data.title }}</span>
+              </a>
+          </li>
+        {% endfor %}
+        </ol>
+    </div>
+  </div>
+</div>
