@@ -1,6 +1,3 @@
 {
-  "layout": "layouts/recipe.njk",
-  "tags": [
-    "rezept"
-  ]
+  "layout": "layouts/recipe.njk"
 }

@@ -10,6 +10,21 @@ templateClass: tmpl-recipe
     {{ content | safe }}
 
   </main>
+  {%- if tags -%}
+  <div class="tags">
+    <h2>Tag(s)</h2>
+    <ul class="taglist taglist--footer taglist--extended">
+      {% for tag in tags %}
+        {% set tagUrl %}/{{ tag }}/{% endset %}
+        <li class="taglist__item">
+          <a class="taglist__link" href="{{ tagUrl | url }}" class="tag">
+            {{ tag }}
+          </a>
+        </li>
+      {% endfor %}
+      </ul>
+  </div>
+  {%- endif -%}
   {% include "imageright.njk" %}
 </div>
 
