@@ -7,7 +7,7 @@ headerImageAttribution: Foto von Steve Johnson von Pexels
 tags:
   - asien
   - beilage
-  - indien
+  - indonesien
 
 category: beilage
 ---

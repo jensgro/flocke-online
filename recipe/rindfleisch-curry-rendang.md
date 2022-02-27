@@ -6,7 +6,7 @@ headerImageLink: https://unsplash.com/photos/GkDeED--y0Y
 headerImageAttribution: Bild von <a href="https://unsplash.com/@bawahreserve?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bawah Reserve</a> auf <a href="https://unsplash.com/s/photos/rendang?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 tags:
-  - indien
+  - indonesien
   - curry
   - asien
   - rind
