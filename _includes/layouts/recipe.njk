@@ -8,7 +8,6 @@ templateClass: tmpl-recipe
       {{ introText}}
     {% endIntro %}
     {{ content | safe }}
-
   </main>
   {%- if tags -%}
   <div class="tags">
@@ -25,6 +24,29 @@ templateClass: tmpl-recipe
       </ul>
   </div>
   {%- endif -%}
-  {% include "imageright.njk" %}
 </div>
 
+{%- if rec -%}
+<section class="container mb-4">
+  <div class="card card--rec">
+    <div class="card__header">
+      <h2 class="card__headline">Weiterführende Links</h2>
+    </div>
+    <div class="card__body">
+
+      <ul>
+        {%- for page in rec -%}
+        <li>
+          <a href="{{ page.url }}">{{ page.title }}</a>{% if page.note %} <span class="listing__note">- {{page.note}}</span>{% endif %}
+        </li>
+      {%- endfor -%}
+      </ul>
+
+    </div>
+  </div>
+</section>
+{%- endif -%}
+
+<div class="container">
+  {% include "imageright.njk" %}
+</div>
