@@ -9,32 +9,23 @@ tags:
   - süß
 
 category: hauptgericht
----
 
-{% Ingredients %}
+ingredients:
+  - 4 alte Brötchen
+  - 3/4 l Milch
+  - 4 Eier
+  - 1 EL Zucker
+  - 1-2 Päckchen Vanillezucker
+  - Semmelbrösel
 
-
-
-- 4 alte Brötchen
-- 3/4 l Milch
-- 4 Eier
-- 1 EL Zucker
-- 1-2 Päckchen Vanillezucker
-- Semmelbrösel
-
-{% endIngredients %}
-
-{% Recipe %}
-
-
-
+recipe:
 - Die alten Brötchen in kleinere Stücke brechen.
 - Die Milch, die Eier, den Zucker und den Vanillezucker verquirlen.
 - Die Brötchen etwa eine halbe Stunde in der Flüssigkeit einlegen.
 - Danach die Brötchen leicht ausquetschen, zu Klößen formen und in Semmelbröseln wälzen.
 - Auf niedriger Hitze braten.
 
-Dazu paßt am Besten Zucker und Zimt.
-
-{% endRecipe %}
+tipps:
+  - Dazu paßt am Besten Zucker und Zimt.
+---
 

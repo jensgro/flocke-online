@@ -9,36 +9,24 @@ tags:
   - ofen
 
 category: hauptgericht
----
 
-{% Ingredients %}
+ingredients:
+  - 6 – 8 Hähnchenschenkel
+  - 1/2 Flasche Wermut
+  - 1,5 kg Porree
+  - je 125g blaue und grüne Trauben
+  - 2 Zitronen
+  - 2 Zweige Thymian
+  - 1 EL Wacholderbeeren
 
-
-
-- 6 – 8 Hähnchenschenkel
-- 1/2 Flasche Wermut
-- 1,5 kg Porree
-- je 125g blaue und grüne Trauben
-- 2 Zitronen
-- 2 Zweige Thymian
-- 1 EL Wacholderbeeren
-
-{% endIngredients %}
-
-{% Recipe %}
-
-
-
+recipe:
 - Hähnchenschenkel in die Fettpfanne legen und mit Wermut übergießen.
 - Gewürze, Porreeringe und Zitronenscheiben hinzugeben.
 - 1 Stunde lang kalt stellen.
 - Hähnchenschenkel salzen, auf 200 Grad eine Stunde ohne Zitronen backen.
 - Trauben zugeben und nochmals 30 Minuten backen.
 
-
-
-Es versteht sich von selbst, daß die Mengenangaben für Wermut und Trauben nach Geschmack variiert werden können.
-
-Dazu paßt am besten Baguette.
-
-{% endRecipe %}
+tipps:
+- Es versteht sich von selbst, daß die Mengenangaben für Wermut und Trauben nach Geschmack variiert werden können.
+- Dazu paßt am besten Baguette.
+---

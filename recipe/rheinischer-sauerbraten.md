@@ -10,13 +10,13 @@ tags:
   - ofen
 
 category: hauptgericht
+layout: layouts/post.njk
+recipe: true
 ---
 
+<div class="recipe__ingredients">
 
-{% Ingredients %}
-
-
-
+## Zutaten
 ### Marinade
 
 - 1/4 l Essig
@@ -35,11 +35,11 @@ category: hauptgericht
 - 1 – 2 Printen
 - 2 EL Zucker
 
-{% endIngredients %}
+</div>
 
-{% Recipe %}
+<div class="recipe__content">
 
-
+## Zubereitung
 
 - Die Zutaten für die Marinade zusammen aufkochen und abkühlen lassen. Dann über das Fleisch gießen. Das Fleisch muß gut bedeckt sein.
 - Das Fleisch muß mindestens drei Tage marinieren. Täglich wenden.
@@ -51,8 +51,6 @@ category: hauptgericht
 - Nach ca. einer Dreiviertel Stunde 1-2 Printen in Stücken und 2 EL Rosinen sowie 1/2 bis 1 Tasse Marinade dazugeben. Abschmecken !!
 - Nach insgesamt 1 1/2 bis 2 Stunden mit etwas Mehl abbinden.
 
-
-
 Die Rosinen sind kein Muß, wohl aber die Printen (natürlich ohne Schokolade!).
 
-{% endRecipe %}
+</div>

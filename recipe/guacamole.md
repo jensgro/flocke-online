@@ -10,28 +10,17 @@ tags:
   - party
 
 category: beilage
+
+ingredients:
+  - 1 Avocado (möglichst reif)
+  - 250 g Schmand
+  - 1 Knoblauchzehe
+  - 1/2 Zitrone
+  - Salz, Pfeffer
+
+recipe:
+  - Avocado schälen und den Kern entfernen. In den Mixer geben.
+  - Die Knoblauchzehe in den Mixer ausdrücken, den Schmand dazugeben.
+  - Alles gut durchmixen, bis kein Brocken mehr übrig ist und mit Salz, Pfeffer und dem Saft der halben Zitrone abschmecken.
+
 ---
-
-{% Ingredients %}
-
-
-
-- 1 Avocado (möglichst reif)
-- 250 g Schmand
-- 1 Knoblauchzehe
-- 1/2 Zitrone
-- Salz, Pfeffer
-
-{% endIngredients %}
-
-{% Recipe %}
-
-
-
-- Avocado schälen und den Kern entfernen. In den Mixer geben.
-- Die Knoblauchzehe in den Mixer ausdrücken, den Schmand dazugeben.
-- Alles gut durchmixen, bis kein Brocken mehr übrig ist und mit Salz, Pfeffer und dem Saft der halben Zitrone abschmecken.
-
-{% endRecipe %}
-
-

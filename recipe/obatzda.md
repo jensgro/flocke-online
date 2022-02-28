@@ -11,35 +11,22 @@ tags:
 
 category: sonstiges
 
+ingredients:
+  - 250g Camembert
+  - 100g Doppelrahm-Frischkäse
+  - 80g Butter
+  - 2 Zwiebeln
+  - Bier oder Wein
+  - Salz, Pfeffer, edelsüßer Paprika
+
+recipe:
+  - Den Camembert schälen und zerdrücken.
+  - Mit dem Frischkäse und der Butter vermengen.
+  - Die feingehackten Zwiebeln unter die Käsemasse mischen.
+  - Mit ein wenig Wein oder Bier geschmeidig rühren und mit Salz, Pfeffer und Paprika würzen.
+
+tipps:
+  - Als Beilage passen Brezeln, Salzstangen oder kleine Salzbrezeln.
+  - Es wird zwar auch Brot dazu gegessen, ich persönlich finde diese Variante aber nicht besonders gut.
+  - Ob man die Käsemasse mit Wein oder Bier glattrührt, sollte man davon abhängig machen, was man dazu trinkt. Wein gibt einen feineren Geschmack.
 ---
-
-
-{% Ingredients %}
-
-
-
-- 250g Camembert
-- 100g Doppelrahm-Frischkäse
-- 80g Butter
-- 2 Zwiebeln
-- Bier oder Wein
-- Salz, Pfeffer, edelsüßer Paprika
-
-{% endIngredients %}
-
-{% Recipe %}
-
-
-
-- Den Camembert schälen und zerdrücken.
-- Mit dem Frischkäse und der Butter vermengen.
-- Die feingehackten Zwiebeln unter die Käsemasse mischen.
-- Mit ein wenig Wein oder Bier geschmeidig rühren und mit Salz, Pfeffer und Paprika würzen.
-
-
-
-- Als Beilage passen Brezeln, Salzstangen oder kleine Salzbrezeln.
-- Es wird zwar auch Brot dazu gegessen, ich persönlich finde diese Variante aber nicht besonders gut.
-- Ob man die Käsemasse mit Wein oder Bier glattrührt, sollte man davon abhängig machen, was man dazu trinkt. Wein gibt einen feineren Geschmack.
-
-{% endRecipe %}

@@ -12,29 +12,20 @@ tags:
   - party
 
 category: beilage
+
+ingredients:
+  - 1 Dose Kichererbsen
+  - ein halbes Glas Wasser (ca. 100 ml)
+  - 4 EL Tahin (Sesampaste)
+  - 2 – 3 TL Kreuzkümmel
+  - Saft einer Zitrone
+  - Olivenöl
+  - Salz, Pfeffer
+
+recipe:
+- Die Kichererbsen aus der Dose abtropfen lassen und in ein hohes Gefäss geben.
+- Das Wasser, Tahin, ein wenig Zitronensaft, ein wenig Olivenöl drauf geben und salzen und pfeffern.
+- Alles zusammen mit einem Stabmixer ordentlich durchmixen, bis alles eine nette Paste ist. Eine Küchenmaschine ist aus eigenem Erleben nicht zur Zubereitung geeignet, weil die Kichererbsen nicht klein genug gehäckselt werden.
+- Das Ergebnis mit weiterer Zugabe von Wasser, Öl, Tahin, Kreuzkümmel und Salz abschmecken.
+- Mit dem Tahin bitte nicht sparsam sein, denn die Sesampaste ist für den guten Geschmack zuständig.
 ---
-
-{% Ingredients %}
-
-
-
-- 1 Dose Kichererbsen
-- ein halbes Glas Wasser (ca. 100 ml)
-- 4 EL Tahin (Sesampaste)
-- 2 – 3 TL Kreuzkümmel
-- Saft einer Zitrone
-- Olivenöl
-- Salz, Pfeffer
-
-{% endIngredients %}
-
-{% Recipe %}
-
-
-
-Die Kichererbsen aus der Dose abtropfen lassen und in ein hohes Gefäss geben. Das Wasser, Tahin, ein wenig Zitronensaft, ein wenig Olivenöl drauf geben und salzen und pfeffern. Alles zusammen mit einem Stabmixer ordentlich durchmixen, bis alles eine nette Paste ist. Eine Küchenmaschine ist aus eigenem Erleben nicht zur Zubereitung geeignet, weil die Kichererbsen nicht klein genug gehäckselt werden.
-
-Das Ergebnis mit weiterer Zugabe von Wasser, Öl, Tahin, Kreuzkümmel und Salz abschmecken. Mit der Tahin bitte nicht sparsam sein, denn die Sesampaste ist für den guten Geschmack zuständig.
-
-{% endRecipe %}
-

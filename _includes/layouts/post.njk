@@ -3,7 +3,11 @@ layout: layouts/base.njk
 templateClass: tmpl-post
 ---
 <div class="container mb-4">
+  {% if recipe %}
+  <main class="recipe">
+  {% else %}
   <main class="post">
+  {% endif %}
     {% Intro %}
       {{ introText}}
     {% endIntro %}

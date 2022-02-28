@@ -10,30 +10,21 @@ tags:
   - asien
 
 category: beilage
+
+ingredients:
+  - 1 Salatgurke
+  - 1 EL Palmzucker
+  - 2 EL Essig
+  - 1/2 TL Salz
+  - 1 EL Minze (gehackt)
+
+recipe:
+  - Gurke schälen, der Länge nach halbieren und entkernen.
+  - Anschließend die Gurkenhälften in dünne Scheiben schneiden.
+  - Zucker, Essig, Salz und Minze zu einer Marinade verrühren und über die Gurkenscheiben gießen.
+
+tipps:
+- Diese Beilage sollte kurz vor dem Verzehr zubereitet werden.
+- Die Marinade kann zwar stehen, aber die Gurkenscheiben sollten erst kurz vorher untergemischt werden, damit sie nicht zuviel Wasser ziehen.
+
 ---
-
-{% Ingredients %}
-
-
-
-- 1 Salatgurke
-- 1 EL Palmzucker
-- 2 EL Essig
-- 1/2 TL Salz
-- 1 EL Minze (gehackt)
-
-{% endIngredients %}
-
-{% Recipe %}
-
-
-
-- Gurke schälen, der Länge nach halbieren und entkernen.
-- Anschließend die Gurkenhälften in dünne Scheiben schneiden.
-- Zucker, Essig, Salz und Minze zu einer Marinade verrühren und über die Gurkenscheiben gießen.
-
-
-
-Diese Beilage sollte kurz vor dem Verzehr zubereitet werden. Die Marinade kann zwar stehen, aber die Gurkenscheiben sollten erst kurz vorher untergemischt werden, damit sie nicht zuviel Wasser ziehen.
-
-{% endRecipe %}

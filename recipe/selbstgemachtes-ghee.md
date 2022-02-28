@@ -9,23 +9,20 @@ tags:
   - indien
 
 category: sonstiges
+
+ingredients:
+  - 500g Butter
+
+recipe:
+- Die Butter bei mittlerer Hitze zum Schmelzen bringen.
+- Den sich bildenden Butterschaum abschöpfen und auf kleiner Flamme weiter köcheln lassen, dabei weiter den Schaum abschöpfen.
+- Das Fett wird klar, der Topfboden wird sichtbar.
+- Das Ghee ist fertig, wenn die Flüssigkeit nussig bzw. nach Mais duftet.
+- Das Ghee über einen Teefilter in ein sauberes Glas füllen und zudrehen.
+
+
+tipps:
+- Im Kühlschrank hält sich Ghee sehr lang.
+- 500g Butter ergeben etwa 400g Ghee.
+- Die Kochzeit beträgt etwa 25 Minuten.
 ---
-
-{% Ingredients %}
-
-
-
-- 500g Butter
-
-{% endIngredients %}
-
-{% Recipe %}
-
-500g Butter in einem Topf schmelzen. Die Butter bei mittlerer Hitze zum Schmelzen bringen. Den sich bildenden Butterschaum abschöpfen. Die Butter auf kleiner Flamme weiter köcheln lassen und weiter den Schaum abschöpfen. Das Fett wird klar, der Topfboden wird sichtbar.
-
-Das Ghee ist fertig, wenn die Flüssigkeit nussig bzw. nach Mais duftet. Das Ghee über einen Teefilter in ein sauberes Glas füllen und zudrehen. Im Kühlschrank hält es sich sehr lang.
-
-500g Butter ergeben etwa 400g Ghee. Die Kochzeit beträgt etwa 25 Minuten.
-
-{% endRecipe %}
-

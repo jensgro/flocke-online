@@ -9,13 +9,12 @@ tags:
   - ofen
 
 category: hauptgericht
-
+layout: layouts/post.njk
+recipe: true
 ---
+<div class="recipe__ingredients">
 
-{% Ingredients %}
-
-
-
+## Zutaten
 ### Teig
 
 - 20 g Hefe
@@ -34,11 +33,10 @@ category: hauptgericht
 - Paprika
 - wenig Kümmel
 
-{% endIngredients %}
+</div>
+<div class="recipe__content">
 
-{% Recipe %}
-
-
+## Zubereitung
 
 - Hefe mit Wasser glattrühren, dann mit Mehl und Salz verkneten. Nach und nach die Margarine unterrühren.
 - Den Teig kräftig durcharbeiten, bis er nicht mehr klebt. Zu einer Kugel formen und mit einem Tuch bedeckt an einem warmen Ort gehen lassen, bis sich sein Volumen verdoppelt hat.
@@ -46,5 +44,4 @@ category: hauptgericht
 - Den Teig auf einem Backblech ausrollen, die Ränder hochziehen. Zwiebeln und Speck mischen und auf dem Teig verteilen.
 - Eier, Saure Sahne und Gewürze verrühren und über den belegten Teig schütten.
 - Bei 200 Grad etwa eine Stunde backen.
-
-{% endRecipe %}
+</div>

@@ -12,12 +12,13 @@ tags:
   - süß
 
 category: hauptgericht
+layout: layouts/post.njk
+recipe: true
 ---
 
-{% Ingredients %}
+<div class="recipe__ingredients">
 
-
-
+## Zutaten
 ### Pfannkuchen
 
 - 100 g Mehl
@@ -45,11 +46,11 @@ category: hauptgericht
 - 60 ml Sahne
 - 1 EL Zucker
 
-{% endIngredients %}
+</div>
 
-{% Recipe %}
+<div class="recipe__content">
 
-
+## Zubereitung
 
 Das Mehl in eine Schüssel geben. Mit Milch, Sahne, Eiern, Salz, Zucker und Öl zu einem glatten, dünnen Teig verrühren. Etwa eine Stunde ruhen lassen. Durchrühren, dann in einer Pfanne 8 bis 10 dünne Pfannkuchen daraus backen.
 
@@ -61,8 +62,16 @@ Eine Auflaufform buttern und die Pfannkuchenrollen hineinlegen.
 
 Die Zutaten der Royale verquirlen und darübergießen. Butterflöckchen daraufsetzen und im vorgeheizten Ofen bei 200 Grad 25 minuten backen. Mit Puderzucker besieben.
 
-## Tipp
+</div>
+
+<div class="recipe__tipps">
+
+## Tipps
 
 Anstatt eine Zitronenschale abzureiben (nicht immer bekommt man eine ungehandelte Zitrone) kann man auch  einfach eine Ampulle Zitronenaroma hinzugeben.
 
-{% endRecipe %}
+</div>
+
+
+
+

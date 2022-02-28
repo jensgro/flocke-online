@@ -10,33 +10,22 @@ tags:
   - ofen
 
 category: hauptgericht
+
+ingredients:
+  - 2 Putenschnitzel
+  - 200g Schweinemett (Gehacktes)
+  - Käse
+  - Senf
+  - 1 Becher Sahne
+
+recipe:
+  - Die rohen Putenschnitzel in eine leicht gefettete Auflaufform geben.
+  - Mit Senf bestreichen und leicht würzen.
+  - Die Putenschnitzel mit Schweinemett bedecken.
+  - Mindestens eine Scheibe Käse darüber legen.
+  - Die Sahne über die Putenschnitzel verteilen und bei 200 Grad etwa 1 Stunde backen.
+
+tipps:
+  - Statt Putenschnitzel kann auch Hühnerbrust benutzt werden.
+  - Unter den Käse können auch Mandarinenscheiben oder Ananasstücke gelegt werden.
 ---
-
-{% Ingredients %}
-
-
-
-- 2 Putenschnitzel
-- 200g Schweinemett (Gehacktes)
-- Käse
-- Senf
-- 1 Becher Sahne
-
-{% endIngredients %}
-
-{% Recipe %}
-
-
-
-- Die rohen Putenschnitzel in eine leicht gefettete Auflaufform geben.
-- Mit Senf bestreichen und leicht würzen.
-- Die Putenschnitzel mit Schweinemett bedecken.
-- Mindestens eine Scheibe Käse darüber legen.
-- Die Sahne über die Putenschnitzel verteilen und bei 200 Grad etwa 1 Stunde backen.
-
-
-
-- Statt Putenschnitzel kann auch Hühnerbrust benutzt werden.
-- Unter den Käse können auch Mandarinenscheiben oder Ananasstücke gelegt werden.
-
-{% endRecipe %}

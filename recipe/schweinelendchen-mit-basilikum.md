@@ -8,42 +8,16 @@ tags:
   - schwein
 
 category: hauptgericht
+
+ingredients:
+  - 750g Schweinelendchen
+  - 2 Zwiebeln
+  - 1 Paket Kräuterfrischkäse
+  - 125 ml Weißwein
+  - 125 ml Brühe
+  - Basilikum
+
+recipe:
+  - Schweinelendchen in Stücke schneiden, einschneiden und mit Frischkäse und Basilikum füllen, dann anbraten.
+  - Zwiebeln würfeln und anbraten, mit Wein und Brühe abgießen.
 ---
-
-{% Ingredients %}
-
-
-
-- 750g Schweinelendchen
-- 2 Zwiebeln
-- 1 Paket Kräuterfrischkäse
-- 125 ml Weißwein
-- 125 ml Brühe
-- Basilikum
-
-{% endIngredients %}
-
-{% Recipe %}
-
-
-
-- Schweinelendchen in Stücke schneiden, einschneiden und mit Frischkäse und Basilikum füllen, dann anbraten.
-- Zwiebeln würfeln und anbraten, mit Wein und Brühe abgießen.
-
-{% endRecipe %}
-
-<div class="recipe__intro">
-
-
-
-</div>
-
-<aside class="recipe__ingredients">
-
-
-</aside>
-
-<div class="recipe__content">
-
-</div>
-

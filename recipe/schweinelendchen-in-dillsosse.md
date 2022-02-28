@@ -8,31 +8,21 @@ tags:
   - schwein
 
 category: hauptgericht
+
+ingredients:
+  - 1 Schweinelende (400 – 500g)
+  - 1 Bund Dill
+  - 1 Becher Schmand
+  - 1/2 Salatgurke
+  - 1 Zwiebel
+
+recipe:
+  - Fleisch anbraten und herausnehmen.
+  - Zwiebel würfeln und anbraten.
+  - Dill, Schmand und Gurke zugeben.
+  - Zum Schluß das Schweinelendchen wieder in die Soße geben.
+
+tipps:
+  - Am besten schmeckt Baguette dazu. Mir hat besonders gut ein Baguette mit Roggenanteil dazu geschmeckt.
+
 ---
-
-{% Ingredients %}
-
-
-
-- 1 Schweinelende (400 – 500g)
-- 1 Bund Dill
-- 1 Becher Schmand
-- 1/2 Salatgurke
-- 1 Zwiebel
-
-{% endIngredients %}
-
-{% Recipe %}
-
-
-
-- Fleisch anbraten und herausnehmen.
-- Zwiebel würfeln und anbraten.
-- Dill, Schmand und Gurke zugeben.
-- Zum Schluß das Schweinelendchen wieder in die Soße geben.
-
-
-
-Am besten schmeckt Baguette dazu. Mir hat besonders gut ein Baguette mit Roggenanteil dazu geschmeckt.
-
-{% endRecipe %}

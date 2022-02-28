@@ -11,35 +11,24 @@ tags:
   - vegetarisch
 
 category: hauptgericht
+
+ingredients:
+  - 1 Hühnerbrust (ca. 250g)
+  - 450g Spinat
+  - 1 Zwiebel
+  - 2 Tomaten
+  - 1 Paprika
+  - 2-3 TL Bockshornklee
+  - 1-2 TL Garam Masala
+  - Salz, Pfeffer
+
+recipe:
+  - Huhn würfeln und anbraten, dann rausnehmen.
+  - Zwiebel würfeln und anbraten, wenn sie glasig werden, den Bockshornklee zugeben und kurz mit anschwitzen.
+  - Dann Tomaten und Paprika gewürfelt hinzugeben. Kurz gemeinsam anziehen lassen.
+  - Dann den noch gefrorenen Rahmspinat hinzugeben und schmelzen lassen.
+  - Zu Ende würzen.
+
+tipps:
+- Dazu paßt eigentlich nur Reis.
 ---
-
-{% Ingredients %}
-
-
-
-- 1 Hühnerbrust (ca. 250g)
-- 450g Spinat
-- 1 Zwiebel
-- 2 Tomaten
-- 1 Paprika
-- 2-3 TL Bockshornklee
-- 1-2 TL Garam Masala
-- Salz, Pfeffer
-
-{% endIngredients %}
-
-{% Recipe %}
-
-
-
-- Huhn würfeln und anbraten, dann rausnehmen.
-- Zwiebel würfeln und anbraten, wenn sie glasig werden, den Bockshornklee zugeben und kurz mit anschwitzen.
-- Dann Tomaten und Paprika gewürfelt hinzugeben. Kurz gemeinsam anziehen lassen.
-- Dann den noch gefrorenen Rahmspinat hinzugeben und schmelzen lassen.
-- Zu Ende würzen.
-
-## Tips
-
-Dazu paßt eigentlich nur Reis.
-
-{% endRecipe %}

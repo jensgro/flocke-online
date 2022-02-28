@@ -12,29 +12,20 @@ tags:
   - vegetarisch
 
 category: beilage
+
+ingredients:
+  - 1 kg festkochende Kartoffeln
+  - 3 EL Öl
+  - 3 EL Essig
+  - 1 Zwiebel
+  - 3 mittelgroße Gewürzgurken
+  - 200 g mageren Speck (Dörrfleisch)
+  - 1 Tasse Brühe
+
+recipe:
+  - Die Kartoffeln kochen, abschrecken und auskühlen lassen. Am nächsten Tag die ausgekühlten Kartoffeln schälen und in Scheiben schneiden. Die Kartoffeln lagenweise stark mit Salz und Pfeffer würzen.
+  - Die Zwiebel fein hacken und mit Essig und Öl vermengen, dann über die Kartoffeln geben und die Nacht über ziehen lassen.
+  - Am Tag des Verzehrs die Gurken in kleine Würfel schneiden, den Speck würfeln und kross anbraten. Beides mit der heißen Brühe über die Kartoffeln geben und ziehen lassen.
+  - Zum Würzen nur Pfeffer, Salz und Essig nehmen, keine Brühe mehr nachfüllen.
+
 ---
-
-{% Ingredients %}
-
-
-
-- 1 kg festkochende Kartoffeln
-- 3 EL Öl
-- 3 EL Essig
-- 1 Zwiebel
-- 3 mittelgroße Gewürzgurken
-- 200 g mageren Speck (Dörrfleisch)
-- 1 Tasse Brühe
-
-{% endIngredients %}
-
-{% Recipe %}
-
-
-
-- Die Kartoffeln kochen, abschrecken und auskühlen lassen. Am nächsten Tag die ausgekühlten Kartoffeln schälen und in Scheiben schneiden. Die Kartoffeln lagenweise stark mit Salz und Pfeffer würzen.
-- Die Zwiebel fein hacken und mit Essig und Öl vermengen, dann über die Kartoffeln geben und die Nacht über ziehen lassen.
-- Am Tag des Verzehrs die Gurken in kleine Würfel schneiden, den Speck würfeln und kross anbraten. Beides mit der heißen Brühe über die Kartoffeln geben und ziehen lassen.
-- Zum Würzen nur Pfeffer, Salz und Essig nehmen, keine Brühe mehr nachfüllen.
-
-{% endRecipe %}
