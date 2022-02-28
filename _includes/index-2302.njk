@@ -9,11 +9,11 @@
         <img class="category__image" src="../img/{{item.headerImage}}_250x100.jpg" alt="" width="250" height="100">
       </div>
       <div class="category__body">
-        <h2>Die letzten Einträge</h2>
+        <h2>In dieser Kategorie</h2>
         <ol class="category__last-items">
         {# Zählvariable setzen #}
         {% set atPost = 0 %}
-        {%- for post in collections.recipesDescending -%}
+        {% for post in collections.recipesDescending %}
           {% if post.data.category == item.url %}
             {# Solange die Zählvariable noch unter diesem Wert ist #}
             {% if atPost < 4 %}
@@ -22,9 +22,9 @@
             {# Zählvariable hochzählen #}
             {% set atPost = atPost + 1 %}
           {% endif %}
-        {%- endfor -%}
+        {% endfor %}
         </ol>
-        <a class="category__link {{ item.url }}" href="{{ item.url | url }}">
+        <a class="category__link {{ item.url }}" href="{{ item.title | lower }}">
           &#9654; mehr aus der Kategorie {{ item.title }} ...
         </a>
       </div>
