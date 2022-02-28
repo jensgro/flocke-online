@@ -14,7 +14,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 2 Putenschnitzel
 - 200g Schweinemett (Gehacktes)
@@ -26,7 +26,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Die rohen Putenschnitzel in eine leicht gefettete Auflaufform geben.
 - Mit Senf bestreichen und leicht würzen.
@@ -34,7 +34,7 @@ category: hauptgericht
 - Mindestens eine Scheibe Käse darüber legen.
 - Die Sahne über die Putenschnitzel verteilen und bei 200 Grad etwa 1 Stunde backen.
 
-## Tipps
+
 
 - Statt Putenschnitzel kann auch Hühnerbrust benutzt werden.
 - Unter den Käse können auch Mandarinenscheiben oder Ananasstücke gelegt werden.

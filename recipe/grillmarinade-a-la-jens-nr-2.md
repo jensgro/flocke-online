@@ -12,7 +12,7 @@ category: sonstiges
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 6 EL Ketchup
 - 1 EL Balsamico-Essig

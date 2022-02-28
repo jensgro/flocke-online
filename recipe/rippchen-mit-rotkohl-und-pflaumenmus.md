@@ -13,7 +13,7 @@ category: hauptgericht
 ---
 {% Ingredients %}
 
-## Zutaten
+
 
 - 20 g frischer Ingwer
 - 450 g Pflaumenmus
@@ -31,7 +31,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 Ingwer schälen und fein reiben. Pflaumenmus mit Zitronensaft, Cayennepfeffer, Salz und Ingwer würzen. Die Schmorrippe in Stücke teilen, im Pflaumenmus mindestens 2 Stunden (am besten über Nacht) marinieren. Schmorrippe abtropfen und anbraten. Zwiebeln dünsten und mit Rotkohl, Marinade und Rippchen in einen Bräter geben.
 

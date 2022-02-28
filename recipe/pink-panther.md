@@ -13,7 +13,7 @@ category: sonstiges
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 1 Apfelsine
 - 1 Limette
@@ -26,7 +26,7 @@ category: sonstiges
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Apfelsine und Limette auspressen.
 - Den Saft mit dem Sirup, der Kokosmilch und zwei Eiswürfeln in eine Shaker geben.

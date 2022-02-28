@@ -14,7 +14,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 ### Teig
 
@@ -38,7 +38,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Hefe mit Wasser glattrühren, dann mit Mehl und Salz verkneten. Nach und nach die Margarine unterrühren.
 - Den Teig kräftig durcharbeiten, bis er nicht mehr klebt. Zu einer Kugel formen und mit einem Tuch bedeckt an einem warmen Ort gehen lassen, bis sich sein Volumen verdoppelt hat.

@@ -13,7 +13,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 100g Reis
 - 150g gekochter Schinken
@@ -27,7 +27,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Den Reis garen.
 - Den Schinken und den Käse würfeln, mit dem Reis vermischen und mit Pfeffer und Salz würzen.
@@ -36,7 +36,7 @@ category: hauptgericht
 - ca. 15 Minuten auf 225 Grad backen.
 - Nachdem das Gericht fertig ist, den Schnittlauch – in Röllchen geschnitten – darüberstreuen.
 
-## Tipps
+
 
 - Anstatt Schmand kann man auch Kräuterfrischkäse verwenden.
 - Die Menge Schmand bzw. Kräuterfrischkäse ist geschmacksabhängig. Allerdings sollte nicht zuviel davon verwendet werden, denn schließlich sollen die anderen Komponenten auch noch zum Zuge kommen.

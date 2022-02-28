@@ -16,7 +16,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 500g Reis
 - 1 kleine Dose Champignons
@@ -30,7 +30,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Den Reis nicht zu weich kochen.
 - Pilze und Früchte abtropfen lassen, den Ananassaft auffangen.

@@ -15,7 +15,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 200-250g Mi-Nudeln
 - 200-250g Hühnerbrust
@@ -31,7 +31,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Hühnerbrust in mundgerechte Stücke schneiden, mit Pfeffer und Salz würzen, in Mehl wälzen, anbraten und herausnehmen.
 - Paprika und Möhre würfeln, die Frühlingszwiebeln in Ringe schneiden.
@@ -43,7 +43,7 @@ category: hauptgericht
 {% endRecipe %}
 
 {% Tipps %}
-## Tipps
+
 
 - Für die Zubereitung empfiehlt sich natürlich die Verwendung eines Wok !
 - Anstatt die Banane mitzudünsten kann man sie auch in Scheiben schneiden und kurz auf einer Seite anbraten. Dafür dürfen allerdings nur feste Bananen benutzt werden.

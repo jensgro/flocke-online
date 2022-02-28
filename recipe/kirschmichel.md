@@ -15,7 +15,7 @@ category: sonstiges
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 5 Brötchen
 - 100 g Butter
@@ -32,7 +32,7 @@ category: sonstiges
 
 {% Recipe %}
 
-## Zubereitung
+
 
 Die Brötchen in dünne Scheiben schneiden und in 30 g Butter anrösten, mit der Milch übergiessen und durchziehen lassen.
 

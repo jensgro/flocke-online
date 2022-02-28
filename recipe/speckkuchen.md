@@ -12,7 +12,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 750g Lauch
 - 4 alte Brötchen
@@ -27,7 +27,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Den Lauch schneiden und mit kochendem Wasser überbrühen. 5 Minuten ziehen lassen.
 - 4 Brötchen in Milch einweichen.

@@ -15,7 +15,7 @@ category: sonstiges
 
 {% Ingredients %}
 
-  ## Zutaten
+
 
   - 5 Eigelb
   - 1 Vanilleschote
@@ -29,13 +29,13 @@ category: sonstiges
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Vanilleschote aufschneiden, Mark herausstreichen.
 - Puderzucker sieben.
 - Alle Zutaten miteinander vermischen.
 
-## Tipps
+
 
 - Wenn die Apotheke des Vertrauens den Weingeist nicht herausrückt, kann der Weingeist komplett durch Weinbrand ersetzt werden.
 - Am besten den Puderzucker direkt in die vermischten Flüssigkeiten sieben.

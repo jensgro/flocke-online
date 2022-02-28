@@ -15,7 +15,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - Fleisch mit Marinade:
 - 250 g Geschnetzeltes vom Schwein
@@ -38,7 +38,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Das Geschnetzelte in der Marinade etwa eine Stunde liegen lassen. Dann das Fleisch in etwas Öl anbraten.
 - Die Zwiebel und die Knoblauchzehe kleinhacken, mit der Ananas, den Champignons und den Sojabohnenkeimlingen dazugeben.

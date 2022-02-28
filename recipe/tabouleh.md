@@ -14,7 +14,7 @@ category: beilage
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 6 – 8 Bund glatte Petersilie
 - 2 – 3 Tomaten
@@ -28,7 +28,7 @@ category: beilage
 
 {% Recipe %}
 
-## Zubereitung
+
 
 Die Petersilie schön klein hacken. Die Tomaten klein würfeln. Die halbe Gurke schälen, der Länge nach halbieren und die Kerne entfernen. Danach in kleine Würfel schneiden. Die kleine Portion Couscous mit heissem Wasser übergiessen und gar ziehen lassen. Die Zitrone auspressen, mit dem Olivenöl vermischen und würzen.
 

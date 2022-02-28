@@ -13,7 +13,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 400 g Hühnerbrust
 - 150 g Staudensellerie
@@ -33,7 +33,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 Hähnchenbrustfilet in mundgerechte Stücke schneiden, portionsweise scharf in einem Bräter anbraten, dabei salzen und pfeffern. Die Portionen herausnehmen und auf einem Küchetuch platzieren, damit Fett abgefangen werden kann.
 

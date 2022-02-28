@@ -15,7 +15,7 @@ category: beilage
 
 {% Ingredients %}
 
-## Zutaten für 4 Personen
+ für 4 Personen
 
 - 5 grosse Auberginen
 - 1 grosse Zwiebel
@@ -29,7 +29,7 @@ category: beilage
 
 {% Recipe %}
 
-## Zubereitung
+
 
 Die Auberginen eine Stunde bei grosser Hitze im Backofen garen. Bevor sie in den Ofen kommen, mit einer Gabel Löcher stechen, da sie sonst explodieren können. Anschliessend abkühlen lassen, Schale öffnen und das Fruchtfleisch auslöffeln.
 

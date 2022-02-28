@@ -15,7 +15,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 1 Hühnerbrust (ca. 250g)
 - 450g Spinat
@@ -30,7 +30,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Huhn würfeln und anbraten, dann rausnehmen.
 - Zwiebel würfeln und anbraten, wenn sie glasig werden, den Bockshornklee zugeben und kurz mit anschwitzen.

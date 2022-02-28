@@ -12,7 +12,7 @@ category: sonstiges
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - Kräutermischung
 - 1 TL Thymian
@@ -29,13 +29,13 @@ category: sonstiges
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Kräutermischung mit der Masse vermischen.
 - Das Fleisch damit über Nacht marinieren.
 - Der Tabasco sollte je nach Laune und Geschmack in weniger oder mehr Schuß zugegeben werden.
 
-## Tipps
+
 
 Ich habe diese Marinade nie mit frischen Kräutern getestet, kann aber vermelden, daß sie mit getrockneten sehr gut schmeckt. Auch das Basilikum war getrocknet.
 

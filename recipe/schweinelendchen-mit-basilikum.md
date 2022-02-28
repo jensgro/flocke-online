@@ -12,7 +12,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 750g Schweinelendchen
 - 2 Zwiebeln
@@ -25,7 +25,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Schweinelendchen in Stücke schneiden, einschneiden und mit Frischkäse und Basilikum füllen, dann anbraten.
 - Zwiebeln würfeln und anbraten, mit Wein und Brühe abgießen.

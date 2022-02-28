@@ -14,7 +14,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 2 frische Lachsfilets
 - 200ml Sahne
@@ -26,7 +26,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 Die Lachsfilets salzen und pfeffern und in eine gefettete, niedrige Auflaufform legen. Senf und Sahne miteinander vermischen, bspw. in einem Schraubglas schütteln. Die Kapern zu der Sahnemischung geben – gerne mit etwas Kapernsaft – und über die Filets giessen.
 

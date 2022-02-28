@@ -16,7 +16,7 @@ category: beilage
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 1 kg festkochende Kartoffeln
 - 3 EL Öl
@@ -30,7 +30,7 @@ category: beilage
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Die Kartoffeln kochen, abschrecken und auskühlen lassen. Am nächsten Tag die ausgekühlten Kartoffeln schälen und in Scheiben schneiden. Die Kartoffeln lagenweise stark mit Salz und Pfeffer würzen.
 - Die Zwiebel fein hacken und mit Essig und Öl vermengen, dann über die Kartoffeln geben und die Nacht über ziehen lassen.

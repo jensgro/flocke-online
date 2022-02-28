@@ -15,7 +15,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 125 g Magerquark
 - 1 Pkg. Backpulver
@@ -28,7 +28,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Die Zutaten miteinander verkneten, aber nicht lange bearbeiten.
 - Sofort auf ein eingefettetes Blech legen und als Pizza belegen.

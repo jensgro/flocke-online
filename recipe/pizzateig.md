@@ -15,7 +15,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 7 g Trockenhefe
 - 1/2 TL Salz
@@ -29,7 +29,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung:
+:
 
 - Hefe, Salz, Zucker und Wasser mischen, mit einer Folie abdecken und an einen warmen Ort stellen, bis die Masse Blasen wirft.
 - Mehl in eine Schüssel sieben, mit dem Hefe-Wasser-Gemisch zu einem Teig verarbeiten.

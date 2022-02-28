@@ -16,7 +16,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 500 g Rindfleisch aus der Schulter
 - 1 EL Tamarindenmark
@@ -35,7 +35,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Tamarindenmark in einer Schüssel mit 200 ml heißem Wasser einweichen.
 - Inzwischen das Rindfleisch kalt abspülen, trockentupfen und in kleine Würfel schneiden.
@@ -46,7 +46,7 @@ category: hauptgericht
 - Dann Kokosmilch und ein paar Eßlöffel Tamarindensaft hinzufügen.
 - Das Curry ein paar Minuten offen kochen lassen, umrühren. Dann auf mittlere Hitze herunterschalten und zugedeckt 1 bis 1 1/2 Stunden schmoren lassen. Mit Salz abschmecken.
 
-## Tipps
+
 
 - Tamarindensaft wird hier ähnlich benutzt, wie in der europäischen Küche Essig. Die Verwendung ist hingegen gewöhnungsbedürftig. In Persien ißt man das Tamarindenmark sogar als Snack zwischendurch. Dies finde ich noch gewöhnungsdeürftiger.
 - Auf alle Fälle braucht man dieses Gericht nicht mehr pfeffern, salzen sollte man aber ordentlich. Auf die Kokosmilch sollte nicht verzichtet werden, man schmeckt sie im Hintergrund recht gut. Sie gibt dem Gericht einen leicht nussigen Geschmack.

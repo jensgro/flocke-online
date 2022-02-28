@@ -13,7 +13,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 250 g Weizenmehl
 - 250 g Magerquark
@@ -27,7 +27,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Mehl und Salz in einer großen Schüssel vermischen. Quark mit Eiern und Milch verquirlen und mit dem Mehl zu einem glatten, dickflüssigen Teig verrühren. Zugedeckt 30 Minuten stehen lassen.
 - Inzwischen die Kirschen gut abtropfen lassen. Dann unter den Teig mischen.
@@ -36,7 +36,7 @@ category: hauptgericht
 - Danach aus der Pfanne nehmen und warm stellen. Den restlichen Teil genauso zubereiten.
 - Mit reichlich Puderzucker bestäubt servieren.
 
-## Tipps
+
 
 - Statt 250 g Mehl 100 g Haferflocken und 200 g Mehl nehmen. Das ergibt einen kräftigeren Geschmack.
 - Statt Puderzucker nehme ich mittlerweile nur noch „Zucker und Zimt“. Das bringt zusätzlich noch einen guten Geschmack. Zudem: Man streut ziemlich lange Puderzucker, bis der Eierkuchen richtig süß ist.

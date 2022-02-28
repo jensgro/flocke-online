@@ -13,7 +13,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 4 alte Brötchen
 - 3/4 l Milch
@@ -26,7 +26,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Die alten Brötchen in kleinere Stücke brechen.
 - Die Milch, die Eier, den Zucker und den Vanillezucker verquirlen.

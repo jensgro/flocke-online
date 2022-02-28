@@ -12,7 +12,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 500 g mageres Schweinefleisch
 - 1 EL Tamarindenmark
@@ -29,7 +29,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Tamarindenmark in einer Schüssel mit 150 ml heißem Wasser einweichen.
 - Inzwischen die Stielansätze der Tomaten und die Kerne entfernen. Das Fruchtfleisch kleinhacken. Das Schweinefleisch kalt abspülen, trockentupfen und in kleine Würfel schnetzeln. Schlotten schälen, halbieren und in dünne Scheiben schneiden. Knoblauch schälen und zerdrücken.

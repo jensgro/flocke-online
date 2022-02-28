@@ -16,7 +16,7 @@ category: beilage
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 1 Dose Kichererbsen
 - ein halbes Glas Wasser (ca. 100 ml)
@@ -30,7 +30,7 @@ category: beilage
 
 {% Recipe %}
 
-## Zubereitung
+
 
 Die Kichererbsen aus der Dose abtropfen lassen und in ein hohes Gefäss geben. Das Wasser, Tahin, ein wenig Zitronensaft, ein wenig Olivenöl drauf geben und salzen und pfeffern. Alles zusammen mit einem Stabmixer ordentlich durchmixen, bis alles eine nette Paste ist. Eine Küchenmaschine ist aus eigenem Erleben nicht zur Zubereitung geeignet, weil die Kichererbsen nicht klein genug gehäckselt werden.
 

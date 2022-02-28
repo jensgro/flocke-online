@@ -14,7 +14,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 1 Tasse Basmati-Reis
 - 2 Tassen Milch
@@ -35,7 +35,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Den Reis mit der Milch aufsetzen (Vorsicht, kocht leicht über) und bei schwacher Hitze zugedeckt etwa 15 Minuten garen.
 - Inzwischen die Zwiebeln und den Knoblauch pellen und fein hacken.

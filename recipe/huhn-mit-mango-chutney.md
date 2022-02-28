@@ -16,7 +16,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 300 g Hühnerbrust
 - 1 Zwiebel
@@ -29,13 +29,13 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Fleisch und Zwiebel würfeln. Fleisch salzen und pfeffern, in Speisestärke wenden und mit den Zwiebeln anbraten.
 - Gegen Ende der Garzeit 1-2 TL Currypulver einrühren, kurz mitbraten, dann 2 EL Mango-Chutney hinzugeben, einrühren.
 - Sofort mit Sahne aufgießen und köcheln lassen. Weiter mit Mango-Chutney und Curry-Pulver sowie eventuell ein wenig Kreuzkümmel abschmecken.
 
-## Tipps
+
 
 - Ich verbrauche bei diesem Gericht für zwei Personen immer etwa ein halbes Glas Mango-Chutney, dies als Orientierungshilfe.
 - Dazu paßt nur Reis ! Am besten Basmati-Reis.

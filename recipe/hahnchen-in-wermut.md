@@ -13,7 +13,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 6 – 8 Hähnchenschenkel
 - 1/2 Flasche Wermut
@@ -27,7 +27,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Hähnchenschenkel in die Fettpfanne legen und mit Wermut übergießen.
 - Gewürze, Porreeringe und Zitronenscheiben hinzugeben.
@@ -35,7 +35,7 @@ category: hauptgericht
 - Hähnchenschenkel salzen, auf 200 Grad eine Stunde ohne Zitronen backen.
 - Trauben zugeben und nochmals 30 Minuten backen.
 
-## Tipps
+
 
 Es versteht sich von selbst, daß die Mengenangaben für Wermut und Trauben nach Geschmack variiert werden können.
 

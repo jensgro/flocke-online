@@ -13,7 +13,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 1 1/2 kg Spareribs (Schälrippchen)
 - 1/2 l Tomatenketchup
@@ -30,7 +30,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Rippchen abspülen und trockentupfen. Eventuell ein wenig einritzen, damit die Marinade besser einziehen kann.
 - Für die Marinade Ketchup, Honig, zerdrückte Knoblauchzehe, Worcestersauce, Thymianblätter, Pfeffer, Cayennepfeffer und ein paar spritzer Tabasco miteinander vermengen.
@@ -39,7 +39,7 @@ category: hauptgericht
 - Am nächsten Tag: Rippchen aus der Marinade nehmen und gut abtropfen lassen. Auf einen Backofenrost legen, darunter ein Backblech schieben und im vorgeheizten Backofen bei 180 Grad (Umluft: 170 Grad/ Gas: Stufe 3) etwa 1 1/2 Stunden braten.
 - Die Rippchen zwischendurch mal wenden. Nach einer Stunde hin und wieder mit der Marinade bestreichen. Restliche Marinade unter Rühren einmal aufkochen und zu den Rippchen servieren.
 
-## Tipps
+
 
 Dazu passen am besten Backofen-Kartoffeln mit Schmand und Schnittlauch
 

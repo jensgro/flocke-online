@@ -18,7 +18,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 4 EL Öl
 - 1 EL Senfkörner
@@ -39,14 +39,14 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Zwiebeln, Knoblauch, Paprika, Champignons und Kartoffeln würfeln.
 - Öl erhitzen, Senfkörner dazugeben und Zwiebeln und Knoblauch anbraten.
 - Die Gewürze nach und nach dazugeben und mit den Tomaten etwa 5 Minuten dünsten lassen.
 - Das restliche Gemüse dazugeben und 15 – 20 Minuten köcheln lassen.
 
-## Tipps
+
 
 - Die Senfkörner sind kein Muß. Es schmeckt auch ohne sie.
 - Die Korianderblätter schmecken vielleicht nicht jedem, deshalb vorsichtig damit sein. Am besten dekoriert jeder selbst damit.

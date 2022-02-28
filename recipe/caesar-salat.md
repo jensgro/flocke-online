@@ -15,7 +15,7 @@ category: beilage
 
 {% Ingredients %}
 
-## Zutaten
+
 
 2 Köpfe Römischer Salat
 
@@ -34,7 +34,7 @@ dazu folgende Salatsauce:
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Eine Knoblauchzehe kleinschneiden, mit Öl, der Brühe, Essig, Zitronensaft, Senf und Petersilie pürieren. Den Parmesan untermischen.
 - Die zweite Knoblauchzehe schälen, die Brotscheiben im Toaster oder in einer Pfanne von beiden Seiten rösten und mit der Knoblauchzehe kräftig einreiben. Das Brot salzen und pfeffern und in Stücke schneiden.

@@ -14,7 +14,7 @@ category: beilage
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 1 Avocado (möglichst reif)
 - 250 g Schmand
@@ -26,7 +26,7 @@ category: beilage
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Avocado schälen und den Kern entfernen. In den Mixer geben.
 - Die Knoblauchzehe in den Mixer ausdrücken, den Schmand dazugeben.

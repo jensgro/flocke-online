@@ -16,7 +16,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 1 Kopf Blumenkohl
 - 3 frische rote Chilischoten
@@ -32,7 +32,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Blumenkohl vom Strunkende befreien, waschen und in mundgerechte Röschen zerteilen. Chilischoten waschen, der Länge nach halbieren, Kerne und Stiele herauslösen. Die Hälften in kleine, feine Streifen schneiden.
 - Frühlingszwiebeln putzen, waschen und in dünne Ringe schneiden. Knoblauch schälen und zerdrücken, Ingwer schälen und fein raspeln.

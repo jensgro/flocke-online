@@ -15,7 +15,7 @@ category: sonstiges
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 300	g Tiefkühl-Blätterteig
 - 1 Ei
@@ -28,7 +28,7 @@ category: sonstiges
 {% endIngredients %}
 
 {% Recipe %}
-## Zubereitung
+
 
 - Platten auf 38×25 cm Rechteck auswellen
 - Ei, Crème fraiche, Parmesan und gehackte Kräuter verrühren und mit Muskat, Cayennepfeffer und Pfeffer kräftig würzen.
@@ -37,7 +37,7 @@ category: sonstiges
 - Rolle in 1 cm breite Scheiben schneiden.
 - Die Scheiben auf ein Blech mit Backpapier legen und bei 220 Grad 10 bis 15 Minuten backen.
 
-## Tipps
+
 
 Theoretisch lassen sich die Käseöhrchen ein paar Tage in einer Keksdose aufbewahren. Man kann also nicht nur die Partygäste, sondern vielleicht auch die Kollegen damit begeistern.
 

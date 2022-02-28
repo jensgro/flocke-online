@@ -12,7 +12,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 500g Rindergulasch
 - 400g Zwiebeln
@@ -28,7 +28,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Zwiebeln, Knoblauch, Dörrfleisch, Kartoffel und Paprika würfeln.
 - Zwiebeln glasig anbraten, gegen Ende den Knoblauch dazu geben, nach kurzer Zeit das Fleisch in kleinen Portionen nacheinander dazugeben und scharf anbraten.
@@ -39,7 +39,7 @@ category: hauptgericht
 - Ein wenig Thymian kann man dem Gericht auch beigeben.
 - Entweder schon im Topf oder individuell auf dem Teller Schmand hinzugeben.
 
-## Tipps
+
 
 - Die Anbratorgie kann durchaus in einer Pfanne stattfinden. Das Gericht wird allerdings im Kochtopf zu Ende gekocht.
 - Das Tomatenmark macht das Gericht schön fruchtig. Eine Dose Tomaten würde hingegen zu sehr vorschmecken.

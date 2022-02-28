@@ -12,7 +12,7 @@ category: sonstiges
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 250g Margarine oder Butter
 - 75g Zucker
@@ -29,7 +29,7 @@ category: sonstiges
 
 {% Recipe %}
 
-## Zubereitung
+
 
 Die kleingeschnittenen Äpfel mit Zimt, Zucker, Rum und den gemahlenen Nüssen vermischen und etwas durchziehen lassen. Fett schaumig rühren und Eier zugeben. Mehl mit Backpulver mischen und gesiebt abwechselnd mit lauwarmer Milch einrühren. Das Apfel-Nuß-Gemisch vorsichtig unter den Teig heben. Die fertigen Waffeln mit Zimt und Zucker bestreut servieren.
 

@@ -17,7 +17,7 @@ category: beilage
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 600 g kleine Kartoffeln
 - Salz
@@ -33,7 +33,7 @@ category: beilage
 
 {% Recipe %}
 
-## Zubereitung
+
 
 Kartoffeln gründlich waschen, in reichlich gesalzenem Wasser mit Kümmel garen.
 Zitronen heiß abwaschen, mit dem Zestenreißer die Schale in feine Streifen schneiden. Eine Zitrone auspressen, die andere in Scheiben schneiden.

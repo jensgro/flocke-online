@@ -16,7 +16,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 500 g Rinderhack
 - 2 Zwiebeln
@@ -30,14 +30,14 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Zwiebeln würfeln und anbraten.
 - Nach einiger Zeit das gewürzte Rinderhack hinzugeben. Während des Anbratens rühren, damit das Hack zerfällt und krümelig wird.
 - Ist das Rinderhack fertig angebraten, die Gewürzmischung hinzugeben, ganz kurz anbraten, dann sofort die abgetropften und abgewaschenen Kindeybohnen und die Tomaten hinzugeben.
 - Schön lange auf mittlerer Hitze kochen lassen.
 
-## Tipps
+
 
 - Meine früher bevorzugte Gewürzmischung: 2 TL Kreuzkümel, 1 TL Kurkuma, 1 TL Chilipulver, 3-4 TL süßer Paprika.
 - Absolut unverzichtbar ist m.E. der Kreuzkümmel. Von dem kann fast nicht zuviel rein. Übrigens dürfte es sich von selbst verstehen, dass man trotz der exakten Mengenangaben der Gewürze danach anfängt so lange zu würzen, bis es schmeckt. Das nenn ich kochen ! Rezepte sind zum *Anpassen* da!

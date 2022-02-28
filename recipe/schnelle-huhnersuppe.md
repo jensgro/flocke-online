@@ -15,7 +15,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 2 Hähnchenschenkel
 - ca. 1 Liter heisses Wasser
@@ -30,7 +30,7 @@ category: hauptgericht
 {% endIngredients %}
 
 {% Recipe %}
-## Zubereitung
+
 
 Die Zwiebel schälen und halbieren oder vierteln, dann anbraten. Nach ein bis zwei Minuten – die Zwiebeln nicht braun werden lassen – das tiefgekühlte Gemüse und die Hähnchenschenkel drauf geben, pfeffern und reichlich salzen. Dann alles mit kochend heissem Wasser übergiessen, bis alles mit Wasser bedeckt ist und die Gewürze hinzugeben.
 

@@ -13,7 +13,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 4 Hähnchenschenkel
 - 4 getrocknete Datteln
@@ -33,7 +33,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Die Hähnchenschenkel salzen und pfeffern.
 - Die Zwiebeln halbieren und in Scheiben schneiden.

@@ -14,7 +14,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 400 Gramm Spargel
 - 1 Avocado
@@ -30,7 +30,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 Den Spargel schälen, in mundgerechte Stücke schneiden und kochen. Währenddessen die Erdbeeren waschen und in Stücke schneiden. Die reife Avocado schälen, entsteinen und in Stücke schneiden. Den Salat waschen, trockenschleudern und in Stücke zupfen. Die Erdbeeren und die Avocado mit dem Essig, Öl, Salz und dem Grünen Pfeffer kurz marinieren, dann den Spargel, den Parmesan und den Salat hinzugeben und durchmengen.
 

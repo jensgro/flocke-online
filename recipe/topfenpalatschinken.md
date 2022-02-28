@@ -16,7 +16,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 ### Pfannkuchen
 
@@ -49,7 +49,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 Das Mehl in eine Schüssel geben. Mit Milch, Sahne, Eiern, Salz, Zucker und Öl zu einem glatten, dünnen Teig verrühren. Etwa eine Stunde ruhen lassen. Durchrühren, dann in einer Pfanne 8 bis 10 dünne Pfannkuchen daraus backen.
 

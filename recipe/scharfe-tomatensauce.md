@@ -13,7 +13,7 @@ category: beilage
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 2 große Fleischtomaten
 - 2 Knoblauchzehen
@@ -25,7 +25,7 @@ category: beilage
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Tomaten überbrühen, enthäuten, die Stielansätze entfernen, ebenso die Kerne. das Fruchtfleisch in kleine Würfel schneiden. (Eventuell einfach gestückelte Tomaten aus der Dose nehmen, das ist wesentlich einfacher.)
 - Knoblauch schälen und zerdrücken. Chilischoten waschen, halbieren, Stielansätze und Kerne entfernen, dananch in kleine Streifen schneiden.

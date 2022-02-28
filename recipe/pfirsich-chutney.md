@@ -14,7 +14,7 @@ category: beilage
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 1kg Pfirsiche (oder Aprikosen)
 - 150g Datteln
@@ -30,7 +30,7 @@ category: beilage
 
 {% Recipe %}
 
-## Zubereitung
+
 
 Die Pfirsiche waschen, schälen und in kleine Stücke schneiden. Die Haut der Pfirsiche sollten sich leicht abziehen lassen, dann sind sie reif. Wenn sie schon vorher verarbeitet werden sollen – wovon ich abrate -, dann kann man die Pfirsiche kurz in kochendes Wasser legen und dann abziehen.
 

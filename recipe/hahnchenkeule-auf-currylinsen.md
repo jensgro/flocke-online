@@ -13,7 +13,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 1 Dose Linsen (ca 800g)
 - 400g Zwiebeln
@@ -26,14 +26,14 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Die Zwiebeln in Ringe schneiden und anbraten.
 - Die Ãpfel raspeln und mit der abgetropften Dose Linsen zu den Zwiebeln geben.
 - Die Masse vermischen und mit Essig, Curry und einer Prise Zucker würzen.
 - Einen gebackenen Hähnchenschenkel dazu reichen.
 
-## Tipps
+
 
 - Diese Portion reicht für etwa drei bis vier Personen !
 - Zum Würzen des Hähnchens Öl und Currypulver vermischen und das Hähnchen damit bestreichen. Zusätzlich noch pfeffern und salzen.

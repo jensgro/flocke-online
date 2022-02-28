@@ -14,7 +14,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 200g gemischtes Gehacktes
 - 1 mittelgroße Zwiebel
@@ -27,7 +27,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Das Gehackte mit der gewürfelten Zwiebel, dem Eigelb, Salz, Pfeffer und etwas Soja-Sauce vermengen. In kleine Bällchen formen und diese in Mehl oder Speisestärke wälzen.
 - In der Pfanne anbraten und dann herausnehmen.

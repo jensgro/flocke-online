@@ -14,7 +14,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 300g Schweinehackfleisch
 - 500g Sauerkraut
@@ -33,7 +33,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Pürree mit 1/2 l Wasser, Milch und 1 TL Salz nach Anweisung zubreiten.
 - Meerrettich unterrühren.

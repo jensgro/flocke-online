@@ -14,7 +14,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 75 – 100g Dörrfleisch (in meiner Heimatstadt Kassel heisst das magerer Speck)
 - 2 – 3 rote Chilis
@@ -27,14 +27,14 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Speck, Knoblauch und Zwiebel würfeln.
 - Die Chilis entkernen und waschen, in kleine Stücke schneiden.
 - Speck, Knoblauch, Chilis und Zwiebel anbraten, wenn die Zwiebel fertig angebraten ist, die Dose Tomaten und etwas Tomatenmark hinzufügen. Würzen.
 - Die Sauce bei mittlerer Hitze etwa eine halbe Stunde lang einkochen lassen.
 
-## Tipps
+
 
 - Die Menge paßt zu 250-300g Spaghetti.
 - Es gibt zahlreiche Chilisorten. Sollte die gekaufte Sorte nicht scharf genug sein, kann man mit Chili-Pulver, Cayenne-Pfeffer oder Tabasco die nötige Schärfe für diese Sauce erzeugen.

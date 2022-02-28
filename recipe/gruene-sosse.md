@@ -15,7 +15,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 ### Kräutermischung
 
@@ -46,7 +46,7 @@ Diese Mengen habe ich mir irgendwann einmal notiert. Sie sind abhängig von der 
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Die Kräuter fein hacken, in eine Schüssel geben und mit der Masse vermengen. Mit Senf, Salz und Pfeffer abschmecken.
 - Die Soße ein bis zwei Stunden vor dem Verzehr zubereiten, damit die Kräuter ihr Aroma ausreichend abgeben können.

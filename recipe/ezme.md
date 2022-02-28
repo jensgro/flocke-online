@@ -16,7 +16,7 @@ category: beilage
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 3 Paprika (möglichst viele rote )
 - 1 scharfe Peperoni
@@ -34,7 +34,7 @@ category: beilage
 
 {% Recipe %}
 
-## Zubereitung
+
 
 Die Parika mit einem Sparschäler schälen (die Schale ist schwer verdaulich) und in grobe Stücke schneiden. Auch die geschälten Zwiebeln, die Tomaten und die Peperoni in grobe Stücke schneiden. Alles zusammen mit dem Knoblauch in der Küchenmaschine fein pürieren.
 

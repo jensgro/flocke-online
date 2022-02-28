@@ -13,7 +13,7 @@ category: sonstiges
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 500g Butter
 

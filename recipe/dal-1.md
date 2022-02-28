@@ -17,7 +17,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 250g gelbe Linsen
 - 1 l Wasser
@@ -32,7 +32,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 Das Wasser zum Kochen bringen, die Linsen hinzufügen und ca. 5 Minuten kochen. Dabei immer entstehenden Schaum abschöpfen. Parallel die Gewürze im Ghee in einer Pfanne anrösten und zu den Linsen hinzugeben. Bei mittlerer Hitze das Dahl etwa 30 bis 45 Minuten leicht köcheln lassen. Immer wieder gut durchrühren. Wenn die Linsen durch sind, das Dahl noch warm servieren.
 Was dazu?

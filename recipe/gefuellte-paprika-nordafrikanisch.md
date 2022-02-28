@@ -15,7 +15,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 1 – 2 altbackene Brötchen
 - Milch oder Wasser zum Einweichen der Brötchen
@@ -34,7 +34,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 Brötchen mit der Milch oder Wasser einweichen. Zwiebel und Pflaumen in kleine Würfel schneiden. Die Brötchen gut ausdrücken, die Mandeln in der Hand zerbröseln und alles in einer großen Schüssel mit dem gemischten Hack, den rohen Zwiebeln, den aufgeschlagenen Eiern, den Chiliflocken und 2 TL Ras el-Hanout vermengen. Mit Pfeffer und Salz abschmecken.
 

@@ -14,7 +14,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 250 g Hähnchenbrust
 - 1 TL Speisestärke
@@ -35,7 +35,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Fleischwürfel in Stärkepulver wenden. 1 Tl Sesamöl über das Fleisch träufeln.
 - Die Zwiebel würfeln, Brokkoli von den Stielen trennen, Stiele und Röschen ebenfalls in Würfel schneiden.

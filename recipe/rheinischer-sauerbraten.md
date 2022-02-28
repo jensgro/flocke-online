@@ -15,7 +15,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 ### Marinade
 
@@ -39,7 +39,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Die Zutaten für die Marinade zusammen aufkochen und abkühlen lassen. Dann über das Fleisch gießen. Das Fleisch muß gut bedeckt sein.
 - Das Fleisch muß mindestens drei Tage marinieren. Täglich wenden.
@@ -51,7 +51,7 @@ category: hauptgericht
 - Nach ca. einer Dreiviertel Stunde 1-2 Printen in Stücken und 2 EL Rosinen sowie 1/2 bis 1 Tasse Marinade dazugeben. Abschmecken !!
 - Nach insgesamt 1 1/2 bis 2 Stunden mit etwas Mehl abbinden.
 
-## Tipps
+
 
 Die Rosinen sind kein Muß, wohl aber die Printen (natürlich ohne Schokolade!).
 

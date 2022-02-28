@@ -15,7 +15,7 @@ category: hauptgericht
 
 {% Ingredients %}
 
-## Zutaten
+
 
 - 150 g Basmati-Reis
 - 1 Zwiebel
@@ -31,7 +31,7 @@ category: hauptgericht
 
 {% Recipe %}
 
-## Zubereitung
+
 
 - Zwiebel fein würfeln.
 - Öl in einer tiefen Pfanne oder einem Topf erhitzen. Die Zwiebelwürfel darin glasig dünsten.
