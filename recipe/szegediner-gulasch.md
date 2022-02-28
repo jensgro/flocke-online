@@ -1,6 +1,5 @@
 ---
 title: Szegediner Gulasch
-permalink: rezepte/szegediner-gulasch.html
 introText: "Ich habe lange Zeit bei Gulasch nur noch an diese Variante gedacht. Normales Gulasch reizte mich gar nicht mehr so sehr."
 headerImage: szegediner
 headerImageLink: https://de.wikipedia.org/wiki/Gulasch#/media/Datei:Seged%C3%ADnsk%C3%BD_gul%C3%A1%C5%A1.jpg

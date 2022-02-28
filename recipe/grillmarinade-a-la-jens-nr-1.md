@@ -1,6 +1,5 @@
 ---
 title: Grillmarinade à la Jens Nr.1
-permalink: rezepte/grillmarinade-1.html
 headerImage: placeholder1
 headerImageLink: https://www.pexels.com/de-de/foto/kunst-kreativ-malerei-abstrakt-1959387/
 headerImageAttribution: Foto von Steve Johnson von Pexels

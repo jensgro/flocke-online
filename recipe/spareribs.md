@@ -1,6 +1,5 @@
 ---
 title: Spareribs
-permalink: rezepte/spareribs.html
 headerImage: rippchen
 headerImageLink: https://unsplash.com/photos/BqK3fmNTv_g
 headerImageAttribution: Photo by <a href='https://unsplash.com/@ahmadr1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Ahmad</a> on <a href='https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
@@ -49,3 +48,10 @@ Dazu passen am besten Backofen-Kartoffeln mit Schmand und Schnittlauch
 Man kann diese Spareribs natürlich auch grillen. Übrigens kann es regional sehr schwer sein, an die passenden Rippchen zu kommen. Sie dürfen nämlich auch nicht zu fleischig sein. Bei uns in Mainz bekommt man solche Rippchen, wenn man sich den Verkäuferinnen denn hat verständlich machen können, allerhöchstens im Sommer. Dann muß man zudem noch Glück haben, daß sie nicht schon fertig eingelegt sind.
 
 {% endRecipe %}
+
+{% Recommendations %}
+- ein Test
+- ein Test
+- ein Test
+- ein Test
+{% endRecommendations %}

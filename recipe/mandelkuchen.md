@@ -1,6 +1,5 @@
 ---
 title: Mandelkuchen
-permalink: rezepte/mandelkuchen.html
 introText: 'Ein Kuchen ohne Mehl! Er ist sehr locker und fluffig.'
 headerImage: placeholder1
 headerImageLink: https://www.pexels.com/de-de/foto/kunst-kreativ-malerei-abstrakt-1959387/

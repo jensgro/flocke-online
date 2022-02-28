@@ -1,6 +1,5 @@
 ---
 title: Zwiebelkuchen
-permalink: rezepte/zwiebelkuchen.html
 introText: 'Paßt traditionellerweise sehr gut zu Federweißem (für die Pfälzer: Neuer Wein), kann man aber auch sonst während des Jahres essen.'
 headerImage: zwiebelkuchen
 headerImageLink: https://pixabay.com/de/photos/zwiebelkuchen-dutch-oven-quiche-4481524/

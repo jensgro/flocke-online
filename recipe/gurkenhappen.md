@@ -1,6 +1,5 @@
 ---
 title: Gurkenhappen
-permalink: rezepte/gurkenhappen.html
 introText: "Eine schöne indonesische Beilage. War bei unserer indonesischen Reistafel dabei."
 headerImage: placeholder3
 headerImageLink: https://www.pexels.com/de-de/foto/orange-und-blaue-abstrakte-malerei-2378621/

@@ -1,6 +1,5 @@
 ---
 title: Caesar-Salat
-permalink: rezepte/caesar-salat.html
 introText: 'Diesen Salat sollte man machen, wenn man am nächsten Tag nicht allzu viele Leute trifft. '
 introImage: 'caesar-salat'
 headerImage: caesar-salat

@@ -1,6 +1,5 @@
 ---
 title: Chop Suey
-permalink: rezepte/chop-suey.html
 introImage: 'chop-suey'
 headerImage: chop-suey
 headerImageLink: https://pixabay.com/de/photos/chop-suey-asiatische-k%C3%BCche-gem%C3%BCse-876506/

@@ -1,6 +1,5 @@
 ---
 title: Rosenkohl-Curry
-permalink: rezepte/rosenkohl-curry.html
 introText: "Hier ist der Rosenkohl mal nicht nur Beilage. Eine etwas ungewöhnliche Zubereitungsart, aber sehr schmackhaft."
 headerImage: rosenkohl-curry
 headerImageAttribution: Bild von Jens Grochtdreis

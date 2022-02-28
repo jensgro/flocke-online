@@ -1,6 +1,5 @@
 ---
 title: Humus
-permalink: rezepte/humus.html
 introImage: 'humus'
 headerImage: humus
 headerImageLink: https://pixabay.com/de/photos/hummus-mahlzeit-kichererbsen-paste-1058000/

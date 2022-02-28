@@ -1,6 +1,5 @@
 ---
 title: Obatzda
-permalink: rezepte/obatzda.html
 introText: 'Dieser Obatzda hat sich einmal als eine suoer Grundlage für eine ausgedehnte Feuerzangenbowle erwiesen. Auch wenn man auf den ersten Blick nicht glaubt, daß das paßt.'
 headerImage: obatzda
 headerImageLink: https://upload.wikimedia.org/wikipedia/commons/4/43/Obatzter-1.jpg

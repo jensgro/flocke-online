@@ -1,6 +1,5 @@
 ---
-title: Auberginenmus
-permalink: rezepte/auberginenmus.html
+title: Baba-Ganoush
 introImage: 'baba-ganoush'
 headerImage: baba-ganoush
 headerImageLink: https://pixabay.com/de/photos/baba-ganoush-starter-gericht-1271630/

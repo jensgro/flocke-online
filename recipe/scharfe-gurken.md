@@ -1,6 +1,5 @@
 ---
 title: Scharfe Gurken
-permalink: rezepte/scharfe-gurken.html
 headerImage: placeholder5
 headerImageLink: https://www.pexels.com/de-de/foto/foto-der-blauen-und-roten-abstrakten-malerei-3699270/
 headerImageAttribution: Foto von Steve Johnson von Pexels

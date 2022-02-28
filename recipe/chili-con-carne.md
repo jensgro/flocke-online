@@ -1,6 +1,5 @@
 ---
 title: Chili con carne
-permalink: rezepte/chili-con-carne.html
 introImage: 'chili-con-carne'
 headerImage: chili-con-carne
 headerImageLink: https://pixabay.com/de/photos/chili-con-carne-chili-kochen-378952/

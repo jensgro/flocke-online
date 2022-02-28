@@ -1,6 +1,5 @@
 ---
 title: Quark-Öl-Teig für Pizza
-permalink: rezepte/pizzateig-quark-oel.html
 introText: ''
 headerImage: placeholder7
 headerImageLink: https://www.pexels.com/de-de/foto/blaue-und-mehrfarbige-abstrakte-malerei-1307114/

@@ -6,7 +6,6 @@ headerImage: huehnersuppe
 headerImageLink: https://pixabay.com/de/photos/h%C3%BChnersuppe-suppe-lebensmittel-3061166/
 headerImageAttribution: Bild von <a href='https://pixabay.com/de/users/schlauschnacker-1295235/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3061166'>Matthias Lipinski</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3061166'>Pixabay</a>
 
-permalink: rezepte/schnelle-huehnersuppe.html
 tags:
   - suppe
   - huhn

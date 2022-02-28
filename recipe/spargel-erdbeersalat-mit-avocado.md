@@ -1,6 +1,5 @@
 ---
 title: Spargel-Erdbeersalat mit Avocado
-permalink: rezepte/spargel-erdbeersalat-mit-avocado.html
 introText: 'Dieser Salat ist einer meiner Favoriten im beginnenden Sommer. Den Spargel kann man warm oder kalt in diesem Salat essen. Eine Portion eignet sich als vollständige Mahlzeit für zwei Personen oder aber als Beilage für ein Grillen in gemütlicher und größerer Runde.'
 introImage: 'spargel'
 headerImage: placeholder5

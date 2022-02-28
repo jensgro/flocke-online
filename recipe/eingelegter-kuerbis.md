@@ -1,6 +1,5 @@
 ---
 title: Eingelegter Kürbis
-permalink: rezepte/eingelegter-kuerbis.html
 introImage: 'kuerbisse'
 headerImage: kuerbisse
 headerImageLink: https://pixabay.com/de/photos/k%C3%BCrbisse-gelb-gem%C3%BCse-nahrungsmittel-457716/

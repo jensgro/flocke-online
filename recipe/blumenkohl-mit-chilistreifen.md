@@ -1,6 +1,5 @@
 ---
 title: Blumenkohl mit Chilistreifen
-permalink: rezepte/blumenkohl-mit-chilistreifen.html
 introText: 'Eine der schmackhaftesten Varianten, Blumenkohl zu essen. Fleisch würde hier übrigens nur stören.'
 introImage: 'blumenkohl'
 headerImage: blumenkohl

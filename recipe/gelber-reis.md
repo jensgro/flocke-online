@@ -1,6 +1,5 @@
 ---
 title: Gelber Reis
-permalink: rezepte/gelber-reis.html
 introText: 'Eine super Beilage zu vielen imndischen und indonesischen Gerichten.'
 introImage: 'gelber-reis'
 headerImage: gelber-reis

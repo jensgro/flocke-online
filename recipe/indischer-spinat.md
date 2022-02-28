@@ -1,6 +1,5 @@
 ---
 title: Indischer Spinat
-permalink: rezepte/indischer-spinat.html
 introText: "Dieses Rezept habe ich einem Gericht nachempfunden, welches ich mehrmals bei einem Lieferservice für die Mittagspause bestellt hatte (so einer mit indisch/deutsch/italienisch/mexikanisch/chinesischer Karte). Der Gag an dem Rezept ist der Bockshornklee. Er findet sich auch in vielen Currypulver-Mischungen wieder."
 headerImage: placeholder1
 headerImageLink: https://www.pexels.com/de-de/foto/kunst-kreativ-malerei-abstrakt-1959387/

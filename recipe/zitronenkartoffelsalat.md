@@ -1,6 +1,5 @@
 ---
 title: Spanischer Zitronen-Kartoffelsalat
-permalink: rezepte/zitronenkartoffelsalat.html
 introText: "Seit Jahren bringe ich jedes Jahr einen bestimmten Kartoffelsalat zu einer Party mit: einen spanischen Kartoffelsalat mit einer Menge Zitronen und Knoblauch. Genau das richtige Essen für einen Freitag oder Samstag, wenn man am nächsten Tag nicht arbeiten muss."
 headerImage: kartoffelsalat-3
 headerImageLink: https://pixabay.com/de/photos/kartoffelsalat-petersilie-ern%c3%a4hrung-6893496/

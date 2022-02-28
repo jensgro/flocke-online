@@ -1,6 +1,5 @@
 ---
 title: Grießbrei
-permalink: rezepte/griessbrei.html
 headerImage: griessbrei
 headerImageLink: https://de.wikipedia.org/wiki/Grie%C3%9Fbrei#/media/Datei:Griessbrei.jpg
 headerImageAttribution: Von © Alice Wiegand, <a href='https://creativecommons.org/licenses/by-sa/3.0' title='Creative Commons Attribution-Share Alike 3.0'>CC BY-SA 3.0</a>, <a href='https://commons.wikimedia.org/w/index.php?curid=3652466'>Link</a>

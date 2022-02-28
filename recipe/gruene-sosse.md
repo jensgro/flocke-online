@@ -1,6 +1,5 @@
 ---
 title: Grüne Sosse
-permalink: rezepte/gruene-sosse.html
 introText: 'Grüne Sosse ist eine meiner Leibspeisen. Immer an Gründonnerstag stelle ich sie frisch für Freunde her. Die Zubereitung unterscheidet sich grundlegend zwischen Nord- und Südhessen. Meine Version ist die nordhessische, schliesslich komme ich aus Kassel.'
 introImage: 'gruene-sosse-1'
 headerImage: gruene-sosse

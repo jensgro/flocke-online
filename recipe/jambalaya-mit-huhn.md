@@ -1,6 +1,5 @@
 ---
 title: Jambalaya mit Huhn
-permalink: rezepte/jambalaya-mit-huhn.html
 headerImage: jambalaya
 #headerImageLink: https://search.openverse.engineering/image/196772dc-0f16-4c0e-b853-3e432e9d5a6c
 headerImageLink: https://www.flickr.com/photos/20119750@N00/2799144481

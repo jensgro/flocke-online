@@ -6,7 +6,6 @@ headerImageLink: https://pixabay.com/de/photos/palatschinken-cr%C3%AApe-eierkuch
 headerImageAttribution: Bild von <a href='https://pixabay.com/de/users/RitaE-19628/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2020870'>RitaE</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2020870'>Pixabay</a>
 
 introText: "Das hier angegebene Rezept ist eine wunderbare Hauptmahlzeit für zwei hungrige Mäuler. Man kann damit natürlich auch vier Personen als Nachspeise oder für nachmittags erfreuen. Ich rate allerdings davon ab, weil der Arbeitsaufwand doch wirklich enorm ist."
-permalink: rezepte/topfenpalatschinken.html
 tags:
   - dessert
   - vegetarisch

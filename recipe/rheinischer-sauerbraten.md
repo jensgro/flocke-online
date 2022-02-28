@@ -1,6 +1,5 @@
 ---
 title: Rheinischer Sauerbraten
-permalink: rezepte/rheinischer-sauerbraten.html
 introText: "Das Rezept stammt von meiner Schwiegermutter, einer Aachenerin. Es ist in seiner Urform allerdings ein wenig undeutlicher und unkrokreter, als diese Variante. Das ist halt so, wenn man Rezepte im Wesentlichen aus dem Gefühl heraus kochen kann. Leider erschwert das die Weitergabe."
 headerImage: placeholder8
 headerImageLink: https://www.pexels.com/de-de/foto/grune-und-gelbe-abstrakte-malerei-4943165/

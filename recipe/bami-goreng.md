@@ -1,6 +1,5 @@
 ---
 title: Bami Goreng
-permalink: rezepte/bami-goreng.html
 introImage: 'bami-goreng'
 headerImage: bami
 headerImageLink: https://pixabay.com/de/photos/essen-krabben-garnelen-snack-585679/

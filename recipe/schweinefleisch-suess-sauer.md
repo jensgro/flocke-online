@@ -1,6 +1,5 @@
 ---
 title: Schweinefleisch süß-sauer
-permalink: rezepte/schweinefleisch-suess-sauer.html
 headerImage: placeholder7
 headerImageLink: https://www.pexels.com/de-de/foto/blaue-und-mehrfarbige-abstrakte-malerei-1307114/
 headerImageAttribution: Foto von Steve Johnson von Pexels

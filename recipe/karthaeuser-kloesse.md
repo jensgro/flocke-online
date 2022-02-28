@@ -1,6 +1,5 @@
 ---
 title: Karthäuser Klöße
-permalink: rezepte/karthaeuser-kloesse.html
 introText: 'Das Rezept ist einfach super, um alte Brötchen zu verarbeiten. Man kann doch nicht immer nur Frikadellen und Semmelknödel daraus machen.'
 headerImage: placeholder4
 headerImageLink: https://www.pexels.com/de-de/foto/rote-grune-gelbe-und-blaue-abstrakte-malerei-1283208/

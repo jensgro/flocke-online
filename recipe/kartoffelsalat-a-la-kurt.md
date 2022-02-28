@@ -1,6 +1,5 @@
 ---
 title: Kartoffelsalat à la Kurt
-permalink: rezepte/kartoffelsalat-kurt.html
 introText: "Dieser geniale Salat stammt von Kurt Bohn und wurde am 10.01.1993 in die Newsgroup „zer.t-netz.essen“ gepostet. Da ich weder einen Zugang zu dieser Gruppe habe noch den Eindruck habe, daß die E-Mail-Adresse von Kurt gleich geblieben ist, danke ich in die Anonymität hinein. Das Rezept habe ich in der [Rezeptsammlung der Uni Kaiserslautern](http://kochbuch.unix-ag.uni-kl.de/) gefunden."
 headerImage: kartoffelsalat-2
 headerImageLink: https://pixabay.com/de/photos/kartoffelsalat-weihnachtsessen-580852/
