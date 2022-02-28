@@ -7,7 +7,39 @@ templateClass: tmpl-recipe
     {% Intro %}
       {{ introText}}
     {% endIntro %}
-    {{ content | safe }}
+
+    {% if ingredients %}
+    <div class="recipe__ingredients">
+      <h2>Zutaten</h2>
+      <ul>
+        {% for i in ingredients %}
+        <li>{{ i }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+    {% if recipe %}
+    <div class="recipe__content">
+      <h2>Zubereitung</h2>
+      <ul>
+        {% for r in recipe %}
+        <li>{{ r }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+    {%- if tipps -%}
+    <div class="recipe__tipps">
+      <h2>Tipps</h2>
+      <ul>
+        {% for tip in tipps %}
+        <li>{{ tip }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {%- endif -%}
   </main>
   {%- if tags -%}
   <div class="tags">
@@ -25,6 +57,7 @@ templateClass: tmpl-recipe
   </div>
   {%- endif -%}
 </div>
+
 
 {%- if rec -%}
 <section class="container mb-4">

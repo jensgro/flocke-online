@@ -12,35 +12,25 @@ tags:
   - türkei
 
 category: beilage
+
+ingredients:
+  - 3 Paprika (möglichst viele rote )
+  - 1 scharfe Peperoni
+  - 2 Tomaten
+  - 2 Zwiebeln
+  - 1 Knoblauchzehe (wer mag natürlich mehr nehmen, ich mag’s nicht so extrem knoblauchlastig)
+  - 1 kl. Bund glatte Petersilie
+  - 1 Zitrone
+  - 2 EL Paprikamark
+  - Olivenöl
+  - ein wenig getrocknete Minzblätter
+  - Salz, Pfeffer
+
+recipe:
+  - Die Paprika mit einem Sparschäler schälen (die Schale ist schwer verdaulich) und in grobe Stücke schneiden.
+  - Auch die geschälten Zwiebeln, die Tomaten und die Peperoni in grobe Stücke schneiden.
+  - Alles zusammen mit dem Knoblauch in der Küchenmaschine fein pürieren.
+  - Das Püree in ein Sieb geben und gut abtropfen lassen. Das kann 10 bis 15 Minuten dauern.
+  - Das abgetropfte Püree in einer Schüssel mit der fein gehackten Petersilie, dem Saft der Zitrone, dem Paprikamark sowie Salz und Pfeffer vermischen.
+  - Dann das Ganze wieder in eine Schüssel geben und die restlichen Zutaten beimischen. Fertig!
 ---
-
-{% Ingredients %}
-
-
-
-- 3 Paprika (möglichst viele rote )
-- 1 scharfe Peperoni
-- 2 Tomaten
-- 2 Zwiebeln
-- 1 Knoblauchzehe (wer mag natürlich mehr nehmen, ich mag’s nicht so extrem knoblauchlastig)
-- 1 kl. Bund glatte Petersilie
-- 1 Zitrone
-- 2 EL Paprikamark
-- Olivenöl
-- ein wenig getrocknete Minzblätter
-- Salz, Pfeffer
-
-{% endIngredients %}
-
-{% Recipe %}
-
-
-
-Die Parika mit einem Sparschäler schälen (die Schale ist schwer verdaulich) und in grobe Stücke schneiden. Auch die geschälten Zwiebeln, die Tomaten und die Peperoni in grobe Stücke schneiden. Alles zusammen mit dem Knoblauch in der Küchenmaschine fein pürieren.
-
-Das Püree in ein Sieb geben und gut abtropfen lassen. Das kann 10 bis 15 Minuten dauern.
-
-Das abgetopfte Püree in einer Schüssel mit der fein gehackten Petersilie, dem Saft der Zitrone, dem Paprikamark sowie Salz und Pfeffer vermischen.
-Dann das Ganze wieder in eine Schüssel geben und die restlichen Zutaten beimischen. Fertig!
-
-{% endRecipe %}

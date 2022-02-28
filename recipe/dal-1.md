@@ -12,35 +12,26 @@ tags:
   - linsen
 
 category: hauptgericht
+
+ingredients:
+  - 250g gelbe Linsen
+  - 1 l Wasser
+  - 2 – 3 EL Ghee
+  - Curryblätter
+  - 1 EL Kreuzkümmelsamen
+  - 2 TL Kurkuma
+  - 1 TL Bockshornklee
+  - frisch geriebener Ingwer
+
+recipe:
+  - Das Wasser zum Kochen bringen, die Linsen hinzufügen und ca. 5 Minuten kochen.
+  - Dabei immer entstehenden Schaum abschöpfen.
+  - Parallel die Gewürze im Ghee in einer Pfanne anrösten und zu den Linsen hinzugeben.
+  - Bei mittlerer Hitze das Dahl etwa 30 bis 45 Minuten leicht köcheln lassen.
+  - Immer wieder gut durchrühren.
+  - Wenn die Linsen durch sind, das Dahl noch warm servieren.
+  - Dazu passen am Besten abgekochtes Gemüse – wir bevorzugen Kohlrabi – und Chutney.
+  - Dafür die Kohlrabi schälen, in mundgerechte Stifte schneiden und etwa 10 Minuten kochen lassen, bis sie weich sind. Danach ein wenig in Butter (oder Ghee) schwenken und zum Dal geben.
+
 ---
-
-
-{% Ingredients %}
-
-
-
-- 250g gelbe Linsen
-- 1 l Wasser
-- 2 – 3 EL Ghee
-- Curryblätter
-- 1 EL Kreuzkümmelsamen
-- 2 TL Kurkuma
-- 1 TL Bockshornklee
-- frisch geriebener Ingwer
-
-{% endIngredients %}
-
-{% Recipe %}
-
-
-
-Das Wasser zum Kochen bringen, die Linsen hinzufügen und ca. 5 Minuten kochen. Dabei immer entstehenden Schaum abschöpfen. Parallel die Gewürze im Ghee in einer Pfanne anrösten und zu den Linsen hinzugeben. Bei mittlerer Hitze das Dahl etwa 30 bis 45 Minuten leicht köcheln lassen. Immer wieder gut durchrühren. Wenn die Linsen durch sind, das Dahl noch warm servieren.
-Was dazu?
-
-Dazu passen am Besten abgekochtes Gemüse – wir bevorzugen Kohlrabi – und Chutney.
-
-Dafür die Kohlrabi schälen, in mundgerechte Stifte schneiden und etwa 10 Minuten kochen lassen, bis sie weich sind. Danach ein wenig in Butter – oder Ghee – schwenken und zum Dal geben.
-
-{% endRecipe %}
-
 
