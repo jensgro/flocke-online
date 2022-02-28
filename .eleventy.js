@@ -24,6 +24,11 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
   });
 
+  eleventyConfig.addFilter("getRandom", function(items) {
+    let selected = items[Math.floor(Math.random() * items.length)];
+    return selected;
+  });
+
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
@@ -35,6 +40,19 @@ module.exports = function(eleventyConfig) {
       return array.slice(n);
     }
     return array.slice(0, n);
+  });
+
+  eleventyConfig.addFilter("randomLimit", (arr, limit, currPage) => {
+    // Filters out current page
+    const pageArr = arr.filter((page) => page.url !== currPage);
+
+    // Randomizes remaining items
+    pageArr.sort(() => {
+      return 0.5 - Math.random();
+    });
+
+    // Returns array items up to limit
+    return pageArr.slice(0, limit);
   });
 
   // eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
