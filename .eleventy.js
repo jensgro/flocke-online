@@ -5,24 +5,11 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 
-const Ingredients = require("./_11ty/ingredients");
-const Recipe = require("./_11ty/recipe-content");
-const Intro = require("./_11ty/recipe-intro");
-const Recommendations = require("./_11ty/recommendations");
-const Tipps = require("./_11ty/recipe-tipps");
-
-
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginNavigation);
 
   eleventyConfig.setDataDeepMerge(true);
-
-  eleventyConfig.addLayoutAlias("recipe", "layouts/recipe.njk");
-
-  eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
-  });
 
   eleventyConfig.addFilter("getRandom", function(items) {
     let selected = items[Math.floor(Math.random() * items.length)];
@@ -42,21 +29,6 @@ module.exports = function(eleventyConfig) {
     return array.slice(0, n);
   });
 
-  eleventyConfig.addFilter("randomLimit", (arr, limit, currPage) => {
-    // Filters out current page
-    const pageArr = arr.filter((page) => page.url !== currPage);
-
-    // Randomizes remaining items
-    pageArr.sort(() => {
-      return 0.5 - Math.random();
-    });
-
-    // Returns array items up to limit
-    return pageArr.slice(0, limit);
-  });
-
-  // eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
-  eleventyConfig.addCollection("randomList", require("./_11ty/getRandomList"));
   eleventyConfig.addCollection('recipe', collection => {
     return [...collection.getFilteredByGlob('./recipe/*.md')];
   });
@@ -109,13 +81,6 @@ module.exports = function(eleventyConfig) {
   });
 
 
-   // Paired shortcodes
-   eleventyConfig.addPairedShortcode('Ingredients', Ingredients);
-   eleventyConfig.addPairedShortcode('Recipe', Recipe);
-   eleventyConfig.addPairedShortcode('Intro', Intro);
-   eleventyConfig.addPairedShortcode('Tipps', Tipps);
-   eleventyConfig.addPairedShortcode('Recommendations', Recommendations);
-
    // Browsersync Overrides
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
@@ -140,22 +105,9 @@ module.exports = function(eleventyConfig) {
       "html",
       "liquid"
     ],
-
-    // If your site lives in a different subdirectory, change this.
-    // Leading or trailing slashes are all normalized away, so don’t worry about those.
-
-    // If you don’t have a subdirectory, use "" or "/" (they do the same thing)
-    // This is only used for link URLs (it does not affect your file structure)
-    // Best paired with the `url` filter: https://www.11ty.io/docs/filters/url/
-
-    // You can also pass this in on the command line using `--pathprefix`
-    // pathPrefix: "/",
-
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
-
-    // These are all optional, defaults are shown:
     dir: {
       input: ".",
       includes: "_includes",

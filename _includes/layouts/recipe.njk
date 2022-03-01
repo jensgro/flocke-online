@@ -4,9 +4,11 @@ templateClass: tmpl-recipe
 ---
 <div class="container mb-4">
   <main class="recipe">
-    {% Intro %}
-      {{ introText}}
-    {% endIntro %}
+    {% if introText %}
+    <div class="recipe__intro">
+      <p>{{ introText}}</p>
+    </div>
+    {% endif %}
 
     {% if ingredients %}
     <div class="recipe__ingredients">

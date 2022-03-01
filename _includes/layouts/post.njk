@@ -8,9 +8,11 @@ templateClass: tmpl-post
   {% else %}
   <main class="post">
   {% endif %}
-    {% Intro %}
-      {{ introText}}
-    {% endIntro %}
+    {% if introText %}
+    <div class="recipe__intro">
+      <p>{{ introText}}</p>
+    </div>
+    {% endif %}
     {{ content | safe }}
   </main>
 </div>
