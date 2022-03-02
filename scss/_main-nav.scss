@@ -7,30 +7,46 @@
 
 .main-nav {
   background-color: $main-nav-bg;
-  padding: 12px 32px;
+  padding: $p2 $p5;
 
-  @media (min-width: 1120px) {
-    padding: 12px 0;
+  @media (min-width: $maxwidth) {
+    padding: $p2 0;
   }
 
   &__nav {
-    display: flex;
+    overflow: hidden;
     @include nolist;
+
+    @media (min-width: $md) {
+      overflow: auto;
+    }
   }
 
   &__item {
-    margin-left: 20px;
+    float: left;
+    margin-right: $m3;
+    margin-bottom: $m2;
 
     &:first-child {
       margin-right: auto;
-      margin-left: 0;
+    }
+
+    &:nth-child(2) {
+      clear: left;
+    }
+
+    &:last-child {
+      @media (min-width: $maxwidth) {
+        margin-right: 0;
+      }
     }
   }
+
   &__link {
-    display: block;
+    display: inline-block;
     background-color: $lightergrey;
-    color: #000;
-    padding: 12px;
+    color: $black;
+    padding: $p1;
     text-decoration: none;
     border-radius: 8px;
 
@@ -38,11 +54,21 @@
     &:focus,
     &--active {
       background-color: $brown;
-      color: #fff;
+      color: $white;
     }
 
     &--active {
       font-weight: 700;
+    }
+  }
+  @media (min-width: $md) {
+    &__nav {
+      display: flex;
+    }
+
+    &__link {
+      display: block;
+      padding: $p2;
     }
   }
 }

@@ -2,23 +2,33 @@
   margin-bottom: $m4;
   border-bottom: 2px solid $lightgray;
   padding-bottom: $p2;
+  display: flex;
+  flex-direction: column;
 
-  &__head {
-    flex: 1 1 calc(40% - $gap2);
+  @media (min-width: $md) {
+    flex-direction: row;
+    gap: 20px;
 
-    h2 {
-      margin-bottom: 0;
-      padding: $p2;
-      background-color: $lightergrey;
-      border-top-left-radius: 8px;
-      border-top-right-radius: 8px;
+    &__head {
+      flex: 1 1 calc(40% - $gap2);
+    }
+
+    &__body {
+      flex: 1 1 calc(60% - $gap2);
     }
   }
+
+  h2 {
+    margin-bottom: 0;
+    padding: $p2;
+    background-color: $lightergrey;
+  }
+
   &__body {
-    flex: 1 1 calc(60% - $gap2);
     display: flex;
     flex-direction: column;
   }
+
   &__last-items {
     @include nolist;
 
