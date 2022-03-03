@@ -4,6 +4,7 @@
   "description": "Flocke Online - Meine kleine Rezeptsammlung",
   "scripts": {
     "build": "npm-run-all eleventy:default css",
+    "netlify": "npm-run-all eleventy:default css",
     "eleventy:default": "npx eleventy",
     "eleventy:watch": "npx eleventy --watch",
     "clean": "rm -rf _site",
