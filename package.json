@@ -3,8 +3,7 @@
   "version": "2.0.0",
   "description": "Flocke Online - Meine kleine Rezeptsammlung",
   "scripts": {
-    "build": "eleventy",
-    "netlify": "npm-run-all build css",
+    "build": "npm-run-all eleventy css",
     "eleventy:default": "npx eleventy",
     "eleventy:watch": "npx eleventy --watch",
     "clean": "rm -rf _site",
