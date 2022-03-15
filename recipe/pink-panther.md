@@ -6,7 +6,7 @@ headerImageLink: https://www.pexels.com/de-de/foto/foto-der-blauen-und-roten-abs
 headerImageAttribution: Foto von Steve Johnson von Pexels
 
 tags:
-  - getraenk
+  - getränk
 
 category: sonstiges
 

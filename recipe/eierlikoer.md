@@ -7,7 +7,7 @@ headerImageLink:
 headerImageAttribution: Bild von <a href='https://pixabay.com/de/users/ritae-19628/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1902338'>RitaE</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1902338'>Pixabay</a>
 
 tags:
-  - getraenk
+  - getränk
   - party
 
 category: sonstiges
