@@ -1,0 +1,32 @@
+<div class="container">
+
+  {% for item in categories %}
+    <div class="category {{item.url}}">
+      <div class="category__head">
+        <h2>
+          {{ item.title }}
+        </h2>
+      </div>
+      <div class="category__body">
+        <ol class="category__last-items">
+        {# Zählvariable setzen #}
+        {% set atPost = 0 %}
+        {% for post in collections.recipesDescending %}
+          {% if post.data.category == item.url %}
+            {# Solange die Zählvariable noch unter diesem Wert ist #}
+            {% if atPost < 8 %}
+            <li><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
+            {% endif %}
+            {# Zählvariable hochzählen #}
+            {% set atPost = atPost + 1 %}
+          {% endif %}
+        {% endfor %}
+        </ol>
+        <div class="category__link">
+          &#9654; <a href="{{ item.title | lower }}"> mehr aus der Kategorie {{ item.title }} ...</a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
+</div>

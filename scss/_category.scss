@@ -1,20 +1,34 @@
 .category {
   margin-bottom: $m4;
-  border-bottom: 2px solid $lightgray;
+  //border-bottom: 2px solid $lightgray;
   padding-bottom: $p2;
-  display: flex;
-  flex-direction: column;
+  border: 2px solid $lightergrey;
+  border-top: none;
 
-  @media (min-width: $md) {
-    flex-direction: row;
-    gap: 20px;
-
-    &__head {
-      flex: 1 1 calc(40% - $gap2);
+  &.hauptgericht {
+    h2 {
+      background-color: $color-hauptgerichte;
+      color: $white;
     }
+  }
 
-    &__body {
-      flex: 1 1 calc(60% - $gap2);
+  &.beilage {
+    h2 {
+      background-color: $color-beilagen;
+      color: $white;
+    }
+  }
+
+  &.sonstiges {
+    h2 {
+      background-color: $color-sonstiges;
+    }
+  }
+
+  &.wissenswertes {
+    h2 {
+      background-color: $color-wissenswertes;
+      color: $white;
     }
   }
 
@@ -25,12 +39,16 @@
   }
 
   &__body {
-    display: flex;
-    flex-direction: column;
+    padding: $p4;
   }
 
   &__last-items {
     @include nolist;
+
+    @media (min-width: $md) {
+      columns: 2;
+      column-gap: $p2;
+    }
 
     li {
       margin-bottom: $m1;
@@ -39,15 +57,12 @@
     a {
       display: block;
       padding: $p1;
-      font-size: 1.5rem;
     }
   }
 
   &__link {
     text-align: right;
     padding: $p1;
-    font-size: 1.5rem;
-    align-self: flex-end;
   }
 
   // &__image {}

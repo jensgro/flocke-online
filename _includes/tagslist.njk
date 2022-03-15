@@ -3,7 +3,7 @@
   <li>
     <div class="card">
       <div class="card__image-cnt">
-        <a href="{{ post.url | url }}">
+        <a class="card__link" href="{{ post.url | url }}">
         {%- if post.data.headerImage -%}
             <img class="card__image" src="/img/{{ post.data.headerImage }}_250x100.jpg" alt="" width="250" height="100">
           {%- else -%}
