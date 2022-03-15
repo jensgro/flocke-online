@@ -22,5 +22,5 @@ recipe:
   - Apfelsine und Limette auspressen.
   - Den Saft mit dem Sirup, der Kokosmilch und zwei Eiswürfeln in eine Shaker geben.
   - 10 bis 15 Sekunden shaken, damit die Eiswürfel genügend Kälte abgeben.
-  - Zwei Gläseer jeweils halbvoll der Mixtur geben und den Rest mit Mineralwasser auffüllen
+  - Zwei Gläser jeweils halbvoll der Mixtur geben und den Rest mit Mineralwasser auffüllen
 ---
