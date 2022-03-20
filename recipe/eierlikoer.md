@@ -9,6 +9,7 @@ headerImageAttribution: Bild von <a href='https://pixabay.com/de/users/ritae-196
 tags:
   - getränk
   - party
+  - ei
 
 category: sonstiges
 

@@ -7,6 +7,7 @@ headerImageAttribution: Foto von Steve Johnson von Pexels
 
 tags:
   - huhn
+  - linsen
 
 category: hauptgericht
 

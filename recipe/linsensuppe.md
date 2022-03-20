@@ -1,7 +1,7 @@
 ---json
 {
     "title": "Linsensuppe",
-    "tags": ["fleisch", "fleischlos"],
+    "tags": ["eintopf", "linsen"],
     "headerImage": "placeholder4",
     "headerImageLink": "https://www.pexels.com/de-de/foto/rote-grune-gelbe-und-blaue-abstrakte-malerei-1283208/",
     "headerImageAttribution": "Foto von Steve Johnson von Pexels",

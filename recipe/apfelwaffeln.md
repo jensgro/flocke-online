@@ -6,6 +6,7 @@ headerImageAttribution: Bild von <a href='https://pixabay.com/de/users/congerdes
 
 tags:
   - kuchen
+  - ei
 
 category: sonstiges
 

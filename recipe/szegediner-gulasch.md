@@ -6,6 +6,7 @@ headerImageLink: https://de.wikipedia.org/wiki/Gulasch#/media/Datei:Seged%C3%ADn
 headerImageAttribution: Von Nillerdk - Own photo of dish as served in Restaurace Gurmán, Dolní Poustevna, Czech Republic, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=4465054
 tags:
   - rind
+  - gulasch
 
 category: hauptgericht
 

@@ -1,7 +1,7 @@
 ---json
 {
     "title": "Shakshuka",
-    "tags": ["vegetarisch"],
+    "tags": ["vegetarisch", "ei"],
     "headerImage": "shakshuka",
     "headerImageLink": "https://pixabay.com/de/photos/shakshuka-lebensmittel-gericht-6238787/",
     "headerImageAttribution": "Bild von <a href='https://pixabay.com/de/users/oraswet-15477529/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6238787'>Светлана Химочка</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6238787'>Pixabay</a>",

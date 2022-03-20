@@ -10,6 +10,7 @@ tags:
   - dessert
   - vegetarisch
   - süß
+  - ei
 
 category: hauptgericht
 layout: layouts/post.njk
