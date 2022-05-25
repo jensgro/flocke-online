@@ -1,3 +1,5 @@
 README.md
 _11ty/
 Bildervorlagen/
+node_modules/
+src/assets/**/*

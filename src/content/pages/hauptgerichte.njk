@@ -2,6 +2,7 @@
 layout: layouts/post.njk
 title: "Die Hauptgerichte"
 bodyClass: hauptgerichte
+permalink: /hauptgerichte.html
 headerImage: placeholder6
 headerImageLink: https://www.pexels.com/de-de/foto/kunst-graffiti-dreckig-textur-7486894/
 headerImageAttribution: Foto von Steve Johnson von Pexels
@@ -11,9 +12,9 @@ eleventyNavigation:
 ---
 
 <ul class="collection-overview">
-  {%- for post in collections.recipesDescending -%}
+  {% for post in collections.recipesDescending %}
     {% if post.data.category == "hauptgericht" %}
     <li><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
     {% endif %}
-  {%- endfor -%}
+  {% endfor %}
   </ul>

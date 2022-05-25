@@ -1,6 +1,6 @@
 {
   "name": "flockeonline",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Flocke Online - Meine kleine Rezeptsammlung",
   "scripts": {
     "build": "npm-run-all eleventy:default css",
@@ -11,14 +11,14 @@
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
     "debug": "DEBUG=* eleventy",
-    "styles:dev": "sass scss/:_site/css/",
-    "css": "sass scss/:_site/css/",
+    "styles:dev": "sass src/assets/scss/:_site/css/",
+    "css": "sass src/assets/scss/:_site/css/",
     "devdeventy": "npm-run-all clean styles:dev eleventy:default --parallel eleventy:watch serve --print-label",
     "dev": "npm-run-all clean styles:dev build --parallel watch serve"
   },
   "repository": {
     "type": "git",
-    "url": "git clone git@bitbucket.org:Flocke/flocke-online.git"
+    "url": "git clone git@github.com:jensgro/flocke-online.git"
   },
   "author": {
     "name": "Jens Grochtdreis",
