@@ -11,6 +11,14 @@
         <p class="siteheader__subline siteheader__subline--home">{{ subline }}</p>
      </div>
     </header>
+    {%- if headerImageAttribution -%}
+    <div class="imageright">
+      {{ headerImageAttribution|safe }}
+      {%- if headerImageLink -%}
+       <a href="{{ headerImageLink }}">(Originalbild)</a>
+      {%- endif -%}
+    </div>
+    {%- endif -%}
   </div>
 
 </div>
@@ -43,6 +51,14 @@
         <h1 class="siteheader__headline siteheader__headline--recipe">{{ title }}</h1>
       </div>
    </header>
+   {%- if headerImageAttribution -%}
+   <div class="imageright">
+     {{ headerImageAttribution|safe }}
+     {%- if headerImageLink -%}
+      <a href="{{ headerImageLink }}">(Originalbild)</a>
+     {%- endif -%}
+   </div>
+   {%- endif -%}
   </div>
 </div> <!-- / .bg-wrapper -->
 
@@ -60,6 +76,14 @@
     <h1 class="siteheader__headline siteheader__headline--post">{{ title }}</h1>
   </div>
 </header>
+{%- if headerImageAttribution -%}
+<div class="imageright">
+  {{ headerImageAttribution|safe }}
+  {%- if headerImageLink -%}
+   <a href="{{ headerImageLink }}">(Originalbild)</a>
+  {%- endif -%}
+</div>
+{%- endif -%}
 </div>
 {% endif %}
 <!-- END ======= Header -->

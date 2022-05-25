@@ -1,15 +1,11 @@
 {%- if headerImageAttribution -%}
-<div class="card card--imageright">
-  <div class="card__header">
-    <h2 class="card__headline">Rechte am Bild</h2>
-  </div>
-  <div class="card__body">
-    <p>
-      {{ headerImageAttribution|safe }}
-      {%- if headerImageLink -%}
-      <a href="{{ headerImageLink }}">(Originalbild)</a>
-      {%- endif -%}
-    </p>
+<div class="imageright">
+  <h2 class="imageright__headline">Rechte am Bild</h2>
+  <div class="imageright__content">
+    {{ headerImageAttribution|safe }}
+    {%- if headerImageLink -%}
+    <a href="{{ headerImageLink }}">(Originalbild)</a>
+    {%- endif -%}
   </div>
 </div>
 {%- endif -%}

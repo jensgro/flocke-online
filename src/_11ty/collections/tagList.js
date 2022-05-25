@@ -1,6 +1,6 @@
-module.exports = function(collectionApi) {
+module.exports = function(collection) {
   const tagsSet = new Set()
-  collectionApi
+  collection
     .getAll()
     .forEach((item) => {
       if (!item.data.tags) return

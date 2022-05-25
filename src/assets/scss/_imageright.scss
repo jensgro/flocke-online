@@ -1,0 +1,8 @@
+.imageright {
+  display: flex;
+  flex-wrap: wrap;
+  &__headline {
+    font-size: 1rem;
+    margin-right: $m2;
+  }
+}
