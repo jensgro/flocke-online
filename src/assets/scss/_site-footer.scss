@@ -4,9 +4,10 @@
   ul {
     list-style: none;
     padding-left: 0;
-    margin: $m2;
+    margin: $m2 0;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
 
     @media (min-width: $maxwidth) {
       margin: $m2 0;
@@ -14,10 +15,12 @@
 
     .getback__link {
       margin-left: 0;
-      margin-right: auto;
+      margin-bottom: $m2;
+      flex: 1 0 100%;
     }
+
     li {
-      margin-left: 24px;
+      margin-right: $m4;
     }
   }
 
