@@ -3,7 +3,6 @@
 .card {
   display: flex;
   flex-direction: column;
-  border-radius: 8px;
   overflow: hidden;
 
   &__header {
@@ -31,7 +30,6 @@
     &:hover, &:focus {
       color: $card-title-hover-color;
       background: $card-title-hover-bg;
-      // text-decoration: underline;
     }
   }
 
