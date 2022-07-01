@@ -1,34 +1,11 @@
----json
-{
-    "title": "Strammer Max",
-    "tags": ["ei"],
-    "headerImage": "placeholder4",
-    "headerImageLink": "https://www.pexels.com/de-de/foto/rote-grune-gelbe-und-blaue-abstrakte-malerei-1283208/",
-    "headerImageAttribution": "Foto von Steve Johnson von Pexels",
-    "category": "hauptgericht",
-    "layout": "layouts/post.njk",
-    "rec": [
-        {
-        "title": "Rezept von REWE",
-        "url": "https://www.rewe.de/rezepte/strammer-max/"
-        },
-        {
-        "title": "Der Wikipedia-Eintrag",
-        "url": "https://de.wikipedia.org/wiki/Strammer_Max",
-        "note": "Alles Wichtige steht in der Wikipedia!"
-        },
-        {
-        "title": "Rezept bei Chefkoch.de",
-        "url": "https://www.chefkoch.de/video/artikel/4187,0/Chefkoch/Strammer-Max-leckere-Hausmannskost.html",
-        "note": "Mit Video, in dem ein Brot angeröstet wird."
-        },
-        {
-        "title": "14 Strammer Max-Rezepte",
-        "url": "https://www.lecker.de/rezepte/strammer-max",
-        "note": "Wie kann man so viele Variationen finden?"
-        }
-    ]
-}
+---
+    title: "Strammer Max"
+    tags: ["ei"]
+    headerImage: "placeholder4"
+    headerImageLink: "https://www.pexels.com/de-de/foto/rote-grune-gelbe-und-blaue-abstrakte-malerei-1283208/"
+    headerImageAttribution: "Foto von Steve Johnson von Pexels"
+    category: "hauptgericht"
+    layout: "layouts/post.njk"
 ---
 
 Sehr viel simpler als Strammer Max geht es nicht. Aber genau deshalb solltest Du auf gute Produkte Wert legen. Also nicht der billige Pressschinken aus dem Discounter, sondern möglichst ein guter Schinken vom Metzger. Und bei den Eiern dürfen es auch mal Bio-Eier sein. Als Brot bevorzuge ich möglichst reines Roggenbrot und das möglichst frisch.
