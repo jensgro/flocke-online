@@ -1,6 +1,7 @@
 ---
 title: Blumenkohl mit Chilistreifen
-introText: 'Eine der schmackhaftesten Varianten, Blumenkohl zu essen. Fleisch würde hier übrigens nur stören.'
+introText:
+  - 'Das ist eine der schmackhaftesten Varianten, Blumenkohl zu essen. Fleisch würde hier nur stören.'
 introImage: 'blumenkohl'
 headerImage: blumenkohl
 headerImageLink: https://pixabay.com/de/photos/kohl-blumenkohl-kochan-gabeln-976496/

@@ -10,7 +10,9 @@ templateClass: tmpl-post
   {% endif %}
     {% if introText %}
     <div class="recipe__intro">
-      <p>{{ introText}}</p>
+      {% for t in introText %}
+      <p>{{ t }}</p>
+      {% endfor %}
     </div>
     {% endif %}
     {{ content | safe }}

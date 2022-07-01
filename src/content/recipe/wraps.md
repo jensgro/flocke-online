@@ -6,9 +6,11 @@
     headerImageAttribution: "Foto von Steve Johnson von Pexels"
     category: "hauptgericht"
     layout: "layouts/post.njk"
+    introText:
+      - Wraps sollten in keinem Haushalt fehlen. Sie bieten immer eine gute Halterung für wechselnde Füllungen. Der Kreativität sind keine Grenzen gesetzt.
 ---
 
-Wraps sollten in keinem Haushalt fehlen. Sie bieten immer eine gute Halterung für wechselnde Füllungen. Der Kreativität sind keine Grenzen gesetzt.
+
 
 ## Gemüsefüllungen
 

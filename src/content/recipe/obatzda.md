@@ -1,6 +1,7 @@
 ---
 title: Obatzda
-introText: 'Dieser Obatzda hat sich einmal als eine suoer Grundlage für eine ausgedehnte Feuerzangenbowle erwiesen. Auch wenn man auf den ersten Blick nicht glaubt, daß das paßt.'
+introText:
+  - 'Dieser Obatzda hat sich einmal als eine super Grundlage für eine ausgedehnte Feuerzangenbowle erwiesen. Auch wenn man auf den ersten Blick nicht glaubt, dass das passt.'
 headerImage: obatzda
 headerImageLink: https://upload.wikimedia.org/wikipedia/commons/4/43/Obatzter-1.jpg
 # headerImageLink: https://commons.wikimedia.org/w/index.php?curid=3702347

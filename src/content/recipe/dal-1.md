@@ -1,6 +1,8 @@
 ---
 title: Ein einfaches Dal
-introText: 'In der indischen Küche gibt es viele sehr leckere vegetarische oder gar vegane Gerichte. Im Gegensatz zur deutschen Küche ist allerdings das Konzept des Tellergerichts eher unbekannt. Man isst normalerweise mehrere Gerichte zusammen und im Normalfall bekommt die ganze Tischgesellschaft eine grosse Auswahl an Gerichten, die sie sich dann individuell zusammenstellen. So essen meine Frau und ich sehr gerne das Linsengericht Dal und dazu ein schönes Chutney sowie noch gekochtes Gemüse, bevorzugt Kohlrabi.'
+introText:
+  - 'In der indischen Küche gibt es viele sehr leckere vegetarische oder gar vegane Gerichte. Im Gegensatz zur deutschen Küche ist allerdings das Konzept des Tellergerichts eher unbekannt. Man isst normalerweise mehrere Gerichte zusammen und im Normalfall bekommt die ganze Tischgesellschaft eine grosse Auswahl an Gerichten, die sie sich dann individuell zusammenstellen.'
+  - 'Es spricht aber nichts dagegen, eines dieser Gerichte zur Hauptsache zu erklären. Meine Frau und ich essen Dal sehr gerne mit ein schönes Chutney sowie noch gekochtem Gemüse, bevorzugt Kohlrabi.'
 introImage: 'dal'
 headerImage: dal
 headerImageLink: https://pixabay.com/de/photos/rote-linsen-nahrungsmittel-289126/

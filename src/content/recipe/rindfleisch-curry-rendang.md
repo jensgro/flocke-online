@@ -38,11 +38,8 @@ recipe:
   - Das Curry ein paar Minuten offen kochen lassen, umrühren. Dann auf mittlere Hitze herunterschalten und zugedeckt 1 bis 1 1/2 Stunden schmoren lassen. Mit Salz abschmecken.
 
 tipps:
-  - Tamarindensaft wird hier ähnlich benutzt, wie in der europäischen Küche Essig. Die Verwendung ist hingegen gewöhnungsbedürftig. In Persien ißt man das Tamarindenmark sogar als Snack zwischendurch. Dies finde ich noch gewöhnungsdeürftiger.
+  - Tamarindenmark ist die Hülsenfrucht eines Tropenbaums mit süß-säuerlichem, braunem Fruchtmus, das in der indonesischen Küche statt Zitrone oder Essig benutzt wird. Getrocknet ist es in Blockform erhältlich und lange im Kühlschrank haltbar. Es muss in heissem Wasser etwa 10 Minuten eigenweicht und verrührt werden.
+  - Tamarindensaft wird hier ähnlich benutzt, wie in der europäischen Küche Essig. Die Verwendung ist hingegen gewöhnungsbedürftig. In Persien isst man das Tamarindenmark sogar als Snack zwischendurch.
   - Auf alle Fälle braucht man dieses Gericht nicht mehr pfeffern, salzen sollte man aber ordentlich. Auf die Kokosmilch sollte nicht verzichtet werden, man schmeckt sie im Hintergrund recht gut. Sie gibt dem Gericht einen leicht nussigen Geschmack.
   - Ob man den im Kochbuch erwähnten unnachahmlichen Geschmack des Palmzuckers vermissen würde, weiß ich nicht. Jedenfalls ist er anders als normaler Zucker, eher eine dicke Paste und deshalb eher durch Ahornsirup, als durch normalen (oder auch braunen) Zucker ersetzbar.
 ---
-
-## Zusatzinfos zu Tamarindenmark
-
-Tamarindenmark ist die Hülsenfrucht eines Tropenbaums mit süß-säuerlichem, braunem Fruchtmus, das in der indonesischen Küche statt Zitrone oder Essig benutzt wird. Getrocknet ist es in Blockform erhältlich und lange im Kühlschrank haltbar. Es muss in heißem Wasser etwa 10 Minuten eigenweicht und verrührt werden.

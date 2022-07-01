@@ -1,6 +1,7 @@
 ---
 title: Schweinisches Putenschnitzel
-introText: "Meine Oma hat mich damit als Kind immer begeistert. Heute koche ich anders, aber als Kind und später als Student – als ich besser kochen lernte – war das ein gern gegessenes Gericht. Und es geht schnell."
+introText:
+  - Meine Oma hat mich mit diesem Gericht als Kind immer begeistert. Heute koche ich anders, aber als Kind und später als Student – als ich besser kochen lernte – war das ein gern gegessenes Gericht. Denn es geht schnell und macht ordentlich satt.
 headerImage: placeholder2
 headerImageLink: https://www.pexels.com/de-de/foto/kunst-textur-pinsel-abstrakt-7325760/
 headerImageAttribution: Foto von Steve Johnson von Pexels

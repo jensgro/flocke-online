@@ -5,7 +5,8 @@ headerImage: baba-ganoush
 headerImageLink: https://pixabay.com/de/photos/baba-ganoush-starter-gericht-1271630/
 headerImageAttribution: Bild von <a href='https://pixabay.com/de/users/marekonline-1095186/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1271630'>marekonline</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1271630'>Pixabay</a>
 
-introText: "Durch diese Art der Zubereitung wird aus einer Aubergine eine tolle Beilage zu einem indischen Menü. So kann sich die Aubergine nicht mit Fett vollsaugen. Auf diese Art schmeckt sie sehr aromatisch. Eine gute Möglichkeit, dieses Gemüse neu kennenzulernen."
+introText:
+  - "Durch diese Art der Zubereitung wird aus einer Aubergine eine tolle Beilage. So kann sich die Aubergine nicht mit Fett vollsaugen. Auf diese Art schmeckt sie sehr aromatisch. Eine gute Möglichkeit, dieses Gemüse neu kennenzulernen."
 tags:
   - gemüse
   - vegetarisch

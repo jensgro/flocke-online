@@ -1,6 +1,7 @@
 ---
 title: Gelber Reis
-introText: 'Eine super Beilage zu vielen imndischen und indonesischen Gerichten.'
+introText:
+  - 'Gelber Reis ist eine tolle Beilage zu vielen indischen und indonesischen Gerichten.'
 introImage: 'gelber-reis'
 headerImage: gelber-reis
 headerImageLink: https://pixabay.com/de/photos/reisgericht-reis-risotto-kochl%C3%B6ffel-1740301/

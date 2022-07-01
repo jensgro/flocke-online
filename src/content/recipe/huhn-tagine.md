@@ -1,6 +1,7 @@
 ---
 title: Huhn-Tagine
-introText: "Eine Tagine ist ein Schmorgefäß aus der nordafrikansichen Küche. Auch die darin gekochten Gerichte nennt man Tagine. In Ermangelung eines solchen Gefäßes kann man auch prima einen normalen Bräter nutzen."
+introText:
+  - "Eine Tagine ist ein Schmorgefäß aus der nordafrikansichen Küche. Auch die darin gekochten Gerichte nennt man Tagine. In Ermangelung eines solchen Gefäßes kann man selbstverständlich einen normalen Bräter nutzen."
 headerImage: tagine
 headerImageLink: https://www.pexels.com/photo/similar-tagines-on-metal-table-in-daylight-4917090/
 headerImageAttribution: Photo by Maria Orlova from Pexels

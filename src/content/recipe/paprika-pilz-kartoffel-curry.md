@@ -1,6 +1,7 @@
 ---
 title: Paprika-Pilz-Kartoffel-Curry
-introText: "Dieses Rezept habe ich aus einem Kochkurs über indische Küche."
+introText:
+  - "Dieses Rezept habe ich aus einem Kochkurs über indische Küche."
 headerImage: placeholder3
 headerImageLink: https://www.pexels.com/de-de/foto/orange-und-blaue-abstrakte-malerei-2378621/
 headerImageAttribution: Foto von Steve Johnson von Pexels

@@ -1,6 +1,7 @@
 ---
 title: Pink Panther
-introText: 'Als ich zu Weihnachten einen Shaker geschenkt bekam, habe ich diesen Drink entwickelt. Keine Ahnung, ob es ihn unter anderem Namen schon gab.'
+introText:
+  - 'Als ich zu Weihnachten einen Shaker geschenkt bekam, habe ich diesen Drink entwickelt. Keine Ahnung, ob es ihn unter anderem Namen schon gibt.'
 headerImage: placeholder5
 headerImageLink: https://www.pexels.com/de-de/foto/foto-der-blauen-und-roten-abstrakten-malerei-3699270/
 headerImageAttribution: Foto von Steve Johnson von Pexels

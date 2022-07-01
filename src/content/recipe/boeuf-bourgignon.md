@@ -4,7 +4,8 @@ headerImage: placeholder1
 headerImageLink: https://www.pexels.com/de-de/foto/kunst-kreativ-malerei-abstrakt-1959387/
 headerImageAttribution: Foto von Steve Johnson von Pexels
 
-introText: "Ich liebe Schmorgerichte, Gulasch-Varianten besonders. Dieses französische gulasch ist eines meiner Favoriten. Es baut auf wenige, dafür gute Zutaten. Natürlich gibt es dafür viele unterschiedliche Rezepte. Ich habe mir aus mehreren meine Variante destilliert."
+introText:
+  - "Ich liebe Schmorgerichte, Gulasch-Varianten besonders. Dieses französische Gulasch ist eines meiner Favoriten. Es baut auf wenige, dafür gute Zutaten. Natürlich gibt es dafür viele unterschiedliche Rezepte. Ich habe mir aus mehreren meine Variante destilliert."
 tags:
   - gulasch
   - rind

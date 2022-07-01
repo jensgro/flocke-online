@@ -5,7 +5,8 @@ headerImage: kuerbisse
 headerImageLink: https://pixabay.com/de/photos/k%C3%BCrbisse-gelb-gem%C3%BCse-nahrungsmittel-457716/
 headerImageAttribution: Bild von <a href='https://pixabay.com/de/users/127071-127071/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=457716'>Frauke Feind</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=457716'>Pixabay</a>
 
-introText: "Ich liebe eingelegten Kürbis, esse ihn oft zu meinen Broten mittags. Übrigens sind alle Zutatenmengen ernst gemeint, auch die große Zuckermenge.
+introText:
+  - "Ich liebe eingelegten Kürbis. Ich esse ihn gern zu meinen Broten mittags. Übrigens sind alle Zutatenmengen ernst gemeint, auch die große Zuckermenge.
 Das Rezept ist von meiner Tante, die mich mit ihrem eingelegten Kürbis süchtig gemacht hat !"
 tags:
   - gemüse

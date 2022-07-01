@@ -1,6 +1,7 @@
 ---
 title: Huhn mit Mango-Chutney
-introText: "Dies ist ein Rezept, bei dem man es mit den Mengen nicht so ganz genau nehmen sollte, schließlich ist eine schöne Soße nur in ausreichender Menge zu würdigen."
+introText:
+  - "Dies ist ein Rezept, bei dem man es mit den Mengen nicht so ganz genau nehmen sollte, schließlich ist eine schöne Soße nur in ausreichender Menge zu würdigen."
 headerImage: placeholder7
 headerImageLink: https://www.pexels.com/de-de/foto/blaue-und-mehrfarbige-abstrakte-malerei-1307114/
 headerImageAttribution: Foto von Steve Johnson von Pexels

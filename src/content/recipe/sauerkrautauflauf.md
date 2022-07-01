@@ -1,6 +1,7 @@
 ---
 title: Sauerkrautauflauf
-introText: "Der Sauerkrautauflauf ist ein Gericht aus meiner Kindheit. Meine Mutter hat mich damit immer wieder erfreut. Und obwohl ich ihr Rezept genau befolge, schmeckt der Sauerkrautauflauf bei ihr noch ein entscheidendes Stück besser."
+introText:
+  - Der Sauerkrautauflauf ist ein Gericht aus meiner Kindheit. Meine Mutter hat mich damit immer wieder erfreut. Und obwohl ich ihr Rezept genau befolge, schmeckt der Sauerkrautauflauf bei ihr noch ein entscheidendes Stück besser.
 headerImage: placeholder4
 headerImageLink: https://www.pexels.com/de-de/foto/rote-grune-gelbe-und-blaue-abstrakte-malerei-1283208/
 headerImageAttribution: Foto von Steve Johnson von Pexels

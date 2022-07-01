@@ -6,8 +6,9 @@
     headerImageAttribution: "Bild von <a href='https://pixabay.com/de/users/oraswet-15477529/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6238787'>Светлана Химочка</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6238787'>Pixabay</a>"
     category: "hauptgericht"
     layout: "layouts/post.njk"
+    introText:
+      - "Shakshuka ist ein in Israel sehr beliebtes Pfannengericht. Ich kenne es noch aus meiner Studienzeit (ab 1988) unter dem Namen \"Eier in Tomatensugo\"."
 ---
-Shakshuka ist ein in Israel sehr beliebtes Pfannengericht. Ich kenne es noch aus meiner Studienzeit (ab 1988) unter dem Namen "Eier in Tomatensugo".
 
 Das Grundprinzip ist einfach:
 Zwiebel nach Geschmack würfeln und anbraten, gerne auch eine Paprika. Wenn beide gar sind, wird mit einer Tomatendose (eher zwei) aufgefüllt und alles schön eingeköchelt. beim hier verlinkten Rezept gibt es Hinweise zum Würzen. Ich habe mir aus Israel eine Würzmischung mitbringen lassen. In Gewürzläden gibt es sowas bestimmt auch. Ansonsten würde ich einfach mit den Gewürzen experimentieren, die in eine Nudelsoße kommen.

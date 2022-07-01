@@ -1,6 +1,7 @@
 ---
 title: Hähnchenkeule auf Currylinsen
-introText: 'Einen Schöhnheitspreis bekommt das Gericht nicht, aber es schmeckt gut. Es ist eines der wenigen Gerichte, in denen ich noch Currypulver nutze.'
+introText:
+  - 'Einen Schöhnheitspreis bekommt das Gericht nicht, aber es schmeckt gut. Es ist eines der wenigen Gerichte, in denen ich noch Currypulver nutze.'
 headerImage: placeholder6
 headerImageLink: https://www.pexels.com/de-de/foto/kunst-graffiti-dreckig-textur-7486894/
 headerImageAttribution: Foto von Steve Johnson von Pexels

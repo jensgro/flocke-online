@@ -1,6 +1,9 @@
 ---
 title: Rheinischer Sauerbraten
-introText: "Das Rezept stammt von meiner Schwiegermutter, einer Aachenerin. Es ist in seiner Urform allerdings ein wenig undeutlicher und unkrokreter, als diese Variante. Das ist halt so, wenn man Rezepte im Wesentlichen aus dem Gefühl heraus kochen kann. Leider erschwert das die Weitergabe."
+introText:
+  - "Das Rezept stammt von meiner Schwiegermutter, einer Aachenerin. Es verzichtet auf Rosinen, was für mich kein Verlust ist."
+  - Wichtig sind hingegen die Printen, die auf keinen Fall fehlen sollten. Natürlich Printen ohne Schokoladenüberzug!
+  - Und am Besten das Fleisch selber einlegen, nicht eingelegt kaufen. Dann ist alles besser steuerbar.
 headerImage: placeholder8
 headerImageLink: https://www.pexels.com/de-de/foto/grune-und-gelbe-abstrakte-malerei-4943165/
 headerImageAttribution: Foto von Steve Johnson von Pexels

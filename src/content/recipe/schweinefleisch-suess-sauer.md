@@ -9,7 +9,8 @@ tags:
 
 category: hauptgericht
 
-introText: Dieses Gericht habe ich bei meinen ersten Gehversuchen in der indischen und indonesischen Küche gekocht.
+introText:
+  - Dieses Gericht habe ich bei meinen ersten Gehversuchen in der indischen und indonesischen Küche gekocht.
 ingredients:
   - 500 g mageres Schweinefleisch
   - 1 EL Tamarindenmark

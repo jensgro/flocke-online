@@ -1,6 +1,7 @@
 ---
 title: Speckkuchen
-introText: "Speckkuchen ist ein in Nordhessen sehr beliebtes Gericht, das man im Winter auch bei manchen Bäckern kaufen kann. Aber auch hier gilt wieder: selbstgemacht ist besser !"
+introText:
+  - "Speckkuchen ist ein in Nordhessen sehr beliebtes Gericht, das man im Winter auch bei manchen Bäckern kaufen kann. Aber auch hier gilt wieder: selbstgemacht ist besser !"
 headerImage: placeholder6
 headerImageLink: https://www.pexels.com/de-de/foto/kunst-graffiti-dreckig-textur-7486894/
 headerImageAttribution: Foto von Steve Johnson von Pexels

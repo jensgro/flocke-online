@@ -1,6 +1,7 @@
 ---
 title: Schweinelendchen in Dillsoße
-introText: "Wer wie ich das Zusammenspiel aus Dill und Gurke liebt, wird dieses Gericht schnell vergöttern."
+introText:
+  - Wer wie ich das Zusammenspiel aus Dill und Gurke liebt, wird dieses Gericht schnell vergöttern.
 headerImage: placeholder8
 headerImageLink: https://www.pexels.com/de-de/foto/grune-und-gelbe-abstrakte-malerei-4943165/
 headerImageAttribution: Foto von Steve Johnson von Pexels

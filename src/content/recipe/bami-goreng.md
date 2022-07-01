@@ -5,7 +5,9 @@ headerImage: bami
 headerImageLink: https://pixabay.com/de/photos/essen-krabben-garnelen-snack-585679/
 headerImageAttribution: Bild von <a href='https://pixabay.com/de/users/keulefm-122060/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=585679'>Martin Fuhrmann</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=585679'>Pixabay</a>
 
-introText: "Schon als Kind habe ich beim Chinesen oder in Holland Bami Goreng und Nasi Goreng geliebt. Als ich es dann selber kochen wollte, stellte ich fest, daß es unendliche Variationen gibt (von den Gewürzmischungen wollen wir jetzt gar nicht reden). Also bastelte ich mir meine eigene Version zusammen. Deren Kern ist die Würzsauce. Damit steht und fällt der gesamte Geschmack. M.E. sollten auch weder die Eier, noch die Banane fehlen. Wer es lieber als Nasi Goreng essen will, macht sich statt Mi-Nudeln einfach Reis dazu. Ich finde Mi-Nudeln am praktischtsen, weil man sie einfach nur mit heißem Wasser übergießt und ein wenig ziehen läßt. Schneller kanns gar nicht gehen."
+introText:
+  - "Schon als Kind habe ich beim Chinesen oder in Holland Bami Goreng und Nasi Goreng geliebt. Als ich es dann selber kochen wollte, stellte ich fest, daß es unendliche Variationen gibt (von den Gewürzmischungen wollen wir jetzt gar nicht reden). Also bastelte ich mir meine eigene Version zusammen. Deren Kern ist die Würzsauce. Damit steht und fällt der gesamte Geschmack. M.E. sollten auch weder die Eier, noch die Banane fehlen."
+  - "Wer es lieber als Nasi Goreng essen will, macht sich statt Mi-Nudeln einfach Reis dazu. Ich finde Mi-Nudeln am Praktischsten, weil man sie einfach nur mit heißem Wasser übergießt und ein wenig ziehen läßt. Schneller kann es gar nicht gehen."
 tags:
   - asien
   - indonesien
