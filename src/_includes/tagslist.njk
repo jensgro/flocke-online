@@ -1,19 +1,9 @@
-<ol class="mygrid mygrid--3 mygrid--tag">
+<ol class="collection-overview">
   {% for post in postslist %}
   <li>
-    <div class="card">
-      <div class="card__image-cnt">
-        <a class="card__link" href="{{ post.url | url }}">
-        {%- if post.data.headerImage -%}
-            <img class="card__image" src="/img/{{ post.data.headerImage }}_250x100.jpg" alt="" width="250" height="100">
-          {%- else -%}
-            <img class="card__image" src="http://dummyimage.com/250x100" alt="">
-        {%- endif -%}
-        <span class="card__title">{{ post.data.title }}</span>
-        </a>
-      </div>
-    </div>
+    <a href="{{ post.url | url }}">
+    {{ post.data.title }}
+    </a>
   </li>
   {% endfor %}
-
 </ol>
