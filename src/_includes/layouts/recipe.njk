@@ -32,7 +32,7 @@ templateClass: tmpl-recipe
     </div>
     {% endif %}
 
-    {%- if tipps -%}
+    {% if tipps %}
     <div class="recipe__tipps">
       <h2>Tipps/Hinweise/Bemerkungen</h2>
       <ul>
@@ -41,44 +41,24 @@ templateClass: tmpl-recipe
         {% endfor %}
       </ul>
     </div>
-    {%- endif -%}
+    {% endif %}
   </main>
-  {%- if tags -%}
+
+  {% if tags %}
   <div class="tags">
     <h2>Tag(s)</h2>
     <ul class="taglist taglist--footer taglist--extended">
       {% for tag in tags %}
         {% set tagUrl %}/{{ tag }}/{% endset %}
         <li class="taglist__item">
-          <a class="taglist__link" href="{{ tagUrl | url }}" class="tag">
+          <a class="taglist__link" href="{{ tagUrl | url }}">
             {{ tag }}
           </a>
         </li>
       {% endfor %}
       </ul>
   </div>
-  {%- endif -%}
+  {% endif %}
 </div>
 
-
-{%- if rec -%}
-<section class="container">
-  <div class="card card--rec">
-    <div class="card__header">
-      <h2 class="card__headline">Weiterführende Links</h2>
-    </div>
-    <div class="card__body">
-
-      <ul>
-        {%- for page in rec -%}
-        <li>
-          <a href="{{ page.url }}">{{ page.title }}</a>{% if page.note %} <span class="listing__note">- {{page.note}}</span>{% endif %}
-        </li>
-      {%- endfor -%}
-      </ul>
-
-    </div>
-  </div>
-</section>
-{%- endif -%}
 
