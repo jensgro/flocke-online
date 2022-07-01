@@ -1,0 +1,20 @@
+{% if rec %}
+<section class="container">
+  <div class="card card--rec">
+    <div class="card__header">
+      <h2 class="card__headline">Weiterführende Links</h2>
+    </div>
+    <div class="card__body">
+
+      <ul>
+        {% for r in rec %}
+        <li>
+          <a href="{{ r.url }}">{{ r.title }}</a>{% if r.note %} <span class="listing__note">- {{r.note}}</span>{% endif %}
+        </li>
+      {% endfor %}
+      </ul>
+
+    </div>
+  </div>
+</section>
+{% endif %}

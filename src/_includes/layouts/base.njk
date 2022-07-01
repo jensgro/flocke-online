@@ -50,6 +50,8 @@
 
       {{ content | safe }}
 
+      {% include "partials/recommendations.njk" %}
+
       {% include "partials/footer.njk" %}
 
     <!-- Current page: {{ page.url | url }} -->
