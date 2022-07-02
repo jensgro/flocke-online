@@ -3,7 +3,7 @@
   padding: $p3 0;
   margin: 0 $m2;
 
-  @media (min-width: $lg) {
+  @media (min-width: $maxwidth) {
     max-width: $maxwidth;
     margin: 0 auto;
   }
