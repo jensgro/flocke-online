@@ -1,5 +1,5 @@
 ---
-title: One Pot mit Gemüse, Reis und Linsen
+title: Reis-Linsen-Topf mit Gemüse
 introText:
   - Dieses vegane Gericht schmeckt wunderbar nussig.
   - Ein weiteres wunderbares Gericht, das niemals den Wunsch nach Fleisch aufkommen lässt.
