@@ -1,11 +1,12 @@
 ---
-title: Boeuf Borugignon
-headerImage: placeholder1
-headerImageLink: https://www.pexels.com/de-de/foto/kunst-kreativ-malerei-abstrakt-1959387/
-headerImageAttribution: Foto von Steve Johnson von Pexels
+title: Boeuf Bourgignon
+headerImage: bourgignon
+headerImageLink: https://flickr.com/photos/mnemophobe/4891807464/in/photolist-j8MBFD-8Zdbj2-8sgMW1-8Zge73-4iaxoC
+headerImageAttribution: Von Davis Doherty auf Flickr
 
 introText:
-  - "Ich liebe Schmorgerichte, Gulasch-Varianten besonders. Dieses französische Gulasch ist eines meiner Favoriten. Es baut auf wenige, dafür gute Zutaten. Natürlich gibt es dafür viele unterschiedliche Rezepte. Ich habe mir aus mehreren meine Variante destilliert."
+  - Ich liebe Schmorgerichte, Gulasch-Varianten besonders. Dieses französische Gulasch ist eines meiner Favoriten. Es baut auf wenige, dafür gute Zutaten. Natürlich gibt es dafür viele unterschiedliche Rezepte. Ich habe mir aus mehreren meine Variante destilliert.
+
 tags:
   - gulasch
   - rind
@@ -23,6 +24,7 @@ ingredients:
   - Thymian, Rosmarin, Lorbeerblätter (Bouquet garni)
   - 400g Champignons
   - 400g kleine Perlzwiebeln
+
 recipe:
   - Das Fleisch möglichst an einem Stück kaufen und selber in Stücke schneiden. Die Fleischstücke sollten mindestens doppelt so groß sein, wie Gulasch üblicherweise geschnitten wird.
   - Das Fleisch mit ein wenig Mehl vermengen. Überschüssiges Mehl abschlagen, bevor es angebraten wird.

@@ -5,7 +5,6 @@ headerImageLink: https://www.pexels.com/de-de/foto/kunst-graffiti-dreckig-textur
 headerImageAttribution: Foto von Steve Johnson von Pexels
 tags:
   - asien
-  - beilage
   - indonesien
 
 category: beilage

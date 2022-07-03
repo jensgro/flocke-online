@@ -8,7 +8,6 @@ headerImageLink: https://www.pexels.com/de-de/foto/rote-grune-gelbe-und-blaue-ab
 headerImageAttribution: Foto von Steve Johnson von Pexels
 tags:
   - indien
-  - beilage
 
 category: beilage
 

@@ -7,7 +7,6 @@ headerImageAttribution: Bild von Jens Grochtdreis
 tags:
   - nordafrika
   - levante
-  - beilage
   - salat
 
 category: beilage

@@ -8,7 +8,6 @@ headerImageLink: https://upload.wikimedia.org/wikipedia/commons/4/43/Obatzter-1.
 headerImageAttribution:  Das Bild von Rainer Zenz steht unter der Lizenz <a href='https://creativecommons.org/licenses/by/2.0/?ref=openverse&atype=rich'>CC BY 2.0</a>.
 tags:
   - vegetarisch
-  - beilage
 
 category: sonstiges
 

@@ -11,7 +11,6 @@ tags:
   - spanien
   - kartoffeln
   - salat
-  - beilage
   - party
   - vegetarisch
 

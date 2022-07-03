@@ -10,7 +10,6 @@ introText:
 Das Rezept ist von meiner Tante, die mich mit ihrem eingelegten Kürbis süchtig gemacht hat !"
 tags:
   - gemüse
-  - beilage
 
 
 category: beilage

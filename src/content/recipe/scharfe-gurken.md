@@ -6,7 +6,6 @@ headerImageAttribution: Foto von Steve Johnson von Pexels
 
 tags:
   - salat
-  - beilage
   - vegetarisch
   - gemüse
 

@@ -1,13 +1,16 @@
 ---
-    title: "Nudeln mit Bolognese"
-    tags: ["hackfleisch", "nudeln"]
-    headerImage: "placeholder4"
-    headerImageLink: "https://www.pexels.com/de-de/foto/rote-grune-gelbe-und-blaue-abstrakte-malerei-1283208/"
-    headerImageAttribution: "Foto von Steve Johnson von Pexels"
-    category: "hauptgericht"
+    title: Bolognese
+    tags:
+      - hackfleisch
+      - nudeln
+
+    headerImage: bolognese-2
+    headerImageLink: https://unsplash.com/photos/PKH_tWEGuPA
+    headerImageAttribution: Photo von <a href="https://unsplash.com/@hanxiaoyaaaaa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hanxiao</a> auf <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    category: hauptgericht
     introText:
-      - "Nudeln mit Bolognese sind so etwas wie der moderne Klassiker in der deutschen Küche. Natürlich schmeckt die Bolo besonders gut, wenn man sie drei Stunden köcheln lässt und am Besten noch eine ordentliche Menge Rotwein angegossen hat."
-      - "Eine aufwändige Variante kann man ja gerne am Wochenende kochen und dann portionsweise einfrieren. Für das schnelle Essen zwischendurch geht es aber auch weniger ambitioniert."
+      - Nudeln mit Bolognese sind so etwas wie der moderne Klassiker in der deutschen Küche. Natürlich schmeckt die Bolo besonders gut, wenn man sie drei Stunden köcheln lässt und am Besten noch eine ordentliche Menge Rotwein angegossen hat.
+      - Eine aufwändige Variante kann man ja gerne am Wochenende kochen und dann portionsweise einfrieren. Für das schnelle Essen zwischendurch geht es aber auch weniger ambitioniert.
 
     ingredients:
       - 1 große Zwiebel
@@ -15,7 +18,7 @@
       - 1 Dose gehackte Tomaten
       - Salz, Pfeffer
       - Zucker
-      - Spaghetti-Gewürz
+      - Spaghetti-Gewürz o.ä.
 
     recipe:
       - Die Zwiebel in Würfel schneiden und anbraten.

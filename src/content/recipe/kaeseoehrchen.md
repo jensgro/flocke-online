@@ -6,7 +6,6 @@ headerImageLink: https://www.pexels.com/de-de/foto/orange-und-blaue-abstrakte-ma
 headerImageAttribution: Foto von Steve Johnson von Pexels
 
 tags:
-  - beilage
   - ofen
 
 category: sonstiges

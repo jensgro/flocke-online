@@ -7,7 +7,6 @@ headerImageLink: https://unsplash.com/photos/O-SfuUoZUDs
 headerImageAttribution: Photo by <a href="https://unsplash.com/es/@hjkp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">henry perks</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 tags:
-  - beilage
   - ei
 
 category: beilage
