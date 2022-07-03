@@ -10,6 +10,8 @@ headerImageAttribution: Bild von <a href="https://pixabay.com/de/users/counselli
 tags:
   - salat
   - kartoffeln
+  - beilage
+  - party
   - vegetarisch
 
 category: beilage

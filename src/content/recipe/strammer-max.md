@@ -1,9 +1,12 @@
 ---
     title: "Strammer Max"
-    tags: ["ei"]
-    headerImage: "placeholder4"
-    headerImageLink: "https://www.pexels.com/de-de/foto/rote-grune-gelbe-und-blaue-abstrakte-malerei-1283208/"
-    headerImageAttribution: "Foto von Steve Johnson von Pexels"
+    tags:
+      - ei
+
+    headerImage: strammer-max
+    headerImageLink: https://www.flickr.com/photos/25735157@N05/3231398503
+    headerImageAttribution: von FS BLN auf Flickr
+
     category: "hauptgericht"
     layout: "layouts/post.njk"
 ---

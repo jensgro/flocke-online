@@ -1,11 +1,18 @@
 ---
-    title: "Wraps - unterschiedliche Füllungen"
-    tags: ["gemüse"]
-    headerImage: "placeholder4"
-    headerImageLink: "https://www.pexels.com/de-de/foto/rote-grune-gelbe-und-blaue-abstrakte-malerei-1283208/"
-    headerImageAttribution: "Foto von Steve Johnson von Pexels"
-    category: "hauptgericht"
-    layout: "layouts/post.njk"
+    title: Wraps - unterschiedliche Füllungen
+    tags:
+      - gemüse
+      - party
+      - vegetarisch
+      - fisch
+
+    headerImage: wraps-1
+    headerImageLink: https://unsplash.com/photos/Spp1G283dow
+    headerImageAttribution: Photo by <a href="https://unsplash.com/@grisskitchen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Max Griss</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+    category: hauptgericht
+    layout: layouts/post.njk
+
     introText:
       - Wraps sollten in keinem Haushalt fehlen. Sie bieten immer eine gute Halterung für wechselnde Füllungen. Der Kreativität sind keine Grenzen gesetzt.
 ---

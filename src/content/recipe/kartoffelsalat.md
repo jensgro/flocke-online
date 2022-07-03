@@ -3,12 +3,18 @@ title: Kartoffelsalat meiner Mutter
 introText:
   - Dieses Rezept gehört zu den wenigen Rezepten, die meine Mutter mir in ein persönliches Kochbuch schrieb, als ich zum Studium auszog.
   - Ich habe es lange Jahre vergessen. Seit der Wiederentdeckung mache ich es sehr oft. Eine Zeit lang wöchentlich. Mittlerweile habe ich aber das Ausgangsrezept abgewandelt.
-headerImage: placeholder4
-headerImageLink: https://www.pexels.com/de-de/foto/rote-grune-gelbe-und-blaue-abstrakte-malerei-1283208/
-headerImageAttribution: Foto von Steve Johnson von Pexels
+
+headerImage: kartoffelsalat-1
+headerImageLink: https://pixabay.com/de/photos/kartoffeln-kartoffelscheiben-579101/
+headerImageAttribution: Bild von <a href="https://pixabay.com/de/users/congerdesign-509903/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=579101">congerdesign</a> auf <a href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=579101">Pixabay</a>
+
 tags:
   - kartoffeln
   - salat
+  - beilage
+  - party
+  - vegetarisch
+
 category: beilage
 
 ingredients:

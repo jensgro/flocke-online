@@ -2,11 +2,13 @@
 title: Blitzmayo
 introText:
   - Mayonnaise selber zu machen ist total einfach, wenn man einen Pürierstab hat. Die Würze ist dann einem selber überlassen.
-headerImage: placeholder4
-headerImageLink: https://www.pexels.com/de-de/foto/rote-grune-gelbe-und-blaue-abstrakte-malerei-1283208/
-headerImageAttribution: Foto von Steve Johnson von Pexels
+headerImage: mayo
+headerImageLink: https://unsplash.com/photos/O-SfuUoZUDs
+headerImageAttribution: Photo by <a href="https://unsplash.com/es/@hjkp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">henry perks</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 tags:
   - beilage
+  - ei
 
 category: beilage
 
