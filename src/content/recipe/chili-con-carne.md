@@ -1,6 +1,6 @@
 ---
 title: Chili con carne
-introImage: 'chili-con-carne'
+introImage: chili-con-carne
 headerImage: chili-con-carne
 headerImageLink: https://pixabay.com/de/photos/chili-con-carne-chili-kochen-378952/
 headerImageAttribution: Bild von <a href='https://pixabay.com/de/users/kalhh-86169/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=378952'>kalhh</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=378952'>Pixabay</a>

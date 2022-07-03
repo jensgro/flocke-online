@@ -1,7 +1,9 @@
 ---
 title: Curry-Reis-Salat
-introText: 'Kommt auf Partys immer gut.'
-introImage: 'curry-reis-salat'
+introText:
+  - Dieser Salat kommt auf Partys immer gut. Aber auch fürs Büro ist er gut geeignet.
+
+introImage: curry-reis-salat
 headerImage: curry-reis-salat
 headerImageLink: https://pixabay.com/de/photos/gegart-curry-lecker-fast-food-1853599/
 headerImageAttribution: Bild von <a href='https://pixabay.com/de/users/Pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1853599'>Pexels</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1853599'>Pixabay</a>
