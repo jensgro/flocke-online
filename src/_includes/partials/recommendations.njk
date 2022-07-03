@@ -9,7 +9,7 @@
       <ul>
         {% for r in rec %}
         <li>
-          <a href="{{ r.url }}">{{ r.title }}</a>{% if r.note %} <span class="listing__note">- {{r.note}}</span>{% endif %}
+          <a href="{{ r.url }}">{{ r.title }}</a>{% if r.note %} - {{r.note}}{% endif %}
         </li>
       {% endfor %}
       </ul>

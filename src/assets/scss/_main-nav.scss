@@ -73,78 +73,8 @@
   }
 }
 
-.main-nav-wrapper,
-.main-nav {
-  body.home & {
-    background-color: $color-index;
-
-    .main-nav__link {
-      background-color: $lightorange;
-
-      &:hover,
-      &:focus,
-      &--active {
-        background-color: $brown;
-        color: #fff;
-      }
-    }
-  }
-
-  body.hauptgerichte & {
-    background-color: $color-hauptgerichte;
-
-    .main-nav__link {
-
-      &:hover,
-      &:focus,
-      &--active {
-        background-color: $blue;
-        color: $white;
-      }
-    }
-  }
-
-  body.beilagen & {
-    background-color: $color-beilagen;
-
-    .main-nav__link {
-
-      &:hover,
-      &:focus,
-      &--active {
-        background-color: $brown1;
-        color: $black;
-      }
-    }
-  }
-
-  body.sonstiges & {
-    background-color: $color-sonstiges;
-
-    .main-nav__link {
-
-      &:hover,
-      &:focus,
-      &--active {
-        background-color: $mediumblue;
-        color: $white;
-      }
-    }
-  }
-
-  body.wissenswertes & {
-    background-color: $color-wissenswertes;
-
-    .main-nav__link {
-
-      &:hover,
-      &:focus,
-      &--active {
-        background-color: $lightblue;
-        color: $blue;
-      }
-    }
-  }
-}
-
-
+@include mainnav("home", $color-index, $brown, $white, $lightorange);
+@include mainnav("hauptgerichte", $color-hauptgerichte, $blue, $white);
+@include mainnav("beilagen", $color-beilagen, $brown1, $black);
+@include mainnav("sonstiges", $color-sonstiges, $mediumblue, $white);
+@include mainnav("wissenswertes", $color-wissenswertes, $lightblue, $blue);

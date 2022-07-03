@@ -6,7 +6,7 @@
           {% set tagUrl %}/{{ tag }}/{% endset %}
           {% set tagCount = collections[tag].length %}
           <li class="taglist__item">
-            <a class="taglist__link" href="{{ tagUrl | url }}" class="tag">
+            <a class="taglist__link" href="{{ tagUrl | url }}">
               <span class="taglist__count">{{ tagCount }} x </span>
               {{ tag }}
             </a>

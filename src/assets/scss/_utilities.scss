@@ -2,18 +2,17 @@
   @include nolist;
 }
 
-.section--categories {
-  border-top: 5px solid $separator-color;
-}
+// .section--categories {
+//   border-top: 5px solid $separator-color;
+// }
 
 // https://piccalil.li/tutorial/creating-a-full-bleed-css-utility/
-.full-bleed {
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-}
+// .full-bleed {
+//   width: 100vw;
+//   margin-left: calc(50% - 50vw);
+// }
 
 .bg-wrapper {
-  // background-color: lighten($mediumblue, 50);
   background-color: $bg-wrapper-bg;
 }
 
