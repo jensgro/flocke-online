@@ -8,7 +8,7 @@
   &__headline-cnt {
     background-color: $siteheader-headline-cnt-bg;
     color: $siteheader-headline-cnt-color;
-    padding: 0 $p2;
+    padding: 0 $space2;
     width: 100%;
     border-left: 20px solid $brown1;
 
@@ -17,7 +17,7 @@
       bottom: 0;
       left: 0;
       z-index: 10;
-      padding: $p2;
+      padding: $space2;
     }
 
     body.home & {
@@ -51,7 +51,7 @@
 
   &__headline--home ,
   &__subline--home {
-    margin: 0 0 $m2 0;
+    margin: 0 0 $space2 0;
     padding: 0;
   }
 
@@ -60,7 +60,7 @@
     mark {
       text-transform: capitalize;
       display: inline-block;
-      padding: 2px $p1;
+      padding: 2px $space1;
     }
   }
 }

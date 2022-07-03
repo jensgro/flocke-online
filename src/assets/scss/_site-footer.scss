@@ -4,23 +4,23 @@
   ul {
     list-style: none;
     padding-left: 0;
-    margin: $m2 0;
+    margin: $space2 0;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 
     @media (min-width: $maxwidth) {
-      margin: $m2 0;
+      margin: $space2 0;
     }
 
     .getback__link {
       margin-left: 0;
-      margin-bottom: $m2;
+      margin-bottom: $space2;
       flex: 1 0 100%;
     }
 
     li {
-      margin-right: $m4;
+      margin-right: $space4;
     }
   }
 

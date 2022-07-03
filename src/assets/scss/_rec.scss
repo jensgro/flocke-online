@@ -8,20 +8,20 @@
 }
 .rec__header {
   background-color: $rec-header-bg;
-  padding: $p2 $p4;
+  padding: $space2 $space4;
 }
 .rec__headline {
   margin-top: 0;
   color: #fff;
 }
 .rec__body {
-  padding: $p2 $p2 $p3 $p4;
+  padding: $space2 $space2 $space3 $space4;
 }
 
 /* ==== Listing === */
 
 .listing {
-  margin: $m2 0;
+  margin: $space2 0;
   color: #0277BD;
 
   li {

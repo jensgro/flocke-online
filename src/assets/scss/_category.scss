@@ -1,7 +1,7 @@
 .category {
-  margin-bottom: $m4;
+  margin-bottom: $space4;
   //border-bottom: 2px solid $lightgray;
-  padding-bottom: $p2;
+  padding-bottom: $space2;
   border: 2px solid $lightergrey;
   border-top: none;
 
@@ -34,12 +34,12 @@
 
   h2 {
     margin-bottom: 0;
-    padding: $p2;
+    padding: $space2;
     background-color: $lightergrey;
   }
 
   &__body {
-    padding: $p4;
+    padding: $space4;
   }
 
   &__last-items {
@@ -47,22 +47,22 @@
 
     @media (min-width: $md) {
       columns: 2;
-      column-gap: $p2;
+      column-gap: $space2;
     }
 
     li {
-      margin-bottom: $m1;
+      margin-bottom: $space1;
     }
 
     a {
       display: block;
-      padding: $p1;
+      padding: $space1;
     }
   }
 
   &__link {
     text-align: right;
-    padding: $p1;
+    padding: $space1;
   }
 
   // &__image {}

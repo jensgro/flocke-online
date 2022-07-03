@@ -7,7 +7,7 @@
 
   &__header {
     text-align: center;
-    padding: $p2;
+    padding: $space2;
   }
 
   &__headline {
@@ -18,7 +18,7 @@
    &__title {
     display: block;
     width: 100%;
-    padding: $p2 $p3;
+    padding: $space2 $space3;
     font-size: 1.25rem;
     position: absolute;
     bottom: 0;
@@ -53,16 +53,16 @@
   }
 
   .card__body {
-    padding: $p2 $p2 $p3 $p4;
+    padding: $space2 $space2 $space3 $space4;
   }
 
   &__footer {
     background-color: #cecece;
-    padding: $p2;
+    padding: $space2;
   }
 
   .tag:not(:last-child) {
-    margin-right: $m2;
+    margin-right: $space2;
   }
 }
 
@@ -74,7 +74,7 @@
 
   .card__header {
     background-color: $card-rec-header-bg;
-    padding: $p2 $p4;
+    padding: $space2 $space4;
   }
 
   .card__headline {
@@ -88,7 +88,7 @@
 
   .card__header {
     background-color: $card-tags-header-bg;
-    padding: $p2 $p4;
+    padding: $space2 $space4;
   }
 
   .card__headline {
@@ -97,7 +97,7 @@
   }
 
   .card__body {
-    padding: $p4 $p2 0 $p4;
+    padding: $space4 $space2 0 $space4;
   }
 }
 
@@ -290,7 +290,7 @@ body.wissenswertes {
   .card__body {
     a {
       display: inline-block;
-      margin-left: $p2;
+      margin-left: $space2;
     }
   }
 }

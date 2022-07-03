@@ -18,7 +18,7 @@ figure,
 blockquote,
 dl,
 dd {
-  margin: 0 0 $m2 0;
+  margin: 0 0 $space2 0;
 }
 
 /* Set core root defaults */
@@ -58,7 +58,7 @@ h2 {
 }
 
 p + h2, ul + h2, ol + h2 {
-  margin-top: $m3;
+  margin-top: $space3;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */

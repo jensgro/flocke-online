@@ -7,10 +7,10 @@
 
 .main-nav {
   background-color: $main-nav-bg;
-  padding: $p2 $p5;
+  padding: $space2 $space5;
 
   @media (min-width: $maxwidth) {
-    padding: $p2 0;
+    padding: $space2 0;
   }
 
   &__nav {
@@ -24,8 +24,8 @@
 
   &__item {
     float: left;
-    margin-right: $m3;
-    margin-bottom: $m2;
+    margin-right: $space3;
+    margin-bottom: $space2;
 
     &:first-child {
       margin-right: auto;
@@ -46,7 +46,7 @@
     display: inline-block;
     background-color: $lightergrey;
     color: $black;
-    padding: $p1;
+    padding: $space1;
     text-decoration: none;
     border-radius: 8px;
 
@@ -68,7 +68,7 @@
 
     &__link {
       display: block;
-      padding: $p2;
+      padding: $space2;
     }
   }
 }

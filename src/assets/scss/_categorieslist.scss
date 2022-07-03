@@ -1,14 +1,14 @@
 .categories-list {
   li {
-    margin-bottom: $m3;
+    margin-bottom: $space3;
   }
 
   a {
     display: block;
     font-size: 1.75rem;
-    padding: $p1 $p1 0 $p1;
+    padding: $space1 $space1 0 $space1;
     text-decoration: none;
-    border-bottom: $p2 solid $brown1;
+    border-bottom: $space2 solid $brown1;
 
     &.hauptgerichte {
       border-bottom-color: $color-hauptgerichte;

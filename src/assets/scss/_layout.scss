@@ -1,7 +1,7 @@
 .container {
   background-color: $white;
-  padding: $p3 0;
-  margin: 0 $m2;
+  padding: $space3 0;
+  margin: 0 $space2;
 
   @media (min-width: $maxwidth) {
     max-width: $maxwidth;
