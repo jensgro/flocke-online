@@ -11,14 +11,14 @@
         <p class="siteheader__subline siteheader__subline--home">{{ subline }}</p>
      </div>
     </header>
-    {%- if headerImageAttribution -%}
+    {% if headerImageAttribution %}
     <div class="imageright">
-      {{ headerImageAttribution|safe }}
-      {%- if headerImageLink -%}
-       <a href="{{ headerImageLink }}">(Originalbild)</a>
-      {%- endif -%}
+      {{ headerImageAttribution| safe }}
+      {% if headerImageLink %}
+      <a href="{{ headerImageLink }}" style="margin-left: 8px;">(Originalbild)</a>
+      {% endif %}
     </div>
-    {%- endif -%}
+    {% endif %}
   </div>
 
 </div>
@@ -55,7 +55,7 @@
    <div class="imageright">
      {{ headerImageAttribution|safe }}
      {%- if headerImageLink -%}
-      <a href="{{ headerImageLink }}">(Originalbild)</a>
+      <a href="{{ headerImageLink }}" style="margin-left: 8px;">(Originalbild)</a>
      {%- endif -%}
    </div>
    {%- endif -%}
@@ -80,7 +80,7 @@
 <div class="imageright">
   {{ headerImageAttribution|safe }}
   {%- if headerImageLink -%}
-   <a href="{{ headerImageLink }}">(Originalbild)</a>
+   <a href="{{ headerImageLink }}" style="margin-left: 8px;">(Originalbild)</a>
   {%- endif -%}
 </div>
 {%- endif -%}
