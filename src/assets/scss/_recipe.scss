@@ -5,6 +5,23 @@
   h2, h3, h4 {
     margin-bottom: 20px;
   }
+
+  &__intro {
+    background-color: $lightgray;
+    padding: $space2;
+  }
+}
+
+body.hauptgerichte .recipe__intro {
+  background-color: rgba($mediumblue, 0.5);
+}
+
+body.beilagen .recipe__intro {
+  background-color: rgba($myred, 0.5);
+}
+
+body.sonstiges .recipe__intro {
+  background-color: rgba($lightblue, 0.5);
 }
 
 @media (min-width: $md) {
