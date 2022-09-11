@@ -1,17 +1,21 @@
 {% if tags %}
 <div class="container no-print">
-  <div class="tags">
-    <h2>Tag(s)</h2>
-    <ul class="taglist taglist--footer taglist--extended">
-      {% for tag in tags %}
-      {% set tagUrl %}/{{ tag }}/{% endset %}
-      <li class="taglist__item">
-        <a class="taglist__link" href="{{ tagUrl | url }}">
-          {{ tag }}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
+  <div class="category">
+    <div class="category__head">
+      <h2>Tag(s)</h2>
+    </div>
+    <div class="category__body">
+      <ul class="taglist taglist--short">
+        {% for tag in tags %}
+        {% set tagUrl %}/{{ tag }}/{% endset %}
+        <li class="taglist__item">
+          <a class="taglist__link" href="{{ tagUrl | url }}">
+            {{ tag }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </div>
 {% endif %}

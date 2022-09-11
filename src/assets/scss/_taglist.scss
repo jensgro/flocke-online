@@ -1,0 +1,30 @@
+.taglist {
+  margin-left: $space1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space2;
+
+  &__link {
+
+    &:hover, &:focus {
+      text-decoration: none;
+    }
+  }
+
+  &.taglist--short {
+    .taglist__link {
+      padding: $space1;
+      color: var(--categoryTextColor);
+      background-color: var(--categoryColor);
+      text-decoration: none;
+
+      &:hover, &:focus {
+        color: #fff;
+        background-color: #000;
+      }
+    }
+  }
+
+}
+
+

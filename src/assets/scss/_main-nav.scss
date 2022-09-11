@@ -1,6 +1,10 @@
 .main-nav {
   background-color: var(--categoryColor);
 
+  .container {
+    background-color: var(--categoryColor);
+  }
+
   &__nav {
     @include nolist;
     display: flex;
@@ -11,6 +15,7 @@
   }
 
   &__item {
+    background-color: var(--inactiveNavBg);
 
     &:first-of-type {
       margin-right: auto;
@@ -25,13 +30,14 @@
     padding: $space1;
 
     &:hover,
-    &:focus,
-    &--active {
+    &:focus {
       background-color: $brown;
       color: $white;
     }
 
     &--active {
+      background-color: var(--activeNavBG);
+      color: var(--activeNavText);
       font-weight: 700;
     }
   }

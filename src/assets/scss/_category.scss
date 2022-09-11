@@ -16,7 +16,7 @@
     // padding-bottom: $space2;
   }
 
-  &__last-items {
+  &__items {
     margin-left: $space1;
 
     @media (min-width: $md) {
@@ -29,6 +29,12 @@
 
     li {
       padding: $space1;
+    }
+
+    a {
+      &:hover, &:focus {
+        text-decoration: none;
+      }
     }
   }
 

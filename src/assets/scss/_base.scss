@@ -3,6 +3,9 @@
 :root {
   --categoryColor: #000;
   --categoryTextColor: #000;
+  --inactiveNavBg: #fff;
+  --activeNavBG: #a20000;
+  --activeNavText: #fff;
 }
 
 body.home {
@@ -11,10 +14,14 @@ body.home {
 
 body.hauptgerichte {
   --categoryColor: #{$color-hauptgerichte};
+  --categoryTextColor: #fff;
 }
 
 body.beilagen {
   --categoryColor: #{$color-beilagen};
+  --categoryTextColor: #fff;
+  --activeNavBG: #000;
+  --activeNavText: #fff;
 }
 
 body.sonstiges {

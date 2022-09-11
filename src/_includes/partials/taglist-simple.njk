@@ -1,10 +1,10 @@
 <section class="container no-print">
-  <div class="card card--tags">
-    <div class="card__header">
-      <h2 class="card__headline">Alle Stichworte</h2>
+  <div class="category">
+    <div class="category__head">
+      <h2>Alle Stichworte</h2>
     </div>
-    <div class="card__body">
-      <ul class="taglist taglist--footer taglist--simple">
+    <div class="category__body">
+      <ul class="taglist">
         {% for tag in collections.tagList %}
           {% set tagUrl %}/{{ tag }}/{% endset %}
           {% set tagCount = collections[tag].length %}
