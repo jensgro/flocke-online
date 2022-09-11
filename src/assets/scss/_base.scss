@@ -1,3 +1,29 @@
+// The CSS custom properties
+
+:root {
+  --categoryColor: #000;
+}
+
+body.home {
+  --categoryColor: #{$color-index};
+}
+
+body.hauptgerichte {
+  --categoryColor: #{$color-hauptgerichte};
+}
+
+body.beilagen {
+  --categoryColor: #{$color-beilagen};
+}
+
+body.sonstiges {
+  --categoryColor: #{$color-sonstiges};
+}
+
+body.wissenswertes {
+  --categoryColor: #{$color-wissenswertes};
+}
+
 // A modified version of Andy Bell's "modern reset" https://github.com/hankchizljaw/modern-css-reset
 
 /* Box sizing rules */

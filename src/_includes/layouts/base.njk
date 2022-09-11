@@ -10,6 +10,7 @@
   </head>
   {% if  bodyClass == "index" %}
     {% set class = "home" %}
+    {% set categoryColor = "brown" %}
   {% elif bodyClass == "hauptgerichte" %}
     {% set class = "recipepage hauptgerichte" %}
   {% elif category == "hauptgericht" %}
@@ -30,8 +31,8 @@
     {% set class = "" %}
   {% endif %}
   <body class="{{ class }}">
-    <header class="main-nav-wrapper no-print">
-      <nav class="container main-nav">
+    <header class="main-nav no-print">
+      <nav class="container">
         {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
         <ul class="main-nav__nav">
         {%- for entry in collections.all | eleventyNavigation %}
