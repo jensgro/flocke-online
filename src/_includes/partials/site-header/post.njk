@@ -1,0 +1,20 @@
+<div class="container pb-0">
+  <header class="siteheader siteheader--post">
+    {%- if headerImage -%}
+    <img class="no-print" src="../img/{{headerImage}}_875x250.jpg" alt="" width="875" height="250">
+    {%- else -%}
+    <img src="https://dummyimage.com/7:2x250" alt="">
+    {%- endif -%}
+    <div class="siteheader__headline-cnt">
+      <h1 class="siteheader__headline siteheader__headline--post">{{ title }}</h1>
+    </div>
+  </header>
+  {%- if headerImageAttribution -%}
+  <div class="imageright">
+    {{ headerImageAttribution|safe }}
+    {%- if headerImageLink -%}
+     <a href="{{ headerImageLink }}" style="margin-left: 8px;">(Originalbild)</a>
+    {%- endif -%}
+  </div>
+  {%- endif -%}
+  </div>

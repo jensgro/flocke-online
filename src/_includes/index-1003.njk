@@ -23,7 +23,14 @@
         {% endfor %}
         </ol>
         <div class="category__link">
-          &#9654; <a href="{{ item.title | lower }}.html"> mehr aus der Kategorie <strong>{{ item.title }}</strong> ...</a>
+<!--
+          <span>
+            <svg class="icon" viewBox="0 0 10 10">
+              <path d="m1 4h4v-2l4 3-4 3v-2h-4z"/>
+            </svg>
+          </span>
+-->
+          <span class="category__arrow">&#9654;</span> <a href="{{ item.title | lower }}.html"> mehr <span class="vis-md">aus der Kategorie</span> <strong>{{ item.title }}</strong> ...</a>
         </div>
       </div>
     </div>

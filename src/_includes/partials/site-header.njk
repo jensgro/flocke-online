@@ -1,89 +1,17 @@
 <!-- ====== Header -->
 {% if templateClass == "tmpl-home" %}
-<div class="bg-wrapper">
-
-  <div class="container pb-0">
-    <header class="siteheader siteheader--home">
-      <!-- 7:2 -->
-      <img class="no-print" src="../img/{{headerImage}}_875x250.jpg" alt="" width="875" height="250">
-     <div class="siteheader__headline-cnt siteheader__headline-cnt--home">
-        <h1 class="siteheader__headline siteheader__headline--home">{{ title }}</h1>
-        <p class="siteheader__subline siteheader__subline--home">{{ subline }}</p>
-     </div>
-    </header>
-    {% if headerImageAttribution %}
-    <div class="imageright">
-      {{ headerImageAttribution| safe }}
-      {% if headerImageLink %}
-      <a href="{{ headerImageLink }}" style="margin-left: 8px;">(Originalbild)</a>
-      {% endif %}
-    </div>
-    {% endif %}
-  </div>
-
-</div>
-<!-- /.bg-wrapper -->
+  {% include "partials/site-header/home.njk" %}
 {% endif %}
 
 {% if templateClass == "tmpl-tags" %}
-<div class="bg-wrapper">
-
-  <div class="container pb-0">
-    <header class="siteheader siteheader--tag">
-      <h1 class="siteheader__headline--tag">Alle Rezepte der Kategorie <mark>{{ tag }}</mark></h1>
-    </header>
-  </div>
-
-</div>
-<!-- /.bg-wrapper -->
+  {% include "partials/site-header/tags.njk" %}
 {% endif %}
 
 {% if templateClass == "tmpl-recipe" %}
-<div class="bg-wrapper">
-  <div class="container pb-0">
-    <header class="siteheader siteheader--recipe">
-      {%- if headerImage -%}
-      <img class="no-print" src="../img/{{headerImage}}_875x250.jpg" alt="" width="875" height="250">
-      {%- else -%}
-      <img src="https://dummyimage.com/7:2x250" alt="">
-      {%- endif -%}
-      <div class="siteheader__headline-cnt">
-        <h1 class="siteheader__headline siteheader__headline--recipe">{{ title }}</h1>
-      </div>
-   </header>
-   {%- if headerImageAttribution -%}
-   <div class="imageright">
-     {{ headerImageAttribution|safe }}
-     {%- if headerImageLink -%}
-      <a href="{{ headerImageLink }}" style="margin-left: 8px;">(Originalbild)</a>
-     {%- endif -%}
-   </div>
-   {%- endif -%}
-  </div>
-</div> <!-- / .bg-wrapper -->
-
+  {% include "partials/site-header/recipe.njk" %}
 {% endif %}
 
 {% if templateClass == "tmpl-post" %}
-<div class="container pb-0">
-<header class="siteheader siteheader--post">
-  {%- if headerImage -%}
-  <img class="no-print" src="../img/{{headerImage}}_875x250.jpg" alt="" width="875" height="250">
-  {%- else -%}
-  <img src="https://dummyimage.com/7:2x250" alt="">
-  {%- endif -%}
-  <div class="siteheader__headline-cnt">
-    <h1 class="siteheader__headline siteheader__headline--post">{{ title }}</h1>
-  </div>
-</header>
-{%- if headerImageAttribution -%}
-<div class="imageright">
-  {{ headerImageAttribution|safe }}
-  {%- if headerImageLink -%}
-   <a href="{{ headerImageLink }}" style="margin-left: 8px;">(Originalbild)</a>
-  {%- endif -%}
-</div>
-{%- endif -%}
-</div>
+  {% include "partials/site-header/post.njk" %}
 {% endif %}
 <!-- END ======= Header -->

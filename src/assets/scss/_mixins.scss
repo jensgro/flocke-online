@@ -16,24 +16,14 @@
   }
 }
 
-
-@mixin mainnav($bodyclass, $main-bgcol, $linkhover-bgcol, $linkhover-col, $link-bgcol:$lightergrey) {
-  body.#{$bodyclass} {
-
-    .main-nav-wrapper,
-    .main-nav {
-      background-color: $main-bgcol;
-    }
-
-    .main-nav__link {
-      background-color: $link-bgcol;
-
-      &:hover,
-      &:focus,
-      &--active {
-        background-color: $linkhover-bgcol;
-        color: $linkhover-col;
-      }
-    }
-  }
+/* hide only visually */
+// https://gist.github.com/jensgro/743c37c3c1b226f7917fa0fc0825e3c2
+@mixin visuallyhidden {
+  width: 1px;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
 }

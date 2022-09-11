@@ -33,3 +33,11 @@
     display: none;
   }
 }
+
+// In diesem Falle mal nicht mobile first
+
+@media (max-width: $md) {
+  .vis-md {
+    @include visuallyhidden;
+  }
+}
