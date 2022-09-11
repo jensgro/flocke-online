@@ -6,13 +6,13 @@
     <dl class="imagerights">
     {%- for post in collections.all -%}
       <div class="imagerights__cnt">
-        <dt class="imagerights__page">Seite: <a href="{{ post.url }}">{{ post.data.title }}</a></dt>
+        <dt class="imagerights__page">Seite: <a href="{{ post.url }}">{{ post.data.title }}</a><span aria-hidden="true">&nbsp;,&nbsp;</span></dt>
         <dd class="imagerights__img">
           {%- if post.data.headerImageAttribution -%}
           {{ post.data.headerImageAttribution|safe }}
           {%- endif -%}
           {%- if post.data.headerImageLink -%}
-          &nbsp;|&nbsp;<a href="{{ post.data.headerImageLink }}">Originalbild</a>
+          <span aria-hidden="true">&nbsp;|&nbsp;</span><a href="{{ post.data.headerImageLink }}">Originalbild</a>
           {%- endif -%}
         </dd>
       </div>
