@@ -9,7 +9,7 @@ headerImageAttribution: Foto von Steve Johnson von Pexels
 tags:
   - indien
 
-category: beilage
+category: beilagen
 
 ingredients:
   - 1kg Pfirsiche (oder Aprikosen)

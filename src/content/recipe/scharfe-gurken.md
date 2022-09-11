@@ -9,7 +9,7 @@ tags:
   - vegetarisch
   - gemüse
 
-category: beilage
+category: beilagen
 
 ingredients:
   - 2 Salatgurken

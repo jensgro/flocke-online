@@ -14,7 +14,7 @@ tags:
   - party
   - vegetarisch
 
-category: beilage
+category: beilagen
 
 ingredients:
   - 750g vorwiegend festkochende Kartoffeln

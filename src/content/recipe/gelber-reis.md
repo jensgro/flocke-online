@@ -12,7 +12,7 @@ tags:
   - indien
   - indonesien
 
-category: beilage
+category: beilagen
 
 ingredients:
   - 300 g Basmati-Reis

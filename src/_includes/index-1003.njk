@@ -3,9 +3,7 @@
   {% for item in categories %}
     <div class="card {{item.url}}">
       <div class="card__head">
-        <h2>
-          {{ item.title }}
-        </h2>
+        <h2 class="card__headline">{{ item.title }}</h2>
       </div>
       <div class="card__body">
         <ol class="card__items">
@@ -23,14 +21,8 @@
         {% endfor %}
         </ol>
         <div class="card__link">
-<!--
-          <span>
-            <svg class="icon" viewBox="0 0 10 10">
-              <path d="m1 4h4v-2l4 3-4 3v-2h-4z"/>
-            </svg>
-          </span>
--->
-          <span class="card__arrow">&#9654;</span> <a href="{{ item.title | lower }}.html"> mehr <span class="vis-md">aus der Kategorie</span> <strong>{{ item.title }}</strong> ...</a>
+          <a href="{{ item.title | lower }}.html">
+            <span class="card__arrow">&#9654;</span> mehr <span class="vis-md">aus der Kategorie</span> <strong>{{ item.title }}</strong> ...</a>
         </div>
       </div>
     </div>

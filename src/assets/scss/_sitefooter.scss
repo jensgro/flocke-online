@@ -1,22 +1,21 @@
 .sitefooter {
   border-top: 2px solid $blue2;
+  padding: $space2 0;
 
-  ul {
-    list-style: none;
-    padding-left: 0;
-    margin: $space2 0;
-    width: 100%;
+  &__list {
     display: flex;
+    justify-content: flex-start;
     flex-wrap: wrap;
-
-    @media (min-width: $maxwidth) {
-      margin: $space2 0;
-    }
 
     .getback__link {
       margin-left: 0;
       margin-bottom: $space2;
       flex: 1 0 100%;
+
+      @media (min-width: $md) {
+        margin-right: auto;
+        flex-basis: auto;
+      }
     }
 
     li {
@@ -28,5 +27,11 @@
     li:first-child {
       margin-left: 0;
     }
+  }
+}
+
+.sitefooter.sitefooter--home {
+  .sitefooter__list {
+    justify-content: flex-end;
   }
 }

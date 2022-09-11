@@ -13,7 +13,7 @@ tags:
   - party
   - vegetarisch
 
-category: beilage
+category: beilagen
 
 ingredients:
   - 1 kg festkochende Kartoffeln

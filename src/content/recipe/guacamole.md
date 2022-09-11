@@ -12,7 +12,7 @@ tags:
   - mexiko
   - party
 
-category: beilage
+category: beilagen
 
 ingredients:
   - 1 Avocado (möglichst reif)

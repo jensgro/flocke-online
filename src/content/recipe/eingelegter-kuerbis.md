@@ -12,7 +12,7 @@ tags:
   - gemüse
 
 
-category: beilage
+category: beilagen
 
 ingredients:
   - 500 g Kürbis

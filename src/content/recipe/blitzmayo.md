@@ -9,7 +9,7 @@ headerImageAttribution: Photo by <a href="https://unsplash.com/es/@hjkp?utm_sour
 tags:
   - ei
 
-category: beilage
+category: beilagen
 
 ingredients:
   - 1 Ei

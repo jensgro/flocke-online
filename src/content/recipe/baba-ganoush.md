@@ -11,7 +11,7 @@ tags:
   - gemüse
   - vegetarisch
 
-category: beilage
+category: beilagen
 
 ingredients:
   - 5 grosse Auberginen

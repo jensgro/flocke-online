@@ -1,0 +1,15 @@
+.imagerights {
+
+  &__cnt {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__page {
+    margin-right: $space2;
+  }
+
+  &__img {
+
+  }
+}

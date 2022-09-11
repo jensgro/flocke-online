@@ -10,7 +10,7 @@ tags:
   - salat
   - vegetarisch
 
-category: beilage
+category: beilagen
 
 ingredients:
   - 2 Köpfe Römischer Salat

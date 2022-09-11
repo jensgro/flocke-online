@@ -4,16 +4,20 @@
 
   &__head {
     background-color: var(--categoryColor);
-    color: var(--categoryTextColor);
     padding: $space2;
+  }
 
-    h2 {
-      margin-bottom: 0;
+  &__headline {
+    color: var(--categoryTextColor);
+    margin-bottom: 0;
+
+    mark {
+      padding-inline: $space1;
     }
   }
 
   &__body {
-    // padding-bottom: $space2;
+    padding: $space3 $space2;
   }
 
   &__items {
@@ -41,14 +45,33 @@
   &__link {
     display: inline-block;
     padding: 0 $space2 0 0;
-    border:2px solid var(--categoryColor);
-    margin: 0 0 $space2 $space2;
+    border: 2px solid var(--categoryColor);
+    margin-top: $space2;
+
+    &:hover, &:focus {
+      --categoryColor: var(--categoryColorLight);
+      --categoryTextColor: var(--categoryColorDark);
+
+      a {
+        text-decoration: none;
+      }
+    }
   }
 
   &__arrow {
     display: inline-block;
-    padding: $space2;
+    padding: $space1 $space2;
     background-color: var(--categoryColor);
     color: var(--categoryTextColor);
+    margin-right: $space1;
+
+    &:hover, &:focus {
+      background-color: var(--categoryColorLight);
+    }
+
+    svg {
+      width: 10px;
+      height: 10px;
+    }
   }
 }

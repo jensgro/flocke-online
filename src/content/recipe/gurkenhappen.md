@@ -10,7 +10,7 @@ tags:
   - vegetarisch
   - asien
 
-category: beilage
+category: beilagen
 
 ingredients:
   - 1 Salatgurke

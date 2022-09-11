@@ -9,7 +9,7 @@ tags:
   - levante
   - salat
 
-category: beilage
+category: beilagen
 
 ingredients:
   - 6 bis 8 Bund glatte Petersilie

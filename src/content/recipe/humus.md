@@ -14,7 +14,7 @@ tags:
   - levante
   - party
 
-category: beilage
+category: beilagen
 
 ingredients:
   - 1 Dose Kichererbsen

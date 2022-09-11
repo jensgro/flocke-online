@@ -1,5 +1,6 @@
 ---
 layout: layouts/post.njk
+permalink: /kolophon.html
 title: Kolophon
 headerImage: placeholder7
 headerImageLink: https://www.pexels.com/de-de/foto/blaue-und-mehrfarbige-abstrakte-malerei-1307114/

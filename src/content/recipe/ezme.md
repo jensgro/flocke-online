@@ -13,7 +13,7 @@ tags:
   - vegetarisch
   - türkei
 
-category: beilage
+category: beilagen
 
 ingredients:
   - 3 Paprika (möglichst viele rote )

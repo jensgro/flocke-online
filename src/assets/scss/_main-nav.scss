@@ -16,6 +16,7 @@
 
   &__item {
     background-color: var(--inactiveNavBg);
+    text-transform: capitalize;
 
     &:first-of-type {
       margin-right: auto;

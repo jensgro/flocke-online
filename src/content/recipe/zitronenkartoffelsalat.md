@@ -14,7 +14,7 @@ tags:
   - party
   - vegetarisch
 
-category: beilage
+category: beilagen
 
 ingredients:
   - 600 g kleine Kartoffeln

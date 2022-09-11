@@ -7,7 +7,7 @@ tags:
   - asien
   - indonesien
 
-category: beilage
+category: beilagen
 
 ingredients:
   - 2 große Fleischtomaten

@@ -1,5 +1,6 @@
 ---
 layout: layouts/post.njk
+permalink: /bilderrechte.html
 title: Übersicht über die Bildrechte dieses Angebots
 headerImage: placeholder6
 headerImageLink: https://www.pexels.com/de-de/foto/kunst-graffiti-dreckig-textur-7486894/
