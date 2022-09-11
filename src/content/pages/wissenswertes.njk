@@ -11,12 +11,12 @@ headerImageAttribution: Foto von Steve Johnson von Pexels
 #  order: 5
 ---
 
-<div class="category">
-  <div class="category__head">
+<div class="card">
+  <div class="card__head">
     <h2>Posts der Kategorie {{eleventyNavigation.key}}</h2>
   </div>
-  <div class="category__body">
-    <ul class="category__items">
+  <div class="card__body">
+    <ul class="card__items">
       {%- for post in collections.infosDescending -%}
         <li><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
       {%- endfor -%}

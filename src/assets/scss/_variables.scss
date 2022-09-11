@@ -69,21 +69,15 @@ $link-color-hover: $black;
 
 $page-bg: $white;
 
-// $bg-wrapper-bg: $maincolor;
 $bg-wrapper-bg: $white;
-
-// $main-nav-wrapper-bg: $maincolor;
-// $main-nav-bg: $maincolor;
-$main-nav-wrapper-bg: $black;
-$main-nav-bg: $black;
-
-$separator-color: $maincolor;
 
 $siteheader-headline-cnt-bg: rgba(0,0,0,0.5);
 $siteheader-headline-cnt-color: #fafafa;
 
 $post-headline-color: $white;
 $post-headline-bg:  rgba(0,0,0,0.5);
+
+// CARD
 
 $card-bg: $nearlywhite;
 $card-link-bg: $lightblue;
@@ -104,15 +98,3 @@ $card-tags-header-bg: $brown1;
 $card-tags-headline-color: $black;
 
 $card-imageright-border: 10px solid $brown1;
-
-$tag-bg: $red;
-$tag-color: $white;
-$tag-visited-color: $white;
-
-$warning-color: $lightyellow;
-
-$taglist-link-color: $black;
-$taglist-link-bg: $brown1;
-$taglist-link-hover-bg: $mediumblue;
-$taglist-link-hover-color: $white;
-

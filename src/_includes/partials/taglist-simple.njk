@@ -1,9 +1,9 @@
 <section class="container no-print">
-  <div class="category">
-    <div class="category__head">
+  <div class="card">
+    <div class="card__head">
       <h2>Alle Stichworte</h2>
     </div>
-    <div class="category__body">
+    <div class="card__body">
       <ul class="taglist">
         {% for tag in collections.tagList %}
           {% set tagUrl %}/{{ tag }}/{% endset %}

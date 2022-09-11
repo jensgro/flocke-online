@@ -1,14 +1,14 @@
 <div class="container">
 
   {% for item in categories %}
-    <div class="category {{item.url}}">
-      <div class="category__head">
+    <div class="card {{item.url}}">
+      <div class="card__head">
         <h2>
           {{ item.title }}
         </h2>
       </div>
-      <div class="category__body">
-        <ol class="category__items">
+      <div class="card__body">
+        <ol class="card__items">
         {# Zählvariable setzen #}
         {% set atPost = 0 %}
         {% for post in collections.recipesDescending %}
@@ -22,7 +22,7 @@
           {% endif %}
         {% endfor %}
         </ol>
-        <div class="category__link">
+        <div class="card__link">
 <!--
           <span>
             <svg class="icon" viewBox="0 0 10 10">
@@ -30,7 +30,7 @@
             </svg>
           </span>
 -->
-          <span class="category__arrow">&#9654;</span> <a href="{{ item.title | lower }}.html"> mehr <span class="vis-md">aus der Kategorie</span> <strong>{{ item.title }}</strong> ...</a>
+          <span class="card__arrow">&#9654;</span> <a href="{{ item.title | lower }}.html"> mehr <span class="vis-md">aus der Kategorie</span> <strong>{{ item.title }}</strong> ...</a>
         </div>
       </div>
     </div>

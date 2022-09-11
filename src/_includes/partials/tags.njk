@@ -1,10 +1,10 @@
 {% if tags %}
 <div class="container no-print">
-  <div class="category">
-    <div class="category__head">
+  <div class="card">
+    <div class="card__head">
       <h2>Tag(s)</h2>
     </div>
-    <div class="category__body">
+    <div class="card__body">
       <ul class="taglist taglist--short">
         {% for tag in tags %}
         {% set tagUrl %}/{{ tag }}/{% endset %}

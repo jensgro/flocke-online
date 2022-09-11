@@ -10,12 +10,12 @@ eleventyNavigation:
   key: Hauptgerichte
   order: 2
 ---
-<div class="category">
-  <div class="category__head">
+<div class="card">
+  <div class="card__head">
     <h2>Rezepte der Kategorie {{eleventyNavigation.key}}</h2>
   </div>
-  <div class="category__body">
-    <ul class="category__items">
+  <div class="card__body">
+    <ul class="card__items">
       {% for post in collections.recipesDescending %}
         {% if post.data.category == "hauptgericht" %}
         <li><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
