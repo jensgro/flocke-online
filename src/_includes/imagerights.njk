@@ -9,10 +9,10 @@
         <dt class="imagerights__page">Seite: <a href="{{ post.url }}">{{ post.data.title }}</a></dt>
         <dd class="imagerights__img">
           {%- if post.data.headerImageAttribution -%}
-          {{ post.data.headerImageAttribution|safe }}&nbsp;|&nbsp;
+          {{ post.data.headerImageAttribution|safe }}
           {%- endif -%}
           {%- if post.data.headerImageLink -%}
-          <a href="{{ post.data.headerImageLink }}">Originalbild</a>
+          &nbsp;|&nbsp;<a href="{{ post.data.headerImageLink }}">Originalbild</a>
           {%- endif -%}
         </dd>
       </div>
