@@ -14,7 +14,7 @@ tags:
   - suppe
   - huhn
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 2 Hähnchenschenkel

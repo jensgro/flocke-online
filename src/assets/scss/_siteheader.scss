@@ -6,8 +6,10 @@
   &__subline {
     margin-bottom: 0;
   }
+}
 
-  &__headline-cnt {
+@media (min-width: $md) {
+  .siteheader__headline-cnt {
     position: absolute;
     top: 0;
     left: 0;

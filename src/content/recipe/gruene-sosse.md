@@ -9,7 +9,7 @@ headerImageAttribution: Bild von <a href='https://pixabay.com/de/users/Boomie-38
 tags:
   - vegetarisch
 
-category: hauptgericht
+category: hauptgerichte
 layout: layouts/post.njk
 recipe: true
 ---

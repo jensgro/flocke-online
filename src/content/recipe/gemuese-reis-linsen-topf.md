@@ -12,7 +12,7 @@ tags:
   - linsen
   - gemüse
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 250g Vollkorn-Reis und Wildreis gemischt

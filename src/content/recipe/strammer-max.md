@@ -7,7 +7,7 @@
     headerImageLink: https://www.flickr.com/photos/25735157@N05/3231398503
     headerImageAttribution: von FS BLN auf Flickr
 
-    category: "hauptgericht"
+    category: hauptgerichte
     layout: "layouts/post.njk"
 ---
 

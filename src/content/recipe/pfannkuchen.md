@@ -10,7 +10,7 @@ tags:
   - ei
   - milch
   - süß
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 200g Mehl

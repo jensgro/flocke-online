@@ -13,7 +13,7 @@ tags:
   - süß
   - ei
 
-category: hauptgericht
+category: hauptgerichte
 layout: layouts/post.njk
 recipe: true
 ---

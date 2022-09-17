@@ -11,7 +11,7 @@ tags:
   - curry
   - indien
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 1 Tasse Basmati-Reis

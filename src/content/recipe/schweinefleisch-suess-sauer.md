@@ -7,7 +7,7 @@ tags:
   - asien
   - schwein
 
-category: hauptgericht
+category: hauptgerichte
 
 introText:
   - Dieses Gericht habe ich bei meinen ersten Gehversuchen in der indischen und indonesischen Küche gekocht.

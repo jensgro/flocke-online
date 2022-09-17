@@ -13,7 +13,7 @@ tags:
   - gemüse
   - vegetarisch
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 1 Hühnerbrust (ca. 250g)

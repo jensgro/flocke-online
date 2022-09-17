@@ -10,7 +10,7 @@ tags:
   - hackfleisch
   - schwein
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 300g Schweinehackfleisch

@@ -10,7 +10,7 @@ tags:
   - ofen
   - ei
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 100g Reis

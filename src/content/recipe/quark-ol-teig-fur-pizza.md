@@ -9,7 +9,7 @@ tags:
   - pizza
   - ofen
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 125 g Magerquark

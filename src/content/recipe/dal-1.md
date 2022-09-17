@@ -13,7 +13,7 @@ tags:
   - vegetarisch
   - linsen
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 250g gelbe Linsen

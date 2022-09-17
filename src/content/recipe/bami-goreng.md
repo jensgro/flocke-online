@@ -12,7 +12,7 @@ tags:
   - asien
   - indonesien
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 200-250g Mi-Nudeln

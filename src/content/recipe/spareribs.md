@@ -8,7 +8,7 @@ tags:
   - grillen
   - ofen
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 1,5 kg Spareribs (Schälrippchen)

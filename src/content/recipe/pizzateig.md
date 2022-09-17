@@ -10,7 +10,7 @@ tags:
   - pizza
   - ofen
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 7 g Trockenhefe

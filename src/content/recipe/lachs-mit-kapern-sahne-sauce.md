@@ -10,7 +10,7 @@ tags:
   - fisch
   - ofen
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 2 frische Lachsfilets

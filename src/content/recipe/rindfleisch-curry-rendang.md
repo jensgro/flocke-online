@@ -11,7 +11,7 @@ tags:
   - asien
   - rind
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 500 g Rindfleisch aus der Schulter

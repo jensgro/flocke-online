@@ -7,7 +7,7 @@
     headerImage: bolognese-2
     headerImageLink: https://unsplash.com/photos/PKH_tWEGuPA
     headerImageAttribution: Photo von <a href="https://unsplash.com/@hanxiaoyaaaaa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hanxiao</a> auf <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-    category: hauptgericht
+    category: hauptgerichte
     introText:
       - Nudeln mit Bolognese sind so etwas wie der moderne Klassiker in der deutschen Küche. Natürlich schmeckt die Bolo besonders gut, wenn man sie drei Stunden köcheln lässt und am Besten noch eine ordentliche Menge Rotwein angegossen hat.
       - Eine aufwändige Variante kann man ja gerne am Wochenende kochen und dann portionsweise einfrieren. Für das schnelle Essen zwischendurch geht es aber auch weniger ambitioniert.

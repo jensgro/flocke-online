@@ -9,7 +9,7 @@ tags:
   - huhn
   - ofen
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 6 – 8 Hähnchenschenkel

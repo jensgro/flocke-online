@@ -9,7 +9,7 @@ headerImageAttribution: Foto von Steve Johnson von Pexels
 tags:
   - süß
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 4 alte Brötchen

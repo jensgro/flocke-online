@@ -10,7 +10,7 @@
     headerImageLink: https://unsplash.com/photos/Spp1G283dow
     headerImageAttribution: Photo by <a href="https://unsplash.com/@grisskitchen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Max Griss</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-    category: hauptgericht
+    category: hauptgerichte
     layout: layouts/post.njk
 
     introText:

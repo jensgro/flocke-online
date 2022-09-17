@@ -11,7 +11,7 @@ tags:
   - gemüse
   - ofen
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 1 – 2 altbackene Brötchen

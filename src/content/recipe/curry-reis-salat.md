@@ -13,7 +13,7 @@ tags:
   - salat
   - party
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 500g Reis

@@ -13,7 +13,7 @@ tags:
   - hackfleisch
   - mexiko
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 500 g Rinderhack

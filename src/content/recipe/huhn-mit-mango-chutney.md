@@ -12,7 +12,7 @@ tags:
   - huhn
   - asien
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 300 g Hühnerbrust

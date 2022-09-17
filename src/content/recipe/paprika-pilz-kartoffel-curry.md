@@ -13,7 +13,7 @@ tags:
   - vegetarisch
   - gemüse
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 4 EL Öl

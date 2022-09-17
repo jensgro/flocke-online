@@ -10,7 +10,7 @@ introtext:
 tags:
   - asien
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 250 g Geschnetzeltes vom Schwein

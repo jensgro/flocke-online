@@ -10,7 +10,7 @@ tags:
   - süß
   - ei
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 250 g Weizenmehl

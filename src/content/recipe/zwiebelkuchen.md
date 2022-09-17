@@ -9,7 +9,7 @@ tags:
   - pizza
   - ofen
 
-category: hauptgericht
+category: hauptgerichte
 layout: layouts/post.njk
 recipe: true
 ---

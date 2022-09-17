@@ -11,7 +11,7 @@ tags:
   - spargel
   - salat
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 400 Gramm Spargel

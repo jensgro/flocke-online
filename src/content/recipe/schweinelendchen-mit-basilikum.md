@@ -8,7 +8,7 @@ headerImageAttribution: Foto von Steve Johnson von Pexels
 tags:
   - schwein
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 750g Schweinelendchen

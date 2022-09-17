@@ -10,7 +10,7 @@ headerImageAttribution: Photo by <a href="https://unsplash.com/@paishzaini?utm_s
 tags:
   - nudeln
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 75 – 100g Dörrfleisch (in meiner Heimatstadt Kassel heisst das magerer Speck)

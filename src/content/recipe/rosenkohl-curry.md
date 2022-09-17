@@ -11,7 +11,7 @@ tags:
   - gemüse
   - vegetarisch
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 150 g Basmati-Reis

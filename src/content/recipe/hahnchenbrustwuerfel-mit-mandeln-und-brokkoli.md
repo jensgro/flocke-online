@@ -9,7 +9,7 @@ tags:
   - gemüse
   - asien
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 250 g Hähnchenbrust

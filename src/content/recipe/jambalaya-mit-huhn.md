@@ -8,7 +8,7 @@ tags:
   - huhn
   - reis
   - ofen
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 400 g Hühnerbrust

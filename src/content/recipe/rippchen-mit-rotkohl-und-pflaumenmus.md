@@ -9,7 +9,7 @@ tags:
   - schwein
   - ofen
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 20 g frischer Ingwer

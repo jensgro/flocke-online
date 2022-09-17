@@ -11,7 +11,7 @@ tags:
   - dessert
   - milch
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 1 Liter Milch

@@ -17,7 +17,7 @@ eleventyNavigation:
   <div class="card__body">
     <ul class="card__items">
       {% for post in collections.recipesDescending %}
-        {% if post.data.category == "hauptgericht" %}
+        {% if post.data.category == "hauptgerichte" %}
         <li class="card__item--block"><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
         {% endif %}
       {% endfor %}

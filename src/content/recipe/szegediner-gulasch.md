@@ -9,7 +9,7 @@ tags:
   - rind
   - gulasch
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 500g Rindergulasch

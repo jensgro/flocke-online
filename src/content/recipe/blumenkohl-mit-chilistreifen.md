@@ -12,7 +12,7 @@ tags:
   - vegetarisch
   - gemüse
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 1 Kopf Blumenkohl

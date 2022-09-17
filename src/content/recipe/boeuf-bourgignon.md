@@ -11,7 +11,7 @@ tags:
   - gulasch
   - rind
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 1,5 kg Rindfleisch vom Bug

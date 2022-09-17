@@ -9,7 +9,7 @@ tags:
   - asien
   - hackfleisch
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 200g gemischtes Gehacktes

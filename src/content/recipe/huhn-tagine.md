@@ -9,7 +9,7 @@ tags:
   - nordafrika
   - huhn
 
-category: hauptgericht
+category: hauptgerichte
 
 ingredients:
   - 4 Hähnchenschenkel
