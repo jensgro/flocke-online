@@ -74,4 +74,22 @@
       height: 10px;
     }
   }
+
+  &__item--block {
+    padding: $space1 $space2;
+    border: 2px solid var(--categoryColor);
+    background: $lightgray;
+
+    &:hover, &:focus {
+      background-color: $lightergrey;
+    }
+
+    & + & {
+      margin-top: $space2;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
 }

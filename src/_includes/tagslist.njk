@@ -5,7 +5,7 @@
   <div class="card__body">
     <ol class="card__items">
       {% for post in postslist %}
-      <li>
+      <li class="card__item--block">
         <a href="{{ post.url | url }}">
         {{ post.data.title }}
         </a>
