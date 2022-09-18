@@ -3,8 +3,9 @@
 :root {
   --categoryColor: #000;
   --categoryTextColor: #fff;
-  --inactiveNavBg: #fff;
-  --activeNavBG: #a20000;
+  --inactiveNavBg: #cecece;
+  --inactiveNavBgHover: #fd8700;
+  --activeNavBG: #000;
   --activeNavText: #fff;
 }
 
@@ -23,15 +24,11 @@ body.hauptgerichte {
 body.beilagen {
   --categoryColor: #{$color-beilagen};
   --categoryTextColor: #fff;
-  --activeNavBG: #000;
-  --activeNavText: #fff;
 }
 
 body.sonstiges {
   --categoryColor: #{$color-sonstiges};
   --categoryTextColor: #000;
-  --activeNavBG: #000;
-  --activeNavText: #fff;
 }
 
 body.wissenswertes {

@@ -32,8 +32,7 @@
 
     &:hover,
     &:focus {
-      background-color: $brown;
-      color: $white;
+      background-color: var(--inactiveNavBgHover);
     }
 
     &--active {
