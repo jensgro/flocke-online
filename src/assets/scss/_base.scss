@@ -5,8 +5,8 @@
   --categoryTextColor: #fff;
   --inactiveNavBg: #cecece;
   --inactiveNavBgHover: #fd8700;
-  --activeNavBG: #000;
-  --activeNavText: #fff;
+  --activeNavBG: #fff;
+  --activeNavText: #000;
 }
 
 body.home {
@@ -33,6 +33,7 @@ body.sonstiges {
 
 body.wissenswertes {
   --categoryColor: #{$color-wissenswertes};
+  --categoryTextColor: #fff;
 }
 
 // A modified version of Andy Bell's "modern reset" https://github.com/hankchizljaw/modern-css-reset
