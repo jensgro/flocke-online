@@ -37,7 +37,7 @@ recipe:
 tipps:
   - Für die Zubereitung empfiehlt sich natürlich die Verwendung eines Wok !
   - Anstatt die Banane mitzudünsten kann man sie auch in Scheiben schneiden und kurz auf einer Seite anbraten. Dafür dürfen allerdings nur feste Bananen benutzt werden.
-  - Die Boullion etwas stärker als üblich mischen. Vorschlag für die Würzsauce: 150ml Boullion, 3 EL Soja-Sauce, 1 gehäufter TL Garam Masala, 1 gestrichener TL Kreuzkümmel, etwas Chili-Pulver.
+  - "Die Boullion etwas stärker als üblich mischen. Vorschlag für die Würzsauce: 150ml Boullion, 3 EL Soja-Sauce, 1 gehäufter TL Garam Masala, 1 gestrichener TL Kreuzkümmel, etwas Chili-Pulver."
   - Ich habe in einem Asia-Laden eine sehr gute Paste entdeckt, die ich statt Pfeffer und Salz zum Würzen des Fleischs nutze. Es ist ein französisches Produkt namens „Carry Vinday“. Es enthält Kreuzkümmel, 5-Gewürz-Pulver, Senf, Knoblauch, Essig und anderes. Man muß es mit einem bischen Öl geschmeidiger machen und dann damit das Fleisch einreiben. Da diese Paste eine gewisse Grundschärfe besitzt, sollte vor dem Würzen mit Chili-Pulver abgeschmeckt werden.
   - Natürlich kann man die Würzsauce mit anderen als den oben angegebenen Gewürzen versehen.
 

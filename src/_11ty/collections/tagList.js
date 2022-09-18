@@ -1,7 +1,7 @@
 module.exports = function(collection) {
   const tagsSet = new Set()
   collection
-    .getAll()
+    .getFilteredByGlob("./src/content/recipe/*.md")
     .forEach((item) => {
       if (!item.data.tags) return
       item.data.tags

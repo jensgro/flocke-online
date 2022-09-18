@@ -1,0 +1,7 @@
+.recipe {
+  &__intro {
+    margin: $space4 0 $space6 0;
+    padding-left: $space2;
+    border-left: $space1 solid var(--categoryColor);
+  }
+}
