@@ -6,7 +6,7 @@ headerImageLink: https://pixabay.com/de/photos/chili-con-carne-chili-kochen-3789
 headerImageAttribution: Bild von <a href='https://pixabay.com/de/users/kalhh-86169/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=378952'>kalhh</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=378952'>Pixabay</a>
 
 introText:
-  - "Dieses Gericht eignet sich hervorragend zum Experimentieren. Deshalb schmeckt es bei mir jedesmal anders und das hier wiedergegebene Rezept nist nur ein Beispiel, von dem man ausgehen kann, um die eigene perfekte Variante zu kreieren."
+  - "Dieses Gericht eignet sich hervorragend zum Experimentieren. Deshalb schmeckt es bei mir jedesmal anders und das hier wiedergegebene Rezept ist nur ein Beispiel, von dem man ausgehen kann, um die eigene perfekte Variante zu kreieren."
 
 tags:
   - eintopf
