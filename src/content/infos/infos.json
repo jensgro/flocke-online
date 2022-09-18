@@ -1,4 +1,5 @@
 {
   "layout": "layouts/post.njk",
-  "permalink": "wissenswert/{{title | slugify}}.html"
+  "permalink": "wissenswert/{{title | slugify}}.html",
+  "category": "wissenswertes"
 }
