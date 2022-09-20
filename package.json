@@ -5,6 +5,7 @@
   "scripts": {
     "build": "npm-run-all eleventy:default css",
     "netlify": "npm-run-all eleventy:default css",
+    "prod": "npm-run-all cross-env ELEVENTY_ENV=prod  eleventy:default css",
     "eleventy:default": "npx eleventy",
     "eleventy:watch": "npx eleventy --watch",
     "clean": "rm -rf _site",
@@ -36,7 +37,9 @@
     "markdown-it": "^12.3.2",
     "markdown-it-anchor": "^8.4.1",
     "npm-run-all": "^4.1.5",
-    "sass": "^1.49.7"
+    "sass": "^1.49.7",
+    "cross-env": "^7.0.3"
   },
-  "dependencies": {}
+  "dependencies": {
+  }
 }
