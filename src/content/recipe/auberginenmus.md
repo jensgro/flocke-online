@@ -1,5 +1,5 @@
 ---
-title: Baba-Ganoush
+title: Auberginenmus
 introImage: 'baba-ganoush'
 headerImage: baba-ganoush
 headerImageLink: https://pixabay.com/de/photos/baba-ganoush-starter-gericht-1271630/
@@ -20,7 +20,7 @@ ingredients:
   - 1 EL frischer Ingwer
   - 2 TL Garam Masala
   - 1,5 TL Salz
-  - optional: 1 Pepperoni
+  - "optional: 1 Pepperoni"
 
 recipe:
   - Die Auberginen eine Stunde bei grosser Hitze im Backofen garen.
