@@ -47,31 +47,27 @@
     padding: 0 $space2 0 0;
     border: 2px solid var(--categoryColor);
     margin-top: $space2;
+    background-color: var(--categoryColor);
+
+    a {
+      text-decoration: none;
+    }
 
     &:hover, &:focus {
       --categoryColor: var(--categoryColorLight);
       --categoryTextColor: var(--categoryColorDark);
-
-      a {
-        text-decoration: none;
-      }
     }
   }
 
   &__arrow {
     display: inline-block;
     padding: $space1 $space2;
-    background-color: var(--categoryColor);
+    background-color: var(--categoryColorLight);
     color: var(--categoryTextColor);
     margin-right: $space1;
 
     &:hover, &:focus {
-      background-color: var(--categoryColorLight);
-    }
-
-    svg {
-      width: 10px;
-      height: 10px;
+      background-color: var(--categoryColor);
     }
   }
 
@@ -79,6 +75,8 @@
     padding: $space1 $space2;
     border: 2px solid var(--categoryColor);
     background: $lightgray;
+    page-break-inside: avoid;
+    break-inside: avoid;
 
     &:hover, &:focus {
       background-color: $lightergrey;

@@ -1,9 +1,9 @@
 .container {
   background-color: $white;
-  padding: $space3 0;
+  padding: $space2 $space4;
   margin: 0 $space2;
 
-  @media (min-width: $maxwidth) {
+  @media (min-width: $lg) {
     max-width: $maxwidth;
     margin: 0 auto;
   }
