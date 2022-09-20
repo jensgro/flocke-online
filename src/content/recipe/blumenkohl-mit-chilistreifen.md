@@ -11,6 +11,7 @@ tags:
   - indien
   - vegetarisch
   - gemüse
+  - blumenkohl
 
 category: hauptgerichte
 
