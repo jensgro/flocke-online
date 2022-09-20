@@ -1,15 +1,16 @@
 {
   "title": "Flocke Online",
-  "url": "https://flocke-online.netlify.com",
+  "url": "https://grochtdreis.de/flocke",
   "description": "Mein kleines Koch-Blog",
   "feed": {
     "subtitle": "Essen im Netz - eine kleine Rezeptsammlung",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://flocke-online.netlify.com"
+    "id": "https://grochtdreis.de/flocke/"
   },
   "author": {
     "name": "Jens Grochtdreis",
     "email": "jens@grochtdreis.de"
-  }
+  },
+  "env": "process.env.ELEVENTY_ENV"
 }
