@@ -3,3 +3,4 @@ node_modules/
 package-lock.json
 Bildervorlagen/
 _aus-wordpress/
+src/content/pages/sitemap.xml.njk
