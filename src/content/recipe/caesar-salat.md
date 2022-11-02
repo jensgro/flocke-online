@@ -1,6 +1,8 @@
 ---
 title: Caesar-Salat
-introText: 'Diesen Salat sollte man machen, wenn man am nächsten Tag nicht allzu viele Leute trifft. '
+introText:
+  - Diesen Salat sollte man machen, wenn man am nächsten Tag nicht allzu viele Leute trifft.
+
 introImage: 'caesar-salat'
 headerImage: caesar-salat
 headerImageLink: https://pixabay.com/de/photos/salat-frisch-gem%C3%BCse-gesund-di%C3%A4t-791891/
