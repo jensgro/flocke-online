@@ -10,13 +10,5 @@
         <h1 class="siteheader__headline">{{ title }}</h1>
       </div>
    </header>
-   {%- if headerImageAttribution -%}
-   <div class="imageright">
-     {{ headerImageAttribution|safe }}
-     {%- if headerImageLink -%}
-      <a href="{{ headerImageLink }}" style="margin-left: 8px;">(Originalbild)</a>
-     {%- endif -%}
-   </div>
-   {%- endif -%}
   </div>
 </div> <!-- / .bg-wrapper -->
