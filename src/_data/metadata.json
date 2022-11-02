@@ -1,12 +1,12 @@
 {
   "title": "Flocke Online",
-  "url": "https://grochtdreis.de/flocke",
+  "url": "https://jens.cooking",
   "description": "Mein kleines Koch-Blog",
   "feed": {
     "subtitle": "Essen im Netz - eine kleine Rezeptsammlung",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://grochtdreis.de/flocke/"
+    "id": "https://jens.cooking"
   },
   "author": {
     "name": "Jens Grochtdreis",
