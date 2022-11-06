@@ -44,14 +44,16 @@
 
   &__link {
     display: inline-block;
-    padding: 0 $space2 0 0;
+    padding: 0;
     border: 2px solid var(--categoryColor);
     margin-top: $space2;
-    background-color: var(--categoryColor);
 
     a {
+      display: block;
+      padding-right: $space2;
       text-decoration: none;
       color: var(--categoryTextColor);
+      background-color: var(--categoryColor);
     }
 
     &:hover, &:focus {
