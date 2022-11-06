@@ -2,6 +2,10 @@
   aspect-ratio: 7 / 2;
   position: relative;
 
+  @media print {
+    aspect-ratio: auto;
+  }
+
   &__headline,
   &__subline {
     margin-bottom: 0;
@@ -19,6 +23,10 @@
       left: 0;
       color: $siteheader-headline-cnt-color;
       background-color: $siteheader-headline-cnt-bg;
+    }
+
+    @media print {
+      position: static;
     }
   }
 }

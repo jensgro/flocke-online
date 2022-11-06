@@ -9,31 +9,34 @@
   --activeNavText: #000;
 }
 
-body.home {
+.home {
   --categoryColor: #{$color-index};
-  --categoryTextColor: #000;
   --categoryColorLight: #{lighten($color-index, 20%)};
   --categoryColorDark: #{darken($color-index, 20%)};
 }
 
-body.hauptgerichte {
+.hauptgerichte {
   --categoryColor: #{$color-hauptgerichte};
-  --categoryTextColor: #fff;
+  --categoryColorLight: #{lighten($color-hauptgerichte, 20%)};
+  --categoryColorDark: #{darken($color-hauptgerichte, 20%)};
 }
 
-body.beilagen {
+.beilagen {
   --categoryColor: #{$color-beilagen};
-  --categoryTextColor: #fff;
+  --categoryColorLight: #{lighten($color-beilagen, 10%)};
+  --categoryColorDark: #{darken($color-beilagen, 20%)};
 }
 
-body.sonstiges {
+.sonstiges {
   --categoryColor: #{$color-sonstiges};
-  --categoryTextColor: #000;
+  --categoryColorLight: #{lighten($color-sonstiges, 10%)};
+  --categoryColorDark: #{darken($color-sonstiges, 20%)};
 }
 
-body.wissenswertes {
+.wissenswertes {
   --categoryColor: #{$color-wissenswertes};
-  --categoryTextColor: #fff;
+  --categoryColorLight: #{lighten($color-wissenswertes, 20%)};
+  --categoryColorDark: #{darken($color-wissenswertes, 20%)};
 }
 
 // A modified version of Andy Bell's "modern reset" https://github.com/hankchizljaw/modern-css-reset

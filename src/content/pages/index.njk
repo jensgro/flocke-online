@@ -31,6 +31,17 @@ eleventyNavigation:
         {% set atPost = atPost + 1 %}
       {% endif %}
     {% endfor %}
+    {% for post in collections.infosDescending %}
+      {% if post.data.category == item.url %}
+        {# Solange die Zählvariable noch unter diesem Wert ist #}
+        {% if atPost < 8 %}
+        <li class="card__item--block"><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
+        {% endif %}
+        {# Zählvariable hochzählen #}
+        {% set atPost = atPost + 1 %}
+      {% endif %}
+    {% endfor %}
+
     </ol>
     <div class="card__link">
       <a href="{{ item.title | lower }}.html">
