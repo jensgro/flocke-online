@@ -6,14 +6,14 @@
     </div>
     <div class="card__body">
       <ul class="taglist taglist--short">
-        {% for tag in tags %}
+        {%- for tag in tags -%}
         {% set tagUrl %}/{{ tag }}/{% endset %}
         <li class="taglist__item">
           <a class="taglist__link" href="{{ tagUrl | url }}">
             {{ tag }}
           </a>
         </li>
-        {% endfor %}
+        {%- endfor -%}
       </ul>
     </div>
   </div>

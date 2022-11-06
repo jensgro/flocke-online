@@ -5,13 +5,13 @@
     </div>
     <div class="card__body">
       <ul class="taglist">
-        {% for tag in collections.tagList %}
+        {%- for tag in collections.tagList -%}
           {% set tagUrl %}/{{ tag }}/{% endset %}
           {% set tagCount = collections[tag].length %}
           <li class="taglist__item">
             <a class="taglist__link" href="{{ tagUrl | url }}">{{ tag | capitalize }}</a>
           </li>
-        {% endfor %}
+        {%- endfor -%}
         </ul>
     </div>
   </div>

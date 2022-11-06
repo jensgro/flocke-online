@@ -135,7 +135,7 @@ select {
 }
 
 /* hide only visually */
-// https://gist.github.com/jensgro/743c37c3c1b226f7917fa0fc0825e3c2
+/* https://gist.github.com/jensgro/743c37c3c1b226f7917fa0fc0825e3c2 */
 .visuallyhidden {
   @include visuallyhidden;
 }

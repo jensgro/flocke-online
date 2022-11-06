@@ -4,13 +4,13 @@
   </div>
   <div class="card__body">
     <ol class="card__items">
-      {% for post in postslist %}
+      {%- for post in postslist -%}
       <li class="card__item--block">
         <a href="{{ post.url | url }}">
         {{ post.data.title }}
         </a>
       </li>
-      {% endfor %}
+      {%- endfor -%}
     </ol>
 
   </div>

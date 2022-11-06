@@ -12,7 +12,7 @@ eleventyNavigation:
   order: 1
 ---
 
-{% for item in categories %}
+{%- for item in categories %}
 <div class="card {{item.url}}">
   <div class="card__head">
     <h2 class="card__headline">{{ item.title }}</h2>
@@ -21,27 +21,26 @@ eleventyNavigation:
     <ol class="card__items">
     {# Zählvariable setzen #}
     {% set atPost = 0 %}
-    {% for post in collections.recipesDescending %}
+    {%- for post in collections.recipesDescending -%}
       {% if post.data.category == item.url %}
         {# Solange die Zählvariable noch unter diesem Wert ist #}
-        {% if atPost < 8 %}
+        {%- if atPost < 8 -%}
         <li class="card__item--block"><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
-        {% endif %}
+        {%- endif -%}
         {# Zählvariable hochzählen #}
         {% set atPost = atPost + 1 %}
-      {% endif %}
-    {% endfor %}
-    {% for post in collections.infosDescending %}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- for post in collections.infosDescending -%}
       {% if post.data.category == item.url %}
         {# Solange die Zählvariable noch unter diesem Wert ist #}
-        {% if atPost < 8 %}
+        {%- if atPost < 8 -%}
         <li class="card__item--block"><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
-        {% endif %}
+        {%- endif -%}
         {# Zählvariable hochzählen #}
         {% set atPost = atPost + 1 %}
-      {% endif %}
-    {% endfor %}
-
+      {%- endif -%}
+    {%- endfor -%}
     </ol>
     <div class="card__link">
       <a href="{{ item.title | lower }}.html">
@@ -49,4 +48,4 @@ eleventyNavigation:
     </div>
   </div>
 </div>
-{% endfor %}
+{% endfor -%}
