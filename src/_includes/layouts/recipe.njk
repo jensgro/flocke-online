@@ -3,9 +3,9 @@ layout: layouts/base.njk
 templateClass: tmpl-recipe
 ---
 <div class="container mb-4">
-  <main class="recipe">
+  <main class="recipe" itemscope itemtype="https://schema.org/Recipe">
     {% if introText %}
-    <div class="recipe__intro">
+    <div class="recipe__intro" itemprop="description">
     {% for t in introText %}
       <p>{{ t }}</p>
     {% endfor %}
@@ -17,7 +17,7 @@ templateClass: tmpl-recipe
       <h2>Zutaten</h2>
       <ul>
         {% for i in ingredients %}
-        <li>{{ i }}</li>
+        <li itemprop="recipeIngredient">{{ i }}</li>
         {% endfor %}
       </ul>
     </div>
@@ -28,7 +28,7 @@ templateClass: tmpl-recipe
       <h2>Zubereitung</h2>
       <ul>
         {% for r in recipe %}
-        <li>{{ r }}</li>
+        <li itemprop="recipeInstructions">{{ r }}</li>
         {% endfor %}
       </ul>
     </div>
