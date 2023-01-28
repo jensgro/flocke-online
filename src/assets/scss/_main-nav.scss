@@ -1,9 +1,4 @@
 .main-nav {
-  background-color: var(--categoryColor);
-
-  .container {
-    background-color: var(--categoryColor);
-  }
 
   &__nav {
     @include nolist;
