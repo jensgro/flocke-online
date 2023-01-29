@@ -4,13 +4,32 @@ title: "Flocke Online - Essen im Netz"
 subline: "Meine kleine Rezeptsammlung"
 permalink: /index.html
 bodyClass: index
-headerImage: placeholder1
-headerImageLink: https://www.pexels.com/de-de/foto/kunst-kreativ-malerei-abstrakt-1959387/
-headerImageAttribution: Foto von Steve Johnson von Pexels
+headerImage: gewuerze-2
+headerImageLink: https://pixabay.com/de/photos/lebensmittel-gew%c3%bcrze-kochen-3251064/
+headerImageAttribution: Bild von <a href="https://pixabay.com/de/users/westerper-8457660/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3251064">westerper</a> auf <a href="https://pixabay.com/de//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3251064">Pixabay</a>
 eleventyNavigation:
   key: Startseite
   order: 1
 ---
+{% set randomPost = collections.recipe | getRandom %}
+<div class="card card--highlighted">
+  <div class="card__head">
+    <h2 class="card__headline highlighted__headline">{{randomPost.data.title}}</h2>
+  </div>
+  <div class="card__body no-padding">
+    <img class="no-print" src="../img/{{randomPost.data.headerImage}}_875x250.jpg" alt="" width="875" height="250">
+
+  <div class="card__footer">
+    <div class="card__categories">
+      {% for tag in randomPost.data.tags %}
+      <span><a href="/{{ tag }}/">{{ tag }}</a></span>
+      {% endfor %}
+    </div>
+    <div class="card__link"><a href="{{ randomPost.data.url | url}}">zum Rezept</a></div>
+  </div>
+
+  </div>
+</div>
 
 {%- for item in categories %}
 <div class="card {{item.url}}">
