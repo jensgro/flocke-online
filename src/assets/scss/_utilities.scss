@@ -28,6 +28,10 @@
   margin-bottom: $space4;
 }
 
+.no-padding {
+  padding: 0 !important;
+}
+
 .only-print {
   display: none;
 }
