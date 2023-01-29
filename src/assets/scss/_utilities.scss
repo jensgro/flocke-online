@@ -13,7 +13,7 @@
 // }
 
 .bg-wrapper {
-  background-color: $bg-wrapper-bg;
+  background-color: var(--bg-wrapper-bg, $bg-wrapper-bg);
 }
 
 .pb-0 {

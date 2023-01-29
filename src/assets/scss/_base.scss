@@ -7,6 +7,11 @@
   --inactiveNavBgHover: #fd8700;
   --activeNavBG: #fff;
   --activeNavText: #000;
+
+  --mainnav-wrapper-bg: #000;
+  --bg-wrapper-bg: #262626;
+  --page-bg: #c3bfae;
+  --container-bg: #f7f7f7;
 }
 
 .home {
@@ -79,7 +84,7 @@ body {
   font-family: $systemfonts2;
   font-weight: 500;
   color: $darkgray;
-  background-color: $page-bg;
+  background-color: var(--page-bg, $page-bg);
 }
 
 h1, h2, h3, h4, h5, h6 {

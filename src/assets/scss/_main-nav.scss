@@ -1,4 +1,9 @@
 .main-nav {
+  background-color: var(--mainnav-wrapper-bg, $bg-wrapper-bg);
+
+  .container {
+    background-color: var(--container-bg, $container-bg);
+  }
 
   &__nav {
     @include nolist;
