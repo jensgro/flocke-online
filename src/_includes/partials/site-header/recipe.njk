@@ -3,12 +3,12 @@
     <header class="siteheader">
       {%- if headerImage -%}
       <img class="no-print" src="../assets/img/{{headerImage}}_875x250.jpg" alt="" width="875" height="250">
-      {%- else -%}
-      <img src="https://dummyimage.com/7:2x250" alt="">
-      {%- endif -%}
+      {% endif %}
       <div class="siteheader__headline-cnt">
+        <img src="/assets/img/logo/{{metadata.logo}}">
         <h1 class="siteheader__headline">{{ title }}</h1>
       </div>
    </header>
+  {% include "partials/navigation.njk" %}
   </div>
 </div> <!-- / .bg-wrapper -->

@@ -74,15 +74,21 @@
     }
   }
 
-  &__item--block {
+  &__link--block {
     padding: $space1 $space2;
     border: 2px solid var(--categoryColor);
-    background: $black;
+    background: var(--categoryColor);
+    color: var(--categoryTextColor);
     page-break-inside: avoid;
     break-inside: avoid;
+    display: block;
 
-    &:hover, &:focus {
+    &:hover, &:focus, &:focus-visible {
       background-color: $lightergrey;
+      color: var(--categoryColor);
+    }
+    &:focus-visible {
+      outline: 3px solid var(--categoryColor);
     }
 
     & + & {

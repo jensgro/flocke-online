@@ -1,7 +1,8 @@
 .main-nav {
-  background-color: var(--mainnav-wrapper-bg, $bg-wrapper-bg);
+  // background-color: var(--mainnav-wrapper-bg, $bg-wrapper-bg);
 
   .container {
+    --container-bg: var(--mainnav-wrapper-bg);
     background-color: var(--container-bg, $container-bg);
   }
 

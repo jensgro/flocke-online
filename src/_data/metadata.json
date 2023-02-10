@@ -12,5 +12,6 @@
     "name": "Jens Grochtdreis",
     "email": "jens@grochtdreis.de"
   },
+  "logo": "flocke-online-2.svg",
   "env": "process.env.ELEVENTY_ENV"
 }

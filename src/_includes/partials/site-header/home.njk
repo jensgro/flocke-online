@@ -1,14 +1,18 @@
-<div class="bg-wrapper">
-
-  <div class="container pb-0">
-    <header class="siteheader">
-      <!-- 7:2 -->
-     <img class="no-print" src="../assets/img/{{headerImage}}_875x250.jpg" alt="" width="875" height="250">
-     <div class="siteheader__headline-cnt">
-        <h1 class="siteheader__headline">{{ title }}</h1>
-        <p class="siteheader__subline">{{ subline }}</p>
-     </div>
-    </header>
-  </div>
-
-</div>
+  <header>
+    <div class="bg-wrapper">
+      <div class="container">
+        <header class="siteheader">
+          <!-- 7:2 -->
+        <img class="no-print" src="../assets/img/{{headerImage}}_875x250.jpg" alt="" width="875" height="250">
+        <div class="siteheader__headline-cnt">
+            <h1 class="siteheader__headline">
+              <img class="siteheader__logo" src="../assets/img/logo/{{metadata.logo}}">
+              <span class="sr-only">{{ title }}</span>
+              </h1>
+            <p class="siteheader__subline">{{ subline }}</p>
+        </div>
+        </header>
+      </div>
+    </div>
+  {% include "partials/navigation.njk" %}
+  </header>

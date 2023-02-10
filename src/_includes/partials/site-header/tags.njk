@@ -7,3 +7,21 @@
   </div>
 
 </div> -->
+<header>
+  <div class="bg-wrapper">
+    <div class="container">
+      <header class="tag-header">
+      <div class="tag-header__headline-cnt">
+          <div class="tag-header__logo">
+            <img src="/assets/img/logo/{{metadata.logo}}">
+          </div>
+          <h1 class="tag-header__headline">
+            <mark style="display: block;">{{ tag | capitalize }}</mark>
+            </h1>
+          <p class="tag-header__subline">{{ subline }}</p>
+      </div>
+      </header>
+    </div>
+  </div>
+{% include "partials/navigation.njk" %}
+</header>
