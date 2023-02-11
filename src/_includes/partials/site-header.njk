@@ -1,17 +1,20 @@
-<!-- ====== Header -->
-{% if templateClass == "tmpl-home" %}
-  {% include "partials/site-header/home.njk" %}
-{% endif %}
-
-{% if templateClass == "tmpl-recipe" %}
-  {% include "partials/site-header/recipe.njk" %}
-{% endif %}
-
-{% if templateClass == "tmpl-post" %}
-  {% include "partials/site-header/post.njk" %}
-{% endif %}
-
-{% if templateClass == "tmpl-tags" %}
-  {% include "partials/site-header/tags.njk" %}
-{% endif %}
-<!-- END ======= Header -->
+<header>
+  <div class="bg-wrapper">
+    <div class="container">
+      <header class="siteheader">
+        <!-- 7:2 -->
+      <img class="no-print" src="../assets/img/{{headerImage}}_875x250.jpg" alt="" width="875" height="250">
+      <div class="siteheader__logo-cnt">
+            <img class="siteheader__logo" src="../assets/img/logo/{{metadata.logo}}" alt="">
+          <div class="siteheader__subline">{{ metadata.subline }}</div>
+      </div>
+      {% if bodyClass == "index" %}
+      <h1 class="siteheader__headline sr-only">{{ metadata.title }}</h1>
+      {% else %}
+      <h1 class="siteheader__headline">{{ title }}</h1>
+      {% endif %}
+      </header>
+    </div>
+  </div>
+{% include "partials/navigation.njk" %}
+</header>

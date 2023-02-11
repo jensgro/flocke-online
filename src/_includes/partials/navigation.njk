@@ -2,9 +2,9 @@
     <ul class="main-nav__nav">
     {%- for entry in collections.all | eleventyNavigation %}
       <li class="main-nav__item">
-        <a  class="main-nav__link{% if entry.url == page.url or entry.key == category %} main-nav__link--active{% endif %}"
+        <a  class="main-nav__link{% if entry.url == page.url or entry.key == category %} main-nav__link--active{% endif %} main-nav__link--{{ entry.title }}"
             href="{{ entry.url | url }}">
-            {{ entry.title }}
+            {{ entry.title | capitalize }}
         </a>
       </li>
     {%- endfor %}

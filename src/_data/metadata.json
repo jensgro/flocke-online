@@ -2,6 +2,7 @@
   "title": "Flocke Online",
   "url": "https://jens.cooking",
   "description": "Mein kleines Koch-Blog",
+  "subline": "Meine kleine Rezeptsammlung",
   "feed": {
     "subtitle": "Essen im Netz - eine kleine Rezeptsammlung",
     "filename": "feed.xml",
