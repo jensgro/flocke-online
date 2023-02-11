@@ -8,7 +8,7 @@
   --activeNavBG: #fff;
   --activeNavText: #000;
 
-  --mainnav-wrapper-bg: #000;
+  --mainnav-wrapper-bg: #bd9a74; //#6f3939;
   --bg-wrapper-bg: #262626;
   --page-bg: #c3bfae;
   --container-bg: #f7f7f7;
@@ -16,30 +16,35 @@
 
 .home {
   --categoryColor: #{$color-index};
+  --bg-wrapper-bg: #{$color-index};
   --categoryColorLight: #{lighten($color-index, 20%)};
   --categoryColorDark: #{darken($color-index, 20%)};
 }
 
 .hauptgerichte {
   --categoryColor: #{$color-hauptgerichte};
+  --bg-wrapper-bg: #{$color-hauptgerichte};
   --categoryColorLight: #{lighten($color-hauptgerichte, 20%)};
   --categoryColorDark: #{darken($color-hauptgerichte, 20%)};
 }
 
 .beilagen {
   --categoryColor: #{$color-beilagen};
+  --bg-wrapper-bg: #{$color-beilagen};
   --categoryColorLight: #{lighten($color-beilagen, 10%)};
   --categoryColorDark: #{darken($color-beilagen, 20%)};
 }
 
 .sonstiges {
   --categoryColor: #{$color-sonstiges};
+  --bg-wrapper-bg: #{$color-sonstiges};
   --categoryColorLight: #{lighten($color-sonstiges, 10%)};
   --categoryColorDark: #{darken($color-sonstiges, 20%)};
 }
 
 .wissenswertes {
   --categoryColor: #{$color-wissenswertes};
+  --bg-wrapper-bg: #{$color-wissenswertes};
   --categoryColorLight: #{lighten($color-wissenswertes, 20%)};
   --categoryColorDark: #{darken($color-wissenswertes, 20%)};
 }
