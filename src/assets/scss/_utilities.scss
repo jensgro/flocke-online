@@ -54,6 +54,10 @@
   .vis-md {
     @include visuallyhidden;
   }
+  
+  .pi-md-0 {
+    padding-inline: 0;
+  }  
 }
 
 .sr-only {
