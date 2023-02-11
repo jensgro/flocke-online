@@ -12,7 +12,7 @@ eleventyNavigation:
   order: 1
 ---
 {% set randomPost = collections.recipe | getRandom %}
-<div class="card card--highlighted">
+{# <div class="card card--highlighted">
   <div class="card__head">
     <h2 class="card__headline highlighted__headline">{{randomPost.data.title}}</h2>
   </div>
@@ -29,7 +29,7 @@ eleventyNavigation:
   </div>
 
   </div>
-</div>
+</div> #}
 
 {%- for item in categories %}
 <div class="card {{item.url}}">

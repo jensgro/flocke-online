@@ -1,20 +1,15 @@
 .main-nav {
- background-color: var(--mainnav-wrapper-bg, $bg-wrapper-bg);
-
-  .container {
-    --container-bg: var(--mainnav-wrapper-bg);
-    background-color: var(--container-bg, $container-bg);
-  }
-
+ 
   &__nav {
     @include nolist;
     display: flex;
     flex-wrap: wrap;
     gap: $space2;
+    padding: $space2;
+    background-color: var(--categoryColor);
   }
 
   &__item {
-    background-color: var(--inactiveNavBg);
 
     &:first-of-type {
       margin-right: auto;
@@ -23,26 +18,27 @@
   }
 
   &__link {
+    color: #000;
+    background-color: #fff;
     display: inline-block;
-    color: $white;
     text-decoration: none;
     padding: $space1;
 
-    &--Startseite {
-      background-color: $color-index;
-    }
-    &--hauptgerichte {
-      background-color: $color-hauptgerichte;
-    }
-    &--beilagen {
-      background-color: $color-beilagen;
-    }
-    &--sonstiges {
-      background-color: $color-sonstiges;
-    }
-    &--wissenswertes {
-      background-color: $color-wissenswertes;
-    }
+    // &--Startseite {
+
+    // }
+    // &--hauptgerichte {
+
+    // }
+    // &--beilagen {
+
+    // }
+    // &--sonstiges {
+
+    // }
+    // &--wissenswertes {
+
+    // }
 
     &:hover,
     &:focus {
