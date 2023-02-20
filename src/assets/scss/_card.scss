@@ -32,7 +32,7 @@
     }
 
     li {
-      padding: $space1;
+      padding: $space1 $space1 $space1 0;
     }
 
     a {
@@ -45,33 +45,27 @@
   &__link {
     display: inline-block;
     padding: 0;
-    border: 2px solid var(--categoryColor);
     margin-top: $space2;
 
     a {
       display: block;
       padding-right: $space2;
       text-decoration: none;
-      color: var(--categoryTextColor);
-      background-color: var(--categoryColor);
+      color: var(--categoryColor);
     }
 
     &:hover, &:focus {
-      --categoryColor: var(--categoryColorLight);
-      --categoryTextColor: var(--categoryColorDark);
+      text-decoration: underline;
+      --linkColor: var(--categoryColorLight);
     }
   }
 
   &__arrow {
     display: inline-block;
     padding: $space1 $space2;
-    background-color: var(--categoryColorLight);
+    background-color: var(--linkColor, var(--categoryColor));
     color: var(--categoryTextColor);
     margin-right: $space1;
-
-    &:hover, &:focus {
-      background-color: var(--categoryColor);
-    }
   }
 
   &__link--block {

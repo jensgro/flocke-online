@@ -17,31 +17,31 @@
 .home {
   --categoryColor: #{$color-index};
   --categoryColorLight: #{lighten($color-index, 20%)};
-  --categoryColorDark: #{darken($color-index, 20%)};
+  --categoryColorDark: #{darken($color-index, 10%)};
 }
 
 .hauptgerichte {
   --categoryColor: #{$color-hauptgerichte};
   --categoryColorLight: #{lighten($color-hauptgerichte, 20%)};
-  --categoryColorDark: #{darken($color-hauptgerichte, 20%)};
+  --categoryColorDark: #{darken($color-hauptgerichte, 10%)};
 }
 
 .beilagen {
   --categoryColor: #{$color-beilagen};
   --categoryColorLight: #{lighten($color-beilagen, 10%)};
-  --categoryColorDark: #{darken($color-beilagen, 20%)};
+  --categoryColorDark: #{darken($color-beilagen, 10%)};
 }
 
 .sonstiges {
   --categoryColor: #{$color-sonstiges};
   --categoryColorLight: #{lighten($color-sonstiges, 10%)};
-  --categoryColorDark: #{darken($color-sonstiges, 20%)};
+  --categoryColorDark: #{darken($color-sonstiges, 10%)};
 }
 
 .wissenswertes {
   --categoryColor: #{$color-wissenswertes};
   --categoryColorLight: #{lighten($color-wissenswertes, 20%)};
-  --categoryColorDark: #{darken($color-wissenswertes, 20%)};
+  --categoryColorDark: #{darken($color-wissenswertes, 10%)};
 }
 
 // A modified version of Andy Bell's "modern reset" https://github.com/hankchizljaw/modern-css-reset
