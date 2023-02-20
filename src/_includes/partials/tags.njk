@@ -1,5 +1,5 @@
 {% if tags %}
-<div class="container no-print">
+<aside class="container no-print">
   <div class="card">
     <div class="card__head">
       <h2 class="card__headline">Tag(s)</h2>
@@ -7,7 +7,7 @@
     <div class="card__body">
       <ul class="taglist taglist--short">
         {%- for tag in tags -%}
-        {% set tagUrl %}/{{ tag }}/{% endset %}
+        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
         <li class="taglist__item">
           <a class="taglist__link" href="{{ tagUrl | url }}">
             {{ tag }}
@@ -17,5 +17,5 @@
       </ul>
     </div>
   </div>
-</div>
+</aside>
 {% endif %}

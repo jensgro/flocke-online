@@ -1,4 +1,4 @@
-<section class="container no-print">
+<aside class="container no-print">
   <div class="card">
     <div class="card__head">
       <h2 class="card__headline">Alle Stichworte</h2>
@@ -6,7 +6,7 @@
     <div class="card__body">
       <ul class="taglist">
         {%- for tag in collections.tagList -%}
-          {% set tagUrl %}/{{ tag }}/{% endset %}
+          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
           {% set tagCount = collections[tag].length %}
           <li class="taglist__item">
             <a class="taglist__link" href="{{ tagUrl | url }}">{{ tag | capitalize }}</a>
@@ -15,4 +15,4 @@
         </ul>
     </div>
   </div>
-</section>
+</aside>

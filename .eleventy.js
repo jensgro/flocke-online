@@ -7,6 +7,7 @@ const markdownItAnchor = require("markdown-it-anchor");
 // filters
 const htmlDateString = require("./src/_11ty/filters/date.js").htmlDateString;
 const head = require("./src/_11ty/filters/head.js");
+const getRandom = require("./src/_11ty/filters/getRandom.js");
 
 // collections
 const recipe = require("./src/_11ty/collections/recipe.js");
@@ -20,6 +21,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("htmlDateString", htmlDateString);
   eleventyConfig.addFilter("head", head);
+  eleventyConfig.addFilter("getRandom", getRandom);
 
   eleventyConfig.addCollection("recipe", recipe);
   eleventyConfig.addCollection("recipesDescending", recipesDescending);
@@ -28,8 +30,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.setDataDeepMerge(true);
 
-  eleventyConfig.addPassthroughCopy({"./src/assets/img": "/img"});
-  eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("./src/assets/img");
   eleventyConfig.addPassthroughCopy({"./src/assets/scss/fonts": "css/fonts"});
   eleventyConfig.addPassthroughCopy({"./src/static/":"/"});
 

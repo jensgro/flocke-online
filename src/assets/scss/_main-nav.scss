@@ -1,22 +1,15 @@
 .main-nav {
-  background-color: var(--categoryColor);
-
-  .container {
-    background-color: var(--categoryColor);
-  }
-
+ 
   &__nav {
     @include nolist;
     display: flex;
     flex-wrap: wrap;
     gap: $space2;
-    padding-inline: $space1;
-
+    padding: $space2;
+    background-color: var(--categoryColor);
   }
 
   &__item {
-    background-color: var(--inactiveNavBg);
-    text-transform: capitalize;
 
     &:first-of-type {
       margin-right: auto;
@@ -25,14 +18,32 @@
   }
 
   &__link {
+    color: #000;
+    background-color: #fff;
     display: inline-block;
-    color: $black;
     text-decoration: none;
     padding: $space1;
 
+    // &--Startseite {
+
+    // }
+    // &--hauptgerichte {
+
+    // }
+    // &--beilagen {
+
+    // }
+    // &--sonstiges {
+
+    // }
+    // &--wissenswertes {
+
+    // }
+
     &:hover,
     &:focus {
-      background-color: var(--inactiveNavBgHover);
+      color: $white;
+      background-color: $black;
     }
 
     &--active {

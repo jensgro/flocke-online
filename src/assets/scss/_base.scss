@@ -7,36 +7,41 @@
   --inactiveNavBgHover: #fd8700;
   --activeNavBG: #fff;
   --activeNavText: #000;
+
+  --mainnav-wrapper-bg: var(--categoryColor, #000);//#bd9a74; //#6f3939;
+  --bg-wrapper-bg: #262626;
+  --page-bg: #c3bfae;
+  --container-bg: #f7f7f7;
 }
 
 .home {
   --categoryColor: #{$color-index};
   --categoryColorLight: #{lighten($color-index, 20%)};
-  --categoryColorDark: #{darken($color-index, 20%)};
+  --categoryColorDark: #{darken($color-index, 10%)};
 }
 
 .hauptgerichte {
   --categoryColor: #{$color-hauptgerichte};
   --categoryColorLight: #{lighten($color-hauptgerichte, 20%)};
-  --categoryColorDark: #{darken($color-hauptgerichte, 20%)};
+  --categoryColorDark: #{darken($color-hauptgerichte, 10%)};
 }
 
 .beilagen {
   --categoryColor: #{$color-beilagen};
   --categoryColorLight: #{lighten($color-beilagen, 10%)};
-  --categoryColorDark: #{darken($color-beilagen, 20%)};
+  --categoryColorDark: #{darken($color-beilagen, 10%)};
 }
 
 .sonstiges {
   --categoryColor: #{$color-sonstiges};
   --categoryColorLight: #{lighten($color-sonstiges, 10%)};
-  --categoryColorDark: #{darken($color-sonstiges, 20%)};
+  --categoryColorDark: #{darken($color-sonstiges, 10%)};
 }
 
 .wissenswertes {
   --categoryColor: #{$color-wissenswertes};
   --categoryColorLight: #{lighten($color-wissenswertes, 20%)};
-  --categoryColorDark: #{darken($color-wissenswertes, 20%)};
+  --categoryColorDark: #{darken($color-wissenswertes, 10%)};
 }
 
 // A modified version of Andy Bell's "modern reset" https://github.com/hankchizljaw/modern-css-reset
@@ -79,7 +84,7 @@ body {
   font-family: $systemfonts2;
   font-weight: 500;
   color: $darkgray;
-  background-color: $page-bg;
+  background-color: var(--page-bg, $page-bg);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -103,7 +108,7 @@ p + h2, ul + h2, ol + h2 {
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
-ul[class],
+ul[class]:not(.main-nav__nav),
 ol[class] {
   list-style: none;
   padding-left: 0;
@@ -111,7 +116,7 @@ ol[class] {
 }
 
 a {
-  color: $link-color;
+  color: var(--categoryColor, #000);
 
   &:hover, &:focus {
     color: $link-color-hover;

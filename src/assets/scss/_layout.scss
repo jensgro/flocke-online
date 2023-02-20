@@ -1,10 +1,11 @@
 .container {
-  background-color: $white;
   padding: $space2 $space4;
   margin: 0 $space2;
+  background-color: var(--container-bg, $container-bg);
 
   @media (min-width: $lg) {
     max-width: $maxwidth;
     margin: 0 auto;
+    padding-inline: $space6;
   }
 }

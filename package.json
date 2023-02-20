@@ -1,20 +1,18 @@
 {
   "name": "flockeonline",
-  "version": "2.1.1",
+  "version": "3.1.0",
   "description": "Flocke Online - Meine kleine Rezeptsammlung",
   "scripts": {
-    "build": "npm-run-all eleventy:default css",
-    "netlify": "npm-run-all eleventy:default css",
-    "eleventy:default": "npx eleventy",
-    "eleventy:watch": "npx eleventy --watch",
-    "clean": "rm -rf _site",
-    "watch": "eleventy --watch",
-    "serve": "eleventy --serve",
-    "debug": "DEBUG=* eleventy",
-    "styles:dev": "sass src/assets/scss/:_site/css/",
-    "css": "sass src/assets/scss/:_site/css/",
-    "devdeventy": "npm-run-all clean styles:dev eleventy:default --parallel eleventy:watch serve --print-label",
-    "dev": "npm-run-all clean styles:dev build --parallel watch serve"
+    "clean": "rimraf _site",
+    "build:sass": "sass --no-source-map src/assets/scss/main.scss:_site/assets/css/main.css",
+    "build:11ty": "eleventy",
+    "build": "npm-run-all build:*",
+    "netlify": "npm-run-all build:*",
+    "watch:11ty": "eleventy --watch",
+    "watch:sass": "sass --watch src/assets/scss/main.scss:_site/assets/css/main.css",
+    "serve:11ty": "eleventy --serve",
+    "serve:sass": "sass src/assets/scss/main.scss:_site/assets/css/main.css",
+    "start": "npm-run-all --parallel serve:11ty watch:sass"
   },
   "repository": {
     "type": "git",
@@ -27,18 +25,14 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0",
-    "@11ty/eleventy-navigation": "^0.3.2",
-    "@11ty/eleventy-plugin-rss": "^1.1.2",
-    "gulp": "^4.0.2",
-    "gulp-sass": "^5.1.0",
-    "luxon": "^2.3.0",
-    "markdown-it": "^12.3.2",
-    "markdown-it-anchor": "^8.4.1",
+    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "cross-env": "^7.0.3",
+    "luxon": "^3.2.1",
+    "markdown-it": "^13.0.1",
+    "markdown-it-anchor": "^8.6.6",
     "npm-run-all": "^4.1.5",
-    "sass": "^1.49.7",
-    "cross-env": "^7.0.3"
-  },
-  "dependencies": {
+    "sass": "^1.58.0"
   }
 }

@@ -21,6 +21,18 @@
     li {
       margin-right: $space4;
     }
+
+    a {
+      color: var(--categoryColor);
+
+      &:hover, &:focus {
+        text-decoration: none;
+      }
+
+      &:focus-visible {
+        outline: 3px solid var(--categoryColor);
+      }
+    }
   }
 
   .home & {

@@ -1,12 +1,12 @@
 <div class="card">
   <div class="card__head">
-    <h2 class="card__headline">Alle Rezepte der Kategorie <mark>{{ tag | capitalize }}</mark></h2>
+    <h2 class="card__headline">Alle Rezepte dieser Kategorie</h2>
   </div>
   <div class="card__body">
     <ol class="card__items">
       {%- for post in postslist -%}
-      <li class="card__item--block">
-        <a href="{{ post.url | url }}">
+      <li>
+        <a class="card__link--block" href="{{ post.url | url }}">
         {{ post.data.title }}
         </a>
       </li>

@@ -18,7 +18,7 @@ eleventyNavigation:
   <div class="card__body">
     <ul class="card__items">
       {%- for post in collections.infosDescending -%}
-        <li class="card__item--block"><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
+        <li><a class="card__link--block" href="{{ post.url | url}}">{{ post.data.title }}</a></li>
       {%- endfor -%}
     </ul>
   </div>

@@ -10,12 +10,16 @@ pagination:
     - posts
     - tagList
   addAllPagesToCollections: true
-layout: layouts/tag.njk
+layout: layouts/post.njk
 bodyClass: tag
 renderData:
   title: Kategorie "{{ tag }}"
-permalink: /{{ tag }}/
+permalink: /tags/{{ tag }}/
 eleventyExcludeFromCollections: true
+
+headerImage: placeholder7
+headerImageLink: https://www.pexels.com/de-de/foto/blaue-und-mehrfarbige-abstrakte-malerei-1307114/
+headerImageAttribution: Foto von Steve Johnson von Pexels
 ---
 
 

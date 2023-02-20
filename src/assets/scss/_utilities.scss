@@ -13,9 +13,12 @@
 // }
 
 .bg-wrapper {
-  background-color: $bg-wrapper-bg;
+  background-color: var(--categoryColor);
 }
 
+.pt-0 {
+  padding-top: 0;
+}
 .pb-0 {
   padding-bottom: 0;
 }
@@ -26,6 +29,10 @@
 
 .mb-4 {
   margin-bottom: $space4;
+}
+
+.no-padding {
+  padding: 0 !important;
 }
 
 .only-print {
@@ -47,4 +54,12 @@
   .vis-md {
     @include visuallyhidden;
   }
+  
+  .pi-md-0 {
+    padding-inline: 0;
+  }  
+}
+
+.sr-only {
+  @include visuallyhidden;
 }
