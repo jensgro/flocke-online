@@ -20,28 +20,16 @@
     padding: $space3 $space2;
   }
 
-  &__items {
-    margin-left: $space1;
+  // Die Rezepteliste
+  // &__items {
 
-    @media (min-width: $md) {
-      columns: 2;
-    }
+  //   li {}
+  //   a {
+  //     &:hover, &:focus {}
+  //   }
+  // }
 
-    @media (min-width: $lg) {
-      columns: 3;
-    }
-
-    li {
-      padding: $space1 $space1 $space1 0;
-    }
-
-    a {
-      &:hover, &:focus {
-        text-decoration: none;
-      }
-    }
-  }
-
+  // weiterführender Link
   &__link {
     display: inline-block;
     padding: 0;
@@ -60,38 +48,41 @@
     }
   }
 
-  &__arrow {
-    display: inline-block;
-    padding: $space1 $space2;
-    background-color: var(--linkColor, var(--categoryColor));
-    color: var(--categoryTextColor);
-    margin-right: $space1;
-  }
+  // Pfeilhalterung
+  // &__arrow {
+  //   display: inline-block;
+  //   padding: $space1 $space2;
+  //   background-color: var(--linkColor, var(--categoryColor));
+  //   color: var(--categoryTextColor);
+  //   margin-right: $space1;
+  // }
 
-  &__link--block {
-    padding: $space1 $space2;
-    border: 2px solid var(--categoryColor);
-    background: var(--categoryColor);
-    color: var(--categoryTextColor);
-    page-break-inside: avoid;
-    break-inside: avoid;
-    display: block;
+  // Links innerhalb der Liste
+  // als Utilityklasse auslagern?
+  // &__link--block {
+  //   padding: $space1 $space2;
+  //   border: 2px solid var(--categoryColor);
+  //   background: var(--categoryColor);
+  //   color: var(--categoryTextColor);
+  //   page-break-inside: avoid;
+  //   break-inside: avoid;
+  //   display: block;
 
-    &:hover, &:focus, &:focus-visible {
-      background-color: $lightergrey;
-      color: var(--categoryColor);
-    }
-    &:focus-visible {
-      outline: 3px solid var(--categoryColor);
-    }
+  //   &:hover, &:focus, &:focus-visible {
+  //     background-color: $lightergrey;
+  //     color: var(--categoryColor);
+  //   }
+  //   &:focus-visible {
+  //     outline: 3px solid var(--categoryColor);
+  //   }
 
-    & + & {
-      margin-top: $space2;
-    }
+  //   & + & {
+  //     margin-top: $space2;
+  //   }
 
-    a {
-      text-decoration: none;
-      display: block;
-    }
-  }
+  //   a {
+  //     text-decoration: none;
+  //     display: block;
+  //   }
+  // }
 }
