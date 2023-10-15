@@ -15,6 +15,14 @@ const recipesDescending = require("./src/_11ty/collections/recipesDescending.js"
 const infosDescending = require("./src/_11ty/collections/infosDescending.js");
 const tagList = require("./src/_11ty/collections/tagList.js");
 
+const {
+  allTags,
+  maincourseCollection,
+  sidedishCollection,
+  otherCollection,
+  knowledgeCollection
+} = require("./src/_11ty/collections/collections.js");
+
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginNavigation);
@@ -27,6 +35,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("recipesDescending", recipesDescending);
   eleventyConfig.addCollection("infosDescending", infosDescending);
   eleventyConfig.addCollection("tagList", tagList);
+
+  eleventyConfig.addCollection("allTags", allTags);
+  eleventyConfig.addCollection("maincourseCollection", maincourseCollection);
+  eleventyConfig.addCollection("sidedishCollection", sidedishCollection);
+  eleventyConfig.addCollection("otherCollection", otherCollection);
+  eleventyConfig.addCollection("allknowledgeCollectionTags", knowledgeCollection);
 
   eleventyConfig.setDataDeepMerge(true);
 

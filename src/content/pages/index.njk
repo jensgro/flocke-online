@@ -11,8 +11,8 @@ eleventyNavigation:
   key: Startseite
   order: 1
 ---
-<div class="grid grid-md-2 grid-lg-3">
-  {% set randomPost = collections.recipe | getRandom %}
+<div>
+  {% set randomPost = collections.maincourseCollection | getRandom %}
   <div class="card">
     <div class="card__head">
       <h2 class="card__headline">{{randomPost.data.title}}</h2>
@@ -21,6 +21,9 @@ eleventyNavigation:
       <img class="no-print" src="../assets/img/{{randomPost.data.headerImage}}_875x250.jpg" alt="" width="875" height="250">
 
     <div class="card__footer">
+      {% for t in randomPost.data.introText %}
+      <p>{{ t }}</p>
+      {% endfor %}
       <div class="card__categories">
         {% for tag in randomPost.data.tags %}
         <span><a href="/{{ tag }}/">{{ tag }}</a></span>
@@ -32,7 +35,7 @@ eleventyNavigation:
     </div>
   </div>
 
-  {% set randomPost = collections.recipe | getRandom %}
+  {% set randomPost = collections.sidedishCollection | getRandom %}
   <div class="card">
     <div class="card__head">
       <h2 class="card__headline">{{randomPost.data.title}}</h2>
@@ -41,6 +44,9 @@ eleventyNavigation:
       <img class="no-print" src="../assets/img/{{randomPost.data.headerImage}}_875x250.jpg" alt="" width="875" height="250">
 
     <div class="card__footer">
+        {% for t in randomPost.data.introText %}
+        <p>{{ t }}</p>
+        {% endfor %}
       <div class="card__categories">
         {% for tag in randomPost.data.tags %}
         <span><a href="/{{ tag }}/">{{ tag }}</a></span>
@@ -53,26 +59,8 @@ eleventyNavigation:
   </div>
 
 
-  {% set randomPost = collections.recipe | getRandom %}
-  <div class="card">
-    <div class="card__head">
-      <h2 class="card__headline">{{randomPost.data.title}}</h2>
-    </div>
-    <div class="card__body no-padding">
-      <img class="no-print" src="../assets/img/{{randomPost.data.headerImage}}_875x250.jpg" alt="" width="875" height="250">
-
-    <div class="card__footer">
-      <div class="card__categories">
-        {% for tag in randomPost.data.tags %}
-        <span><a href="/{{ tag }}/">{{ tag }}</a></span>
-        {% endfor %}
-      </div>
-      <div class="card__link"><a href="{{ randomPost.data.url | url}}">zum Rezept</a></div>
-    </div>
-
-    </div>
-  </div>
 </div>
+
 
 {%- for item in categories %}
 <div class="card {{item.url}}">
