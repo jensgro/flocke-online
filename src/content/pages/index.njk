@@ -13,51 +13,84 @@ eleventyNavigation:
 ---
 <div>
   {% set randomPost = collections.maincourseCollection | getRandom %}
-  <div class="card">
-    <div class="card__head">
-      <h2 class="card__headline">{{randomPost.data.title}}</h2>
+  <div>
+    <div>
+      <h2>{{randomPost.data.title}}</h2>
     </div>
-    <div class="card__body no-padding">
+    <div>
       <img class="no-print" src="../assets/img/{{randomPost.data.headerImage}}_875x250.jpg" alt="" width="875" height="250">
 
-    <div class="card__footer">
+    <div>
       {% for t in randomPost.data.introText %}
       <p>{{ t }}</p>
       {% endfor %}
-      <div class="card__categories">
+      <div>
         {% for tag in randomPost.data.tags %}
         <span><a href="/{{ tag }}/">{{ tag }}</a></span>
         {% endfor %}
       </div>
-      <div class="card__link"><a href="{{ randomPost.data.url | url}}">zum Rezept</a></div>
+      <div><a href="{{ randomPost.data.url | url}}">zum Rezept</a></div>
     </div>
 
     </div>
   </div>
-
-  {% set randomPost = collections.sidedishCollection | getRandom %}
-  <div class="card">
-    <div class="card__head">
-      <h2 class="card__headline">{{randomPost.data.title}}</h2>
+  <div>
+      <ul>
+        {% set atPost = 0 %}
+      {%- for post in collections.maincourseCollection %}
+      {%- if atPost < 8 -%}
+        <li><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
+        {%- endif -%}
+        {# Zählvariable hochzählen #}
+        {% set atPost = atPost + 1 %}
+      {%- endfor -%}
+    </ul>
+    <div>
+      <a href="hauptgerichte.html">
+        <span>&#9654;</span> mehr <span class="vis-md">aus der Kategorie</span> <strong>Hauptgerichte</strong> ...</a>
     </div>
-    <div class="card__body no-padding">
+
+  </div>
+</div>
+<div>
+  {% set randomPost = collections.sidedishCollection | getRandom %}
+  <di>
+    <div>
+      <h2>{{randomPost.data.title}}</h2>
+    </div>
+    <div>
       <img class="no-print" src="../assets/img/{{randomPost.data.headerImage}}_875x250.jpg" alt="" width="875" height="250">
 
-    <div class="card__footer">
+    <div>
         {% for t in randomPost.data.introText %}
         <p>{{ t }}</p>
         {% endfor %}
-      <div class="card__categories">
+      <div>
         {% for tag in randomPost.data.tags %}
         <span><a href="/{{ tag }}/">{{ tag }}</a></span>
         {% endfor %}
       </div>
-      <div class="card__link"><a href="{{ randomPost.data.url | url}}">zum Rezept</a></div>
+      <div><a href="{{ randomPost.data.url | url}}">zum Rezept</a></div>
     </div>
 
     </div>
   </div>
-
+  <div>
+      <ul>
+        {% set atPost = 0 %}
+      {%- for post in collections.sidedishCollection %}
+      {%- if atPost < 8 -%}
+        <li><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
+        {%- endif -%}
+        {# Zählvariable hochzählen #}
+        {% set atPost = atPost + 1 %}
+      {%- endfor -%}
+    </ul>
+    <div>
+      <a href="beilagen.html">
+        <span>&#9654;</span> mehr <span class="vis-md">aus der Kategorie</span> <strong>Beilagen</strong> ...</a>
+    </div>
+  </div>
 
 </div>
 
