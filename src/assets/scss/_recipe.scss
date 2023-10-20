@@ -4,4 +4,41 @@
     padding-left: $space2;
     border-left: $space1 solid var(--categoryColor);
   }
+
+  // Liste
+  &-instructions {
+    list-style-type: none;
+    display: grid;
+    gap: 10px;
+    counter-reset: instruction;
+  }
+  &-instruction {
+    counter-increment: instruction;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+
+    &:before {
+      content: counter(instruction);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 0 0 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #a20000;
+      color: #fff;
+      font-size: 1rem;
+    }
+  }
+}
+
+.ingredients-list {
+  display: grid;
+  gap: 5px;
 }

@@ -14,8 +14,8 @@ templateClass: tmpl-recipe
 
     {% if ingredients %}
     <div class="recipe__ingredients">
-      <h2>Zutaten</h2>
-      <ul>
+      <h2 class="separator"><span>Zutaten</span></h2>
+      <ul class="ingredients-list">
         {% for i in ingredients %}
         <li itemprop="recipeIngredient">{{ i }}</li>
         {% endfor %}
@@ -25,18 +25,18 @@ templateClass: tmpl-recipe
 
     {% if recipe %}
     <div class="recipe__content">
-      <h2>Zubereitung</h2>
-      <ul>
+      <h2 class="separator"><span>Zubereitung</span></h2>
+      <ul class="recipe-instructions">
         {% for r in recipe %}
-        <li itemprop="recipeInstructions">{{ r }}</li>
+        <li  class="recipe-instruction" itemprop="recipeInstructions">{{ r }}</li>
         {% endfor %}
       </ul>
     </div>
     {% endif %}
 
     {% if tipps %}
-    <div class="recipe__tipps">
-      <h2>Tipps/Hinweise/Bemerkungen</h2>
+    <div class="recipe__tipps separator">
+      <h2><span>Tipps/Hinweise/Bemerkungen</span></h2>
       <ul>
         {% for tip in tipps %}
         <li>{{ tip }}</li>
