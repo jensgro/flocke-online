@@ -37,7 +37,7 @@ templateClass: tmpl-recipe
     {% if tipps %}
     <div class="recipe__tipps separator">
       <h2><span>Tipps/Hinweise/Bemerkungen</span></h2>
-      <ul>
+      <ul class="tipps-list">
         {% for tip in tipps %}
         <li>{{ tip }}</li>
         {% endfor %}

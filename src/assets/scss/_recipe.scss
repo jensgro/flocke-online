@@ -1,8 +1,30 @@
 .recipe {
+
+  @media (min-width: 1000px) {
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+    "intro intro"
+    "ingredients instructions"
+    "tipps tipps";
+  }
   &__intro {
+    grid-area: intro;
     margin: $space4 0 $space6 0;
     padding-left: $space2;
     border-left: $space1 solid var(--categoryColor);
+  }
+
+  &__ingredients {
+    grid-area: ingredients;
+  }
+
+  &__content {
+    grid-area: instructions;
+  }
+
+  &__tipps {
+    grid-area: tipps;
   }
 
   // Liste
@@ -15,7 +37,6 @@
   &-instruction {
     counter-increment: instruction;
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
     gap: 30px;
     padding: 10px;
@@ -41,4 +62,9 @@
 .ingredients-list {
   display: grid;
   gap: 5px;
+}
+
+.tipps-list {
+  display: grid;
+  gap: 20px;
 }
