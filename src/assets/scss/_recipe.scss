@@ -5,6 +5,7 @@
     gap: 20px;
     grid-template-areas:
     "intro intro"
+    "tags tags"
     "ingredients instructions"
     "tipps tipps";
   }
@@ -13,6 +14,10 @@
     margin: $space4 0 $space6 0;
     padding-left: $space2;
     border-left: $space1 solid var(--categoryColor);
+  }
+
+  &__tags {
+    grid-area: tags;
   }
 
   &__ingredients {
