@@ -11,61 +11,58 @@ eleventyNavigation:
   key: Startseite
   order: 1
 ---
-<div>
+<h2 class="index-headline separator"><span>Hauptgerichte</span></h2>
+<div class="overview">
   {% set randomPost = collections.maincourseCollection | getRandom %}
-  <div>
-    <div>
-      <h2>{{randomPost.data.title}}</h2>
-    </div>
-    <div>
+  <div class="overview__highlight">
+    <h3 class="overview__highlight-headline">{{randomPost.data.title}}</h3>
+    <div class="overview__image">
       <img class="no-print" src="../assets/img/{{randomPost.data.headerImage}}_875x250.jpg" alt="" width="875" height="250">
-
-    <div>
+    </div>
+    <div class="overview__highlighttext">
       {% for t in randomPost.data.introText %}
       <p>{{ t }}</p>
       {% endfor %}
-      <div>
+      <div class="overview__highlighttags">
         {% for tag in randomPost.data.tags %}
         <span><a href="/{{ tag }}/">{{ tag }}</a></span>
         {% endfor %}
       </div>
       <div><a href="{{ randomPost.data.url | url}}">zum Rezept</a></div>
     </div>
-
-    </div>
   </div>
-  <div>
-      <ul>
+  <div class="overview__shortlist">
+      <ul class="list list--shortlist">
         {% set atPost = 0 %}
       {%- for post in collections.maincourseCollection %}
       {%- if atPost < 8 -%}
-        <li><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
+        <li class="list__item list__item--overview"><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
         {%- endif -%}
         {# Zählvariable hochzählen #}
         {% set atPost = atPost + 1 %}
       {%- endfor -%}
     </ul>
-    <div>
+    <div class="overview__forward">
       <a href="hauptgerichte.html">
-        <span>&#9654;</span> mehr <span class="vis-md">aus der Kategorie</span> <strong>Hauptgerichte</strong> ...</a>
+        mehr <span class="vis-md">aus der Kategorie</span> <strong>Hauptgerichte</strong> ...</a>
     </div>
 
   </div>
 </div>
-<div>
+
+<h2 class="index-headline separator"><span>Beilagen</span></h2>
+<div class="overview">
   {% set randomPost = collections.sidedishCollection | getRandom %}
-  <di>
-    <div>
-      <h2>{{randomPost.data.title}}</h2>
-    </div>
-    <div>
+  <div class="overview__highlight">
+    <h3 class="overview__highlight-headline">{{randomPost.data.title}}</h3>
+    <div class="overview__image">
       <img class="no-print" src="../assets/img/{{randomPost.data.headerImage}}_875x250.jpg" alt="" width="875" height="250">
 
-    <div>
+    <div class="overview__highlighttext">
         {% for t in randomPost.data.introText %}
         <p>{{ t }}</p>
         {% endfor %}
-      <div>
+      <div class="overview__highlighttags">
         {% for tag in randomPost.data.tags %}
         <span><a href="/{{ tag }}/">{{ tag }}</a></span>
         {% endfor %}
@@ -75,57 +72,59 @@ eleventyNavigation:
 
     </div>
   </div>
-  <div>
-    <ul>
+  <div class="overview__shortlist">
+    <ul class="list list--shortlist">
       {% set atPost = 0 %}
       {%- for post in collections.sidedishCollection %}
       {%- if atPost < 8 -%}
-        <li><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
+        <li class="list__item list__item--overview"><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
         {%- endif -%}
         {# Zählvariable hochzählen #}
         {% set atPost = atPost + 1 %}
       {%- endfor -%}
     </ul>
-    <div>
+    <div class="overview__forward">
       <a href="beilagen.html">
-        <span>&#9654;</span> mehr <span class="vis-md">aus der Kategorie</span> <strong>Beilagen</strong> ...</a>
+        mehr <span class="vis-md">aus der Kategorie</span> <strong>Beilagen</strong> ...</a>
     </div>
   </div>
 
 </div>
 
+<h2 class="index-headline separator"><span>Sonstiges</span></h2>
 <div>
-    <ul>
+    <ul class="list list--grid-2">
       {% set atPost = 0 %}
       {%- for post in collections.otherCollection %}
       {%- if atPost < 8 -%}
-        <li><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
+        <li class="list__item list__item--overview"><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
         {%- endif -%}
         {# Zählvariable hochzählen #}
         {% set atPost = atPost + 1 %}
       {%- endfor -%}
     </ul>
-    <div>
+    <div class="overview__forward">
       <a href="sonstiges.html">
-        <span>&#9654;</span> mehr <span class="vis-md">aus der Kategorie</span> <strong>Sonstiges</strong> ...</a>
+        mehr <span class="vis-md">aus der Kategorie</span> <strong>Sonstiges</strong> ...</a>
     </div>
 
 </div>
 
+<h2 class="index-headline separator"><span>Wissenswertes</span></h2>
 <div>
-    <ul>
+    <ul class="list list--grid-2">
       {% set atPost = 0 %}
       {%- for post in collections.wissenswertes %}
       {%- if atPost < 8 -%}
-        <li><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
+        <li class="list__item list__item--overview"><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
         {%- endif -%}
         {# Zählvariable hochzählen #}
         {% set atPost = atPost + 1 %}
       {%- endfor -%}
     </ul>
-    <div>
+    <div class="overview__forward">
       <a href="wissenswertes.html">
-        <span>&#9654;</span> mehr <span class="vis-md">aus der Kategorie</span> <strong>Wissenswertes</strong> ...</a>
+         mehr <span class="vis-md">aus der Kategorie</span> <strong>Wissenswertes</strong> ...</a>
     </div>
 
 </div>

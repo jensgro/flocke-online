@@ -59,3 +59,38 @@
 .sr-only {
   @include visuallyhidden;
 }
+
+// line-separator
+// https://codepen.io/jensgro/pen/kxQomv
+// configuration
+
+
+.separator {
+  --_col-separator: #a20000;
+
+  overflow: hidden;
+  color: var(--_col-separator);
+  margin: 40px 0;
+
+  span {
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+    padding: 0 20px 0 0;
+    background-color: var(--container-bg, #f7f7f7);
+
+    &:after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      width: 10000px;
+      height: 1px;
+      top:50%;
+      border-bottom: 4px solid var(--_col-separator);
+    }
+    &:after{left: 100%; }
+  }
+}
+
+
+

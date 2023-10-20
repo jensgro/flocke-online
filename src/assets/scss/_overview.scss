@@ -1,0 +1,47 @@
+@mixin listitem {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+}
+@mixin listitemIndex {
+    padding: 10px;
+    @include listitem;
+}
+
+.overview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+
+  &__highlight {}
+  &__highlight-headline {}
+  &__image {}
+  &__highlighttext {}
+  &__highlighttags {}
+  &__shortlist {}
+  &__forward {
+    @include listitemIndex;
+    max-width: 440px;
+    margin-top: 20px;
+  }
+}
+
+.list {
+
+  &--shortlist {
+    display: grid;
+    gap: 10px;
+  }
+  &__item { }
+  &__item--overview {
+    @include listitemIndex;
+  }
+  &--grid-2 {
+    display: grid;
+    // grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+  }
+}
+
+.index-headline {}
