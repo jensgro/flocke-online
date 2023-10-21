@@ -52,7 +52,11 @@ templateClass: tmpl-recipe
       <h2 class="separator"><span>Tipps/Hinweise/Bemerkungen</span></h2>
       <ul class="tipps-list">
         {% for tip in tipps %}
-        <li>{{ tip }}</li>
+        <li class="tipps-list__item">
+          <svg class="tipps-list__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+          </svg>
+          {{ tip }}</li>
         {% endfor %}
       </ul>
     </div>

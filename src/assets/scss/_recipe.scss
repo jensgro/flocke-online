@@ -10,7 +10,7 @@
 
   @media (min-width: 1000px) {
     display: grid;
-    gap: $gap;
+    gap: $gap $gap3;
     grid-template-areas:
     "intro intro"
     "tags tags"
@@ -83,4 +83,19 @@
 .tipps-list {
   display: grid;
   gap: $gap2;
+
+  &__item {
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    gap: $gap2;
+  }
+
+  &__icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 3px;
+  }
 }
+
