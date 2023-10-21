@@ -110,7 +110,7 @@ p + h2, ul + h2, ol + h2 {
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
-ul[class]:not(.main-nav__nav),
+ul[class],
 ol[class] {
   list-style: none;
   padding-left: 0;

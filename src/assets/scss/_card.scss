@@ -9,7 +9,7 @@
 
   &__headline {
     color: var(--textColor);
-    background-color: var(--container-bg);
+    background-color: $container-bg;
     margin-bottom: 0;
 
     mark {
