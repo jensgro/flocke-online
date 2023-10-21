@@ -11,17 +11,11 @@ eleventyNavigation:
   order: 3
 ---
 
-<div class="card">
-  <div class="card__head">
-    <h2 class="card__headline">Rezepte der Kategorie {{eleventyNavigation.key | capitalize}}</h2>
-  </div>
-  <div class="card__body">
-    <ul class="card__items">
-      {%- for post in collections.recipesDescending %}
-      {%- if post.data.category == "beilagen" %}
-      <li><a class="card__link--block" href="{{ post.url | url}}">{{ post.data.title }}</a></li>
-      {%- endif -%}
-    {%- endfor -%}
-    </ul>
-  </div>
-</div>
+<h2 class="separator"><span>Rezepte der Kategorie {{eleventyNavigation.key | capitalize}}</span></h2>
+<ul class="list list--grid">
+  {%- for post in collections.recipesDescending %}
+  {%- if post.data.category == "beilagen" %}
+  <li class="list__item list__item--overview"><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
+  {%- endif -%}
+{%- endfor -%}
+</ul>

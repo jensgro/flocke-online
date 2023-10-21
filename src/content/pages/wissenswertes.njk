@@ -10,17 +10,10 @@ eleventyNavigation:
   key: wissenswertes
   order: 5
 ---
-
-<div class="card">
-  <div class="card__head">
-    <h2 class="card__headline">Posts der Kategorie {{eleventyNavigation.key | capitalize}}</h2>
-  </div>
-  <div class="card__body">
-    <ul class="card__items">
-      {%- for post in collections.infosDescending -%}
-        <li><a class="card__link--block" href="{{ post.url | url}}">{{ post.data.title }}</a></li>
-      {%- endfor -%}
-    </ul>
-  </div>
-</div>
+<h2 class="separator"><span>Posts der Kategorie {{eleventyNavigation.key | capitalize}}</span></h2>
+<ul class="list list--grid">
+  {%- for post in collections.infosDescending -%}
+    <li class="list__item list__item--overview"><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
+  {%- endfor -%}
+</ul>
 
