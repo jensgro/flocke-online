@@ -7,7 +7,7 @@ headerImageLink: https://pixabay.com/de/photos/wei%c3%9fe-bohnen-cannellini-bohn
 headerImageAttribution: Bild von <a href="https://pixabay.com/de/users/pictavio-1923348/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6571314">Pictavio</a> auf <a href="https://pixabay.com/de//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6571314">Pixabay</a>
 
 tags:
-  - nudel
+  - nudeln
   - vegetarisch
   - gemüse
 
