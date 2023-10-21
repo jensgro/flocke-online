@@ -11,7 +11,7 @@
 .overview {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 20px;
+  gap: $gap2;
 
   &__highlight {}
   &__highlight-headline {}
@@ -30,7 +30,7 @@
 
   &--shortlist {
     display: grid;
-    gap: 10px;
+    gap: $gap;
   }
   &__item { }
   &__item--overview {
@@ -40,7 +40,7 @@
     display: grid;
     // grid-template-columns: 1fr 1fr;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 10px;
+    gap: $gap;
   }
 }
 

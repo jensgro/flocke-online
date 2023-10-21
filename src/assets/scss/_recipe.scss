@@ -1,49 +1,60 @@
 .recipe {
 
+  &__intro {
+    margin-bottom: $space4;
+  }
+
+  &__tags {
+    margin: $space2 0;
+  }
+
   @media (min-width: 1000px) {
     display: grid;
-    gap: 20px;
+    gap: $gap;
     grid-template-areas:
     "intro intro"
     "tags tags"
     "ingredients instructions"
     "tipps tipps";
-  }
-  &__intro {
-    grid-area: intro;
-    margin: $space4 0 $space6 0;
-    padding-left: $space2;
-    border-left: $space1 solid var(--categoryColor);
+
+    &__intro {
+      grid-area: intro;
+      margin-bottom: 0;
+    }
+
+    &__tags {
+      grid-area: tags;
+      margin: 0;
+    }
+
+    &__ingredients {
+      grid-area: ingredients;
+    }
+
+    &__content {
+      grid-area: instructions;
+    }
+
+    &__tipps {
+      grid-area: tipps;
+    }
   }
 
-  &__tags {
-    grid-area: tags;
-  }
 
-  &__ingredients {
-    grid-area: ingredients;
-  }
-
-  &__content {
-    grid-area: instructions;
-  }
-
-  &__tipps {
-    grid-area: tipps;
-  }
 
   // Liste
   &-instructions {
     list-style-type: none;
     display: grid;
-    gap: 10px;
+    gap: $gap;
     counter-reset: instruction;
   }
-  &-instruction {
+
+  &-instructions li {
     counter-increment: instruction;
     display: flex;
     align-items: flex-start;
-    gap: 30px;
+    gap: $gap3;
     padding: 10px;
     background-color: #fff;
     border-radius: 4px;
@@ -57,8 +68,8 @@
       flex: 0 0 40px;
       height: 40px;
       border-radius: 50%;
-      background-color: #a20000;
-      color: #fff;
+      background-color: var(--categoryColor);
+      color: var(--categoryTextColor);
       font-size: 1rem;
     }
   }
@@ -71,5 +82,5 @@
 
 .tipps-list {
   display: grid;
-  gap: 20px;
+  gap: $gap2;
 }

@@ -2,9 +2,9 @@
   margin-left: $space1;
   display: flex;
   flex-wrap: wrap;
-  gap: $space2;
+  gap: $gap $gap2;
 
-  &__link {
+  a {
 
     color: var(--categoryColor);
 
@@ -18,10 +18,10 @@
   }
 
   &.taglist--short {
-    .taglist__link {
-      padding: $space1;
-      color: var(--categoryTextColor);
-      background-color: var(--categoryColor);
+    a {
+      display: block;
+      padding: $space1 $space2;
+      border: 2px solid var(--categoryColor);
       text-decoration: none;
 
       &:hover, &:focus {

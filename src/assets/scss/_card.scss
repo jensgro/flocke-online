@@ -23,7 +23,7 @@
 
   &__categories {
     display: flex;
-    gap: 10px;
+    gap: $gap;
     margin-block: 10px;
 
     a {
