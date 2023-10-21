@@ -20,8 +20,12 @@ eleventyNavigation:
       <img class="no-print" src="../assets/img/{{randomPost.data.headerImage}}_875x250.jpg" alt="" width="875" height="250">
     </div>
     <div class="overview__highlighttext">
+      {% set tNum = 0 %}
       {% for t in randomPost.data.introText %}
+      {% if tNum == 0 %}
       <p>{{ t }}</p>
+      {% endif %}
+      {% set tNum = tNum + 1 %}
       {% endfor %}
       <div class="overview__highlighttags">
         {% for tag in randomPost.data.tags %}
