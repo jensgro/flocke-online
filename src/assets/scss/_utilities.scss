@@ -2,35 +2,6 @@
   @include nolist;
 }
 
-// .section--categories {
-//   border-top: 5px solid $separator-color;
-// }
-
-// https://piccalil.li/tutorial/creating-a-full-bleed-css-utility/
-// .full-bleed {
-//   width: 100vw;
-//   margin-left: calc(50% - 50vw);
-// }
-
-.pt-0 {
-  padding-top: 0;
-}
-.pb-0 {
-  padding-bottom: 0;
-}
-
-.mb-0 {
-  margin-bottom: 0;
-}
-
-.mb-4 {
-  margin-bottom: $space4;
-}
-
-.no-padding {
-  padding: 0 !important;
-}
-
 .only-print {
   display: none;
 }
@@ -44,26 +15,12 @@
   }
 }
 
-// In diesem Falle mal nicht mobile first
-
-@media (max-width: $md) {
-  .vis-md {
-    @include visuallyhidden;
-  }
-
-  .pi-md-0 {
-    padding-inline: 0;
-  }
-}
-
 .sr-only {
   @include visuallyhidden;
 }
 
-// line-separator
+// ========= line-separator
 // https://codepen.io/jensgro/pen/kxQomv
-// configuration
-
 
 .separator {
   --_col-separator: var(--categoryColor, #a20000);
@@ -90,7 +47,4 @@
     }
     &:after{left: 100%; }
   }
-}
-.container--bg {
-  background-color: $container-bg;
 }

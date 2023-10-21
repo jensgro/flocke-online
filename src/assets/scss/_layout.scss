@@ -9,23 +9,6 @@
   }
 }
 
-.grid {
-  display: flex;
-  gap: $gap2;
-
-  .card {
-    flex: 1 1 auto;
-  }
-}
-
-@media (min-width: $md) {
-  .grid-md-2 .card{
-    flex: 1 1 50%;
-  }
-}
-
-@media (min-width: $lg) {
-  .grid-lg-3 .card {
-    flex: 1 1 33.333333333%;
-  }
+.container--bg {
+  background-color: $container-bg;
 }

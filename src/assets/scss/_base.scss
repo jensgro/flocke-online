@@ -102,10 +102,14 @@ h1 {
 }
 
 h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
   font-size: 1.5rem;
 }
 
-p + h2, ul + h2, ol + h2 {
+p + h3, ul + h3, ol + h3 {
   margin-top: $space3;
 }
 
