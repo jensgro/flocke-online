@@ -35,9 +35,6 @@
 
       {{ content | safe }}
 
-      {% if templateClass != "tmpl-recipe" %}
-        {% include "partials/tags.njk" %}
-      {% endif %}
       {% include "partials/recommendations.njk" %}
 
       {% include "partials/footer.njk" %}

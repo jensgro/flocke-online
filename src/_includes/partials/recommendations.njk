@@ -1,20 +1,15 @@
 {% if rec %}
 <aside class="container container--bg no-print">
-  <div class="card">
-    <div class="card__head">
-      <h2 class="card__headline">Weiterführende Links</h2>
-    </div>
-    <div class="card__body">
-
-      <ul>
-        {% for r in rec %}
-        <li>
-          <a href="{{ r.url }}">{{ r.title }}</a>{% if r.note %} - {{r.note}}{% endif %}
-        </li>
-      {% endfor %}
-      </ul>
-
-    </div>
-  </div>
+  <h2 class="separator"><span>Weiterführende Links</span></h2>
+  <ul class="tipps-list">
+    {% for r in rec %}
+    <li class="tipps-list__item--flex">
+      <svg class="tipps-list__icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
+    </svg>
+      <a href="{{ r.url }}">{{ r.title }}</a>{% if r.note %} - {{r.note}}{% endif %}
+    </li>
+  {% endfor %}
+  </ul>
 </aside>
 {% endif %}
