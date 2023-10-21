@@ -1,11 +1,11 @@
 {% include "partials/navigation.njk" %}
 
 <header class="container container--bg">
+  {% if noHeadline != true  %}
+  <h2 class="siteheader__headline">{{ title }}</h2>
+  {% endif %}
   <div class="siteheader">
-      <!-- 7:2 -->
-    <img class="siteheader__bg-img no-print" src="/assets/img/{{headerImage}}_875x250.jpg" alt="" width="875" height="250">
-    {% if bodyClass != "index" %}
-    <h2 class="siteheader__headline">{{ title }}</h2>
-    {% endif %}
+    <!-- 7:2 -->
+    <img class="siteheader__img no-print" src="/assets/img/{{headerImage}}_875x250.jpg" alt="" width="875" height="250">
   </div>
 </header>

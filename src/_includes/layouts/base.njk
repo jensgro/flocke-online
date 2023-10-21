@@ -28,7 +28,7 @@
   {% elif category == "wissenswertes" %}
       {% set class = "recipepage wissenswertes" %}
   {% else %}
-    {% set class = "" %}
+    {% set class = bodyClass %}
   {% endif %}
   <body class="{{ class }}">
       {% include "partials/site-header.njk" %}
