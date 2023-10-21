@@ -5,7 +5,11 @@
   <h2 class="siteheader__headline">{{ title }}</h2>
   {% endif %}
   <div class="siteheader">
-    <!-- 7:2 -->
-    <img class="siteheader__img no-print" src="/assets/img/{{headerImage}}_875x250.jpg" alt="" width="875" height="250">
+
+    <picture>
+      <source srcset="/assets/img/{{headerImage}}-7x2.jpg" width="1000" height="286" media="(min-width: 800px)">
+      <img class="siteheader__img no-print" src="/assets/img/{{headerImage}}-16x9.jpg" alt="" width="500" height="281">
+    </picture>
+    {# <img class="siteheader__img no-print" src="/assets/img/{{headerImage}}_875x250.jpg" alt="" width="875" height="250"> #}
   </div>
 </header>
