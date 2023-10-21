@@ -129,6 +129,10 @@ a {
   }
 }
 
+mark {
+  padding: $space1 $space2;
+}
+
 /* Make images easier to work with */
 img {
   width: 100%;
