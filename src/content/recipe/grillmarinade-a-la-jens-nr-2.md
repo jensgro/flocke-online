@@ -1,8 +1,10 @@
 ---
 title: Grillmarinade à la Jens Nr. 2
-headerImage: placeholder2
-headerImageLink: https://www.pexels.com/de-de/foto/kunst-textur-pinsel-abstrakt-7325760/
-headerImageAttribution: Foto von Steve Johnson von Pexels
+
+headerImage: grillmarinade-2
+headerImageLink: https://unsplash.com/photos/8e9t6SFQ9yM
+headerImageAttribution: Bild von <a href="https://unsplash.com/@dankpotato_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sam Field</a> auf <a href="https://unsplash.com/s/photos/marinade?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 tags:
   - marinade
   - grillen
