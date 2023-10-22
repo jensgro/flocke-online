@@ -1,8 +1,7 @@
 ---
 title: Sushi selber machen
-headerImage: placeholder2
-headerImageLink: https://www.pexels.com/de-de/foto/kunst-textur-pinsel-abstrakt-7325760/
-headerImageAttribution: Foto von Steve Johnson von Pexels
+headerImage: sushi-1
+headerImageAttribution: Foto von Jens Grochtdreis
 ---
 
 Ich möchte mal wieder Sushi selber machen. Da meine letzten Versuche schon viele Jahre her sind, will ich mich vorher ausreichend fortbilden. Das Netz bietet mir da tolle Chancen:
