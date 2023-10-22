@@ -10,15 +10,23 @@
 
 .overview {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: $gap2;
 
-  &__highlight {}
-  &__highlight-headline {}
-  &__image {}
-  &__highlighttext {}
-  &__highlighttags {}
-  &__shortlist {}
+  &__image img {
+    aspect-ratio: 16/9;
+  }
+
+  &__tags {
+    margin-top: $space2;
+  }
+
+  &__tag {
+    display: inline-block;
+    padding: $space1;
+    border: 1px solid #000;
+  }
+
   &__forward {
     @include listitemIndex;
     max-width: 440px;
@@ -35,6 +43,10 @@
 
   &__item--overview {
     @include listitemIndex;
+
+    a {
+      display: block;
+    }
   }
   &--grid {
     display: grid;

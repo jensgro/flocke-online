@@ -15,28 +15,18 @@ eleventyNavigation:
 <h2 class="index-headline separator"><span>Hauptgerichte</span></h2>
 <div class="overview">
   {% set randomPost = collections.maincourseCollection | getRandom %}
-  <div class="overview__highlight">
-    <h3 class="overview__highlight-headline">{{randomPost.data.title}}</h3>
+  <div>
+    <h3><a href="{{ randomPost.url | url}}">{{randomPost.data.title}}</a></h3>
     <div class="overview__image">
-      <img class="no-print" src="../assets/img/{{randomPost.data.headerImage}}_875x250.jpg" alt="" width="875" height="250">
+      <img class="no-print" src="../assets/img/{{randomPost.data.headerImage}}-16x9.jpg" alt="" width="500" height="281">
     </div>
-    <div class="overview__highlighttext">
-      {% set tNum = 0 %}
-      {% for t in randomPost.data.introText %}
-      {% if tNum == 0 %}
-      <p>{{ t }}</p>
-      {% endif %}
-      {% set tNum = tNum + 1 %}
-      {% endfor %}
-      <div class="overview__highlighttags">
+    <div class="overview__tags">
         {% for tag in randomPost.data.tags %}
-        <span><a href="/{{ tag }}/">{{ tag }}</a></span>
+        <span class="overview__tag"><a href="/{{ tag }}/">{{ tag }}</a></span>
         {% endfor %}
-      </div>
-      <div><a href="{{ randomPost.url | url}}">zum Rezept</a></div>
     </div>
   </div>
-  <div class="overview__shortlist">
+  <div>
       <ul class="list list--shortlist">
         {% set atPost = 0 %}
       {%- for post in collections.maincourseCollection %}
@@ -58,23 +48,15 @@ eleventyNavigation:
 <h2 class="index-headline separator"><span>Beilagen</span></h2>
 <div class="overview">
   {% set randomPost = collections.sidedishCollection | getRandom %}
-  <div class="overview__highlight">
-    <h3 class="overview__highlight-headline">{{randomPost.data.title}}</h3>
+  <div>
+    <h3><a href="{{ randomPost.url | url}}">{{randomPost.data.title}}</a></h3>
     <div class="overview__image">
-      <img class="no-print" src="../assets/img/{{randomPost.data.headerImage}}_875x250.jpg" alt="" width="875" height="250">
-
-    <div class="overview__highlighttext">
-        {% for t in randomPost.data.introText %}
-        <p>{{ t }}</p>
-        {% endfor %}
-      <div class="overview__highlighttags">
-        {% for tag in randomPost.data.tags %}
-        <span><a href="/{{ tag }}/">{{ tag }}</a></span>
-        {% endfor %}
-      </div>
-      <div><a href="{{ randomPost.url | url}}">zum Rezept</a></div>
+      <img class="no-print" src="../assets/img/{{randomPost.data.headerImage}}-16x9.jpg" alt="" width="500" height="281">
     </div>
-
+    <div class="overview__tags">
+      {% for tag in randomPost.data.tags %}
+      <span class="overview__tag"><a href="/{{ tag }}/">{{ tag }}</a></span>
+      {% endfor %}
     </div>
   </div>
   <div class="overview__shortlist">
