@@ -1,8 +1,7 @@
 ---
 title: Apfelwaffeln
-headerImage: waffeln
-headerImageLink: https://pixabay.com/de/photos/waffeln-waffelherzen-puderzucker-2189232/
-headerImageAttribution: Bild von <a href='https://pixabay.com/de/users/congerdesign-509903/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2189232'>congerdesign</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2189232'>Pixabay</a>
+headerImage: waffeln-2
+headerImageAttribution: Bild von Jens Grochtdreis
 
 tags:
   - kuchen

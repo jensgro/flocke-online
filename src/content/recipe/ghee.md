@@ -1,12 +1,12 @@
 ---
 title: Ghee
-permalink: rezepte/ghee.html
 introText:
   - 'In indischen Rezepten steht normalerweise Ghee zum Braten, kein Öl. Als Ersatz wird oft Butterschmalz enpfohlen, was eine gute Empfehlung ist. In Asia-Läden kann man oft auch Ghee kaufen, aber ich fand meist den Duft dieser Produkte nicht besonders angenehm. Deshalb war ich froh, in einem Ayurveda-Kochkurs die Herstellung eigenen Ghees kennengelernt zu haben. Man braucht nur ein wenig Zeit.'
 
-headerImage: ghee-1
-headerImageLink: https://www.flickr.com/photos/75218757@N00/5413983507
-headerImageAttribution: von Larry Jacobsen auf Flickr
+headerImage: ghee-2
+headerImageLink: https://www.flickr.com/photos/40651993@N07/40357094982
+headerImageAttribution: von <a href="https://www.flickr.com/photos/websterwebfoot/">Barry Dale Gilfry</a>
+
 tags:
   - indien
 

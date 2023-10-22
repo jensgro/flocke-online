@@ -6,7 +6,7 @@ introText:
 
 headerImage: kirschmichel
 headerImageLink: https://www.flickr.com/photos/19027848@N00/663468234
-headerImageAttribution: von Gourmandise auf Flickr
+headerImageAttribution: von <a href="https://www.flickr.com/photos/19027848@N00/">Gourmandise auf Flickr</a>
 
 tags:
   - kuchen
