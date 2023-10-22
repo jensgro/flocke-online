@@ -46,4 +46,5 @@ tipps:
   - Das Mehlieren des Fleisches bringt eine schöne Kruste und hilft später bei der Bindung.
   - Niemals zuviel Fleisch gleichzeitig in den Bräter geben. Sonst kocht das Fleisch mehr, als dass es kross wird.
   - Das Fleisch niemals auf der höchsten Stufe anbraten, sonst verbrennt es zu schnell. Eher auf Stufe 7 von 9.
+  - Das Gericht kann im Ofen fertig gegart werden. Ich bevorzuge aber den Herd, da ich dann besser den Fortgang kontrollieren kann.
 ---

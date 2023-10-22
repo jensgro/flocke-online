@@ -9,6 +9,7 @@ headerImageAttribution: Photo by <a href="https://unsplash.com/@paishzaini?utm_s
 
 tags:
   - nudeln
+  - vegetarisch
 
 category: hauptgerichte
 

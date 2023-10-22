@@ -7,10 +7,12 @@
   --inactiveNavBgHover: #fd8700;
   --activeNavBG: #fff;
   --activeNavText: #000;
+  --textColor: #646464;
+  --lightyellow: #{$lightyellow};
+
 
   --mainnav-wrapper-bg: var(--categoryColor, #000);//#bd9a74; //#6f3939;
-  --bg-wrapper-bg: #262626;
-  --page-bg: #c3bfae;
+  --page-bg: #f4f4f4;
   --container-bg: #f7f7f7;
 }
 
@@ -100,15 +102,19 @@ h1 {
 }
 
 h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
   font-size: 1.5rem;
 }
 
-p + h2, ul + h2, ol + h2 {
+p + h3, ul + h3, ol + h3 {
   margin-top: $space3;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
-ul[class]:not(.main-nav__nav),
+ul[class],
 ol[class] {
   list-style: none;
   padding-left: 0;
@@ -121,6 +127,10 @@ a {
   &:hover, &:focus {
     color: $link-color-hover;
   }
+}
+
+mark {
+  padding: $space1 $space2;
 }
 
 /* Make images easier to work with */

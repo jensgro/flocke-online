@@ -1,0 +1,56 @@
+@mixin listitem {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+}
+@mixin listitemIndex {
+    padding: 10px;
+    @include listitem;
+}
+
+.overview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: $gap2;
+
+  &__image img {
+    aspect-ratio: 16/9;
+  }
+
+  &__tags {
+    margin-top: $space2;
+  }
+
+  &__tag {
+    display: inline-block;
+    padding: $space1;
+    border: 1px solid #000;
+  }
+
+  &__forward {
+    @include listitemIndex;
+    max-width: 440px;
+    margin-top: 20px;
+  }
+}
+
+.list {
+
+  &--shortlist {
+    display: grid;
+    gap: $gap;
+  }
+
+  &__item--overview {
+    @include listitemIndex;
+
+    a {
+      display: block;
+    }
+  }
+  &--grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: $gap;
+  }
+}

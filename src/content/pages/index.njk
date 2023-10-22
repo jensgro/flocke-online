@@ -4,6 +4,7 @@ title: "Flocke Online - Essen im Netz"
 subline: "Meine kleine Rezeptsammlung"
 permalink: /index.html
 bodyClass: index
+noHeadline: true
 headerImage: gewuerze-2
 headerImageLink: https://pixabay.com/de/photos/lebensmittel-gew%c3%bcrze-kochen-3251064/
 headerImageAttribution: Bild von <a href="https://pixabay.com/de/users/westerper-8457660/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3251064">westerper</a> auf <a href="https://pixabay.com/de//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3251064">Pixabay</a>
@@ -11,60 +12,107 @@ eleventyNavigation:
   key: Startseite
   order: 1
 ---
-{% set randomPost = collections.recipe | getRandom %}
-{# <div class="card card--highlighted">
-  <div class="card__head">
-    <h2 class="card__headline highlighted__headline">{{randomPost.data.title}}</h2>
-  </div>
-  <div class="card__body no-padding">
-    <img class="no-print" src="../assets/img/{{randomPost.data.headerImage}}_875x250.jpg" alt="" width="875" height="250">
-
-  <div class="card__footer">
-    <div class="card__categories">
-      {% for tag in randomPost.data.tags %}
-      <span><a href="/{{ tag }}/">{{ tag }}</a></span>
-      {% endfor %}
+<h2 class="index-headline separator"><span>Hauptgerichte</span></h2>
+<div class="overview">
+  {% set randomPost = collections.maincourseCollection | getRandom %}
+  <div>
+    <h3><a href="{{ randomPost.url | url}}">{{randomPost.data.title}}</a></h3>
+    <div class="overview__image">
+      <img class="no-print" src="../assets/img/{{randomPost.data.headerImage}}-16x9.jpg" alt="" width="500" height="281">
     </div>
-    <div class="card__link"><a href="{{ randomPost.data.url | url}}">zum Rezept</a></div>
+    <div class="overview__tags">
+        {% for tag in randomPost.data.tags %}
+        <span class="overview__tag"><a href="/{{ tag }}/">{{ tag }}</a></span>
+        {% endfor %}
+    </div>
   </div>
-
-  </div>
-</div> #}
-
-{%- for item in categories %}
-<div class="card {{item.url}}">
-  <div class="card__head">
-    <h2 class="card__headline">{{ item.title }}</h2>
-  </div>
-  <div class="card__body">
-    <ol class="card__items">
-    {# Zählvariable setzen #}
-    {% set atPost = 0 %}
-    {%- for post in collections.recipesDescending -%}
-      {% if post.data.category == item.url %}
-        {# Solange die Zählvariable noch unter diesem Wert ist #}
-        {%- if atPost < 8 -%}
-        <li><a class="card__link--block" href="{{ post.url | url}}">{{ post.data.title }}</a></li>
+  <div>
+      <ul class="list list--shortlist">
+        {% set atPost = 0 %}
+      {%- for post in collections.maincourseCollection %}
+      {%- if atPost < 8 -%}
+        <li class="list__item list__item--overview"><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
         {%- endif -%}
         {# Zählvariable hochzählen #}
         {% set atPost = atPost + 1 %}
-      {%- endif -%}
-    {%- endfor -%}
-    {%- for post in collections.infosDescending -%}
-      {% if post.data.category == item.url %}
-        {# Solange die Zählvariable noch unter diesem Wert ist #}
-        {%- if atPost < 8 -%}
-        <li><a class="card__link--block" href="{{ post.url | url}}">{{ post.data.title }}</a></li>
-        {%- endif -%}
-        {# Zählvariable hochzählen #}
-        {% set atPost = atPost + 1 %}
-      {%- endif -%}
-    {%- endfor -%}
-    </ol>
-    <div class="card__link">
-      <a href="{{ item.title | lower }}.html">
-        <span class="card__arrow">&#9654;</span> mehr <span class="vis-md">aus der Kategorie</span> <strong>{{ item.title }}</strong> ...</a>
+      {%- endfor -%}
+    </ul>
+    <div class="overview__forward">
+      <a href="hauptgerichte.html">
+        mehr aus der Kategorie <strong>Hauptgerichte</strong> ...</a>
     </div>
+
   </div>
 </div>
-{% endfor -%}
+
+<h2 class="index-headline separator"><span>Beilagen</span></h2>
+<div class="overview">
+  {% set randomPost = collections.sidedishCollection | getRandom %}
+  <div>
+    <h3><a href="{{ randomPost.url | url}}">{{randomPost.data.title}}</a></h3>
+    <div class="overview__image">
+      <img class="no-print" src="../assets/img/{{randomPost.data.headerImage}}-16x9.jpg" alt="" width="500" height="281">
+    </div>
+    <div class="overview__tags">
+      {% for tag in randomPost.data.tags %}
+      <span class="overview__tag"><a href="/{{ tag }}/">{{ tag }}</a></span>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="overview__shortlist">
+    <ul class="list list--shortlist">
+      {% set atPost = 0 %}
+      {%- for post in collections.sidedishCollection %}
+      {%- if atPost < 8 -%}
+        <li class="list__item list__item--overview"><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
+        {%- endif -%}
+        {# Zählvariable hochzählen #}
+        {% set atPost = atPost + 1 %}
+      {%- endfor -%}
+    </ul>
+    <div class="overview__forward">
+      <a href="beilagen.html">
+        mehr aus der Kategorie <strong>Beilagen</strong> ...</a>
+    </div>
+  </div>
+
+</div>
+
+<h2 class="index-headline separator"><span>Sonstiges</span></h2>
+<div>
+    <ul class="list list--grid">
+      {% set atPost = 0 %}
+      {%- for post in collections.otherCollection %}
+      {%- if atPost < 8 -%}
+        <li class="list__item list__item--overview"><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
+        {%- endif -%}
+        {# Zählvariable hochzählen #}
+        {% set atPost = atPost + 1 %}
+      {%- endfor -%}
+    </ul>
+    <div class="overview__forward">
+      <a href="sonstiges.html">
+        mehr aus der Kategorie <strong>Sonstiges</strong> ...</a>
+    </div>
+
+</div>
+
+<h2 class="index-headline separator"><span>Wissenswertes</span></h2>
+<div>
+    <ul class="list list--grid">
+      {% set atPost = 0 %}
+      {%- for post in collections.wissenswertes %}
+      {%- if atPost < 8 -%}
+        <li class="list__item list__item--overview"><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
+        {%- endif -%}
+        {# Zählvariable hochzählen #}
+        {% set atPost = atPost + 1 %}
+      {%- endfor -%}
+    </ul>
+    <div class="overview__forward">
+      <a href="wissenswertes.html">
+         mehr aus der Kategorie <strong>Wissenswertes</strong> ...</a>
+    </div>
+
+</div>
+

@@ -1,8 +1,10 @@
 ---
 title: Grillmarinade à la Jens Nr.1
-headerImage: placeholder1
-headerImageLink: https://www.pexels.com/de-de/foto/kunst-kreativ-malerei-abstrakt-1959387/
-headerImageAttribution: Foto von Steve Johnson von Pexels
+
+headerImage: grillmarinade-1
+headerImageLink: https://unsplash.com/photos/UQljN8Ebtnk
+headerImageAttribution: Bild von <a href="https://unsplash.com/@kovah?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kevin Woblick</a> auf <a href="https://unsplash.com/s/photos/marinade?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 tags:
   - marinade
   - grillen

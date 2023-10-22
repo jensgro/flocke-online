@@ -1,12 +1,12 @@
 .main-nav {
  
   &__nav {
-    @include nolist;
     display: flex;
     flex-wrap: wrap;
-    gap: $space2;
-    padding: $space2;
-    background-color: var(--categoryColor);
+    gap: $gap;
+    padding: $space2 0;
+    border-bottom: 5px solid #000;
+    border-bottom-color: var(--categoryColor);
   }
 
   &__item {
@@ -18,37 +18,20 @@
   }
 
   &__link {
-    color: #000;
-    background-color: #fff;
+    color: var(--categoryColor);
     display: inline-block;
     text-decoration: none;
     padding: $space1;
 
-    // &--Startseite {
-
-    // }
-    // &--hauptgerichte {
-
-    // }
-    // &--beilagen {
-
-    // }
-    // &--sonstiges {
-
-    // }
-    // &--wissenswertes {
-
-    // }
-
     &:hover,
     &:focus {
       color: $white;
-      background-color: $black;
+      background-color: var(--categoryColor);
     }
 
     &--active {
-      background-color: var(--activeNavBG);
-      color: var(--activeNavText);
+      background-color: var(--categoryColor);
+      color: $white;
       font-weight: 700;
     }
   }

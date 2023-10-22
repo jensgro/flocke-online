@@ -1,5 +1,5 @@
 {% include "partials/taglist-simple.njk" %}
-<div class="container no-print">
+<div class="container container--bg no-print">
 
   {% if headerImageAttribution %}
   <details class="imageright">
@@ -27,6 +27,6 @@
   </footer>
 </div>
 
-<div class="container only-print">
+<div class="container container--bg only-print">
   Ausgedruckt von der Seite: {{metadata.url}}{{ page.url | url }}
 </div>

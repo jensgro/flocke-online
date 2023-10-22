@@ -1,7 +1,83 @@
 .recipe {
+
   &__intro {
-    margin: $space4 0 $space6 0;
-    padding-left: $space2;
-    border-left: $space1 solid var(--categoryColor);
+    margin-bottom: $space4;
+  }
+
+  &__tags {
+    margin: $space2 0;
+  }
+
+  @media (min-width: 1000px) {
+    display: grid;
+    gap: $gap $gap3;
+    grid-template-areas:
+    "intro intro"
+    "tags tags"
+    "ingredients instructions"
+    "tipps tipps";
+
+    &__intro {
+      grid-area: intro;
+      margin-bottom: 0;
+    }
+
+    &__tags {
+      grid-area: tags;
+      margin: 0;
+    }
+
+    &__ingredients {
+      grid-area: ingredients;
+    }
+
+    &__content {
+      grid-area: instructions;
+    }
+
+    &__tipps {
+      grid-area: tipps;
+    }
+  }
+
+
+
+  // Liste
+  &-instructions {
+    list-style-type: none;
+    display: grid;
+    gap: $gap;
+    counter-reset: instruction;
+  }
+
+  &-instructions li {
+    counter-increment: instruction;
+    display: flex;
+    align-items: flex-start;
+    gap: $gap3;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+
+    &:before {
+      content: counter(instruction);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 0 0 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: var(--categoryColor);
+      color: var(--categoryTextColor);
+      font-size: 1rem;
+    }
   }
 }
+
+.ingredients-list {
+  display: grid;
+  gap: 5px;
+}
+
+

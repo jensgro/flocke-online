@@ -1,7 +1,7 @@
 ---
 title: Eierlikör
 introText:
-  - 'Einfach ein schönes Geschenk. Aber auch zum sleber trinken verdammt lecker.'
+  - 'Einfach ein schönes Geschenk. Aber auch zum selber trinken verdammt lecker.'
 
 introImage: 'eierlikoer'
 headerImage: eierlikoer

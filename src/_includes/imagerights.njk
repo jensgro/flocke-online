@@ -1,22 +1,14 @@
-<div class="card">
-  <div class="card__head">
-    <h2 class="card__headline">Alle Bilder</h2>
-  </div>
-  <div class="card__body">
-    <dl class="imagerights">
-    {%- for post in collections.all -%}
-      <div class="imagerights__cnt">
-        <dt class="imagerights__page">Seite: <a href="{{ post.url }}">{{ post.data.title }}</a><span aria-hidden="true">&nbsp;,&nbsp;</span></dt>
-        <dd class="imagerights__img">
-          {%- if post.data.headerImageAttribution -%}
-          {{ post.data.headerImageAttribution|safe }}
-          {%- endif -%}
-          {%- if post.data.headerImageLink -%}
-          <span aria-hidden="true">&nbsp;|&nbsp;</span><a href="{{ post.data.headerImageLink }}">Originalbild</a>
-          {%- endif -%}
-        </dd>
-      </div>
-    {%- endfor -%}
-    </dl>
-  </div>
-</div>
+  <h2 class="separator"><span>Alle Bilder</span></h2>
+  <dl class="imagerights">
+  {%- for post in collections.all -%}
+      <dt>Seite: <a href="{{ post.url }}">{{ post.data.title }}</a></dt>
+      <dd>
+        {%- if post.data.headerImageAttribution -%}
+        {{ post.data.headerImageAttribution|safe }}
+        {%- endif -%}
+        {%- if post.data.headerImageLink -%}
+        <span aria-hidden="true">&nbsp;|&nbsp;</span><a href="{{ post.data.headerImageLink }}">Originalbild</a>
+        {%- endif -%}
+      </dd>
+  {%- endfor -%}
+  </dl>

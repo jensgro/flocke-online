@@ -7,6 +7,7 @@ headerImageAttribution: Bild von <a href='https://pixabay.com/de/users/marekonli
 
 introText:
   - "Durch diese Art der Zubereitung wird aus einer Aubergine eine tolle Beilage. So kann sich die Aubergine nicht mit Fett vollsaugen. Auf diese Art schmeckt sie sehr aromatisch. Eine gute Möglichkeit, dieses Gemüse neu kennenzulernen."
+
 tags:
   - gemüse
   - vegetarisch

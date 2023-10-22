@@ -2,9 +2,10 @@
 title: Kirschschmarren
 introText:
   - 'Durch die Kirschen ist diese Variante in meinen Augen viel schmackhafter und "leichter" als der ursprüngliche Kaiserschmarrn.'
-headerImage: kirschschmarren
-headerImageLink: https://www.flickr.com/photos/14385354@N00/32692181730blaue-und-mehrfarbige-abstrakte-malerei-1307114/
-headerImageAttribution: Ungry Young Man auf Flickr
+
+headerImage: kirschschmarren-1
+headerImageLink: https://www.flickr.com/photos/14385354@N00/32692181730
+headerImageAttribution: <a href="https://www.flickr.com/photos/markusunger/">Ungry Young Man</a>
 
 tags:
   - süß
