@@ -1,8 +1,10 @@
 ---
 title: "Indisches Blumenkohl-Kartoffel-Curry"
-headerImage: placeholder4
-headerImageLink: https://www.pexels.com/de-de/foto/rote-grune-gelbe-und-blaue-abstrakte-malerei-1283208/
-headerImageAttribution: Foto von Steve Johnson von Pexels
+
+
+headerImage: blumenkohl-2
+headerImageLink: https://unsplash.com/de/fotos/eine-nahaufnahme-von-blumenkohl-der-zum-verkauf-angeboten-wird-hnEp8wnCj4g
+headerImageAttribution: Foto von <a href="https://unsplash.com/de/@enginakyurt?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">engin akyurt</a> auf <a href="https://unsplash.com/de/fotos/eine-nahaufnahme-von-blumenkohl-der-zum-verkauf-angeboten-wird-hnEp8wnCj4g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 tags:
   - indien

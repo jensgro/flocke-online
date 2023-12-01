@@ -4,9 +4,10 @@ introText:
   - "Das Rezept stammt von meiner Schwiegermutter, einer Aachenerin. Es verzichtet auf Rosinen, was für mich kein Verlust ist."
   - Wichtig sind hingegen die Printen, die auf keinen Fall fehlen sollten. Natürlich Printen ohne Schokoladenüberzug!
   - Und am Besten das Fleisch selber einlegen, nicht eingelegt kaufen. Dann ist alles besser steuerbar.
-headerImage: placeholder8
-headerImageLink: https://www.pexels.com/de-de/foto/grune-und-gelbe-abstrakte-malerei-4943165/
-headerImageAttribution: Foto von Steve Johnson von Pexels
+
+headerImage: sauerbraten
+headerImageLink: https://pixabay.com/de/photos/sauerbraten-fleisch-fleischgericht-2512443/
+headerImageAttribution: Bild von <a href="https://pixabay.com/de/users/hans-2/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2512443">Hans</a> auf <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2512443">Pixabay</a>
 
 tags:
   - rind

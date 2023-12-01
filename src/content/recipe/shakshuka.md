@@ -1,10 +1,15 @@
 ---
     title: "Shakshuka"
-    tags: ["vegetarisch", "ei"]
-    headerImage: "shakshuka"
-    headerImageLink: "https://pixabay.com/de/photos/shakshuka-lebensmittel-gericht-6238787/"
-    headerImageAttribution: "Bild von <a href='https://pixabay.com/de/users/oraswet-15477529/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6238787'>Светлана Химочка</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6238787'>Pixabay</a>"
-    category: "hauptgerichte"
+    tags:
+      - vegetarisch
+      - ei
+      - tomate
+
+    headerImage: shakshuka
+    headerImageLink: https://pixabay.com/de/photos/shakshuka-lebensmittel-gericht-6238787/
+    headerImageAttribution: Bild von <a href='https://pixabay.com/de/users/oraswet-15477529/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6238787'>Светлана Химочка</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6238787'>Pixabay</a>
+
+    category: hauptgerichte
     layout: "layouts/post.njk"
     introText:
       - "Shakshuka ist ein in Israel sehr beliebtes Pfannengericht. Ich kenne es noch aus meiner Studienzeit (ab 1988) unter dem Namen \"Eier in Tomatensugo\"."

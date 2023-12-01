@@ -2,10 +2,9 @@
 title: Mandelkuchen
 introText:
   - 'Ein Kuchen ohne Mehl! Er ist sehr locker und fluffig.'
-headerImage: placeholder1
-headerImageLink: https://www.pexels.com/de-de/foto/kunst-kreativ-malerei-abstrakt-1959387/
-headerImageAttribution: Foto von Steve Johnson von Pexels
-
+headerImage: mandelkuchen
+headerImageLink: https://www.flickr.com/photos/21923023@N02/2656500817
+headerImageAttribution: Foto von <a href="https://www.flickr.com/photos/jean-stubenzweig/">Jean Stubenzweig</a>
 tags:
   - kuchen
   - ofen

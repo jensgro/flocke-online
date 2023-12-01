@@ -3,9 +3,11 @@ title: Pfirsich-Chutney
 introText:
   - 'In einem Ayurveda-Kochkurs hatte ich ein Aprikosen-Chutney kennengelernt, das wir danach häufig selber gemacht haben.'
   - 'Doch die Wahl der Frucht ist generell variabel, so habe ich das Rezept diesmal mit Pfirsichen gemacht. Eine Freundin hatte uns mehrere Kilogramm frischer Pfirsiche geschenkt. Die mussten ja gebührend verarbeitet werden.'
-headerImage: placeholder4
-headerImageLink: https://www.pexels.com/de-de/foto/rote-grune-gelbe-und-blaue-abstrakte-malerei-1283208/
-headerImageAttribution: Foto von Steve Johnson von Pexels
+
+headerImage: pfirsich-chutney
+headerImageLink: https://unsplash.com/de/fotos/%EC%8A%A4%ED%85%8C%EC%9D%B8%EB%A6%AC%EC%8A%A4-%EC%88%9F%EA%B0%80%EB%9D%BD-%EA%B7%BC%EC%B2%98%EC%97%90-%EC%9E%88%EB%8A%94-%EC%83%9D%EA%B0%95-%EC%82%AC%EA%B3%BC-%EC%84%B8-%EA%B0%9C-%EA%B3%84%ED%94%BC-wZxpOw84QTU
+headerImageAttribution: Foto von <a href="https://unsplash.com/de/@meguminachev?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Megumi Nachev</a> auf <a href="https://unsplash.com/de/fotos/%EC%8A%A4%ED%85%8C%EC%9D%B8%EB%A6%AC%EC%8A%A4-%EC%88%9F%EA%B0%80%EB%9D%BD-%EA%B7%BC%EC%B2%98%EC%97%90-%EC%9E%88%EB%8A%94-%EC%83%9D%EA%B0%95-%EC%82%AC%EA%B3%BC-%EC%84%B8-%EA%B0%9C-%EA%B3%84%ED%94%BC-wZxpOw84QTU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
 tags:
   - indien
 

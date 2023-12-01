@@ -11,6 +11,7 @@ headerImageAttribution: von <a href="https://www.flickr.com/photos/19027848@N00/
 tags:
   - kuchen
   - dessert
+  - süß
   - ofen
   - ei
 

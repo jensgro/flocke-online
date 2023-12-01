@@ -2,9 +2,10 @@
 title: Karthäuser Klöße
 introText:
   - 'Das Rezept ist einfach super, um alte Brötchen zu verarbeiten. Man kann doch nicht immer nur Frikadellen und Semmelknödel daraus machen.'
-headerImage: placeholder4
-headerImageLink: https://www.pexels.com/de-de/foto/rote-grune-gelbe-und-blaue-abstrakte-malerei-1283208/
-headerImageAttribution: Foto von Steve Johnson von Pexels
+headerImage: armer-ritter
+headerImageLink: https://commons.wikimedia.org/w/index.php?curid=5952090
+headerImageAttribution: Von Jonathunder - Eigenes Werk, CC BY-SA 3.0
+
 
 tags:
   - süß

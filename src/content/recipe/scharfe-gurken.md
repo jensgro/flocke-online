@@ -1,8 +1,9 @@
 ---
 title: Scharfe Gurken
-headerImage: placeholder5
-headerImageLink: https://www.pexels.com/de-de/foto/foto-der-blauen-und-roten-abstrakten-malerei-3699270/
-headerImageAttribution: Foto von Steve Johnson von Pexels
+
+headerImage: gurkensalat-2
+headerImageLink: https://pixabay.com/de/photos/gurken-salat-gurkensalat-gem%C3%BCse-869424/
+headerImageAttribution: Bild von <a href="https://pixabay.com/de/users/krzys16-1195925/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=869424">Krzysztof Jaracz</a> auf <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=869424">Pixabay</a>
 
 tags:
   - salat

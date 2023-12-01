@@ -3,9 +3,12 @@ title: Pfannkuchen
 introText:
   - Dieses Rezept gehört zu den wenigen Rezepten, die meine Mutter mir in ein persönliches Kochbuch schrieb, als ich zum Studium auszog. Ich nehme kein anderes Rezept, wenn ich nur Pfannkuchen haben will.
   - Ich esse die Pfannkuchen normalerweise süß. Herzhafte Versionen sind nicht so mein Ding.
-headerImage: placeholder4
-headerImageLink: https://www.pexels.com/de-de/foto/rote-grune-gelbe-und-blaue-abstrakte-malerei-1283208/
-headerImageAttribution: Foto von Steve Johnson von Pexels
+
+headerImage: pfannkuchen
+headerImageLink: https://pixabay.com/de/photos/palatschinken-pfannkuchen-cr%C3%AApe-2020863/
+headerImageAttribution: Bild von <a href="https://pixabay.com/de/users/RitaE-19628/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2020863">RitaE</a> auf <a href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2020863">Pixabay</a>
+
+
 tags:
   - ei
   - milch

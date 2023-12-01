@@ -2,9 +2,10 @@
 title: Gurkenhappen
 introText:
   - "Eine schöne indonesische Beilage. War bei unserer indonesischen Reistafel dabei."
-headerImage: placeholder3
-headerImageLink: https://www.pexels.com/de-de/foto/orange-und-blaue-abstrakte-malerei-2378621/
-headerImageAttribution: Foto von Steve Johnson von Pexels
+
+headerImage: gurkensalat-1
+headerImageLink: https://pixabay.com/de/photos/gurken-salat-gr%C3%BCn-essen-gesund-1495836/
+headerImageAttribution: Bild von <a href="https://pixabay.com/de/users/gregmontani-1014946/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1495836">Greg Montani</a> auf <a href="https://pixabay.com/de//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1495836">Pixabay</a>
 
 tags:
   - vegetarisch

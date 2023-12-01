@@ -1,12 +1,14 @@
 ---
 title: Schneller Kürbis aus dem Ofen
-headerImage: placeholder5
-headerImageLink: https://www.pexels.com/de-de/foto/foto-der-blauen-und-roten-abstrakten-malerei-3699270/
-headerImageAttribution: Foto von Steve Johnson von Pexels
+
+headerImage: schneller-kuerbis
+headerImageLink: https://pixabay.com/de/photos/k%C3%BCrbis-frucht-herbst-riesen-k%C3%BCrbis-3678820/
+headerImageAttribution: Bild von <a href="https://pixabay.com/de/users/Capri23auto-1767157/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3678820">Capri23auto</a> auf <a href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3678820">Pixabay</a>
 
 tags:
   - vegetarisch
   - gemüse
+  - ofen
 
 category: hauptgerichte
 
