@@ -1,11 +1,16 @@
 ---
     title: "Pizza mit Fertigteig"
-    tags: ["fleisch", "fleischlos"]
+    tags:
+      - pizza
+
     headerImage: "placeholder4"
     headerImageLink: "https://www.pexels.com/de-de/foto/rote-grune-gelbe-und-blaue-abstrakte-malerei-1283208/"
     headerImageAttribution: "Foto von Steve Johnson von Pexels"
+
     category: "hauptgerichte"
+
     layout: "layouts/post.njk"
+
     introText:
       - In jedem Supermarkt gibt es fertigen Pizzateig, der für meinen Geschmack um einiges besser schmeckt, als jegliche Tiefkühlpizza. Mancher dieser Teige kommt sogar mit einer eigenen Sauce, was uns entgegen kommt, wenn wir Aufwand sparen wollen.
 ---
