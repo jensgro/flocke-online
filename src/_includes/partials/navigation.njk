@@ -1,6 +1,12 @@
   <div class="logo-cnt">
     <div class="container">
+      {% if templateClass != "tmpl-home" %}
+      <a href="/">
+      {% endif %}
       <img class="logo-cnt__logo" src="/assets/img/logo/{{metadata.logo}}" alt="">
+      {% if templateClass != "tmpl-home" %}
+      </a>
+      {% endif %}
       <h1 class="sr-only">{{ metadata.title }}</h1>
       <div>{{ metadata.subline }}</div>
     </div>
