@@ -1,0 +1,17 @@
+  <div{% if myClass %} class="{{myClass}}"{% endif %}>
+      <ul class="list list--shortlist">
+        {% set atPost = 0 %}
+      {%- for post in myCollection %}
+      {%- if atPost < 8 -%}
+        <li class="list__item list__item--overview"><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
+        {%- endif -%}
+        {# Zählvariable hochzählen #}
+        {% set atPost = atPost + 1 %}
+      {%- endfor -%}
+    </ul>
+    <div class="overview__forward">
+      <a href="{{myLink | url}}">
+        mehr aus der Kategorie <strong>{{myLinkText}}</strong> ...</a>
+    </div>
+
+  </div>

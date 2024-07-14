@@ -12,87 +12,41 @@ eleventyNavigation:
   key: Startseite
   order: 1
 ---
-<h2 class="index-headline separator"><span>Hauptgerichte</span></h2>
+{% set myLinkText = "Hauptgerichte" %}
+{% include "partials/index-headline.njk" %}
 <div class="overview">
   {% set randomPost = collections.maincourseCollection | getRandom %}
   {% include "partials/random-post-card.njk" %}
-  <div>
-      <ul class="list list--shortlist">
-        {% set atPost = 0 %}
-      {%- for post in collections.maincourseCollection %}
-      {%- if atPost < 8 -%}
-        <li class="list__item list__item--overview"><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
-        {%- endif -%}
-        {# Zählvariable hochzählen #}
-        {% set atPost = atPost + 1 %}
-      {%- endfor -%}
-    </ul>
-    <div class="overview__forward">
-      <a href="hauptgerichte.html">
-        mehr aus der Kategorie <strong>Hauptgerichte</strong> ...</a>
-    </div>
-
-  </div>
+  {% set myCollection = collections.maincourseCollection %}
+  {% set myLink = "hauptgerichte.html" %}
+  {% include "partials/first-meals.njk" %}
 </div>
 
-<h2 class="index-headline separator"><span>Beilagen</span></h2>
+{% set myLinkText = "Beilagen" %}
+{% include "partials/index-headline.njk" %}
 <div class="overview">
   {% set randomPost = collections.sidedishCollection | getRandom %}
   {% include "partials/random-post-card.njk" %}
-  <div class="overview__shortlist">
-    <ul class="list list--shortlist">
-      {% set atPost = 0 %}
-      {%- for post in collections.sidedishCollection %}
-      {%- if atPost < 8 -%}
-        <li class="list__item list__item--overview"><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
-        {%- endif -%}
-        {# Zählvariable hochzählen #}
-        {% set atPost = atPost + 1 %}
-      {%- endfor -%}
-    </ul>
-    <div class="overview__forward">
-      <a href="beilagen.html">
-        mehr aus der Kategorie <strong>Beilagen</strong> ...</a>
-    </div>
-  </div>
-
+  {% set myCollection = collections.sidedishCollection %}
+  {% set myLink = "beilagen.html" %}
+  {% include "partials/first-meals.njk" %}
 </div>
 
-<h2 class="index-headline separator"><span>Sonstiges</span></h2>
-<div>
-    <ul class="list list--grid">
-      {% set atPost = 0 %}
-      {%- for post in collections.otherCollection %}
-      {%- if atPost < 8 -%}
-        <li class="list__item list__item--overview"><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
-        {%- endif -%}
-        {# Zählvariable hochzählen #}
-        {% set atPost = atPost + 1 %}
-      {%- endfor -%}
-    </ul>
-    <div class="overview__forward">
-      <a href="sonstiges.html">
-        mehr aus der Kategorie <strong>Sonstiges</strong> ...</a>
-    </div>
+  {% set myCollection = collections.otherCollection %}
+  {% set myClass="list--grid" %}
+  {% set myLink = "sonstiges.html" %}
+  {% set myLinkText = "Sonstiges" %}
 
-</div>
+  {% include "partials/index-headline.njk" %}
+  {% include "partials/first-meals.njk" %}
 
-<h2 class="index-headline separator"><span>Wissenswertes</span></h2>
-<div>
-    <ul class="list list--grid">
-      {% set atPost = 0 %}
-      {%- for post in collections.wissenswertes %}
-      {%- if atPost < 8 -%}
-        <li class="list__item list__item--overview"><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
-        {%- endif -%}
-        {# Zählvariable hochzählen #}
-        {% set atPost = atPost + 1 %}
-      {%- endfor -%}
-    </ul>
-    <div class="overview__forward">
-      <a href="wissenswertes.html">
-         mehr aus der Kategorie <strong>Wissenswertes</strong> ...</a>
-    </div>
 
-</div>
+  {% set myCollection = collections.wissenswertes %}
+  {% set myClass="list--grid" %}
+  {% set myLink = "wissenswertes.html" %}
+  {% set myLinkText = "Wissenswertes" %}
+
+  {% include "partials/index-headline.njk" %}
+  {% include "partials/first-meals.njk" %}
+
 
