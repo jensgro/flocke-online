@@ -59,28 +59,16 @@ module.exports = function(eleventyConfig) {
     permalinkSymbol: "#"
   });
 
-   // Browsersync Overrides
-  eleventyConfig.setBrowserSyncConfig({
-    callbacks: {
-      ready: function(err, browserSync) {
-        const content_404 = fs.readFileSync('_site/404.html');
-
-        browserSync.addMiddleware("*", (req, res) => {
-          // Provides the 404 content without redirect.
-          res.write(content_404);
-          res.end();
-        });
-      },
-    },
-    ui: false,
-    ghostMode: false
+  eleventyConfig.setServerOptions({
+    showAllHosts: true,
+    showVersion: true
   });
 
   return {
     templateFormats: [
+      "html",
       "md",
       "njk",
-      "html",
       "liquid"
     ],
     markdownTemplateEngine: "njk",
