@@ -13,18 +13,34 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: $gap2;
 
-  &__image img {
-    aspect-ratio: 16/9;
-  }
+  &-card {
+    &__headline {
+      background-color: #bdb3b3;
+      padding: 4px 8px;
 
-  &__tags {
-    margin-top: $space2;
-  }
+      a {
+        color: #000;
+        text-decoration: none;
 
-  &__tag {
-    display: inline-block;
-    padding: $space1;
-    border: 1px solid #000;
+        &:hover, &:focus {
+          color: #000;
+          text-decoration: underline;
+        }
+      }
+    }
+    &__image img {
+      aspect-ratio: 16/9;
+    }
+
+    &__tags {
+      margin-top: $space2;
+    }
+
+    &__tag {
+      display: inline-block;
+      padding: $space1;
+      //border: 1px solid #000;
+    }
   }
 
   &__forward {
