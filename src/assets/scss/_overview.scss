@@ -1,11 +1,12 @@
 @mixin listitem {
-    background-color: #fff;
-    border-radius: 4px;
-    box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
 }
+
 @mixin listitemIndex {
-    padding: 10px;
-    @include listitem;
+  padding: 10px;
+  @include listitem;
 }
 
 .overview {
@@ -22,12 +23,14 @@
         color: #000;
         text-decoration: none;
 
-        &:hover, &:focus {
+        &:hover,
+        &:focus {
           color: #000;
           text-decoration: underline;
         }
       }
     }
+
     &__image img {
       aspect-ratio: 16/9;
     }
@@ -62,9 +65,13 @@
 
     a {
       display: block;
+      margin-top: 10px;
+
     }
   }
-  &--grid-home .list, &--grid {
+
+  &--grid-home .list,
+  &--grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: $gap;

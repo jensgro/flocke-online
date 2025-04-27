@@ -15,7 +15,10 @@ eleventyNavigation:
 <ul class="list list--grid">
   {%- for post in collections.recipesDescending %}
   {%- if post.data.category == "beilagen" %}
-  <li class="list__item list__item--overview"><a href="{{ post.url | url}}">{{ post.data.title }}</a></li>
+  <li class="list__item list__item--overview">
+      <img class="no-print" src="../assets/img/{{post.data.headerImage}}-16x9.jpg" alt="" width="500" height="281">
+      <a href="{{ post.url | url}}">{{ post.data.title }}</a>
+    </li>
   {%- endif -%}
 {%- endfor -%}
 </ul>
