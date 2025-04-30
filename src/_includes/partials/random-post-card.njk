@@ -1,11 +1,4 @@
-<div class="overview-card">
-    <div class="overview-card__image">
-      <img class="no-print" src="../assets/img/{{randomPost.data.headerImage}}-16x9.jpg" alt="" width="500" height="281">
-    </div>
-    <h3 class="overview-card__headline"><a href="{{ randomPost.url | url}}">{{randomPost.data.title}}</a></h3>
-    <div class="overview-card__tags">
-        {% for tag in randomPost.data.tags %}
-        <span class="overview-card__tag"><a href="/{{ tag }}/">{{ tag }}</a></span>
-        {% endfor %}
-    </div>
+<div class="overview-card">    
+    <img class="no-print" src="../assets/img/{{randomPost.data.headerImage}}-16x9.jpg" alt="" width="500" height="281">
+    <a href="{{ randomPost.url | url}}">{{randomPost.data.title}}</a>
   </div>

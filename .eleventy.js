@@ -18,6 +18,7 @@ const tagList = require("./src/_11ty/collections/tagList.js");
 const {
   allTags,
   maincourseCollection,
+  maincourseRandom,
   sidedishCollection,
   otherCollection,
   knowledgeCollection
@@ -38,9 +39,11 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("allTags", allTags);
   eleventyConfig.addCollection("maincourseCollection", maincourseCollection);
+  eleventyConfig.addCollection("maincourseRandom", maincourseRandom);
   eleventyConfig.addCollection("sidedishCollection", sidedishCollection);
   eleventyConfig.addCollection("otherCollection", otherCollection);
   eleventyConfig.addCollection("allknowledgeCollectionTags", knowledgeCollection);
+
 
   eleventyConfig.setDataDeepMerge(true);
 

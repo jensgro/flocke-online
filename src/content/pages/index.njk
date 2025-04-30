@@ -13,11 +13,22 @@ eleventyNavigation:
   order: 1
 ---
 {% set myLinkText = "Hauptgerichte" %}
+{% set myCollection = collections.maincourseCollection %}
+{% set myLink = "hauptgerichte.html" %}
+{% include "partials/index-list-random.njk" %}
+
+{% set myLinkText = "Hauptgerichte" %}
 {% include "partials/index-headline.njk" %}
 <div class="overview">
   {% set randomPost = collections.maincourseCollection | getRandom %}
+  {% include "partials/random-post-card.njk" %}  
+  {% set randomPost = collections.maincourseCollection | getRandom %}
   {% include "partials/random-post-card.njk" %}
-  {% set myCollection = collections.maincourseCollection %}
+  {% set randomPost = collections.maincourseCollection | getRandom %}
+  {% include "partials/random-post-card.njk" %}
+  {% set randomPost = collections.maincourseCollection | getRandom %}
+  {% include "partials/random-post-card.njk" %}
+  {% set myCollection = collections.maincourseRandom %}
   {% set myLink = "hauptgerichte.html" %}
   {% include "partials/first-meals.njk" %}
 </div>

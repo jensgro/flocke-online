@@ -13,6 +13,16 @@ const maincourseCollection = (collection) => {
     .sort(alphaSortTitle);
 };
 
+const maincourseRandom = (collection) => {
+  return collection
+    .getAllSorted()
+    .filter((post) => "hauptgerichte" === post.data.category)
+    .sort(() => {
+      return 0.5 - Math.random();
+    })
+    .slice(0, 3);
+};
+
 const sidedishCollection = (collection) => {
   return collection
     .getAllSorted()
@@ -67,6 +77,7 @@ const allTags = (collections) => {
 module.exports = {
   allTags,
   maincourseCollection,
+  maincourseRandom,
   sidedishCollection,
   otherCollection,
   knowledgeCollection
