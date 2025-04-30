@@ -1,0 +1,18 @@
+<div class="index-container">
+  {% include "partials/index-headline.njk" %}
+  <ul class="list list--grid">
+    {% set atPost = 0 %}
+    {%- for post in myCollection  %}
+    {%- if atPost < 6 -%}
+      <li class="list__item list__item--overview">
+        <img class="no-print" src="../assets/img/{{post.data.headerImage}}-16x9.jpg" alt="" width="500" height="281">
+        <a href="{{ post.url | url}}">{{ post.data.title }}</a>
+      </li>
+      {%- endif -%}
+      {# Zählvariable hochzählen #}
+      {% set atPost = atPost + 1 %}
+    {%- endfor -%}
+  </ul>
+    {% include "partials/overview-link.njk" %}
+
+</div>

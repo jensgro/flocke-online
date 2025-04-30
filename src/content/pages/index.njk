@@ -12,52 +12,24 @@ eleventyNavigation:
   key: Startseite
   order: 1
 ---
-{% set myLinkText = "Hauptgerichte" %}
-{% set myCollection = collections.maincourseCollection %}
-{% set myLink = "hauptgerichte.html" %}
-{% include "partials/index-list-random.njk" %}
 
 {% set myLinkText = "Hauptgerichte" %}
-{% include "partials/index-headline.njk" %}
-<div class="overview">
-  {% set randomPost = collections.maincourseCollection | getRandom %}
-  {% include "partials/random-post-card.njk" %}  
-  {% set randomPost = collections.maincourseCollection | getRandom %}
-  {% include "partials/random-post-card.njk" %}
-  {% set randomPost = collections.maincourseCollection | getRandom %}
-  {% include "partials/random-post-card.njk" %}
-  {% set randomPost = collections.maincourseCollection | getRandom %}
-  {% include "partials/random-post-card.njk" %}
-  {% set myCollection = collections.maincourseRandom %}
-  {% set myLink = "hauptgerichte.html" %}
-  {% include "partials/first-meals.njk" %}
-</div>
+{% set myCollection = collections.maincourseRandom %}
+{% set myLink = "hauptgerichte.html" %}
+{% include "partials/index-list-random-2.njk" %}
 
 {% set myLinkText = "Beilagen" %}
-{% include "partials/index-headline.njk" %}
-<div class="overview">
-  {% set randomPost = collections.sidedishCollection | getRandom %}
-  {% include "partials/random-post-card.njk" %}
-  {% set myCollection = collections.sidedishCollection %}
-  {% set myLink = "beilagen.html" %}
-  {% include "partials/first-meals.njk" %}
-</div>
+{% set myCollection = collections.sidedishRandom %}
+{% set myLink = "beilagen.html" %}
+{% include "partials/index-list-random-2.njk" %}
 
-  {% set myCollection = collections.otherCollection %}
-  {% set myClass="list--grid-home" %}
-  {% set myLink = "sonstiges.html" %}
-  {% set myLinkText = "Sonstiges" %}
+{% set myLinkText = "Sonstiges" %}
+{% set myCollection = collections.otherRandom %}
+{% set myLink = "sonstiges.html" %}
+{% include "partials/index-list-random-2.njk" %}
 
-  {% include "partials/index-headline.njk" %}
-  {% include "partials/first-meals.njk" %}
-
-
-  {% set myCollection = collections.wissenswertes %}
-  {% set myClass="list--grid-home" %}
-  {% set myLink = "wissenswertes.html" %}
-  {% set myLinkText = "Wissenswertes" %}
-
-  {% include "partials/index-headline.njk" %}
-  {% include "partials/first-meals.njk" %}
-
+{% set myLinkText = "Wissenswertes" %}
+{% set myCollection = collections.knowledgeRandom %}
+{% set myLink = "wissenswertes.html" %}
+{% include "partials/index-list-random-2.njk" %}
 

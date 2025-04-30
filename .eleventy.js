@@ -20,8 +20,11 @@ const {
   maincourseCollection,
   maincourseRandom,
   sidedishCollection,
+  sidedishRandom,
   otherCollection,
-  knowledgeCollection
+  otherRandom,
+  knowledgeCollection,
+  knowledgeRandom
 } = require("./src/_11ty/collections/collections.js");
 
 module.exports = function (eleventyConfig) {
@@ -41,8 +44,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("maincourseCollection", maincourseCollection);
   eleventyConfig.addCollection("maincourseRandom", maincourseRandom);
   eleventyConfig.addCollection("sidedishCollection", sidedishCollection);
+  eleventyConfig.addCollection("sidedishRandom", sidedishRandom);
   eleventyConfig.addCollection("otherCollection", otherCollection);
+  eleventyConfig.addCollection("otherRandom", otherRandom);
   eleventyConfig.addCollection("allknowledgeCollectionTags", knowledgeCollection);
+  eleventyConfig.addCollection("knowledgeRandom", knowledgeRandom);
 
 
   eleventyConfig.setDataDeepMerge(true);

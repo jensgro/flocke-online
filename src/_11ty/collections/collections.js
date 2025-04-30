@@ -19,8 +19,7 @@ const maincourseRandom = (collection) => {
     .filter((post) => "hauptgerichte" === post.data.category)
     .sort(() => {
       return 0.5 - Math.random();
-    })
-    .slice(0, 3);
+    });
 };
 
 const sidedishCollection = (collection) => {
@@ -30,6 +29,15 @@ const sidedishCollection = (collection) => {
     .sort(alphaSortTitle);
 };
 
+const sidedishRandom = (collection) => {
+  return collection
+    .getAllSorted()
+    .filter((post) => "beilagen" === post.data.category)
+    .sort(() => {
+      return 0.5 - Math.random();
+    });
+};
+
 const otherCollection = (collection) => {
   return collection
     .getAllSorted()
@@ -37,11 +45,29 @@ const otherCollection = (collection) => {
     .sort(alphaSortTitle);
 };
 
+const otherRandom = (collection) => {
+  return collection
+    .getAllSorted()
+    .filter((post) => "sonstiges" === post.data.category)
+    .sort(() => {
+      return 0.5 - Math.random();
+    });
+};
+
 const knowledgeCollection = (collection) => {
   return collection
     .getAllSorted()
     .filter((post) => "wissenswertes" === post.data.category)
     .sort(alphaSortTitle);
+};
+
+const knowledgeRandom = (collection) => {
+  return collection
+    .getAllSorted()
+    .filter((post) => "wissenswertes" === post.data.category)
+    .sort(() => {
+      return 0.5 - Math.random();
+    });
 };
 
 const allTags = (collections) => {
@@ -79,6 +105,9 @@ module.exports = {
   maincourseCollection,
   maincourseRandom,
   sidedishCollection,
+  sidedishRandom,
   otherCollection,
-  knowledgeCollection
+  otherRandom,
+  knowledgeCollection,
+  knowledgeRandom
 }
