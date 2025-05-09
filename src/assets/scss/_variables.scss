@@ -73,17 +73,15 @@ $color-angie-5: #c3bfae;
 
 $color-index: #474747; //#6F4E37
 $color-hauptgerichte: #7d4d19; //#A66626;
-$color-beilagen:  #006461; //teal; //#4682B4
+$color-beilagen: #006461; //teal; //#4682B4
 $color-sonstiges: #595900;
-$color-wissenswertes: #8b4242;// #a65353;
+$color-wissenswertes: #8b4242; // #a65353;
 
 $link-color: $white;
 $link-color-hover: teal;
 
 $page-bg: $color-angie-5;
-$container-bg: $lightergrey;
+$container-bg: $white; //$lightergrey;
 
-$siteheader-headline-cnt-bg: rgba(0,0,0,0.5);
+$siteheader-headline-cnt-bg: rgba(0, 0, 0, 0.5);
 $siteheader-headline-cnt-color: #fafafa;
-
-
