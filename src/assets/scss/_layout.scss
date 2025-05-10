@@ -1,3 +1,6 @@
+@use "variables" as *;
+@use "mixins" as *;
+
 .container {
   padding: $space2 $space4;
   margin: 0 $space2;
@@ -12,6 +15,7 @@
 .container--bg {
   background-color: $container-bg;
 }
+
 // ======= Versuch mit view-transitions ===========
 // body {
 //   view-transition-name: page;

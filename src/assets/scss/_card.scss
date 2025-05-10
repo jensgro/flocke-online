@@ -1,6 +1,9 @@
+@use "variables" as *;
+@use "mixins" as *;
+
 .card {
   border: 2px solid var(--categoryColor);
-  margin-bottom:  $space4;
+  margin-bottom: $space4;
 
   &__head {
     border-bottom: 4px solid var(--categoryColor);
@@ -55,7 +58,8 @@
       color: var(--categoryColor);
     }
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       text-decoration: underline;
       --linkColor: var(--categoryColorLight);
     }

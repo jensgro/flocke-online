@@ -1,3 +1,7 @@
+@use "sass:color";
+@use "variables" as *;
+@use "mixins" as *;
+
 // The CSS custom properties
 
 :root {
@@ -11,39 +15,39 @@
   --lightyellow: #{$lightyellow};
 
 
-  --mainnav-wrapper-bg: var(--categoryColor, #000);//#bd9a74; //#6f3939;
+  --mainnav-wrapper-bg: var(--categoryColor, #000); //#bd9a74; //#6f3939;
   --page-bg: #f4f4f4;
   --container-bg: #f7f7f7;
 }
 
 .home {
   --categoryColor: #{$color-index};
-  --categoryColorLight: #{lighten($color-index, 20%)};
-  --categoryColorDark: #{darken($color-index, 10%)};
+  --categoryColorLight: #{color.adjust($color-index, $lightness: 20%)};
+  --categoryColorDark: #{color.adjust($color-index, $lightness: -10%)};
 }
 
 .hauptgerichte {
   --categoryColor: #{$color-hauptgerichte};
-  --categoryColorLight: #{lighten($color-hauptgerichte, 20%)};
-  --categoryColorDark: #{darken($color-hauptgerichte, 10%)};
+  --categoryColorLight: #{color.adjust($color-hauptgerichte, $lightness: 20%)};
+  --categoryColorDark: #{color.adjust($color-hauptgerichte, $lightness: -10%)};
 }
 
 .beilagen {
   --categoryColor: #{$color-beilagen};
-  --categoryColorLight: #{lighten($color-beilagen, 10%)};
-  --categoryColorDark: #{darken($color-beilagen, 10%)};
+  --categoryColorLight: #{color.adjust($color-beilagen, $lightness: 10%)};
+  --categoryColorDark: #{color.adjust($color-beilagen, $lightness: -10%)};
 }
 
 .sonstiges {
   --categoryColor: #{$color-sonstiges};
-  --categoryColorLight: #{lighten($color-sonstiges, 10%)};
-  --categoryColorDark: #{darken($color-sonstiges, 10%)};
+  --categoryColorLight: #{color.adjust($color-sonstiges, $lightness: 10%)};
+  --categoryColorDark: #{color.adjust($color-sonstiges, $lightness: -10%)};
 }
 
 .wissenswertes {
   --categoryColor: #{$color-wissenswertes};
-  --categoryColorLight: #{lighten($color-wissenswertes, 20%)};
-  --categoryColorDark: #{darken($color-wissenswertes, 10%)};
+  --categoryColorLight: #{color.adjust($color-wissenswertes, $lightness: 20%)};
+  --categoryColorDark: #{color.adjust($color-wissenswertes, $lightness: -10%)};
 }
 
 // A modified version of Andy Bell's "modern reset" https://github.com/hankchizljaw/modern-css-reset
@@ -89,11 +93,17 @@ body {
   background-color: var(--page-bg, $page-bg);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   padding: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: "Ubuntu Medium", $systemfonts2;
 }
 
@@ -109,7 +119,9 @@ h3 {
   font-size: 1.5rem;
 }
 
-p + h3, ul + h3, ol + h3 {
+p+h3,
+ul+h3,
+ol+h3 {
   margin-top: $space3;
 }
 
@@ -124,7 +136,8 @@ ol[class] {
 a {
   color: var(--categoryColor, #000);
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     color: $link-color-hover;
   }
 }

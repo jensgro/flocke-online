@@ -1,3 +1,6 @@
+@use "variables" as *;
+@use "mixins" as *;
+
 .recipe {
 
   &__intro {
@@ -12,10 +15,10 @@
     display: grid;
     gap: $gap $gap3;
     grid-template-areas:
-    "intro intro"
-    "tags tags"
-    "ingredients instructions"
-    "tipps tipps";
+      "intro intro"
+      "tags tags"
+      "ingredients instructions"
+      "tipps tipps";
 
     &__intro {
       grid-area: intro;
@@ -58,7 +61,7 @@
     padding: 10px;
     background-color: #fff;
     border-radius: 4px;
-    box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
 
     &:before {
       content: counter(instruction);
@@ -79,5 +82,3 @@
   display: grid;
   gap: 5px;
 }
-
-

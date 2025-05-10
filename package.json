@@ -1,6 +1,6 @@
 {
   "name": "flockeonline",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "description": "Flocke Online - Meine kleine Rezeptsammlung",
   "scripts": {
     "clean": "rimraf _site",

@@ -1,3 +1,6 @@
+@use "variables" as *;
+@use "mixins" as *;
+
 .nolist {
   @include nolist;
 }
@@ -10,6 +13,7 @@
   .no-print {
     display: none;
   }
+
   .only-print {
     display: block;
   }
@@ -42,9 +46,12 @@
       z-index: 1;
       width: 10000px;
       height: 1px;
-      top:50%;
+      top: 50%;
       border-bottom: 4px solid var(--_col-separator);
     }
-    &:after{left: 100%; }
+
+    &:after {
+      left: 100%;
+    }
   }
 }

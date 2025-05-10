@@ -1,3 +1,6 @@
+@use "variables" as *;
+@use "mixins" as *;
+
 .logo-cnt {
   padding: $space2 $space4 $space2 $space2;
   color: var(--categoryTextColor);
@@ -5,7 +8,7 @@
   grid-row: -4 / -5;
   grid-column: 1 / 5;
 
-  @media (min-width: $md){
+  @media (min-width: $md) {
     grid-row: -4 / -5;
     grid-column: 1;
   }
@@ -16,4 +19,3 @@
     margin-bottom: $space2;
   }
 }
-

@@ -1,3 +1,6 @@
+@use "variables" as *;
+@use "mixins" as *;
+
 .sitefooter {
   border-top: 2px solid $blue2;
   padding: $space2 0;
@@ -25,7 +28,8 @@
     a {
       color: var(--categoryColor);
 
-      &:hover, &:focus {
+      &:hover,
+      &:focus {
         text-decoration: none;
       }
 

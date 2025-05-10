@@ -1,3 +1,6 @@
+@use "variables" as *;
+@use "mixins" as *;
+
 .taglist {
   margin-left: $space1;
   display: flex;
@@ -8,7 +11,8 @@
 
     color: var(--categoryColor);
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       text-decoration: none;
     }
 
@@ -24,7 +28,8 @@
       border: 2px solid var(--categoryColor);
       text-decoration: none;
 
-      &:hover, &:focus {
+      &:hover,
+      &:focus {
         color: #fff;
         background-color: #000;
       }
@@ -32,5 +37,3 @@
   }
 
 }
-
-

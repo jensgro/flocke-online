@@ -1,5 +1,8 @@
+@use "variables" as *;
+@use "mixins" as *;
+
 .main-nav {
- 
+
   &__nav {
     display: flex;
     flex-wrap: wrap;
