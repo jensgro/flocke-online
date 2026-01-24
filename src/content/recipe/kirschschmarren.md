@@ -25,11 +25,13 @@ ingredients:
 
 
 recipe:
-  - Mehl und Salz in einer großen Schüssel vermischen. Quark mit Eiern und Milch verquirlen und mit dem Mehl zu einem glatten, dickflüssigen Teig verrühren. Zugedeckt 30 Minuten stehen lassen.
-  - Inzwischen die Kirschen gut abtropfen lassen. Dann unter den Teig mischen.
-  - In einer Pfanne Butter erhitzen, die Hälfte des Teiges hineingießen.
-  - Die Pfanne zudecken und die Hitze reduzieren. Sobald der Eierkuchen auf der Unterseite goldgelb gebacken ist, mit zwei Gabeln in kleine Stücke reißen. Diese bräunen und dabei häufig wenden.
-  - Danach aus der Pfanne nehmen und warm stellen. Den restlichen Teil genauso zubereiten.
+  - Eier trennen. Das Eiweiß wird später geschlagen und unter die restliche Masse gehoben.
+  - Mehl, Quark, Eigelb und Salz in einer großen Schüssel vermischen. Zu einem glatten, dickflüssigen Teig verquirlen. Zugedeckt 30 Minuten stehen lassen.
+  - Inzwischen die Kirschen gut abtropfen lassen. Danach unter den Teig mischen.
+  - Das Eiweiß steif schlagen und vorsichtig unter die Kirsch-Teig-Masse heben.
+  - In einer Pfanne Butter erhitzen, die Hälfte der Masse hineingießen.
+  - Sobald der Eierkuchen nah ein paar Minuten auf der Unterseite goldgelb gebacken ist, mit zwei Pfannenwendern in kleine Stücke reißen. Diese mehrfach wenden und dabei bräunen.
+  - Danach aus der Pfanne nehmen und warm stellen. Den restlichen Teil genauso zubereiten. Oder gleich von Anfang an zwei Pfannen nutzen.
   - Mit reichlich Puderzucker bestäubt servieren.
 
 tipps:
