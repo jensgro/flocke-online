@@ -2,66 +2,51 @@
 layout: layouts/base.njk
 templateClass: tmpl-recipe
 ---
-<div class="container container--bg">
-  <main class="recipe" itemscope itemtype="https://schema.org/Recipe">
-    {% if introText %}
-    <div class="recipe__intro" itemprop="description">
-    {% for t in introText %}
-      <p>{{ t }}</p>
-    {% endfor %}
-    </div>
-    {% endif %}
 
-    <div class="recipe__tags">
-      <ul class="taglist taglist--short">
-        {%- for tag in tags -%}
-        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-        <li class="taglist__item">
-          <a class="taglist__link" href="{{ tagUrl | url }}">
-            {{ tag }}
-          </a>
-        </li>
-        {%- endfor -%}
-      </ul>
-    </div>
-
+{% include "partials/site-header-post.njk" %}
+<main
+  class="container container--bg">
+  {# Das eigentliche Rezept #}
+  <div class="recipe" itemscope itemtype="https://schema.org/Recipe">
     {% if ingredients %}
-    <div class="recipe__ingredients">
-      <h3 class="separator"><span>Zutaten</span></h3>
-      <ul class="ingredients-list">
-        {% for i in ingredients %}
-        <li itemprop="recipeIngredient">{{ i }}</li>
-        {% endfor %}
-      </ul>
-    </div>
+      <div class="recipe__ingredients">
+        <h3 class="separator">
+          <span>Zutaten</span>
+        </h3>
+        <ul class="ingredients-list">
+          {% for i in ingredients %}
+            <li itemprop="recipeIngredient">{{ i }}</li>
+          {% endfor %}
+        </ul>
+      </div>
     {% endif %}
-
     {% if recipe %}
-    <div class="recipe__content">
-      <h3 class="separator"><span>Zubereitung</span></h3>
-      <ul class="recipe-instructions" itemprop="recipeInstructions">
-        {% for r in recipe %}
-        <li>{{ r }}</li>
-        {% endfor %}
-      </ul>
-    </div>
+      <div class="recipe__content">
+        <h3 class="separator">
+          <span>Zubereitung</span>
+        </h3>
+        <ul class="recipe-instructions" itemprop="recipeInstructions">
+          {% for r in recipe %}
+            <li>{{ r }}</li>
+          {% endfor %}
+        </ul>
+      </div>
     {% endif %}
-
     {% if tipps %}
-    <div class="recipe__tipps">
-      <h3 class="separator"><span>Tipps/Hinweise/Bemerkungen</span></h3>
-      <ul class="tipps-list">
-        {% for tip in tipps %}
-        <li class="tipps-list__item">
-          <svg class="tipps-list__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
-          </svg>
-          {{ tip }}</li>
-        {% endfor %}
-      </ul>
-    </div>
+      <div class="recipe__tipps">
+        <h3 class="separator">
+          <span>Tipps/Hinweise/Bemerkungen</span>
+        </h3>
+        <ul class="tipps-list">
+          {% for tip in tipps %}
+            <li class="tipps-list__item">
+              <svg class="tipps-list__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+              </svg>
+              {{ tip }}</li>
+          {% endfor %}
+        </ul>
+      </div>
     {% endif %}
-  </main>
-</div>
-
-
+  </div>
+</main>

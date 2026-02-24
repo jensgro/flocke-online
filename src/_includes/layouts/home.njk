@@ -2,9 +2,10 @@
 layout: layouts/base.njk
 templateClass: tmpl-home
 ---
+
+{% include "partials/site-header.njk" %}
 <div class="container container--bg">
   <main>
-      {{ content | safe }}
+    {{ content | safe }}
   </main>
 </div>
-

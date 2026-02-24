@@ -24,21 +24,17 @@
   {% elif category == "sonstiges" %}
     {% set class = "recipepage sonstiges" %}
   {% elif bodyClass == "wissenswertes" %}
-      {% set class = "recipepage wissenswertes" %}
+    {% set class = "recipepage wissenswertes" %}
   {% elif category == "wissenswertes" %}
-      {% set class = "recipepage wissenswertes" %}
+    {% set class = "recipepage wissenswertes" %}
   {% else %}
     {% set class = bodyClass %}
   {% endif %}
   <body class="{{ class }}">
-      {% include "partials/site-header.njk" %}
-
-      {{ content | safe }}
-
-      {% include "partials/recommendations.njk" %}
-
-      {% include "partials/footer.njk" %}
-
+    {% include "partials/navigation.njk" %}
+    {{ content | safe }}
+    {% include "partials/recommendations.njk" %}
+    {% include "partials/footer.njk" %}
     <!-- Current page: {{ page.url | url }} -->
   </body>
 </html>
