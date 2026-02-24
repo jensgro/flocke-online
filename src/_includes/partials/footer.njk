@@ -1,32 +1,29 @@
 {% include "partials/taglist-simple.njk" %}
 <div class="container container--bg no-print">
-
-  {% if headerImageAttribution %}
-  <details class="imageright">
-    <summary>Bildnachweis</summary>
-    {{ headerImageAttribution| safe }}
-    {% if headerImageLink %}
-    <a href="{{ headerImageLink }}" style="margin-left: 8px;">(Originalbild)</a>
-    {% endif %}
-  </details>
-  {% endif %}
-
   {% if templateClass != "tmpl-home" %}
-  <footer class="sitefooter">
-  {% else %}
-  <footer class="sitefooter sitefooter--home">
-  {% endif %}
-    <ul class="sitefooter__list">
-      {% if templateClass != "tmpl-home" %}
-      <li class="getback__link"><a href="{{ '/' | url }}">zurück zur Startseite</a></li>
+    <footer class="sitefooter">
+    {% else %}
+      <footer class="sitefooter sitefooter--home">
       {% endif %}
-      <li><a href="/impressum.html">Impressum</a></li>
-      <li><a href="/kolophon.html">Kolophon</a></li>
-      <li><a href="/bilderrechte.html">Bilderrechte</a></li>
-    </ul>
-  </footer>
-</div>
-
-<div class="container container--bg only-print">
-  Ausgedruckt von der Seite: {{metadata.url}}{{ page.url | url }}
-</div>
+      <ul class="sitefooter__list">
+        {% if templateClass != "tmpl-home" %}
+          <li class="getback__link">
+            <a href="{{ '/' | url }}">zurück zur Startseite</a>
+          </li>
+        {% endif %}
+        <li>
+          <a href="/impressum.html">Impressum</a>
+        </li>
+        <li>
+          <a href="/kolophon.html">Kolophon</a>
+        </li>
+        <li>
+          <a href="/bilderrechte.html">Bilderrechte</a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+  <div class="container container--bg only-print">
+    Ausgedruckt von der Seite:
+    {{ metadata.url }}{{ page.url | url }}
+  </div>

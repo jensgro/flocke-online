@@ -4,8 +4,10 @@
   margin: $space1 0 $space2 0;
   padding: 10px 10px 10px 0;
   transition: all 0.25s linear;
+  position: relative;
+  z-index: 10;
 
-  &:hover, &:focus {
+  &:hover, &:focus, &:focus-visible, &:open {
     background-color: var(--categoryColor);
     color: $white;
     padding-left: 10px;
