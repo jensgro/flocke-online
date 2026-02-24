@@ -2,11 +2,10 @@
 
 @mixin listitem {
   background-color: $lightergrey;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
 
 @mixin listitemIndex {
-  padding: 10px;
   @include listitem;
 }
 
@@ -48,7 +47,6 @@
   }
 
   &__forward {
-    @include listitemIndex;
     max-width: 440px;
     margin-top: 20px;
   }
@@ -63,11 +61,24 @@
 
   &__item--overview {
     @include listitemIndex;
+    overflow: hidden;
+    border-radius: 8px;
 
     a {
       display: block;
-      margin-top: 10px;
+      margin: 10px;
+      text-decoration: none;
 
+    }
+
+    &:hover, &:focus {
+      position: relative;
+      bottom: 2px;
+      left: 2px;
+
+      a {
+        text-decoration: underline;
+      }
     }
   }
 
