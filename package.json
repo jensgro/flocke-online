@@ -3,7 +3,7 @@
   "version": "3.2.0",
   "description": "Flocke Online - Meine kleine Rezeptsammlung",
   "scripts": {
-    "clean": "rimraf _site",
+    "clean": "rm -rf _site",
     "build:sass": "sass --no-source-map src/assets/scss/main.scss:_site/assets/css/main.css",
     "build:11ty": "eleventy",
     "build": "npm-run-all build:*",
