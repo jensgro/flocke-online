@@ -1,3 +1,7 @@
+@use "sass:color";
+@use "mixins";
+@use "variables" as *;
+
 // The CSS custom properties
 
 :root {
@@ -18,32 +22,32 @@
 
 .home {
   --categoryColor: #{$color-index};
-  --categoryColorLight: #{lighten($color-index, 20%)};
-  --categoryColorDark: #{darken($color-index, 10%)};
+  --categoryColorLight: #{color.adjust($color-index, $lightness: 20%)};
+  --categoryColorDark: #{color.adjust($color-index, $lightness: -10%)};
 }
 
 .hauptgerichte {
   --categoryColor: #{$color-hauptgerichte};
-  --categoryColorLight: #{lighten($color-hauptgerichte, 20%)};
-  --categoryColorDark: #{darken($color-hauptgerichte, 10%)};
+  --categoryColorLight: #{color.adjust($color-hauptgerichte, $lightness: 20%)};
+  --categoryColorDark: #{color.adjust($color-hauptgerichte, $lightness: -10%)};
 }
 
 .beilagen {
   --categoryColor: #{$color-beilagen};
-  --categoryColorLight: #{lighten($color-beilagen, 10%)};
-  --categoryColorDark: #{darken($color-beilagen, 10%)};
+  --categoryColorLight: #{color.adjust($color-beilagen, $lightness: 10%)};
+  --categoryColorDark: #{color.adjust($color-beilagen, $lightness: -10%)};
 }
 
 .sonstiges {
   --categoryColor: #{$color-sonstiges};
-  --categoryColorLight: #{lighten($color-sonstiges, 10%)};
-  --categoryColorDark: #{darken($color-sonstiges, 10%)};
+  --categoryColorLight: #{color.adjust($color-sonstiges, $lightness: 10%)};
+  --categoryColorDark: #{color.adjust($color-sonstiges, $lightness: -10%)};
 }
 
 .wissenswertes {
   --categoryColor: #{$color-wissenswertes};
-  --categoryColorLight: #{lighten($color-wissenswertes, 20%)};
-  --categoryColorDark: #{darken($color-wissenswertes, 10%)};
+  --categoryColorLight: #{color.adjust($color-wissenswertes, $lightness: 20%)};
+  --categoryColorDark: #{color.adjust($color-wissenswertes, $lightness: -10%)};
 }
 
 // A modified version of Andy Bell's "modern reset" https://github.com/hankchizljaw/modern-css-reset
@@ -152,7 +156,7 @@ select {
 /* hide only visually */
 /* https://gist.github.com/jensgro/743c37c3c1b226f7917fa0fc0825e3c2 */
 .visuallyhidden {
-  @include visuallyhidden;
+  @include mixins.visuallyhidden;
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */

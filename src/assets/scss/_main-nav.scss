@@ -1,5 +1,7 @@
+@use "variables" as *;
+
 .main-nav {
- 
+
   &__nav {
     display: flex;
     flex-wrap: wrap;

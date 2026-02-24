@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 .tipps-list {
   display: grid;
   gap: $gap2;
