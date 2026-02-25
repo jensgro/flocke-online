@@ -1,25 +1,23 @@
+<div class="container header-cnt">
   <div class="logo-cnt">
-    <div class="container">
-      {% if templateClass != "tmpl-home" %}
+    {% if templateClass != "tmpl-home" %}
       <a href="/">
       {% endif %}
-      <img class="logo-cnt__logo" src="/assets/img/logo/{{metadata.logo}}" alt="">
+      {% include "partials/logo-3.njk" %}
+      <h1>{{ metadata.title }}</h1>
       {% if templateClass != "tmpl-home" %}
       </a>
-      {% endif %}
-      <h1 class="sr-only">{{ metadata.title }}</h1>
-      <div>{{ metadata.subline }}</div>
-    </div>
+    {% endif %}
   </div>
-  <nav class="main-nav container no-print">
+  <nav class="main-nav no-print">
     <ul class="main-nav__nav">
-    {%- for entry in collections.all | eleventyNavigation %}
-      <li class="main-nav__item">
-        <a  class="main-nav__link{% if entry.url == page.url or entry.key == category %} main-nav__link--active{% endif %} main-nav__link--{{ entry.title }}"
-            href="{{ entry.url | url }}">
+      {%- for entry in collections.all | eleventyNavigation %}
+        <li class="main-nav__item">
+          <a class="main-nav__link{% if entry.url == page.url or entry.key == category %} main-nav__link--active{% endif %} main-nav__link--{{ entry.title }}" href="{{ entry.url | url }}">
             {{ entry.title | capitalize }}
-        </a>
-      </li>
-    {%- endfor %}
+          </a>
+        </li>
+      {%- endfor %}
     </ul>
   </nav>
+</div>

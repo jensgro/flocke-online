@@ -7,14 +7,14 @@
     flex-wrap: wrap;
     gap: $gap;
     padding: $space2 0;
-    border-bottom: 5px solid #000;
-    border-bottom-color: var(--categoryColor);
+    // border-bottom: 2px solid #000;
+    // border-bottom-color: var(--categoryColor);
   }
 
   &__item {
 
     &:first-of-type {
-      margin-right: auto;
+      margin-right: $space4;
     }
 
   }
@@ -24,15 +24,19 @@
     display: inline-block;
     text-decoration: none;
     padding: $space1;
+    font-size: 0.875rem;
+    font-weight: 700;
 
     &:hover,
     &:focus {
       color: $white;
       background-color: var(--categoryColor);
+      border-radius: 4px;
     }
 
     &--active {
       background-color: var(--categoryColor);
+      border-radius: 4px;
       color: $white;
       font-weight: 700;
     }

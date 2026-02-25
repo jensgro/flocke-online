@@ -76,7 +76,6 @@ dd {
 /* Set core root defaults */
 html:focus-within {
   scroll-behavior: smooth;
-  font-size: 16px;
 }
 
 /* Set core body defaults */
@@ -88,7 +87,7 @@ body {
   padding: 0;
   /* System Fonts as used by GitHub */
   font-family: $systemfonts2;
-  font-weight: 500;
+  font-weight: 400;
   color: $darkgray;
   background-color: var(--page-bg, $page-bg);
 }
