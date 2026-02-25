@@ -1,19 +1,21 @@
 <header class="container container--bg">
-  {% if noHeadline != true %}
-    <h2 class="siteheader__headline">{{ title }}</h2>
-  {% endif %}
-  <div class="siteheader">
-    <picture>
-      <source srcset="/assets/img/{{ headerImage }}-7x2.jpg" width="1000" height="286" media="(min-width: 800px)">
-        <img class="siteheader__img no-print" src="/assets/img/{{ headerImage }}-16x9.jpg" alt="" width="500" height="281"></picture>
+  <div>
+    {% if noHeadline != true %}
+      <h2 class="siteheader__headline">{{ title }}</h2>
+    {% endif %}
+    <div class="siteheader">
+      <picture>
+        <source srcset="/assets/img/{{ headerImage }}-7x2.jpg" width="1000" height="286" media="(min-width: 800px)">
+          <img class="siteheader__img no-print" src="/assets/img/{{ headerImage }}-16x9.jpg" alt="" width="500" height="281"></picture>
+        </div>
+        {% if headerImageAttribution %}
+          <details class="imageright">
+            <summary>Bildnachweis</summary>
+            {{ headerImageAttribution| safe }}
+            {% if headerImageLink %}
+              <a href="{{ headerImageLink }}" style="margin-left: 8px;">(Originalbild)</a>
+            {% endif %}
+          </details>
+        {% endif %}
       </div>
-      {% if headerImageAttribution %}
-        <details class="imageright">
-          <summary>Bildnachweis</summary>
-          {{ headerImageAttribution| safe }}
-          {% if headerImageLink %}
-            <a href="{{ headerImageLink }}" style="margin-left: 8px;">(Originalbild)</a>
-          {% endif %}
-        </details>
-      {% endif %}
     </header>

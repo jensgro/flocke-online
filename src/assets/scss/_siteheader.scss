@@ -20,31 +20,24 @@
 }
 
 .siteheader--recipe {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 24px;
-  // grid-template-areas: "headline headline"
-  //                       "image intro"
-  //                       "imageright ."
-  //                       "tags .";
-  // .siteheader__headline {
-  //   grid-area: headline;
-  // }
+  display: flex;
+  flex-direction: column-reverse;
+  gap: $space3;
+
+
+  @media (width > $md) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: $space4;
+  }
+
   .siteheader__img {
     // grid-area: image;
     aspect-ratio: 16/9;
     border-radius: 8px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
   }
-  // .imageright {
-  //   grid-area: imageright;
-  // }
-  // .recipe__intro {
-  //   grid-area: intro;
-  // }
-  // .recipe__tags {
-  //   grid-area: tags;
-  // }
+
 }
 .siteheader__imagecontainer {
 

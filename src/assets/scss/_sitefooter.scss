@@ -1,7 +1,7 @@
 @use "variables" as *;
 
 .sitefooter {
-  border-top: 2px solid $blue2;
+  border-top: 2px solid var(--_col-separator);
   padding: $space2 0;
   font-size: 0.875rem;
 

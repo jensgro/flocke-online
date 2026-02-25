@@ -2,17 +2,23 @@
 
 .container {
   padding: $space2 $space4;
-  margin: 0 $space2;
 
   @media (min-width: $lg) {
-    max-width: $maxwidth;
-    margin: 0 auto;
-    padding-inline: $space6;
+
+    & > * {
+      margin: 0 auto;
+      max-width: $maxwidth;
+      padding-inline: $space6;
+    }
   }
 }
 
 .container--bg {
   background-color: $container-bg;
+}
+
+.container--bg-neutral {
+  background-color: #fff;
 }
 
 .container.header-cnt {
@@ -22,7 +28,7 @@
   flex-direction: column;
   gap: 0;
 
-  @media (width > 850px) {
+  @media (width > $md) {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
