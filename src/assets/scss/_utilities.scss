@@ -1,4 +1,5 @@
 @use "mixins" as *;
+@use "variables" as *;
 
 .nolist {
   @include nolist;
@@ -29,7 +30,7 @@
 
   overflow: hidden;
   color: var(--_col-separator);
-  margin: 40px 0;
+  margin: 0 0 $space3 0;
 
   span {
     display: inline-block;

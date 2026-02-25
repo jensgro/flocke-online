@@ -1,5 +1,5 @@
 @use "sass:color";
-@use "mixins";
+@use "mixins" as *;
 @use "variables" as *;
 
 // The CSS custom properties
@@ -52,14 +52,12 @@
 
 // A modified version of Andy Bell's "modern reset" https://github.com/hankchizljaw/modern-css-reset
 
-/* Box sizing rules */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* Remove default margin */
 body,
 h1,
 h2,
@@ -73,19 +71,16 @@ dd {
   margin: 0 0 $space2 0;
 }
 
-/* Set core root defaults */
 html:focus-within {
   scroll-behavior: smooth;
 }
 
-/* Set core body defaults */
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   font-size: 1.25rem;
   padding: 0;
-  /* System Fonts as used by GitHub */
   font-family: $systemfonts2;
   font-weight: 400;
   color: $darkgray;
@@ -105,18 +100,17 @@ h1 {
 }
 
 h2 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 p + h3, ul + h3, ol + h3 {
   margin-top: $space3;
 }
 
-/* Remove list styles on ul, ol elements with a class attribute */
 ul[class],
 ol[class] {
   list-style: none;
@@ -136,7 +130,6 @@ mark {
   padding: $space1 $space2;
 }
 
-/* Make images easier to work with */
 img {
   width: 100%;
   max-width: 100%;
@@ -144,7 +137,6 @@ img {
   display: block;
 }
 
-/* Inherit fonts for inputs and buttons */
 input,
 button,
 textarea,
@@ -154,8 +146,8 @@ select {
 
 /* hide only visually */
 /* https://gist.github.com/jensgro/743c37c3c1b226f7917fa0fc0825e3c2 */
-.visuallyhidden {
-  @include mixins.visuallyhidden;
+.visuallyhidden, .sr-only {
+  @include visuallyhidden;
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */

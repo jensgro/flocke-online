@@ -19,11 +19,13 @@
     }
   }
 
-  &.taglist--short {
+  & {
     a {
       display: block;
-      padding: $space1 $space2;
-      border: 2px solid var(--categoryColor);
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      border: 1px solid var(--categoryColor);
       text-decoration: none;
 
       &:hover, &:focus {
