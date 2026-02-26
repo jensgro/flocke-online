@@ -6,19 +6,19 @@
   transition: all 0.25s linear;
   font-size: 1rem;
   width: max-content;
+}
 
-  &:hover, &:focus, &:focus-visible {
-    background-color: var(--categoryColor);
-    color: $white;
-    padding-left: 10px;
-    cursor: pointer;
-  }
+.imageright:is(:hover, :focus, :focus-visible) {
+  background-color: var(--categoryColor);
+  color: $white;
+  padding-left: 10px;
+  cursor: pointer;
+}
 
-  a {
-    color: inherit;
-  }
+.imageright a {
+  color: inherit;
+}
 
-  &[open] summary {
-    margin-bottom: 12px;
-  }
+.imageright[open] summary {
+  margin-bottom: 12px;
 }

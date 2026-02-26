@@ -2,14 +2,14 @@
 
 .container {
   padding: $space2 $space4;
+}
 
-  @media (min-width: $lg) {
+@media (min-width: $lg) {
 
-    & > * {
-      margin: 0 auto;
-      max-width: $maxwidth;
-      padding-inline: $space6;
-    }
+  .container > * {
+    margin: 0 auto;
+    max-width: $maxwidth;
+    padding-inline: $space6;
   }
 }
 
@@ -35,36 +35,3 @@
     gap: $space4;
   }
 }
-
-// ======= Versuch mit view-transitions ===========
-// body {
-//   view-transition-name: page;
-// }
-// @view-transition {
-//   navigation: auto;
-// }
-// ::view-transition-old(page) {
-//   animation-name: fadeOut;
-// }
-// ::view-transition-new(page) {
-//   animation-name: fadeIn;
-// }
-// ::view-transition-group(page) {
-//   animation-duration: 0.7s;
-// }
-// @keyframes fadeIn {
-//   0% {
-//     opacity: 0;
-//   }
-//   100% {
-//     opacity: 0.7;
-//   }
-// }
-// @keyframes fadeOut {
-//   0% {
-//     opacity: 0.7;
-//   }
-//   100% {
-//     opacity: 0;
-//   }
-// }

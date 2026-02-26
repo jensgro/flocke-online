@@ -9,10 +9,10 @@
 
 .logo-cnt a {
   text-decoration: none;
+}
 
-  &:hover, &:focus {
-    text-decoration: underline;
-  }
+.logo-cnt a:is(:hover, :focus) {
+  text-decoration: underline;
 }
 
 .logo {
