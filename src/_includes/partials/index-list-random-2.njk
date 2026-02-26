@@ -4,9 +4,14 @@
     {% set atPost = 0 %}
     {%- for post in myCollection %}
       {%- if atPost < 6 -%}
-        <li class="list__item list__item--overview">
-          <img class="no-print" src="../assets/img/{{ post.data.headerImage }}-16x9.jpg" alt="" width="500" height="281">
-            <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+        <li>
+          <div class="card">
+            <header>
+              <img class="no-print" src="../assets/img/{{ post.data.headerImage }}-16x9.jpg" alt="" width="500" height="281"></header>
+              <footer>
+                <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+              </footer>
+            </div>
           </li>
         {%- endif -%}
         {# Zählvariable hochzählen #}

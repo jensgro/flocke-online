@@ -1,101 +1,30 @@
+@use "variables" as *;
+
 .card {
   border: 2px solid var(--categoryColor);
-  margin-bottom:  $space4;
+  margin-bottom: $space4;
+  border-radius: $br3;
+}
 
-  &__head {
-    border-bottom: 4px solid var(--categoryColor);
-    padding: $space2;
-  }
+.card header {
+  overflow: hidden;
+}
 
-  &__headline {
-    color: var(--textColor);
-    background-color: $container-bg;
-    margin-bottom: 0;
+.card img {
+  transition: all 0.25s;
+}
 
-    mark {
-      padding-inline: $space1;
-    }
-  }
+.card:has(a:hover, a:focus) img,
+.card img:is(:hover, :focus) {
+  transform: scale(1.125);
+}
 
-  &__body {
-    padding: $space3 $space2;
-  }
+.card a {
+  display: block;
+  padding: $space2;
+  text-decoration: none;
+}
 
-  &__categories {
-    display: flex;
-    gap: $gap;
-    margin-block: 10px;
-
-    a {
-      background-color: var(--lightyellow);
-      color: #000;
-      padding: 2px 4px;
-    }
-  }
-
-  // Die Rezepteliste
-  // &__items {
-
-  //   li {}
-  //   a {
-  //     &:hover, &:focus {}
-  //   }
-  // }
-
-  // weiterführender Link
-  &__link {
-    display: inline-block;
-    padding: 0;
-    margin-top: $space2;
-
-    a {
-      display: block;
-      padding-right: $space2;
-      text-decoration: none;
-      color: var(--categoryColor);
-    }
-
-    &:hover, &:focus {
-      text-decoration: underline;
-      --linkColor: var(--categoryColorLight);
-    }
-  }
-
-  // Pfeilhalterung
-  // &__arrow {
-  //   display: inline-block;
-  //   padding: $space1 $space2;
-  //   background-color: var(--linkColor, var(--categoryColor));
-  //   color: var(--categoryTextColor);
-  //   margin-right: $space1;
-  // }
-
-  // Links innerhalb der Liste
-  // als Utilityklasse auslagern?
-  // &__link--block {
-  //   padding: $space1 $space2;
-  //   border: 2px solid var(--categoryColor);
-  //   background: var(--categoryColor);
-  //   color: var(--categoryTextColor);
-  //   page-break-inside: avoid;
-  //   break-inside: avoid;
-  //   display: block;
-
-  //   &:hover, &:focus, &:focus-visible {
-  //     background-color: $lightergrey;
-  //     color: var(--categoryColor);
-  //   }
-  //   &:focus-visible {
-  //     outline: 3px solid var(--categoryColor);
-  //   }
-
-  //   & + & {
-  //     margin-top: $space2;
-  //   }
-
-  //   a {
-  //     text-decoration: none;
-  //     display: block;
-  //   }
-  // }
+.card a:is(:hover, :focus) {
+  text-decoration: underline;
 }

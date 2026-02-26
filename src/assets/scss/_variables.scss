@@ -18,6 +18,13 @@ $md: 850px;
 $lg: 1000px;
 $maxwidth: 1200px;
 
+// ======= border-radius ======
+
+$br1: 2px;
+$br2: $br1 * 2;
+$br3: $br1 * 3;
+$br4: $br1 * 4;
+
 // =============== Fonts
 $systemfonts1: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 $systemfonts2: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
