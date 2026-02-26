@@ -5,18 +5,12 @@
     {%- for post in myCollection %}
       {%- if atPost < 6 -%}
         <li>
-          <div class="card">
-            <header>
-              <img class="no-print" src="../assets/img/{{ post.data.headerImage }}-16x9.jpg" alt="" width="500" height="281"></header>
-              <footer>
-                <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-              </footer>
-            </div>
-          </li>
-        {%- endif -%}
-        {# Zählvariable hochzählen #}
-        {% set atPost = atPost + 1 %}
-      {%- endfor -%}
-    </ul>
-    {% include "partials/overview-link.njk" %}
-  </div>
+          {% include "partials/card.njk" %}
+        </li>
+      {%- endif -%}
+      {# Zählvariable hochzählen #}
+      {% set atPost = atPost + 1 %}
+    {%- endfor -%}
+  </ul>
+  {% include "partials/overview-link.njk" %}
+</div>
