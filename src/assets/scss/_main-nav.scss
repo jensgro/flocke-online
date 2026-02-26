@@ -1,44 +1,34 @@
 @use "variables" as *;
 
-.main-nav {
+.main-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $gap;
+  padding: $space2 0;
+}
 
-  &__nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: $gap;
-    padding: $space2 0;
-    // border-bottom: 2px solid #000;
-    // border-bottom-color: var(--categoryColor);
-  }
+.main-navigation li:first-of-type {
+  margin-right: $space4;
+}
 
-  &__item {
+.main-navigation__link {
+  color: var(--categoryColor);
+  display: inline-block;
+  text-decoration: none;
+  padding: $space1;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
 
-    &:first-of-type {
-      margin-right: $space4;
-    }
+.main-navigation__link:is(:hover, :focus) {
+  color: $white;
+  background-color: var(--categoryColor);
+  border-radius: 4px;
+}
 
-  }
-
-  &__link {
-    color: var(--categoryColor);
-    display: inline-block;
-    text-decoration: none;
-    padding: $space1;
-    font-size: 0.875rem;
-    font-weight: 700;
-
-    &:hover,
-    &:focus {
-      color: $white;
-      background-color: var(--categoryColor);
-      border-radius: 4px;
-    }
-
-    &--active {
-      background-color: var(--categoryColor);
-      border-radius: 4px;
-      color: $white;
-      font-weight: 700;
-    }
-  }
+.main-navigation__link--active {
+  background-color: var(--categoryColor);
+  border-radius: 4px;
+  color: $white;
+  font-weight: 700;
 }

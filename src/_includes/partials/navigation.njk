@@ -1,4 +1,4 @@
-<div class="container header-cnt">
+<header class="container header-cnt">
   <div class="logo-cnt">
     {% if templateClass != "tmpl-home" %}
       <a href="/">
@@ -9,15 +9,15 @@
       </a>
     {% endif %}
   </div>
-  <nav class="main-nav no-print">
-    <ul class="main-nav__nav">
+  <nav class="no-print">
+    <ul class="main-navigation">
       {%- for entry in collections.all | eleventyNavigation %}
-        <li class="main-nav__item">
-          <a class="main-nav__link{% if entry.url == page.url or entry.key == category %} main-nav__link--active{% endif %} main-nav__link--{{ entry.title }}" href="{{ entry.url | url }}">
+        <li>
+          <a class="main-navigation__link{% if entry.url == page.url or entry.key == category %} main-navigation__link--active{% endif %} main-nav__link--{{ entry.title }}" href="{{ entry.url | url }}">
             {{ entry.title | capitalize }}
           </a>
         </li>
       {%- endfor %}
     </ul>
   </nav>
-</div>
+</header>
