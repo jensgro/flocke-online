@@ -12,13 +12,29 @@
     margin: $space2 0;
   }
 
+  &__ingredients,
+  &__content {
+    // border: 1px solid var(--categoryColor);
+    box-shadow: 0 0 2px var(--categoryColor);
+    padding: $space2;
+
+    h3 {
+      padding: $space1;
+      border-bottom: 1px solid var(--categoryColor);
+    }
+  }
+
+  &__tipps {
+    margin-top: $space2;
+  }
+
   @media (min-width: $lg) {
     gap: $gap $gap3;
     grid-template-areas:
-    "intro intro"
-    "tags tags"
-    "ingredients instructions"
-    "tipps tipps";
+      "intro intro"
+      "tags tags"
+      "ingredients instructions"
+      "tipps tipps";
 
     &__intro {
       grid-area: intro;
@@ -78,6 +94,14 @@
 .ingredients-list {
   display: grid;
   gap: 5px;
+
+  @media (min-width: 700px) and (max-width: 999px) {
+    display: block;
+    columns: 2;
+    column-gap: 20px;
+
+    li {
+      margin-bottom: 5px;
+    }
+  }
 }
-
-
