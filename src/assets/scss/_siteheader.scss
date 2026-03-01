@@ -2,12 +2,6 @@
 
 .siteheader {
 
-  aspect-ratio: 7 / 2;
-
-  @media print {
-    aspect-ratio: auto;
-  }
-
   &__img {
     object-fit: cover;
   }
@@ -32,7 +26,6 @@
   }
 
   .siteheader__img {
-    // grid-area: image;
     aspect-ratio: 16/9;
     border-radius: 8px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
@@ -50,8 +43,5 @@
     border-width: 1px;
     border-radius: 4px;
   }
-
-}
-.siteheader__contentcontainer {
 
 }
