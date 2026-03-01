@@ -10,11 +10,11 @@ pagination:
     - posts
     - tagList
   addAllPagesToCollections: true
-layout: layouts/post.njk
+layout: layouts/tag.njk
 bodyClass: tag
 noHeadline: true
 renderData:
-  title: Kategorie "{{ tag }}"
+  title: Kategorie {{tag}}
 permalink: /tags/{{ tag }}/
 eleventyExcludeFromCollections: true
 
@@ -23,7 +23,5 @@ headerImageLink: https://www.pexels.com/de-de/foto/blaue-und-mehrfarbige-abstrak
 headerImageAttribution: Foto von Steve Johnson von Pexels
 ---
 
-
 {% set postslist = collections[ tag ] %}
 {% include "tagslist.njk" %}
-

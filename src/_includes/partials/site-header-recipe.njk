@@ -12,11 +12,11 @@
     </div>
     <div class="siteheader__imagecontainer">
       <div class="recipe__tags">
-        <ul class="taglist taglist--short">
+        <ul class="taglist">
           {%- for tag in tags -%}
             {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-            <li class="taglist__item">
-              <a class="taglist__link" href="{{ tagUrl | url }}">
+            <li>
+              <a href="{{ tagUrl | url }}">
                 {{ tag }}
               </a>
             </li>
