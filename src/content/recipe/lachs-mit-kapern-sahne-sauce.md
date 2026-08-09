@@ -1,9 +1,9 @@
 ---
 title: Lachs mit Kapern-Sahne-Sauce
 
-headerImage: lachs-mit-kapern
-headerImageLink: https://unsplash.com/de/fotos/grune-bohnen-auf-weisser-keramikplatte-AnC569NdAJc
-headerImageAttribution: Foto von <a href="https://unsplash.com/de/@dbtownsend?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">David B Townsend</a> auf <a href="https://unsplash.com/de/fotos/grune-bohnen-auf-weisser-keramikplatte-AnC569NdAJc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+headerImage: lachs-mit-kapern-2
+headerImageLink: https://unsplash.com/de/fotos/gekochte-speisen-auf-weissem-keramikteller-gcLmDcrAfqE
+headerImageAttribution: Foto von <a href="https://unsplash.com/de/@theshuttervision?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jonathan Cooper</a> auf <a href="https://unsplash.com/de/fotos/gekochte-speisen-auf-weissem-keramikteller-gcLmDcrAfqE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 introText:
   - Das Gericht schmeckt in meinen Augen besonders gut, wenn man den Fisch pochiert und nicht brät. Dafür einfach die Pfanne gut mit heissem Wasser und ein wenig Weisswein füllen und den Fisch mit der Hautseite nach oben ins kochende Wasser legen. Nach 10 bis 15 Minuten sollte der Lachs dann durch sein. Diese Garmethode ist fettfrei und sehr schmackhaft. Ausserdem müffelt die Wohnung danach nicht nach gebratenem Fisch.
