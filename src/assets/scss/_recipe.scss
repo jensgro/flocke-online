@@ -31,7 +31,7 @@
 
   @media (min-width: $lg) {
     gap: $gap $gap3;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 360px 1fr;
     grid-template-areas:
       "intro intro"
       "tags tags"
