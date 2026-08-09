@@ -5,7 +5,7 @@
 // The CSS custom properties
 
 :root {
-  --categoryColor: #000;
+  --categoryColor: #a20000;
   --categoryTextColor: #fff;
   --inactiveNavBg: #cecece;
   --inactiveNavBgHover: #fd8700;
@@ -26,35 +26,6 @@
   --tag-color: #92400b;
 }
 
-.home {
-  --categoryColor: #{$color-index};
-  --categoryColorLight: #{color.adjust($color-index, $lightness: 20%)};
-  --categoryColorDark: #{color.adjust($color-index, $lightness: -10%)};
-}
-
-.hauptgerichte {
-  --categoryColor: #{$color-hauptgerichte};
-  --categoryColorLight: #{color.adjust($color-hauptgerichte, $lightness: 20%)};
-  --categoryColorDark: #{color.adjust($color-hauptgerichte, $lightness: -10%)};
-}
-
-.beilagen {
-  --categoryColor: #{$color-beilagen};
-  --categoryColorLight: #{color.adjust($color-beilagen, $lightness: 10%)};
-  --categoryColorDark: #{color.adjust($color-beilagen, $lightness: -10%)};
-}
-
-.sonstiges {
-  --categoryColor: #{$color-sonstiges};
-  --categoryColorLight: #{color.adjust($color-sonstiges, $lightness: 10%)};
-  --categoryColorDark: #{color.adjust($color-sonstiges, $lightness: -10%)};
-}
-
-.wissenswertes {
-  --categoryColor: #{$color-wissenswertes};
-  --categoryColorLight: #{color.adjust($color-wissenswertes, $lightness: 20%)};
-  --categoryColorDark: #{color.adjust($color-wissenswertes, $lightness: -10%)};
-}
 
 // A modified version of Andy Bell's "modern reset" https://github.com/hankchizljaw/modern-css-reset
 
@@ -98,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-h1, h2 {
+h1, h2, .siteheader__headline {
   font-family: "Ubuntu Medium", $systemfonts2;
 }
 
@@ -125,7 +96,7 @@ p + h3, ul + h3, ol + h3 {
 }
 
 a {
-  color: var(--categoryColor, #000);
+  color: var(--categoryColor);
 
   &:hover, &:focus {
     color: $link-color-hover;
