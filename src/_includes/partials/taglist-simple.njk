@@ -1,14 +1,14 @@
-<aside class="container container--bg no-print">
-  <div>
-    <h2 class="separator"><span>Alle Stichworte</span></h2>
-    <ul class="taglist">
-      {%- for tag in collections.tagList -%}
-        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-        {% set tagCount = collections[tag].length %}
-        <li>
-          <a href="{{ tagUrl | url }}">{{ tag | capitalize }}</a>
-        </li>
-      {%- endfor -%}
-      </ul>
-  </div>
+<aside class="container container--bg tagcontainer no-print">
+  <h2 class="separator">
+    <span>Alle Stichworte</span>
+  </h2>
+  <ul class="taglist">
+    {%- for tag in collections.tagList -%}
+      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+      {% set tagCount = collections[tag].length %}
+      <li>
+        <a href="{{ tagUrl | url }}">{{ tag | capitalize }}</a>
+      </li>
+    {%- endfor -%}
+  </ul>
 </aside>
