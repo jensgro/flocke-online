@@ -9,7 +9,7 @@
 }
 
 .imageright:is(:hover, :focus, :focus-visible) {
-  background-color: var(--categoryColor);
+  background-color: rgb(var(--categoryColor));
   color: $white;
   padding-left: 10px;
   cursor: pointer;

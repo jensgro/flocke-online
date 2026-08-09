@@ -2,7 +2,7 @@
 
 .card {
   // border: 1px solid #0000001a;
-  border: 1px solid var(--categoryColor);
+  border: 1px solid rgb(var(--categoryColor));
   margin-bottom: $space4;
   border-radius: $br3;
   padding-bottom: $space2;
@@ -44,7 +44,7 @@
 
 .card__tags-item {
   padding: 0 $space1;
-  border: 1px solid var(--categoryColor);
+  border: 1px solid rgb(var(--categoryColor));
   border-radius: $br2;
   font-size: 0.8rem;
 }

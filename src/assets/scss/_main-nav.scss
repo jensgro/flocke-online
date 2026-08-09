@@ -12,7 +12,7 @@
 }
 
 .main-navigation__link {
-  color: var(--categoryColor);
+  color: rgb(var(--categoryColor));
   display: inline-block;
   text-decoration: none;
   padding: $space1;
@@ -22,12 +22,12 @@
 
 .main-navigation__link:is(:hover, :focus) {
   color: $white;
-  background-color: var(--categoryColor);
+  background-color: rgb(var(--categoryColor));
   border-radius: 4px;
 }
 
 .main-navigation__link--active {
-  background-color: var(--categoryColor);
+  background-color: rgb(var(--categoryColor));
   border-radius: 4px;
   color: $white;
   font-weight: 700;

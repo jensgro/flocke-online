@@ -51,6 +51,6 @@
   margin-top: calc(var(--index-padding) * -1);
   margin-inline: calc(var(--index-padding) * -1);
   padding: calc(var(--index-padding) * 0.5) var(--index-padding);
-  background-color: var(--categoryColor, #000);
+  background: linear-gradient(to right, rgba(var(--categoryColor), 1) 0%, rgba(var(--categoryColor), 0.5) 100%);
   color: $white;
 }

@@ -5,7 +5,8 @@
 // The CSS custom properties
 
 :root {
-  --categoryColor: #a20000;
+  // --categoryColor: rgb(189, 85, 0); // #bb711c
+  --categoryColor: 189, 85, 0;
   --categoryTextColor: #fff;
   --inactiveNavBg: #cecece;
   --inactiveNavBgHover: #fd8700;
@@ -14,9 +15,9 @@
   --textColor: #646464;
   --lightyellow: #{$lightyellow};
 
-  --color-line: #e2e5ea;
+  --color-line: #c5cad1;
 
-  --mainnav-wrapper-bg: var(--categoryColor, #000);//#bd9a74; //#6f3939;
+  --mainnav-wrapper-bg: rgb(var(--categoryColor, #000));//#bd9a74; //#6f3939;
   --page-bg: #fef9f3;
   --container-bg: #f7f7f7;
 
@@ -96,7 +97,7 @@ p + h3, ul + h3, ol + h3 {
 }
 
 a {
-  color: var(--categoryColor);
+  color: rgb(var(--categoryColor));
 
   &:hover, &:focus {
     color: $link-color-hover;
@@ -145,13 +146,13 @@ select {
 .forward {
   margin-top: $space4;
   padding: $space2;
-  border: 1px solid var(--categoryColor);
+  border: 1px solid rgb(var(--categoryColor));
   border-radius: $br3;
   background-color: #fff;
 
   a {
     text-decoration: none;
-    color: var(--categoryColor);
+    color: rgb(var(--categoryColor));
     font-weight: bold;
 
     &:hover, &:focus {

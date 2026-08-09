@@ -14,14 +14,14 @@
 
   &__ingredients,
   &__content {
-    // border: 1px solid var(--categoryColor);
-    box-shadow: 0 0 2px var(--categoryColor);
+    // border: 1px solid rgb(var(--categoryColor));
+    box-shadow: 0 0 2px rgb(var(--categoryColor));
     padding: $space2;
     border-radius: $br4;
 
     h3 {
       padding: $space1;
-      border-bottom: 1px solid var(--categoryColor);
+      border-bottom: 1px solid rgb(var(--categoryColor));
     }
   }
 
@@ -85,7 +85,7 @@
       flex: 0 0 40px;
       height: 40px;
       border-radius: 50%;
-      background-color: var(--categoryColor);
+      background-color: rgb(var(--categoryColor));
       color: var(--categoryTextColor);
       font-size: 1rem;
     }
