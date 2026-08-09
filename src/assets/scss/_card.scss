@@ -16,8 +16,7 @@
   transition: all 0.25s;
 }
 
-.card:has(.card__link a:hover, .card__link a:focus) img,
-.card img:is(:hover, :focus) {
+.card:has(.card__link a:hover, .card__link a:focus) img {
   transform: scale(1.125);
 }
 
