@@ -4,19 +4,20 @@ templateClass: tmpl-post
 ---
 
 {% include "partials/site-header.njk" %}
-<div class="container container--bg">
-  {% if recipe %}
-    <main class="recipe">
+{% if recipe %}
+  <main class="recipe">
+    <div class="container container--bg">
     {% else %}
       <main class="post">
-      {% endif %}
-      {% if introText %}
-        <div class="recipe__intro">
-          {% for t in introText %}
-            <p>{{ t }}</p>
-          {% endfor %}
-        </div>
-      {% endif %}
-      {{ content | safe }}
+        <div class="container container--bg">
+        {% endif %}
+        {% if introText %}
+          <div class="recipe__intro">
+            {% for t in introText %}
+              <p>{{ t }}</p>
+            {% endfor %}
+          </div>
+        {% endif %}
+        {{ content | safe }}
+      </div>
     </main>
-  </div>
