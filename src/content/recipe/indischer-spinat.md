@@ -11,17 +11,16 @@ headerImageAttribution: Foto von Steve Johnson von Pexels
 tags:
   - indien
   - gemüse
-  - vegetarisch
 
 category: hauptgerichte
 
 ingredients:
   - 1 Hühnerbrust (ca. 250g)
-  - 450g Spinat
+  - 600g Spinat (s.u.)
   - 1 Zwiebel
   - 2 Tomaten
   - 1 Paprika
-  - 2-3 TL Bockshornklee (getrocknet)
+  - 3 EL Bockshornklee (getrocknet) (Mindestmenge)
   - 1-2 TL Garam Masala
   - Salz, Pfeffer
 
@@ -33,5 +32,8 @@ recipe:
   - Zu Ende würzen.
 
 tipps:
-- Dazu paßt eigentlich nur Reis.
+- Dazu passen eigentlich nur Reis oder Naan.
+- Das Huhn kann man prima durch Räuchertofu ersetzen.
+- Ich habe versucht, bei der Menge des Bockshornklee eine realistische Menge zuu definieren. Ich nehme immer mindestens eine Hand voll davon. Bockshornklee ist der Hauptgeschmacksträger.
+- Ich nehme nie eine ganze Packung Spinat, da ich etwa 150g der Packung eingeforen lasse und dann später mit Schafskäse und einer Dose Tomaten in eine leckeren Nudelsoße verwandle.
 ---
