@@ -35,3 +35,22 @@
     gap: $space4;
   }
 }
+
+
+.index-container {
+  display: grid;
+  gap: $space4;
+  border: 1px solid var(--color-line);
+  border-radius: $br6;
+  padding: var(--index-padding);
+  overflow: clip;
+  margin-bottom: $space6;
+}
+
+.index-headline {
+  margin-top: calc(var(--index-padding) * -1);
+  margin-inline: calc(var(--index-padding) * -1);
+  padding: calc(var(--index-padding) * 0.5) var(--index-padding);
+  background-color: var(--categoryColor, #000);
+  color: $white;
+}

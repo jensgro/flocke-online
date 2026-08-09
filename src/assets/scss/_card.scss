@@ -5,6 +5,7 @@
   border: 1px solid var(--categoryColor);
   margin-bottom: $space4;
   border-radius: $br3;
+  padding-bottom: $space2;
 }
 
 .card header {
@@ -20,12 +21,42 @@
   transform: scale(1.125);
 }
 
-.card a {
+.card_link a {
   display: block;
   padding: $space2;
   text-decoration: none;
+  font-weight: bold;
 }
 
-.card a:is(:hover, :focus) {
+.card_link a:is(:hover, :focus) {
   text-decoration: underline;
+}
+
+.card__tags {
+  margin-top: $space2;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.card__tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space1;
+}
+
+.card__tags-item {
+  padding: 0 $space1;
+  border: 1px solid var(--categoryColor);
+  border-radius: $br2;
+  font-size: 0.8rem;
+}
+
+.card__tags-item a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.card__link, .card__tags {
+  padding: 0 $space2;
 }
