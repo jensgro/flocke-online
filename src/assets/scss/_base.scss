@@ -17,10 +17,13 @@
   --color-line: #e2e5ea;
 
   --mainnav-wrapper-bg: var(--categoryColor, #000);//#bd9a74; //#6f3939;
-  --page-bg: #fff;
+  --page-bg: #fef9f3;
   --container-bg: #f7f7f7;
 
   --index-padding: #{$space4};
+
+  --tag-bg: #fef3e2;
+  --tag-color: #92400b;
 }
 
 .home {
@@ -115,8 +118,7 @@ p + h3, ul + h3, ol + h3 {
   margin-top: $space3;
 }
 
-ul[class],
-ol[class] {
+:where(ul[class], ol[class]) {
   list-style: none;
   padding-left: 0;
   margin: 0;
@@ -167,4 +169,23 @@ select {
 /* Avoid visible focus style on focusable elements like main */
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
+}
+
+.forward {
+  margin-top: $space4;
+  padding: $space2;
+  border: 1px solid var(--categoryColor);
+  border-radius: $br3;
+  background-color: #fff;
+
+  a {
+    text-decoration: none;
+    color: var(--categoryColor);
+    font-weight: bold;
+
+    &:hover, &:focus {
+      text-decoration: underline;
+    }
+  }
+
 }

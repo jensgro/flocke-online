@@ -30,7 +30,7 @@
 
   overflow: hidden;
   color: var(--_col-separator);
-  margin: 0 0 $space3 0;
+  margin: $space3 auto;
 
   span {
     display: inline-block;

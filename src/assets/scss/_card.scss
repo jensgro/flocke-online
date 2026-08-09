@@ -16,24 +16,23 @@
   transition: all 0.25s;
 }
 
-.card:has(a:hover, a:focus) img,
+.card:has(.card__link a:hover, .card__link a:focus) img,
 .card img:is(:hover, :focus) {
   transform: scale(1.125);
 }
 
-.card_link a {
+.card__link a {
   display: block;
-  padding: $space2;
+  padding: $space2 0;
   text-decoration: none;
   font-weight: bold;
 }
 
-.card_link a:is(:hover, :focus) {
+.card__link a:is(:hover, :focus) {
   text-decoration: underline;
 }
 
 .card__tags {
-  margin-top: $space2;
   font-size: 0.9rem;
   font-weight: 400;
 }
