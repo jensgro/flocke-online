@@ -8,11 +8,14 @@
 
   &__headline {
     padding: $space1 0;
-    color: var(--categoryColor);
     margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--categoryColor);
   }
 }
-
+// Titel des Rezeptes
+// TODO: vielleicht doch einen besseren Namen finden...
 .siteheader--recipe {
   display: flex;
   flex-direction: column-reverse;

@@ -1,10 +1,9 @@
 @use "variables" as *;
 
-.home .logo-cnt,
+.logo-cnt:not(:has(> a)),
 .logo-cnt a {
   display: flex;
   gap: $space2;
-  color: #000;
 }
 
 .logo-cnt a {
@@ -15,10 +14,7 @@
   text-decoration: underline;
 }
 
-.logo {
-  color: #a20000;
-}
 .logo svg {
-  fill: #000;
+  fill: #a20000;
   width: 48px;
 }
