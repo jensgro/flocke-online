@@ -25,12 +25,13 @@ ingredients:
   - 75ml Weinbrand
 
 recipe:
-  - Vanilleschote aufschneiden, Mark herausstreichen.
+  - Vanilleschote aufschneiden, Mark herausstreichen. (Nicht wegschmeissen, s.u.!)
   - Puderzucker sieben.
   - Alle Zutaten miteinander vermischen.
 
 tipps:
   - Wenn die Apotheke des Vertrauens den Weingeist nicht herausrückt, kann der Weingeist komplett durch Weinbrand ersetzt werden.
+  - Die ausgeschabte Vanilleschote auf keinen Fall wegschmeissen! Einfach in kleine Stücke schneiden und mit ein wenig Zucker überdecken. So stellt man sich selber Vanillezucker her!
   - Am besten den Puderzucker direkt in die vermischten Flüssigkeiten sieben.
   - Um den Vanillegeschmack zu stärken nimmt man entweder noch eine Vanilleschote oder aber ein Fläschchen mit Vanillearoma.
   - Es ist schnell gemacht und schmeckt tausendmal besser, als die Industriepampe, die man sonst so bekommt. Auch die Eierliköre von Eierbauern haben mich bislang nicht überzeugen können.
