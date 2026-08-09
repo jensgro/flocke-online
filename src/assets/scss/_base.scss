@@ -25,9 +25,15 @@
 
   --tag-bg: #fef3e2;
   --tag-color: #92400b;
+
+  --card-bg: #fff;
 }
 
-
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
+}
 // A modified version of Andy Bell's "modern reset" https://github.com/hankchizljaw/modern-css-reset
 
 *,
@@ -161,3 +167,38 @@ select {
   }
 
 }
+
+/* Disable the default fade out effect on the old content */
+::view-transition-old(root) {
+  animation: none;
+}
+
+/* Make new content wipe in from the right */
+::view-transition-new(root) {
+  animation: wipe-in 0.6s ease-out forwards;
+}
+
+/* Animation wiping in the new content */
+@keyframes wipe-in {
+  from {
+    clip-path: inset(0 0 0 100%);
+  }
+
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+// @media (prefers-reduced-motion: no-preference) {
+
+// }

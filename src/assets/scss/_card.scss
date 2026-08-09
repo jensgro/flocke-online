@@ -6,19 +6,24 @@
   margin-bottom: $space4;
   border-radius: $br3;
   padding-bottom: $space2;
+  background-color: var(--card-bg);
 }
 
 .card header {
   overflow: hidden;
 }
 
-.card img {
-  transition: all 0.25s;
+
+@media not (prefers-reduced-motion: reduce) {
+  .card img {
+      transition: all 0.25s;
+    }
+
+  .card:has(.card__link a:hover, .card__link a:focus) img {
+    transform: scale(1.125);
+  }
 }
 
-.card:has(.card__link a:hover, .card__link a:focus) img {
-  transform: scale(1.125);
-}
 
 .card__link a {
   display: block;
