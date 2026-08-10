@@ -14,8 +14,7 @@ tags:
   - ei
 
 category: hauptgerichte
-layout: layouts/post.njk
-recipe: true
+layout: layouts/recipe.njk
 ---
 
 <div class="recipe__ingredients">

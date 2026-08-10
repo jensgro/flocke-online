@@ -5,13 +5,13 @@ introText:
 headerImage: zwiebelkuchen
 headerImageLink: https://pixabay.com/de/photos/zwiebelkuchen-dutch-oven-quiche-4481524/
 headerImageAttribution: Bild von <a href='https://pixabay.com/de/users/mhollaen-1228658/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4481524'>mhollaen</a> auf <a href='https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4481524'>Pixabay</a>
+
 tags:
   - pizza
   - ofen
 
 category: hauptgerichte
-layout: layouts/post.njk
-recipe: true
+layout: layouts/recipe.njk
 ---
 <div class="recipe__ingredients">
 
