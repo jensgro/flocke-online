@@ -8,6 +8,7 @@ templateClass: tmpl-recipe
   class="container container--bg">
   {# Das eigentliche Rezept #}
   <div class="recipe" itemscope itemtype="https://schema.org/Recipe">
+    {{ content | safe }}
     {% if ingredients %}
       <div class="recipe__ingredients">
         <h3>
