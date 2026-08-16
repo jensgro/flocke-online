@@ -4,10 +4,9 @@
   </h2>
   <ul class="taglist">
     {%- for tag in collections.tagList -%}
-      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
       {% set tagCount = collections[tag].length %}
       <li>
-        <a href="{{ tagUrl | url }}">{{ tag | capitalize }}</a>
+        <a href="{{ ('/tags/' ~ (tag | slugify) ~ '/') | url }}">{{ tag | capitalize }}</a>
       </li>
     {%- endfor -%}
   </ul>

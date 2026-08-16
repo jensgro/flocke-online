@@ -12,9 +12,8 @@
       <div class="recipe__tags">
         <ul class="taglist">
           {%- for tag in tags -%}
-            {% set tagUrl %}/tags/{{ tag }}/{% endset %}
             <li>
-              <a href="{{ tagUrl | url }}">
+              <a href="{{ ('/tags/' ~ (tag | slugify) ~ '/') | url }}">
                 {{ tag }}
               </a>
             </li>

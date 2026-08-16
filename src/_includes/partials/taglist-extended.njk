@@ -3,10 +3,9 @@
     <h2>Alle Stichworte</h2>
     <ul class="taglist">
       {%- for tag in collections.tagList -%}
-        {% set tagUrl %}/{{ tag }}/{% endset %}
         {% set tagCount = collections[tag].length %}
         <li>
-          <a href="{{ tagUrl | url }}">{{ tag }}</a>
+          <a href="{{ ('/tags/' ~ (tag | slugify) ~ '/') | url }}">{{ tag }}</a>
         </li>
       {%- endfor -%}
     </ul>
