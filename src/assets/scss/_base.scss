@@ -175,7 +175,7 @@ select {
 
 /* Make new content wipe in from the right */
 ::view-transition-new(root) {
-  animation: wipe-in 0.6s ease-out forwards;
+  animation: fade-in 0.4s ease-in forwards;
 }
 
 /* Animation wiping in the new content */
