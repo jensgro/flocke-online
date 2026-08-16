@@ -1,8 +1,8 @@
 ---
 title: Schokoladenquark
-headerImage: placeholder8
-headerImageLink: https://www.pexels.com/de-de/foto/grune-und-gelbe-abstrakte-malerei-4943165/
-headerImageAttribution: Foto von Steve Johnson von Pexels
+headerImage: schokoquark
+headerImageLink: https://unsplash.com/de/fotos/kuchen-aus-brauner-und-schwarzer-schokolade-G0xaK8Lfdlg
+headerImageAttribution: Foto von <a href="https://unsplash.com/de/@abhishek_hajare?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ABHISHEK HAJARE</a> auf <a href="https://unsplash.com/de/fotos/kuchen-aus-brauner-und-schwarzer-schokolade-G0xaK8Lfdlg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 tags:
   - süß
 
