@@ -5,16 +5,14 @@
       <div class="card__link">
         <a href="{{ post.url | url }}">{{ post.data.title }}</a>
       </div>
-      <div class="card__tags">
-        {% if post.data.tags %}
-          <ul class="taglist">
-            {%- for tag in post.data.tags -%}
-              <li>
-                <a href="{{ ('/tags/' ~ (tag | slugify) ~ '/') | url }}">{{ tag }}</a>
-              </li>
-            {%- endfor -%}
-          </ul>
-        {% endif %}
-      </div>
+      {% if post.data.tags %}
+        <ul class="taglist">
+          {%- for tag in post.data.tags -%}
+            <li>
+              <a href="{{ ('/tags/' ~ (tag | slugify) ~ '/') | url }}">{{ tag }}</a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      {% endif %}
     </footer>
   </div>
