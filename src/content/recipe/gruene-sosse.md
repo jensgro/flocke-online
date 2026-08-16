@@ -10,8 +10,7 @@ tags:
   - vegetarisch
 
 category: hauptgerichte
-layout: layouts/post.njk
-recipe: true
+layout: layouts/recipe.njk
 ---
 <div class="recipe__ingredients">
 
@@ -30,8 +29,6 @@ In die Grüne Soße gehören traditionellerweise sieben Kräuter:
 
 ### Masse
 
-Diese Mengen habe ich mir irgendwann einmal notiert. Sie sind abhängig von der Kräutermenge, die je nach Händler und Jahreszeit sehr variieren kann. Die Mengenangaben sind mehr eine Orientierung als ein finales Rezept. Einfach vorsichtig die einzelnen Milchprodukte hinzugeben und kontrollieren, dass die Kräuter nicht zu sehr in die Minderheit gedrängt werden.
-
 - 500g 3,5%iger Joghurt
 - 2 Becher Schmand
 - 2 Becher Saure Sahne
@@ -48,7 +45,7 @@ Diese Mengen habe ich mir irgendwann einmal notiert. Sie sind abhängig von der 
 ## Zubereitung
 
 - Die Kräuter fein hacken, in eine Schüssel geben und mit der Masse vermengen. Mit Senf, Salz und Pfeffer abschmecken.
-- Die Soße ein bis zwei Stunden vor dem Verzehr zubereiten, damit die Kräuter ihr Aroma ausreichend abgeben können.
+- Die Soße mindestens zwei Stunden vor dem Verzehr zubereiten, damit die Kräuter ihr Aroma ausreichend abgeben können.
 - Als Beilage empfehlen sich ein paar hartgekochte, noch warme Eier, sowie genügend Kartoffeln.
 
 </div>
@@ -59,6 +56,7 @@ Diese Mengen habe ich mir irgendwann einmal notiert. Sie sind abhängig von der 
 ## Tipps/Hinweise/Bemerkungen
 
 - Die Kräutermischung gibt es meist fertig zu kaufen. (Ansonsten: Von jedem eine handvoll.)
+- Die Mengenangaben für die Masse habe ich mir irgendwann einmal notiert. Sie sind abhängig von der Kräutermenge, die je nach Händler und Jahreszeit sehr variieren kann. Die Mengenangaben sind mehr eine Orientierung als ein finales Rezept. Einfach vorsichtig die einzelnen Milchprodukte hinzugeben und kontrollieren, dass die Kräuter nicht zu sehr in die Minderheit gedrängt werden.
 - Diese Variante der Grünen Soße darf man auf keinen Fall mit der „Frankfurter Grünen Soße“ verwechseln. Bei der Frankfurter Variante werden die Kräuter fein püriert. Zudem wird sie oft als Beilage zu Schnitzel oder Rindfleisch gegessen. Die nordhessische Variante steht für sich allein.
 - Im Schwalm-Eder-Kreis (Nordhessen) isst man zudem auch noch ausgelassenen mageren Speck (woanders heißt das Dörrfleisch) dazu. Mich stört dieser hier aber, denn m.E. sind die Kräuter die Hauptdarsteller dieses Rezeptes und sollten durch nichts in den Hintergrund gedrängt werden.
 - Es gibt auch Grüne Soße in der Tiefkühltruhe zu kaufen. Ich habe mal einen Selbstversuch gemacht und nach ein paar wenigen Gabeln die Masse weggekippt. Der Geschmack war eklig. Keine Ahnung, was die da dran gemacht haben, aber die korrekte Kräutermischung war es nicht.

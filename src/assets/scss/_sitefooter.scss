@@ -1,9 +1,9 @@
 @use "variables" as *;
-@use "mixins" as *;
 
 .sitefooter {
-  border-top: 2px solid $blue2;
+  border-top: 2px solid var(--_col-separator);
   padding: $space2 0;
+  font-size: 0.875rem;
 
   &__list {
     display: flex;
@@ -26,7 +26,7 @@
     }
 
     a {
-      color: var(--categoryColor);
+      color: rgb(var(--categoryColor));
 
       &:hover,
       &:focus {
@@ -34,7 +34,7 @@
       }
 
       &:focus-visible {
-        outline: 3px solid var(--categoryColor);
+        outline: 3px solid rgb(var(--categoryColor));
       }
     }
   }

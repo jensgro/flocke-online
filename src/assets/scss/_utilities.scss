@@ -1,5 +1,5 @@
-@use "variables" as *;
 @use "mixins" as *;
+@use "variables" as *;
 
 .nolist {
   @include nolist;
@@ -27,11 +27,11 @@
 // https://codepen.io/jensgro/pen/kxQomv
 
 .separator {
-  --_col-separator: var(--categoryColor, #a20000);
+  --_col-separator: rgb(var(--categoryColor));
 
   overflow: hidden;
   color: var(--_col-separator);
-  margin: 40px 0;
+  margin: $space3 auto;
 
   span {
     display: inline-block;

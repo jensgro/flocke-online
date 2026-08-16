@@ -1,8 +1,9 @@
 ---
 title: Spareribs
-headerImage: rippchen
-headerImageLink: https://unsplash.com/photos/BqK3fmNTv_g
-headerImageAttribution: Photo by <a href='https://unsplash.com/@ahmadr1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Ahmad</a> on <a href='https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
+headerImage: spareribs-2
+headerImageLink: https://unsplash.com/de/fotos/nahaufnahme-eines-fleischstucks-auf-einem-schneidebrett-gVOLjna9KeM
+headerImageAttribution: Foto von <a href="https://unsplash.com/de/@bogzilla?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexandru-Bogdan Ghita</a> auf <a href="https://unsplash.com/de/fotos/nahaufnahme-eines-fleischstucks-auf-einem-schneidebrett-gVOLjna9KeM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 tags:
   - schwein
   - grillen

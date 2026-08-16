@@ -1,5 +1,4 @@
 @use "variables" as *;
-@use "mixins" as *;
 
 .taglist {
   margin-left: $space1;
@@ -8,32 +7,34 @@
   gap: $gap $gap2;
 
   a {
-
-    color: var(--categoryColor);
+    display: block;
+    padding: 2px 4px;
+    color: var(--tag-color);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid var(--tag-color);
+    border-radius: 4px;
+    background-color: var(--tag-bg);
 
     &:hover,
     &:focus {
       text-decoration: none;
+      color: #fff;
+      background-color: #000;
     }
 
     &:focus-visible {
-      outline: 3px solid var(--categoryColor);
+      outline: 3px solid var(--tag-color);
     }
   }
 
-  &.taglist--short {
-    a {
-      display: block;
-      padding: $space1 $space2;
-      border: 2px solid var(--categoryColor);
-      text-decoration: none;
+}
 
-      &:hover,
-      &:focus {
-        color: #fff;
-        background-color: #000;
-      }
-    }
-  }
+aside.container--bg .taglist {
+  margin-bottom: $space4;
+}
 
+.tagcontainer .taglist {
+  margin: 0 auto;
 }

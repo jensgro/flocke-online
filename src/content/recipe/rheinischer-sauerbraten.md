@@ -14,8 +14,6 @@ tags:
   - ofen
 
 category: hauptgerichte
-layout: layouts/post.njk
-recipe: true
 ---
 
 <div class="recipe__ingredients">

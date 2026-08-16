@@ -16,11 +16,11 @@ tags:
 category: beilagen
 
 ingredients:
-  - 3 Paprika (möglichst viele rote )
+  - 3 rote Paprika
   - 1 scharfe Peperoni
   - 2 Tomaten
   - 2 Zwiebeln
-  - 1 Knoblauchzehe (wer mag natürlich mehr nehmen, ich mag’s nicht so extrem knoblauchlastig)
+  - 1 Knoblauchzehe
   - 1 kl. Bund glatte Petersilie
   - 1 Zitrone
   - 2 EL Paprikamark

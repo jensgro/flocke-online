@@ -1,9 +1,9 @@
 @use "variables" as *;
-@use "mixins" as *;
 
 .tipps-list {
   display: grid;
   gap: $gap2;
+  margin: $space2 auto;
 
   &__item {
     display: grid;

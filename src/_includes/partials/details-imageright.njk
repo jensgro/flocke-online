@@ -1,0 +1,9 @@
+{% if headerImageAttribution %}
+  <details class="imageright no-print">
+    <summary>Bildnachweis</summary>
+    {{ headerImageAttribution| safe }}
+    {% if headerImageLink %}
+      <a href="{{ headerImageLink }}" style="margin-left: 8px;">(Originalbild)</a>
+    {% endif %}
+  </details>
+{% endif %}

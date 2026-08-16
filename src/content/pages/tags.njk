@@ -10,12 +10,11 @@ pagination:
     - posts
     - tagList
   addAllPagesToCollections: true
-layout: layouts/post.njk
+layout: layouts/tag.njk
 bodyClass: tag
-noHeadline: true
-renderData:
-  title: Kategorie "{{ tag }}"
-permalink: /tags/{{ tag }}/
+eleventyComputed:
+  title: "Kategorie {{ tag | capitalize }}"
+  permalink: "/tags/{{ tag | slugify }}/"
 eleventyExcludeFromCollections: true
 
 headerImage: placeholder7
@@ -23,7 +22,6 @@ headerImageLink: https://www.pexels.com/de-de/foto/blaue-und-mehrfarbige-abstrak
 headerImageAttribution: Foto von Steve Johnson von Pexels
 ---
 
-
+<h1>{{ tag | capitalize }}</h1>
 {% set postslist = collections[ tag ] %}
 {% include "tagslist.njk" %}
-

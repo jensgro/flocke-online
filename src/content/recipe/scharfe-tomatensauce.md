@@ -1,8 +1,8 @@
 ---
 title: Scharfe Tomatensauce
-headerImage: placeholder6
-headerImageLink: https://www.pexels.com/de-de/foto/kunst-graffiti-dreckig-textur-7486894/
-headerImageAttribution: Foto von Steve Johnson von Pexels
+headerImage: tomate
+headerImageLink: https://unsplash.com/de/fotos/rote-tomate-6JyF5C_PI4k
+headerImageAttribution: Foto von <a href="https://unsplash.com/de/@shkazemi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Seyedeh Hamideh Kazemi</a> auf <a href="https://unsplash.com/de/fotos/rote-tomate-6JyF5C_PI4k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 tags:
   - asien
   - indonesien

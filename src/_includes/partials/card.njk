@@ -1,0 +1,18 @@
+<div class="card">
+  <header>
+    <img class="no-print" src="../assets/img/{{ post.data.headerImage }}-16x9.jpg" alt="" width="500" height="281"></header>
+    <footer>
+      <div class="card__link">
+        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+      </div>
+      {% if post.data.tags %}
+        <ul class="taglist">
+          {%- for tag in post.data.tags -%}
+            <li>
+              <a href="{{ ('/tags/' ~ (tag | slugify) ~ '/') | url }}">{{ tag }}</a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      {% endif %}
+    </footer>
+  </div>

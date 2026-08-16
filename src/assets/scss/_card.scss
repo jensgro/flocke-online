@@ -1,105 +1,51 @@
 @use "variables" as *;
-@use "mixins" as *;
 
 .card {
-  border: 2px solid var(--categoryColor);
+  // border: 1px solid #0000001a;
+  border: 1px solid rgb(var(--categoryColor));
   margin-bottom: $space4;
-
-  &__head {
-    border-bottom: 4px solid var(--categoryColor);
-    padding: $space2;
-  }
-
-  &__headline {
-    color: var(--textColor);
-    background-color: $container-bg;
-    margin-bottom: 0;
-
-    mark {
-      padding-inline: $space1;
-    }
-  }
-
-  &__body {
-    padding: $space3 $space2;
-  }
-
-  &__categories {
-    display: flex;
-    gap: $gap;
-    margin-block: 10px;
-
-    a {
-      background-color: var(--lightyellow);
-      color: #000;
-      padding: 2px 4px;
-    }
-  }
-
-  // Die Rezepteliste
-  // &__items {
-
-  //   li {}
-  //   a {
-  //     &:hover, &:focus {}
-  //   }
-  // }
-
-  // weiterführender Link
-  &__link {
-    display: inline-block;
-    padding: 0;
-    margin-top: $space2;
-
-    a {
-      display: block;
-      padding-right: $space2;
-      text-decoration: none;
-      color: var(--categoryColor);
-    }
-
-    &:hover,
-    &:focus {
-      text-decoration: underline;
-      --linkColor: var(--categoryColorLight);
-    }
-  }
-
-  // Pfeilhalterung
-  // &__arrow {
-  //   display: inline-block;
-  //   padding: $space1 $space2;
-  //   background-color: var(--linkColor, var(--categoryColor));
-  //   color: var(--categoryTextColor);
-  //   margin-right: $space1;
-  // }
-
-  // Links innerhalb der Liste
-  // als Utilityklasse auslagern?
-  // &__link--block {
-  //   padding: $space1 $space2;
-  //   border: 2px solid var(--categoryColor);
-  //   background: var(--categoryColor);
-  //   color: var(--categoryTextColor);
-  //   page-break-inside: avoid;
-  //   break-inside: avoid;
-  //   display: block;
-
-  //   &:hover, &:focus, &:focus-visible {
-  //     background-color: $lightergrey;
-  //     color: var(--categoryColor);
-  //   }
-  //   &:focus-visible {
-  //     outline: 3px solid var(--categoryColor);
-  //   }
-
-  //   & + & {
-  //     margin-top: $space2;
-  //   }
-
-  //   a {
-  //     text-decoration: none;
-  //     display: block;
-  //   }
-  // }
+  border-radius: $br3;
+  padding-bottom: $space2;
+  background-color: var(--card-bg);
+  display: grid;
+  height: 100%;
 }
+
+.card header {
+  overflow: hidden;
+}
+
+.card footer {
+  align-self: end;
+}
+
+@media not (prefers-reduced-motion: reduce) {
+  .card img {
+      transition: all 0.25s;
+    }
+
+  .card:has(.card__link a:hover, .card__link a:focus) img {
+    transform: scale(1.125);
+  }
+}
+
+.card__link {
+  padding: 0 $space2;
+}
+
+.card__link a {
+  display: block;
+  padding: $space2 0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card__link a:is(:hover, :focus) {
+  text-decoration: underline;
+}
+
+.card .taglist {
+  margin-left: 0;
+  padding: 0 $space2;
+}
+

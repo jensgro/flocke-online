@@ -2,22 +2,22 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<div class="container container--bg">
-  {% if recipe %}
+
+{% include "partials/site-header.njk" %}
+{% if recipe %}
   <main class="recipe">
-  {% else %}
-  <main class="post">
-  {% endif %}
-    {% if introText %}
-    <div class="recipe__intro">
-      {% for t in introText %}
-      <p>{{ t }}</p>
-      {% endfor %}
-    </div>
-    {% endif %}
-    {{ content | safe }}
-  </main>
-</div>
-
-
-
+    <div class="container container--bg">
+    {% else %}
+      <main class="post">
+        <div class="container container--bg">
+        {% endif %}
+        {% if introText %}
+          <div class="recipe__intro">
+            {% for t in introText %}
+              <p>{{ t }}</p>
+            {% endfor %}
+          </div>
+        {% endif %}
+        {{ content | safe }}
+      </div>
+    </main>

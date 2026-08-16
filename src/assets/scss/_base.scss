@@ -1,11 +1,12 @@
 @use "sass:color";
-@use "variables" as *;
 @use "mixins" as *;
+@use "variables" as *;
 
 // The CSS custom properties
 
 :root {
-  --categoryColor: #000;
+  // --categoryColor: rgb(189, 85, 0); // #bb711c
+  --categoryColor: 189, 85, 0;
   --categoryTextColor: #fff;
   --inactiveNavBg: #cecece;
   --inactiveNavBgHover: #fd8700;
@@ -14,52 +15,33 @@
   --textColor: #646464;
   --lightyellow: #{$lightyellow};
 
+  --color-line: #c5cad1;
 
-  --mainnav-wrapper-bg: var(--categoryColor, #000); //#bd9a74; //#6f3939;
-  --page-bg: #f4f4f4;
+  --mainnav-wrapper-bg: rgb(var(--categoryColor, #000));//#bd9a74; //#6f3939;
+  --page-bg: #fef9f3;
   --container-bg: #f7f7f7;
+
+  --index-padding: #{$space4};
+
+  --tag-bg: #fef3e2;
+  --tag-color: #92400b;
+
+  --card-bg: #fff;
 }
 
-.home {
-  --categoryColor: #{$color-index};
-  --categoryColorLight: #{color.adjust($color-index, $lightness: 20%)};
-  --categoryColorDark: #{color.adjust($color-index, $lightness: -10%)};
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
 }
-
-.hauptgerichte {
-  --categoryColor: #{$color-hauptgerichte};
-  --categoryColorLight: #{color.adjust($color-hauptgerichte, $lightness: 20%)};
-  --categoryColorDark: #{color.adjust($color-hauptgerichte, $lightness: -10%)};
-}
-
-.beilagen {
-  --categoryColor: #{$color-beilagen};
-  --categoryColorLight: #{color.adjust($color-beilagen, $lightness: 10%)};
-  --categoryColorDark: #{color.adjust($color-beilagen, $lightness: -10%)};
-}
-
-.sonstiges {
-  --categoryColor: #{$color-sonstiges};
-  --categoryColorLight: #{color.adjust($color-sonstiges, $lightness: 10%)};
-  --categoryColorDark: #{color.adjust($color-sonstiges, $lightness: -10%)};
-}
-
-.wissenswertes {
-  --categoryColor: #{$color-wissenswertes};
-  --categoryColorLight: #{color.adjust($color-wissenswertes, $lightness: 20%)};
-  --categoryColorDark: #{color.adjust($color-wissenswertes, $lightness: -10%)};
-}
-
 // A modified version of Andy Bell's "modern reset" https://github.com/hankchizljaw/modern-css-reset
 
-/* Box sizing rules */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* Remove default margin */
 body,
 h1,
 h2,
@@ -73,22 +55,19 @@ dd {
   margin: 0 0 $space2 0;
 }
 
-/* Set core root defaults */
 html:focus-within {
   scroll-behavior: smooth;
-  font-size: 16px;
 }
 
-/* Set core body defaults */
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   font-size: 1.25rem;
   padding: 0;
-  /* System Fonts as used by GitHub */
+  margin: 0;
   font-family: $systemfonts2;
-  font-weight: 500;
+  font-weight: 400;
   color: $darkgray;
   background-color: var(--page-bg, $page-bg);
 }
@@ -102,8 +81,7 @@ h6 {
   padding: 0;
 }
 
-h1,
-h2 {
+h1, h2, .siteheader__headline {
   font-family: "Ubuntu Medium", $systemfonts2;
 }
 
@@ -112,11 +90,11 @@ h1 {
 }
 
 h2 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 p+h3,
@@ -125,16 +103,14 @@ ol+h3 {
   margin-top: $space3;
 }
 
-/* Remove list styles on ul, ol elements with a class attribute */
-ul[class],
-ol[class] {
+:where(ul[class], ol[class]) {
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
 
 a {
-  color: var(--categoryColor, #000);
+  color: rgb(var(--categoryColor));
 
   &:hover,
   &:focus {
@@ -146,7 +122,6 @@ mark {
   padding: $space1 $space2;
 }
 
-/* Make images easier to work with */
 img {
   width: 100%;
   max-width: 100%;
@@ -154,7 +129,6 @@ img {
   display: block;
 }
 
-/* Inherit fonts for inputs and buttons */
 input,
 button,
 textarea,
@@ -164,7 +138,7 @@ select {
 
 /* hide only visually */
 /* https://gist.github.com/jensgro/743c37c3c1b226f7917fa0fc0825e3c2 */
-.visuallyhidden {
+.visuallyhidden, .sr-only {
   @include visuallyhidden;
 }
 
@@ -182,3 +156,57 @@ select {
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
+
+.forward {
+  margin-top: $space4;
+  padding: $space2;
+  border: 1px solid rgb(var(--categoryColor));
+  border-radius: $br3;
+  background-color: #fff;
+
+  a {
+    text-decoration: none;
+    color: rgb(var(--categoryColor));
+    font-weight: bold;
+
+    &:hover, &:focus {
+      text-decoration: underline;
+    }
+  }
+
+}
+
+/* Disable the default fade out effect on the old content */
+::view-transition-old(root) {
+  animation: none;
+}
+
+/* Make new content wipe in from the right */
+::view-transition-new(root) {
+  animation: fade-in 0.4s ease-in forwards;
+}
+
+/* Animation wiping in the new content */
+@keyframes wipe-in {
+  from {
+    clip-path: inset(0 0 0 100%);
+  }
+
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+// @media (prefers-reduced-motion: no-preference) {
+
+// }

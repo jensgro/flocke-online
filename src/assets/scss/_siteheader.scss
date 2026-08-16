@@ -1,13 +1,6 @@
 @use "variables" as *;
-@use "mixins" as *;
 
 .siteheader {
-
-  aspect-ratio: 7 / 2;
-
-  @media print {
-    aspect-ratio: auto;
-  }
 
   &__img {
     object-fit: cover;
@@ -15,7 +8,30 @@
 
   &__headline {
     padding: $space1 0;
-    color: var(--categoryColor);
     margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(var(--categoryColor));
   }
+}
+// Titel des Rezeptes
+// TODO: vielleicht doch einen besseren Namen finden...
+.siteheader--recipe {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: $space3;
+
+
+  @media (width > $md) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: $space4;
+  }
+
+  .siteheader__img {
+    aspect-ratio: 16/9;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  }
+
 }

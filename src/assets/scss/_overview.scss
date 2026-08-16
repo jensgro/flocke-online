@@ -1,13 +1,11 @@
 @use "variables" as *;
-@use "mixins" as *;
 
 @mixin listitem {
   background-color: $lightergrey;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
 
 @mixin listitemIndex {
-  padding: 10px;
   @include listitem;
 }
 
@@ -47,12 +45,6 @@
       //border: 1px solid #000;
     }
   }
-
-  &__forward {
-    @include listitemIndex;
-    max-width: 440px;
-    margin-top: 20px;
-  }
 }
 
 .list {
@@ -64,11 +56,24 @@
 
   &__item--overview {
     @include listitemIndex;
+    overflow: hidden;
+    border-radius: 8px;
 
     a {
       display: block;
-      margin-top: 10px;
+      margin: 10px;
+      text-decoration: none;
 
+    }
+
+    &:hover, &:focus {
+      position: relative;
+      bottom: 2px;
+      left: 2px;
+
+      a {
+        text-decoration: underline;
+      }
     }
   }
 
@@ -76,6 +81,10 @@
   &--grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: $gap;
+    gap: $gap2;
   }
+}
+
+.list--home {
+  gap: $space4;
 }
